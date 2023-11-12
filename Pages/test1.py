@@ -5,7 +5,6 @@ import pandas as pd
 # 设置页面布局为宽屏模式，充满整个屏幕宽度
 st.set_page_config(layout="wide")
 
-# Load data
 links_df = pd.read_csv('Dataset/Links.csv')
 nodes_df = pd.read_csv('Dataset/Nodes.csv')
 
@@ -117,7 +116,7 @@ with right_column:
                     "lineStyle": {
                         "opacity": 0.9,
                         "width": 2,
-                        "curveness": 0
+                        "curveness": 0.1
                     },
                     # 在这里增加了一个itemStyle属性来增加节点的大小
                     "itemStyle": {
@@ -141,8 +140,6 @@ with right_column:
                     },
                     "style": {
                         "fill": 'none',
-                        "stroke": '#ccc',  # 画布边界颜色
-                        "lineWidth": 1,
                         "shadowBlur": 10,
                         "shadowOffsetX": 5,
                         "shadowOffsetY": 5,
