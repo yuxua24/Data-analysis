@@ -35,7 +35,7 @@ with left_column:
             selected_nodes.append(node_id)
 
     st.subheader("Search Node By ID")
-    node_query = st.text_input("", key="node_search")
+    node_query = st.text_input("Node ID", key="node_search")
     if node_query:
         selected_nodes.append(node_query)
 
@@ -102,7 +102,8 @@ with right_column:
                     "type": "graph",
                     "layout": "force",
                     "symbolSize": 5,
-                    "roam": True,
+                    "focusNodeAdjacency": True,
+                    "roam": "scale",
                     "draggable": True,
                     "label": {
                         "show": True,
