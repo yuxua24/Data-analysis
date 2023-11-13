@@ -3,7 +3,8 @@ from streamlit_echarts import st_echarts
 import pandas as pd
 
 # 设置页面布局为宽屏模式，充满整个屏幕宽度
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_icon=None,
+                   initial_sidebar_state="collapsed", page_title=None)
 
 links_df = pd.read_csv('Dataset/Links.csv')
 nodes_df = pd.read_csv('Dataset/Nodes.csv')
@@ -16,7 +17,7 @@ all_nodes = set(links_df['source']).union(set(links_df['target']))
 link_types = links_df['type'].unique()
 
 # Hardcode the specified node IDs
-node_ids = ["Mar de la Vida OJSC", "979893388", "Oceanfront Oasis Inc Carrie", "8327"]
+special_node_ids = ["Mar de la Vida OJSC", "979893388", "Oceanfront Oasis Inc Carrie", "8327"]
 
 # Set up columns for layout
 left_column, mid_column,right_column = st.columns([1, 4, 1])
@@ -29,7 +30,7 @@ selected_categories = set(node_categories)
 selected_nodes = []
 with left_column:
     st.subheader("Quick Select Suspect")
-    for node_id in node_ids:
+    for node_id in special_node_ids:
         if st.checkbox(node_id, key=node_id):
             selected_nodes.append(node_id)
 
@@ -41,10 +42,10 @@ with left_column:
     selected_link_types = set()
     st.subheader("Link Type")
     for link_type in link_types:
-        if st.checkbox(link_type, key=f"link_type_{link_type}"):
+        if st.checkbox(link_type, key=f"link_type_{link_type}", value=True):
             selected_link_types.add(link_type)
 
-    st.subheader("Node Category")
+    st.subheader("Node Type")
     for category in node_categories:
         # 使用default=True使复选框默认被选中
         if st.checkbox(category, key=f"category_{category}", value=True):
@@ -69,10 +70,21 @@ with mid_column:
         neighbors_set = get_neighbors(selected_nodes, links_df, selected_link_types, selected_categories)
         filtered_df = links_df[(links_df['source'].isin(neighbors_set)) & (links_df['target'].isin(neighbors_set)) & (links_df['type'].isin(selected_link_types))]
 
+        echarts_nodes = [
+            {
+                "name": node,
+                "symbolSize": 10 if node in special_node_ids else 5,  # Increase size for special nodes
+                "draggable": True,
+                "category": node_types.get(node, "Unknown"),
+                "symbol": 'rect' if node in special_node_ids else 'circle',  # Set shape to star for special nodes
+            } 
+            for node in neighbors_set
+        ]
 
-        # Assign a category to each node based on its type
-        echarts_nodes = [{"name": node, "symbolSize": 5, "draggable": True, "category": node_types.get(node, "Unknown")} for node in neighbors_set]
-        echarts_links = filtered_df.apply(lambda row: {"source": row['source'], "target": row['target'], "value": row['type']}, axis=1).tolist()
+        echarts_links = filtered_df.apply(
+            lambda row: {"source": row['source'], "target": row['target'], "value": row['type']},
+            axis=1
+        ).tolist()
 
         # 定义不同类别的节点样式
         categories = [
@@ -100,17 +112,19 @@ with mid_column:
                 {
                     "type": "graph",
                     "layout": "force",
-                    "symbolSize": 5,
+                    "symbolSize": 10,
                     "focusNodeAdjacency": True,
                     "roam": "scale",
                     "draggable": True,
+                    "focusNodeAdjacency": True,  # 当点击一个节点时，高亮显示与其相连的边和节点
                     "label": {
                         "show": True,
+                        "position": 'right',  # 可以根据实际情况调整标签位置
                         "color":"black" #设置节点文字颜色
                     },
                     "categories": categories,
-                    "edgeSymbol": ["circle", "arrow"],
-                    "edgeSymbolSize": [4, 10],
+                    "edgeSymbol": ["none", "arrow"],
+                    "edgeSymbolSize": [0, 10],# 根据需要调整箭头的大小
                     "nodes": echarts_nodes,
                     "links": echarts_links,
                     "lineStyle": {
@@ -121,7 +135,7 @@ with mid_column:
                     # 在这里增加了一个itemStyle属性来增加节点的大小
                     "itemStyle": {
                         "normal": {
-                            "borderWidth": 6,  # 设置边框宽度，用于放大效果
+                            "borderWidth": 0,  # 设置边框宽度，用于放大效果
                             "borderColor": '#fff'
                         }
                     }
