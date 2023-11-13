@@ -19,7 +19,7 @@ link_types = links_df['type'].unique()
 node_ids = ["Mar de la Vida OJSC", "979893388", "Oceanfront Oasis Inc Carrie", "8327"]
 
 # Set up columns for layout
-left_column, right_column = st.columns([1, 4])
+left_column, mid_column,right_column = st.columns([1, 4, 1])
 
 # Sidebar for selecting nodes and link types
 node_categories = nodes_df['type'].unique()  # Assuming 'type' column has the categories
@@ -64,7 +64,7 @@ def get_neighbors(selected_nodes, links_df, selected_link_types, selected_catego
 
 
 # Main area for displaying the graph
-with right_column:
+with mid_column:
     if selected_nodes and selected_link_types and selected_categories:
         neighbors_set = get_neighbors(selected_nodes, links_df, selected_link_types, selected_categories)
         filtered_df = links_df[(links_df['source'].isin(neighbors_set)) & (links_df['target'].isin(neighbors_set)) & (links_df['type'].isin(selected_link_types))]
@@ -151,3 +151,6 @@ with right_column:
 
         # Display the graph using streamlit_echarts
         st_echarts(options=option, height="1000px")
+
+with right_column:
+    st.subheader("Analysis Panel")
