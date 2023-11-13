@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    var option;
+
+    // Assuming your local JSON file is named 'local_data.json' and located in the same directory as your HTML file.
+    // Use the JavaScript Fetch API to load the local JSON file.
+    // Note: This will only work if you're running this on a web server, as most browsers block fetching local files for security reasons.
+    fetch('tree_data_8327.json')
+      .then(response => response.json())
+      .then(data => {
+        // Once the data is loaded, hide the loading indicator and proceed to use the data
+        myChart.hideLoading();
+
+        // Assuming the structure of your local JSON matches the one expected by the ECharts tree graph
+        myChart.setOption(
+          (option = {
+            tooltip: {
+              trigger: 'item',
+              triggerOn: 'mousemove'
+            },
+            series: [
+              {
+                type: 'tree',
+                data: [data], // Use the local data here
+                top: '1%',
+                left: '7%',
+                bottom: '1%',
+                right: '20%',
+                symbolSize: 7,
+                label: {
+                  position: 'left',
+                  verticalAlign: 'middle',
+                  align: 'right',
+                  fontSize: 9
+                },
+                leaves: {
+                  label: {
+                    position: 'right',
+                    verticalAlign: 'middle',
+                    align: 'left'
+                  }
+                },
+                emphasis: {
+                  focus: 'descendant'
+                },
+                expandAndCollapse: true,
+                animationDuration: 550,
+                animationDurationUpdate: 750
+              }
+            ]
+          })
+        );
+      });
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
