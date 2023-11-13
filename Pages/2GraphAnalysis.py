@@ -21,6 +21,7 @@ nodes = pd.read_csv("Dataset/Nodes.csv")
 
 #st.title('Knowledge Graph Analysis')
 
+
 main_container = st.container()
 
 options_col, chart_col, statistics_col = main_container.columns((1, 4, 1.5))
