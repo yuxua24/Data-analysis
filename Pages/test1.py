@@ -20,7 +20,7 @@ link_types = links_df['type'].unique()
 special_node_ids = ["Mar de la Vida OJSC", "979893388", "Oceanfront Oasis Inc Carrie", "8327"]
 
 # Set up columns for layout
-left_column, mid_column,right_column = st.columns([1, 4, 1])
+left_column, mid_column,right_column = st.columns([1, 4, 1.5])
 
 # Sidebar for selecting nodes and link types
 node_categories = nodes_df['type'].unique()  # Assuming 'type' column has the categories
@@ -167,4 +167,99 @@ with mid_column:
         st_echarts(options=option, height="1000px")
 
 with right_column:
-    st.subheader("Analysis Panel")
+    st.subheader("Edeg Statistics")
+
+    # Calculate the count of each link type in the filtered graph
+    link_type_counts = filtered_df['type'].value_counts().reset_index()
+    link_type_counts.columns = ['type', 'count']
+
+    # Prepare data for ECharts pie chart
+    pie_data = [
+        {"value": count, "name": link_type}
+        for link_type, count in zip(link_type_counts['type'], link_type_counts['count'])
+    ]
+
+    # ECharts pie chart configuration
+    pie_option = {
+        "tooltip": {
+            "trigger": 'item',
+            "formatter": "{a} <br/>{b}: {c} ({d}%)"
+        },
+        "legend": {
+            "orient": 'vertical',
+            "left": 'left',
+        },
+        "series": [
+        {
+            "name":'Edeg Statistics',
+            "type": 'pie',
+            "radius": '50%',
+            "data": pie_data,
+            "avoidLabelOverlap": True,
+            "label": {
+                "show": False,  # Set to False to hide labels on the pie sectors
+                "position": 'outside',
+            },
+            "emphasis": {
+                "itemStyle": {
+                    "shadowBlur": 10,
+                    "shadowOffsetX": 0,
+                    "shadowColor": 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+        }
+    ]
+    }
+
+    # Display the pie chart
+    st_echarts(options=pie_option, height="400px")
+
+    #统计节点数量的扇形图
+    st.markdown("---")
+    st.subheader("Node Statistics")
+
+    # Calculate the count of each node type
+    node_type_counts = nodes_df['type'].value_counts().reset_index()
+    node_type_counts.columns = ['type', 'count']
+
+    # Prepare data for ECharts pie chart based on node statistics
+    node_pie_data = [
+        {"value": count, "name": node_type}
+        for node_type, count in zip(node_type_counts['type'], node_type_counts['count'])
+    ]
+
+    # ECharts pie chart configuration for node statistics
+    node_pie_option = {
+        "tooltip": {
+            "trigger": 'item',
+            "formatter": "{b}: {c} ({d}%)"
+        },
+        "legend": {
+            "orient": 'vertical',
+            "left": 'left',
+        },
+        "series": [
+            {
+                "name": 'Node Statistics',
+                "type": 'pie',
+                "radius": '50%',
+                "data": node_pie_data,
+                "avoidLabelOverlap": True,
+                "center": ['60%', '50%'],  # Adjust the '60%' as needed to move the chart to the right
+                "label": {
+                    "show": False,  # Set to False to hide labels on the pie sectors
+                    "position": 'outside',
+                },
+                "emphasis": {
+                    "itemStyle": {
+                        "shadowBlur": 10,
+                        "shadowOffsetX": 0,
+                        "shadowColor": 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    }
+
+    # Display the node statistics pie chart
+    st_echarts(options=node_pie_option, height="400px")
