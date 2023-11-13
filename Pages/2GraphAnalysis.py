@@ -19,7 +19,7 @@ st.set_page_config(layout="wide", page_icon=None,
 links = pd.read_csv("Dataset/Links.csv")
 nodes = pd.read_csv("Dataset/Nodes.csv")
 
-#st.title('Knowledge Graph')
+#st.title('Knowledge Grap')
 
 
 
