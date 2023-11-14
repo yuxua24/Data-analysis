@@ -17,7 +17,7 @@ all_nodes = set(links_df['source']).union(set(links_df['target']))
 link_types = links_df['type'].unique()
 
 # Hardcode the specified node IDs
-special_node_ids = ["Mar de la Vida OJSC", "979893388", "Oceanfront Oasis Inc Carrie", "8327"]
+special_node_ids = ["Mar de la Vida OJSC", "979893388", "Oceanfront Oasis Inc Carriers", "8327"]
 
 # Set up columns for layout
 left_column, mid_column,right_column = st.columns([1, 4, 1.5])
@@ -62,6 +62,19 @@ def get_neighbors(selected_nodes, links_df, selected_link_types, selected_catego
             neighbors.update(filtered_df[filtered_df['source'] == node]['target'].tolist())
             neighbors.update(filtered_df[filtered_df['target'] == node]['source'].tolist())
     return neighbors.union(set(selected_nodes))
+
+# Define the colors for each node type
+category_colors = {
+    "person": "#df493f",
+    "political_organization": "#f9d580",
+    "organization": "#e4a2b8",
+    "event": "#54beaa",
+    "company": "#fcf1f0",
+    "location": "#b0d992",
+    "vessel": "#99b9e9",
+    "movement": "#af8fd0",
+    "Uncategorized": "#eca680"
+}
 
 
 # Main area for displaying the graph
@@ -218,13 +231,17 @@ with right_column:
     st.markdown("---")
     st.subheader("Node Statistics")
 
-    # Calculate the count of each node type
-    node_type_counts = nodes_df['type'].value_counts().reset_index()
+    # Calculate the count of each node type in the filtered graph
+    node_type_counts = nodes_df[nodes_df['id'].isin(neighbors_set)]['type'].value_counts().reset_index()
     node_type_counts.columns = ['type', 'count']
 
     # Prepare data for ECharts pie chart based on node statistics
     node_pie_data = [
-        {"value": count, "name": node_type}
+        {
+            "value": count,
+            "name": node_type,
+            "itemStyle": {"color": category_colors.get(node_type, "#000000")}  # Default to black if not found
+        }
         for node_type, count in zip(node_type_counts['type'], node_type_counts['count'])
     ]
 
