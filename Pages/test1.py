@@ -119,7 +119,7 @@ with mid_column:
             "tooltip": {},
             "legend": {
                 "data": list(map(lambda c: c['name'], categories)),
-                "selectedMode": False  # 禁止legend的默认点击行为
+                "selectedMode": True  # 禁止legend的默认点击行为
             },
             "series": [
                 {
