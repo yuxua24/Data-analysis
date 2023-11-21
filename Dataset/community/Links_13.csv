@@ -1,0 +1,1668 @@
+type,weight,source,target,key,source_id,source_country,target_id,target_country
+ownership,0.9642126,Spanish Shrimp  Carriers,3506021,0,Spanish Shrimp  Carriers,Nalakond,3506021,Unknown
+family_relationship,0.82348585,Spanish Shrimp  Carriers,Conventionâ,0,Spanish Shrimp  Carriers,Nalakond,Conventionâ,Unknown
+membership,0.8986875,Spanish Shrimp  Carriers,Ancla Azul Company Solutions,0,Spanish Shrimp  Carriers,Nalakond,Ancla Azul Company Solutions,Unknown
+partnership,0.87834406,Spanish Shrimp  Carriers,185106,0,Spanish Shrimp  Carriers,Nalakond,185106,Unknown
+family_relationship,0.9664978,Spanish Shrimp  Carriers,Stephanie Garner,0,Spanish Shrimp  Carriers,Nalakond,Stephanie Garner,Country_271835
+ownership,0.906598,Spanish Shrimp  Carriers,Guessl,0,Spanish Shrimp  Carriers,Nalakond,Guessl,Unknown
+ownership,0.85037404,Spanish Shrimp  Carriers,Federated,0,Spanish Shrimp  Carriers,Nalakond,Federated,Unknown
+family_relationship,0.8211689,Spanish Shrimp  Carriers,94760735,0,Spanish Shrimp  Carriers,Nalakond,94760735,Unknown
+family_relationship,0.91274184,Spanish Shrimp  Carriers,83,0,Spanish Shrimp  Carriers,Nalakond,83,Unknown
+ownership,0.8865423,Spanish Shrimp  Carriers,imo,0,Spanish Shrimp  Carriers,Nalakond,imo,Unknown
+partnership,0.92457855,Spanish Shrimp  Carriers,Torremolinos,0,Spanish Shrimp  Carriers,Nalakond,Torremolinos,Unknown
+ownership,0.91700685,Spanish Shrimp  Carriers,International-Convention,0,Spanish Shrimp  Carriers,Nalakond,International-Convention,Unknown
+partnership,0.8461635,Spanish Shrimp  Carriers,314,0,Spanish Shrimp  Carriers,Nalakond,314,Unknown
+membership,0.88794583,Spanish Shrimp  Carriers,77b46bc7-7e31-41a0-973c-e633011d21b0,0,Spanish Shrimp  Carriers,Nalakond,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown
+membership,0.8977303,Spanish Shrimp  Carriers,39,0,Spanish Shrimp  Carriers,Nalakond,39,Unknown
+partnership,0.85345495,Spanish Shrimp  Carriers,3433,0,Spanish Shrimp  Carriers,Nalakond,3433,Unknown
+family_relationship,0.954674,Spanish Shrimp  Carriers,Kara Sullivan,0,Spanish Shrimp  Carriers,Nalakond,Kara Sullivan,Country_271835
+partnership,0.9264291,Spanish Shrimp  Carriers,52093e45-b873-4300-9612-8dfc291b1339,0,Spanish Shrimp  Carriers,Nalakond,52093e45-b873-4300-9612-8dfc291b1339,Unknown
+partnership,0.9294543,Spanish Shrimp  Carriers,200640636,0,Spanish Shrimp  Carriers,Nalakond,200640636,Unknown
+partnership,0.90164447,Spanish Shrimp  Carriers,300668979,0,Spanish Shrimp  Carriers,Nalakond,300668979,Unknown
+partnership,0.9337086,Spanish Shrimp  Carriers,Stacey Ortega,0,Spanish Shrimp  Carriers,Nalakond,Stacey Ortega,Country_271835
+membership,0.85655963,Spanish Shrimp  Carriers,allAfrica,0,Spanish Shrimp  Carriers,Nalakond,allAfrica,Unknown
+membership,0.9649751,Spanish Shrimp  Carriers,l y S.A. de C.V. International,0,Spanish Shrimp  Carriers,Nalakond,l y S.A. de C.V. International,Unknown
+ownership,0.80696726,Spanish Shrimp  Carriers,903311212,0,Spanish Shrimp  Carriers,Nalakond,903311212,Unknown
+membership,0.88245773,Spanish Shrimp  Carriers,SeaSpray Wave SRL Solutions,0,Spanish Shrimp  Carriers,Nalakond,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8822255,Spanish Shrimp  Carriers,png xi  Line,0,Spanish Shrimp  Carriers,Nalakond,png xi  Line,Country_628643
+membership,0.91648334,Spanish Shrimp  Carriers,Mar del Oeste Pic,0,Spanish Shrimp  Carriers,Nalakond,Mar del Oeste Pic,Vesperlandia
+ownership,0.8070168,Spanish Shrimp  Carriers,Ocean Fisheries Llc,0,Spanish Shrimp  Carriers,Nalakond,Ocean Fisheries Llc,Unknown
+family_relationship,0.80074245,Spanish Shrimp  Carriers,Ocean Fisheries Llc,1,Spanish Shrimp  Carriers,Nalakond,Ocean Fisheries Llc,Unknown
+partnership,0.8574063,185040354,4,0,185040354,Unknown,4,Unknown
+partnership,0.9082395,185040354,77b46bc7-7e31-41a0-973c-e633011d21b0,0,185040354,Unknown,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown
+partnership,0.9027907,185040354,7,0,185040354,Unknown,7,Unknown
+ownership,0.90231067,185040354,35,0,185040354,Unknown,35,Unknown
+partnership,0.9322683,185040354,6406040,0,185040354,Unknown,6406040,Unknown
+partnership,0.8384497,185040354,Jamie Knox,0,185040354,Unknown,Jamie Knox,Country_271835
+ownership,0.84134257,185040354,3506021,0,185040354,Unknown,3506021,Unknown
+ownership,0.80856466,185040354,664738735,0,185040354,Unknown,664738735,Unknown
+ownership,0.896637,185040354,5848,0,185040354,Unknown,5848,Unknown
+ownership,0.82721174,185040354,505943,0,185040354,Unknown,505943,Unknown
+partnership,0.85033315,185040354,23774,0,185040354,Unknown,23774,Unknown
+membership,0.9579221,185040354,903311212,0,185040354,Unknown,903311212,Unknown
+membership,0.9049128,185040354,Mar del Oeste Pic,0,185040354,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.87574035,4,77b46bc7-7e31-41a0-973c-e633011d21b0,0,4,Unknown,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown
+partnership,0.87102747,4,7,0,4,Unknown,7,Unknown
+ownership,0.874328,4,35,0,4,Unknown,35,Unknown
+partnership,0.916578,4,6406040,0,4,Unknown,6406040,Unknown
+ownership,0.8132084,4,Jamie Knox,0,4,Unknown,Jamie Knox,Country_271835
+partnership,0.895031,4,262157542,0,4,Unknown,262157542,Unknown
+partnership,0.8671358,4,46194,0,4,Unknown,46194,Unknown
+membership,0.9066468,4,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,0,4,Unknown,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Unknown
+partnership,0.84417665,4,PC,0,4,Unknown,PC,Unknown
+partnership,0.80577874,4,7892,0,4,Unknown,7892,Unknown
+partnership,0.8432517,4,39,0,4,Unknown,39,Unknown
+partnership,0.8011801,4,7298083,0,4,Unknown,7298083,Unknown
+partnership,0.8662459,4,3506021,0,4,Unknown,3506021,Unknown
+partnership,0.8764374,4,185040354,0,4,Unknown,185040354,Unknown
+membership,0.8256399,4,e69d4cb2-8bec-4496-8518-7426c6b9da65,0,4,Unknown,e69d4cb2-8bec-4496-8518-7426c6b9da65,Unknown
+family_relationship,0.8639725,4,979893388,0,4,Unknown,979893388,Unknown
+family_relationship,0.8316,860067396,664738735,0,860067396,Unknown,664738735,Unknown
+ownership,0.9266041,664738735,5848,0,664738735,Unknown,5848,Unknown
+family_relationship,0.84260094,664738735,l y S.A. de C.V. International,0,664738735,Unknown,l y S.A. de C.V. International,Unknown
+membership,0.92508644,664738735,ipoa-iuu,0,664738735,Unknown,ipoa-iuu,Unknown
+partnership,0.84074324,77b46bc7-7e31-41a0-973c-e633011d21b0,7,0,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown,7,Unknown
+ownership,0.8535429,77b46bc7-7e31-41a0-973c-e633011d21b0,35,0,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown,35,Unknown
+partnership,0.89794284,77b46bc7-7e31-41a0-973c-e633011d21b0,6406040,0,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown,6406040,Unknown
+partnership,0.8632582,77b46bc7-7e31-41a0-973c-e633011d21b0,79538,0,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown,79538,Unknown
+partnership,0.9079977,77b46bc7-7e31-41a0-973c-e633011d21b0,Danielle Camacho,0,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown,Danielle Camacho,Country_271835
+partnership,0.9206723,77b46bc7-7e31-41a0-973c-e633011d21b0,âHe,0,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown,âHe,Unknown
+ownership,0.8289663,77b46bc7-7e31-41a0-973c-e633011d21b0,Wesley Vasquez,0,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown,Wesley Vasquez,Country_271835
+partnership,0.8736513,77b46bc7-7e31-41a0-973c-e633011d21b0,Kelly Mccarthy,0,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown,Kelly Mccarthy,Country_271835
+family_relationship,0.93070984,7,77b46bc7-7e31-41a0-973c-e633011d21b0,0,7,Unknown,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown
+ownership,0.8390882,7,35,0,7,Unknown,35,Unknown
+partnership,0.88598406,7,6406040,0,7,Unknown,6406040,Unknown
+partnership,0.91349626,35,6406040,0,35,Unknown,6406040,Unknown
+membership,0.9219533,35,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,0,35,Unknown,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Unknown
+membership,0.9081499,6406040,Kayla Reynolds,0,6406040,Unknown,Kayla Reynolds,Country_271835
+membership,0.89024824,6406040,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,0,6406040,Unknown,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Unknown
+family_relationship,0.950393,6406040,yearsâthat,0,6406040,Unknown,yearsâthat,Unknown
+ownership,0.80103207,6406040,950574,0,6406040,Unknown,950574,Unknown
+ownership,0.8259875,6406040,7298083,0,6406040,Unknown,7298083,Unknown
+membership,0.8432977,6406040,99661834,0,6406040,Unknown,99661834,Unknown
+partnership,0.83422154,3506021,348079,0,3506021,Unknown,348079,Unknown
+family_relationship,0.8075534,3506021,l y S.A. de C.V. International,0,3506021,Unknown,l y S.A. de C.V. International,Unknown
+ownership,0.88981014,3506021,Spanish Shrimp  Carriers,0,3506021,Unknown,Spanish Shrimp  Carriers,Nalakond
+partnership,0.84429145,3506021,664738735,0,3506021,Unknown,664738735,Unknown
+ownership,0.89368916,3506021,5848,0,3506021,Unknown,5848,Unknown
+membership,0.8734488,3506021,Fish Sea,0,3506021,Unknown,Fish Sea,Unknown
+membership,0.8275707,3506021,Sea Products,0,3506021,Unknown,Sea Products,Unknown
+membership,0.9436413,3506021,13015105,0,3506021,Unknown,13015105,Unknown
+ownership,0.968845,3506021,185040354,0,3506021,Unknown,185040354,Unknown
+partnership,0.80180764,3506021,860067396,0,3506021,Unknown,860067396,Unknown
+membership,0.85128593,3506021,4447143,0,3506021,Unknown,4447143,Unknown
+partnership,0.8325063,3506021,300668979,0,3506021,Unknown,300668979,Unknown
+partnership,0.8837605,3506021,Stacey Ortega,0,3506021,Unknown,Stacey Ortega,Country_271835
+membership,0.92504054,3506021,f514483d-fb5f-4cb2-bb8d-b616b10336d8,0,3506021,Unknown,f514483d-fb5f-4cb2-bb8d-b616b10336d8,Unknown
+family_relationship,0.84349066,3506021,png xi  Line,0,3506021,Unknown,png xi  Line,Country_628643
+partnership,0.86972517,348079,78,0,348079,Unknown,78,Unknown
+partnership,0.83605367,300668979,Stacey Ortega,0,300668979,Unknown,Stacey Ortega,Country_271835
+membership,0.9019934,300668979,Mar del Oeste Pic,0,300668979,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8772979,300668979,Ocean Fisheries Llc,0,300668979,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.8947189,2,l y S.A. de C.V. International,0,2,Unknown,l y S.A. de C.V. International,Unknown
+family_relationship,0.84881485,2,Spanish Shrimp  Carriers,0,2,Unknown,Spanish Shrimp  Carriers,Nalakond
+membership,0.806194,2,Brett Lee,0,2,Unknown,Brett Lee,Country_271835
+membership,0.89531815,2,SeaSpray Wave SRL Solutions,0,2,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.95110565,5,665912557,0,5,Unknown,665912557,Unknown
+membership,0.86358595,5,Julie Callahan,0,5,Unknown,Julie Callahan,Country_244549
+family_relationship,0.959009,5,979893388,0,5,Unknown,979893388,Unknown
+membership,0.9471978,5,903311212,0,5,Unknown,903311212,Unknown
+ownership,0.8358215,5,SeaSpray Wave SRL Solutions,0,5,Unknown,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.85460746,7298083,7361,0,7298083,Unknown,7361,Unknown
+membership,0.91268694,7298083,âlocalâ,0,7298083,Unknown,âlocalâ,Unknown
+membership,0.91548765,7298083,Ex-Lax,0,7298083,Unknown,Ex-Lax,Unknown
+membership,0.8020636,7298083,salmon,0,7298083,Unknown,salmon,Unknown
+membership,0.912199,7298083,9166,0,7298083,Unknown,9166,Unknown
+partnership,0.8317246,7298083,185040354,0,7298083,Unknown,185040354,Unknown
+membership,0.9063994,7298083,Pacific Island States United Statesâ,0,7298083,Unknown,Pacific Island States United Statesâ,Unknown
+partnership,0.9350891,7298083,territory American Samoa,0,7298083,Unknown,territory American Samoa,Unknown
+partnership,0.85632855,7298083,PC,0,7298083,Unknown,PC,Unknown
+partnership,0.8105983,7298083,7892,0,7298083,Unknown,7892,Unknown
+partnership,0.8589457,7298083,39,0,7298083,Unknown,39,Unknown
+partnership,0.8562819,7298083,6406040,0,7298083,Unknown,6406040,Unknown
+membership,0.8781474,7298083,Fishisland,0,7298083,Unknown,Fishisland,Unknown
+membership,0.93202955,7298083,Mar del Oeste Pic,0,7298083,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.9454411,7298083,Ocean Fisheries Llc,0,7298083,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.96567106,7298083,Ocean Fisheries Llc,1,7298083,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8923753,7298083,Ocean Fisheries Llc,2,7298083,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.9125178,7298083,png xi  Line,0,7298083,Unknown,png xi  Line,Country_628643
+ownership,0.81732166,9,979893388,0,9,Unknown,979893388,Unknown
+ownership,0.9063716,9,903311212,0,9,Unknown,903311212,Unknown
+ownership,0.84616244,9,Ocean Fisheries Llc,0,9,Unknown,Ocean Fisheries Llc,Unknown
+ownership,0.8303475,9,SeaSpray Wave SRL Solutions,0,9,Unknown,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.89000916,9,Mar del Oeste Pic,0,9,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.8209239,8698,964,0,8698,Unknown,964,Unknown
+membership,0.9365071,8698,Claire Russell,0,8698,Unknown,Claire Russell,Country_271835
+family_relationship,0.86202246,8698,Jason Davis,0,8698,Unknown,Jason Davis,Country_271835
+family_relationship,0.8285236,8698,9488645,0,8698,Unknown,9488645,Unknown
+ownership,0.8618691,8698,Ocean Fisheries Llc,0,8698,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.92227745,964,Claire Russell,0,964,Unknown,Claire Russell,Country_271835
+membership,0.9195689,93873119,7298083,0,93873119,Unknown,7298083,Unknown
+family_relationship,0.8041013,Jeremy Cordova,Explorer,0,Jeremy Cordova,Country_271835,Explorer,Unknown
+family_relationship,0.80728096,Jeremy Cordova,903311212,0,Jeremy Cordova,Country_271835,903311212,Unknown
+partnership,0.850799,602ea158-0519-47fc-badc-787721580418,903311212,0,602ea158-0519-47fc-badc-787721580418,Unknown,903311212,Unknown
+ownership,0.83946025,602ea158-0519-47fc-badc-787721580418,903311212,1,602ea158-0519-47fc-badc-787721580418,Unknown,903311212,Unknown
+membership,0.90275615,f20779bf-63b5-4ea4-bb5f-944bb9449bce,349,0,f20779bf-63b5-4ea4-bb5f-944bb9449bce,Unknown,349,Unknown
+partnership,0.9160606,ee05a28e-82ba-4f1d-a60f-68797a422ada,3506021,0,ee05a28e-82ba-4f1d-a60f-68797a422ada,Unknown,3506021,Unknown
+partnership,0.9070348,ee05a28e-82ba-4f1d-a60f-68797a422ada,Spanish Shrimp  Carriers,0,ee05a28e-82ba-4f1d-a60f-68797a422ada,Unknown,Spanish Shrimp  Carriers,Nalakond
+membership,0.93746436,ee05a28e-82ba-4f1d-a60f-68797a422ada,f514483d-fb5f-4cb2-bb8d-b616b10336d8,0,ee05a28e-82ba-4f1d-a60f-68797a422ada,Unknown,f514483d-fb5f-4cb2-bb8d-b616b10336d8,Unknown
+ownership,0.8199465,83,imo,0,83,Unknown,imo,Unknown
+partnership,0.88686633,83,Torremolinos,0,83,Unknown,Torremolinos,Unknown
+partnership,0.878339,83,International-Convention,0,83,Unknown,International-Convention,Unknown
+family_relationship,0.8323271,83,Fisheries Inc,0,83,Unknown,Fisheries Inc,Unknown
+ownership,0.842531,83,185040354,0,83,Unknown,185040354,Unknown
+partnership,0.87695706,83,1415,0,83,Unknown,1415,Unknown
+partnership,0.8158522,2989,39,0,2989,Unknown,39,Unknown
+membership,0.822792,2989,903311212,0,2989,Unknown,903311212,Unknown
+membership,0.8008407,185106,df42b319-be6a-4a2e-b11d-c4da7ecfc01c,0,185106,Unknown,df42b319-be6a-4a2e-b11d-c4da7ecfc01c,Unknown
+ownership,0.80860746,860600018,0f5fd4f9-1683-464e-9459-a4488de5064b,0,860600018,Unknown,0f5fd4f9-1683-464e-9459-a4488de5064b,Unknown
+family_relationship,0.8902765,860600018,6393,0,860600018,Unknown,6393,Unknown
+ownership,0.90023637,860600018,Kimberly Lara,0,860600018,Unknown,Kimberly Lara,Country_271835
+ownership,0.913733,860600018,morningâs,0,860600018,Unknown,morningâs,Unknown
+ownership,0.84307534,860600018,Anna Thomas MD,0,860600018,Unknown,Anna Thomas MD,Country_271835
+membership,0.84929866,860600018,Bergmanâs,0,860600018,Unknown,Bergmanâs,Unknown
+membership,0.8534443,860600018,Stacey Ortiz,0,860600018,Unknown,Stacey Ortiz,Country_271835
+membership,0.862157,860600018,637608,0,860600018,Unknown,637608,Unknown
+family_relationship,0.94817984,860600018,John Gonzalez,0,860600018,Unknown,John Gonzalez,Nalakond
+family_relationship,0.92555124,860600018,e53552bc-174b-4799-b96b-c23cfa0731cb,0,860600018,Unknown,e53552bc-174b-4799-b96b-c23cfa0731cb,Unknown
+family_relationship,0.8881786,860600018,5337,0,860600018,Unknown,5337,Unknown
+partnership,0.9220471,860600018,838200939,0,860600018,Unknown,838200939,Unknown
+membership,0.8192324,435054320,Cutter,0,435054320,Unknown,Cutter,Unknown
+ownership,0.8177652,435054320,40213337,0,435054320,Unknown,40213337,Unknown
+ownership,0.90801513,435054320,cutters,0,435054320,Unknown,cutters,Unknown
+membership,0.90199476,435054320,8327,0,435054320,Unknown,8327,Unknown
+family_relationship,0.96243066,435054320,Teresa Rivera,0,435054320,Unknown,Teresa Rivera,Country_271835
+ownership,0.8539488,435054320,Conduct Joint,0,435054320,Unknown,Conduct Joint,Unknown
+family_relationship,0.90449923,435054320,e1d7b4ac-ed31-42a4-9375-4afb0f78f276,0,435054320,Unknown,e1d7b4ac-ed31-42a4-9375-4afb0f78f276,Unknown
+family_relationship,0.8544316,435054320,Mary Horton,0,435054320,Unknown,Mary Horton,Country_271835
+ownership,0.8105779,435054320,Jeremy Norris,0,435054320,Unknown,Jeremy Norris,Country_271835
+membership,0.9077072,435054320,Angela Spencer,0,435054320,Unknown,Angela Spencer,Country_271835
+membership,0.8222405,435054320,Jenna Barton,0,435054320,Unknown,Jenna Barton,Country_271835
+family_relationship,0.81258255,435054320,7298083,0,435054320,Unknown,7298083,Unknown
+membership,0.8709453,435054320,39,0,435054320,Unknown,39,Unknown
+membership,0.8094904,435054320,Tyler Brown,0,435054320,Unknown,Tyler Brown,Country_271835
+membership,0.85379094,435054320,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,0,435054320,Unknown,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Unknown
+ownership,0.91270125,435054320,863749817,0,435054320,Unknown,863749817,Unknown
+ownership,0.83613294,435054320,567217,0,435054320,Unknown,567217,Unknown
+membership,0.80222934,435054320,48,0,435054320,Unknown,48,Unknown
+ownership,0.89469075,435054320,475,0,435054320,Unknown,475,Unknown
+membership,0.8028433,435054320,Oliver,0,435054320,Unknown,Oliver,Unknown
+membership,0.85862243,435054320,Amanda Becker,0,435054320,Unknown,Amanda Becker,Country_271835
+membership,0.8124797,435054320,Frederick Hunter,0,435054320,Unknown,Frederick Hunter,Oceanus
+partnership,0.8676915,435054320,Linda Holden,0,435054320,Unknown,Linda Holden,Country_271835
+partnership,0.84074193,435054320,Donna Romero,0,435054320,Unknown,Donna Romero,Country_271835
+partnership,0.85429394,435054320,Amanda Garcia,0,435054320,Unknown,Amanda Garcia,Country_271835
+partnership,0.856871,435054320,75471,0,435054320,Unknown,75471,Unknown
+membership,0.92485267,435054320,Danielle Perry,0,435054320,Unknown,Danielle Perry,Country_271835
+membership,0.8972628,435054320,Fishisland,0,435054320,Unknown,Fishisland,Unknown
+ownership,0.8061464,435054320,CraftâLaw,0,435054320,Unknown,CraftâLaw,Unknown
+partnership,0.8091495,435054320,8851578d-3dd7-4430-8f73-b95305eb1f03,0,435054320,Unknown,8851578d-3dd7-4430-8f73-b95305eb1f03,Unknown
+family_relationship,0.9427206,435054320,Andrew Harrison,0,435054320,Unknown,Andrew Harrison,Country_271835
+ownership,0.91365504,435054320,90411963,0,435054320,Unknown,90411963,Unknown
+family_relationship,0.8949433,435054320,979893388,0,435054320,Unknown,979893388,Unknown
+ownership,0.83293635,435054320,SeaSpray Wave SRL Solutions,0,435054320,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8217112,435054320,SeaSpray Wave SRL Solutions,1,435054320,Unknown,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.82565415,435054320,SeaSpray Wave SRL Solutions,2,435054320,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.84258646,435054320,png xi  Line,0,435054320,Unknown,png xi  Line,Country_628643
+ownership,0.8167687,435054320,903311212,0,435054320,Unknown,903311212,Unknown
+ownership,0.8102828,435054320,903311212,1,435054320,Unknown,903311212,Unknown
+membership,0.89181435,435054320,Mar del Oeste Pic,0,435054320,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.9273689,435054320,Mar del Oeste Pic,1,435054320,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8832654,Cutter,88a1fe65-33d9-487a-a3ac-d4208f41b754,0,Cutter,Unknown,88a1fe65-33d9-487a-a3ac-d4208f41b754,Unknown
+family_relationship,0.8788118,Sept,John Gonzalez,0,Sept,Unknown,John Gonzalez,Nalakond
+ownership,0.87506497,Sept,77b46bc7-7e31-41a0-973c-e633011d21b0,0,Sept,Unknown,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown
+membership,0.84824204,Sept,Paul Wiley,0,Sept,Unknown,Paul Wiley,Country_271835
+ownership,0.85026693,Sept,Miranda Long,0,Sept,Unknown,Miranda Long,Country_271835
+membership,0.8858796,Sept,Michelle Kelley,0,Sept,Unknown,Michelle Kelley,Country_271835
+membership,0.9012061,Sept,Austin Simpson,0,Sept,Unknown,Austin Simpson,Country_271835
+membership,0.81589353,Sept,su y CJSC Canal,0,Sept,Unknown,su y CJSC Canal,Country_271835
+membership,0.80036557,Sept,Marvin Everett,0,Sept,Unknown,Marvin Everett,Country_271835
+membership,0.86167186,Sept,Robert Vega,0,Sept,Unknown,Robert Vega,Country_271835
+membership,0.8216848,Sept,ââ,0,Sept,Unknown,ââ,Unknown
+ownership,0.82856965,Sept,Joseph Williams,0,Sept,Unknown,Joseph Williams,Country_271835
+membership,0.81330615,Sept,Seth Kelley,0,Sept,Unknown,Seth Kelley,Country_271835
+ownership,0.9075313,Sept,Christopher Miller,0,Sept,Unknown,Christopher Miller,Country_271835
+ownership,0.83975524,Sept,Scott Anderson,0,Sept,Unknown,Scott Anderson,Country_271835
+membership,0.8352631,Sept,Jeremy Woodard,0,Sept,Unknown,Jeremy Woodard,Country_271835
+membership,0.9118725,Sept,âenticedâ,0,Sept,Unknown,âenticedâ,Unknown
+family_relationship,0.9250021,Sept,979893388,0,Sept,Unknown,979893388,Unknown
+family_relationship,0.8588529,John Gonzalez,e53552bc-174b-4799-b96b-c23cfa0731cb,0,John Gonzalez,Nalakond,e53552bc-174b-4799-b96b-c23cfa0731cb,Unknown
+family_relationship,0.8065146,John Gonzalez,5337,0,John Gonzalez,Nalakond,5337,Unknown
+family_relationship,0.8397846,John Gonzalez,637608,0,John Gonzalez,Nalakond,637608,Unknown
+family_relationship,0.80954653,John Gonzalez,Emily Kennedy,0,John Gonzalez,Nalakond,Emily Kennedy,Country_614826
+family_relationship,0.8180333,John Gonzalez,Melissa Bates,0,John Gonzalez,Nalakond,Melissa Bates,Country_271835
+family_relationship,0.80070466,John Gonzalez,979893388,0,John Gonzalez,Nalakond,979893388,Unknown
+ownership,0.9276305,John Gonzalez,Ocean Fisheries Llc,0,John Gonzalez,Nalakond,Ocean Fisheries Llc,Unknown
+family_relationship,0.8086659,9203,Lindsay Bennett,0,9203,Unknown,Lindsay Bennett,Country_271835
+family_relationship,0.9149422,9203,903311212,0,9203,Unknown,903311212,Unknown
+family_relationship,0.94355357,3878194,Amy Kent,0,3878194,Unknown,Amy Kent,Country_271835
+family_relationship,0.862938,3878194,Spanish Shrimp  Carriers,0,3878194,Unknown,Spanish Shrimp  Carriers,Nalakond
+family_relationship,0.81212777,3878194,Conventionâ,0,3878194,Unknown,Conventionâ,Unknown
+family_relationship,0.94693303,3878194,Stephanie Garner,0,3878194,Unknown,Stephanie Garner,Country_271835
+partnership,0.8164063,760079,3009706,0,760079,Unknown,3009706,Unknown
+membership,0.817068,760079,Cody Lewis,0,760079,Unknown,Cody Lewis,Country_271835
+membership,0.8424492,0f5fd4f9-1683-464e-9459-a4488de5064b,Fish Sea,0,0f5fd4f9-1683-464e-9459-a4488de5064b,Unknown,Fish Sea,Unknown
+membership,0.85068756,0f5fd4f9-1683-464e-9459-a4488de5064b,Sea Products,0,0f5fd4f9-1683-464e-9459-a4488de5064b,Unknown,Sea Products,Unknown
+membership,0.83063155,449308,185040354,0,449308,Unknown,185040354,Unknown
+ownership,0.8471049,449308,99661834,0,449308,Unknown,99661834,Unknown
+partnership,0.84964544,200640636,664738735,0,200640636,Unknown,664738735,Unknown
+partnership,0.87575036,200640636,3506021,0,200640636,Unknown,3506021,Unknown
+partnership,0.838243,200640636,300668979,0,200640636,Unknown,300668979,Unknown
+partnership,0.8841057,200640636,Stacey Ortega,0,200640636,Unknown,Stacey Ortega,Country_271835
+ownership,0.89456236,Debbie Daniel,664738735,0,Debbie Daniel,Country_271835,664738735,Unknown
+partnership,0.9147561,png xi  Line,664738735,0,png xi  Line,Country_628643,664738735,Unknown
+membership,0.86666757,png xi  Line,l y S.A. de C.V. International,0,png xi  Line,Country_628643,l y S.A. de C.V. International,Unknown
+membership,0.9336239,png xi  Line,ipoa-iuu,0,png xi  Line,Country_628643,ipoa-iuu,Unknown
+family_relationship,0.89003825,png xi  Line,165e0fe7-6725-4f4c-abc1-3ef485a939b0,0,png xi  Line,Country_628643,165e0fe7-6725-4f4c-abc1-3ef485a939b0,Unknown
+ownership,0.94129115,png xi  Line,903311212,0,png xi  Line,Country_628643,903311212,Unknown
+partnership,0.8009592,png xi  Line,903311212,1,png xi  Line,Country_628643,903311212,Unknown
+partnership,0.832728,png xi  Line,903311212,2,png xi  Line,Country_628643,903311212,Unknown
+partnership,0.8643963,png xi  Line,903311212,3,png xi  Line,Country_628643,903311212,Unknown
+ownership,0.8553529,png xi  Line,903311212,4,png xi  Line,Country_628643,903311212,Unknown
+membership,0.89070755,png xi  Line,903311212,5,png xi  Line,Country_628643,903311212,Unknown
+partnership,0.8781442,png xi  Line,903311212,6,png xi  Line,Country_628643,903311212,Unknown
+family_relationship,0.80163795,png xi  Line,903311212,7,png xi  Line,Country_628643,903311212,Unknown
+partnership,0.8760898,png xi  Line,903311212,8,png xi  Line,Country_628643,903311212,Unknown
+membership,0.86450547,png xi  Line,903311212,9,png xi  Line,Country_628643,903311212,Unknown
+ownership,0.8350977,png xi  Line,903311212,10,png xi  Line,Country_628643,903311212,Unknown
+ownership,0.8298293,png xi  Line,7298083,0,png xi  Line,Country_628643,7298083,Unknown
+membership,0.8376447,png xi  Line,Ocean Fisheries Llc,0,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+family_relationship,0.87791353,png xi  Line,Ocean Fisheries Llc,1,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+family_relationship,0.9459805,png xi  Line,Ocean Fisheries Llc,2,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+membership,0.8764522,png xi  Line,Ocean Fisheries Llc,3,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+membership,0.80191606,png xi  Line,Ocean Fisheries Llc,4,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+partnership,0.81862104,png xi  Line,Ocean Fisheries Llc,5,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+partnership,0.80598444,png xi  Line,Ocean Fisheries Llc,6,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+partnership,0.8878622,png xi  Line,Ocean Fisheries Llc,7,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+ownership,0.84608066,png xi  Line,Ocean Fisheries Llc,8,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+membership,0.8502158,png xi  Line,Ocean Fisheries Llc,9,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+ownership,0.80029696,png xi  Line,Ocean Fisheries Llc,10,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+partnership,0.84429306,png xi  Line,Ocean Fisheries Llc,11,png xi  Line,Country_628643,Ocean Fisheries Llc,Unknown
+membership,0.87335443,png xi  Line,Ashley Wiggins,0,png xi  Line,Country_628643,Ashley Wiggins,Country_271835
+family_relationship,0.81522816,png xi  Line,185040354,0,png xi  Line,Country_628643,185040354,Unknown
+membership,0.8842793,png xi  Line,185040354,1,png xi  Line,Country_628643,185040354,Unknown
+ownership,0.811815,png xi  Line,657,0,png xi  Line,Country_628643,657,Unknown
+ownership,0.9165995,png xi  Line,George Ramirez,0,png xi  Line,Country_628643,George Ramirez,Country_271835
+membership,0.95355225,png xi  Line,SeaSpray Wave SRL Solutions,0,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.87993103,png xi  Line,SeaSpray Wave SRL Solutions,1,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.89081585,png xi  Line,SeaSpray Wave SRL Solutions,2,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8451997,png xi  Line,SeaSpray Wave SRL Solutions,3,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8093878,png xi  Line,SeaSpray Wave SRL Solutions,4,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.80891407,png xi  Line,SeaSpray Wave SRL Solutions,5,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+membership,0.82757044,png xi  Line,SeaSpray Wave SRL Solutions,6,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.8205523,png xi  Line,SeaSpray Wave SRL Solutions,7,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8190441,png xi  Line,SeaSpray Wave SRL Solutions,8,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.9540108,png xi  Line,SeaSpray Wave SRL Solutions,9,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.81104785,png xi  Line,SeaSpray Wave SRL Solutions,10,png xi  Line,Country_628643,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.8094637,png xi  Line,801809,0,png xi  Line,Country_628643,801809,Unknown
+ownership,0.83771926,png xi  Line,58745,0,png xi  Line,Country_628643,58745,Unknown
+family_relationship,0.8398595,png xi  Line,Andrew Gamble,0,png xi  Line,Country_628643,Andrew Gamble,Country_271835
+partnership,0.84103864,png xi  Line,21240092,0,png xi  Line,Country_628643,21240092,Unknown
+family_relationship,0.87236196,png xi  Line,West Bengal S.A. de C.V.,0,png xi  Line,Country_628643,West Bengal S.A. de C.V.,Unknown
+partnership,0.85054475,png xi  Line,West Bengal S.A. de C.V.,1,png xi  Line,Country_628643,West Bengal S.A. de C.V.,Unknown
+membership,0.8436701,png xi  Line,b47086b0-e225-436a-83b1-2cf5cda4dbd5,0,png xi  Line,Country_628643,b47086b0-e225-436a-83b1-2cf5cda4dbd5,Unknown
+partnership,0.8093867,png xi  Line,Jeremy Norris,0,png xi  Line,Country_628643,Jeremy Norris,Country_271835
+family_relationship,0.80473953,png xi  Line,Mar del Oeste Pic,0,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+partnership,0.8645436,png xi  Line,Mar del Oeste Pic,1,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+ownership,0.8007748,png xi  Line,Mar del Oeste Pic,2,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+membership,0.8391811,png xi  Line,Mar del Oeste Pic,3,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+membership,0.91722935,png xi  Line,Mar del Oeste Pic,4,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+ownership,0.84893763,png xi  Line,Mar del Oeste Pic,5,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+ownership,0.8025387,png xi  Line,Mar del Oeste Pic,6,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+membership,0.855668,png xi  Line,Mar del Oeste Pic,7,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+membership,0.8410738,png xi  Line,Mar del Oeste Pic,8,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+membership,0.9494088,png xi  Line,Mar del Oeste Pic,9,png xi  Line,Country_628643,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.88016313,png xi  Line,Jonathan Spence,0,png xi  Line,Country_628643,Jonathan Spence,Country_271835
+membership,0.80880195,png xi  Line,Ann Flowers,0,png xi  Line,Country_628643,Ann Flowers,Country_271835
+partnership,0.940472,png xi  Line,Diana Kelley,0,png xi  Line,Country_628643,Diana Kelley,Country_271835
+family_relationship,0.9270261,png xi  Line,DECEUNINCK,0,png xi  Line,Country_628643,DECEUNINCK,Unknown
+membership,0.85219026,png xi  Line,75471,0,png xi  Line,Country_628643,75471,Unknown
+membership,0.8558293,png xi  Line,Madeline Collins,0,png xi  Line,Country_628643,Madeline Collins,Country_271835
+partnership,0.8736872,png xi  Line,âTrials,0,png xi  Line,Country_628643,âTrials,Unknown
+partnership,0.88534945,png xi  Line,âTrials,1,png xi  Line,Country_628643,âTrials,Unknown
+ownership,0.84536153,png xi  Line,Laurie Mclaughlin,0,png xi  Line,Country_628643,Laurie Mclaughlin,Country_271835
+membership,0.8749518,png xi  Line,760079,0,png xi  Line,Country_628643,760079,Unknown
+membership,0.82412016,png xi  Line,BPâs,0,png xi  Line,Country_628643,BPâs,Unknown
+membership,0.85698265,png xi  Line,Stacey Ortiz,0,png xi  Line,Country_628643,Stacey Ortiz,Country_271835
+membership,0.8088853,png xi  Line,salmon,0,png xi  Line,Country_628643,salmon,Unknown
+family_relationship,0.8904308,png xi  Line,waterâ,0,png xi  Line,Country_628643,waterâ,Unknown
+family_relationship,0.8477223,png xi  Line,032522db-8105-4c26-8142-ae9d5806f7c5,0,png xi  Line,Country_628643,032522db-8105-4c26-8142-ae9d5806f7c5,Unknown
+family_relationship,0.89689624,png xi  Line,032522db-8105-4c26-8142-ae9d5806f7c5,1,png xi  Line,Country_628643,032522db-8105-4c26-8142-ae9d5806f7c5,Unknown
+membership,0.91182107,png xi  Line,Dana Knapp,0,png xi  Line,Country_628643,Dana Knapp,Islavaria
+partnership,0.8763445,png xi  Line,Shellfish Chile SA,0,png xi  Line,Country_628643,Shellfish Chile SA,Unknown
+membership,0.9236952,png xi  Line,6204,0,png xi  Line,Country_628643,6204,Unknown
+membership,0.8512174,png xi  Line,Perch,0,png xi  Line,Country_628643,Perch,Unknown
+family_relationship,0.9147678,png xi  Line,a0ea93dc-6767-4682-b424-21b5a24ea24b,0,png xi  Line,Country_628643,a0ea93dc-6767-4682-b424-21b5a24ea24b,Unknown
+partnership,0.80569786,png xi  Line,Morgan Black,0,png xi  Line,Country_628643,Morgan Black,Country_271835
+ownership,0.865495,png xi  Line,Michelle Jackson,0,png xi  Line,Country_628643,Michelle Jackson,Country_271835
+ownership,0.90446645,png xi  Line,Stephen Marks,0,png xi  Line,Country_628643,Stephen Marks,Country_271835
+ownership,0.90890276,png xi  Line,Stephen Marks,1,png xi  Line,Country_628643,Stephen Marks,Country_271835
+membership,0.81906825,png xi  Line,John Avila,0,png xi  Line,Country_628643,John Avila,Country_271835
+membership,0.8548082,png xi  Line,979893388,0,png xi  Line,Country_628643,979893388,Unknown
+ownership,0.8504342,png xi  Line,Amanda Rogers,0,png xi  Line,Country_628643,Amanda Rogers,Country_271835
+ownership,0.86422884,png xi  Line,Miranda Long,0,png xi  Line,Country_628643,Miranda Long,Country_271835
+ownership,0.80904883,png xi  Line,Faurtil FÃ¡brica Urnas TietÃª,0,png xi  Line,Country_628643,Faurtil FÃ¡brica Urnas TietÃª,Unknown
+ownership,0.8558595,png xi  Line,f64e747e-13de-4628-b939-92a8ff4eb03f,0,png xi  Line,Country_628643,f64e747e-13de-4628-b939-92a8ff4eb03f,Unknown
+partnership,0.90901417,png xi  Line,Hannah Ray,0,png xi  Line,Country_628643,Hannah Ray,Country_271835
+membership,0.8224375,png xi  Line,Nicholas King,0,png xi  Line,Country_628643,Nicholas King,Country_271835
+membership,0.8272048,png xi  Line,3506021,0,png xi  Line,Country_628643,3506021,Unknown
+membership,0.80131036,png xi  Line,5246016,0,png xi  Line,Country_628643,5246016,Unknown
+membership,0.8333019,7361,png xi  Line,0,7361,Unknown,png xi  Line,Country_628643
+membership,0.95206493,d5b94ebc-e03a-438e-872b-a15db349a748,032522db-8105-4c26-8142-ae9d5806f7c5,0,d5b94ebc-e03a-438e-872b-a15db349a748,Unknown,032522db-8105-4c26-8142-ae9d5806f7c5,Unknown
+membership,0.88551795,d5b94ebc-e03a-438e-872b-a15db349a748,903311212,0,d5b94ebc-e03a-438e-872b-a15db349a748,Unknown,903311212,Unknown
+membership,0.95354694,d5b94ebc-e03a-438e-872b-a15db349a748,Mar del Oeste Pic,0,d5b94ebc-e03a-438e-872b-a15db349a748,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.85979086,737205,185040354,0,737205,Unknown,185040354,Unknown
+membership,0.8077735,737205,39,0,737205,Unknown,39,Unknown
+family_relationship,0.9366066,Randy Collins,Clayton Rodgers,0,Randy Collins,Country_271835,Clayton Rodgers,Country_271835
+membership,0.91709137,Randy Collins,SeaSpray Wave SRL Solutions,0,Randy Collins,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.92228884,4783,Filkinsâ,0,4783,Unknown,Filkinsâ,Unknown
+membership,0.86633825,4783,Mar del Oeste Pic,0,4783,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8980925,4783,png xi  Line,0,4783,Unknown,png xi  Line,Country_628643
+membership,0.8686534,12845006,9488645,0,12845006,Unknown,9488645,Unknown
+ownership,0.8978096,9488645,Carlos White,0,9488645,Unknown,Carlos White,Country_271835
+partnership,0.9036177,9488645,34153143,0,9488645,Unknown,34153143,Unknown
+ownership,0.8638789,9488645,Calvin Salas,0,9488645,Unknown,Calvin Salas,Marebak
+membership,0.8592093,9488645,âTheoretically,0,9488645,Unknown,âTheoretically,Unknown
+membership,0.867107,9488645,Jonathan Torres,0,9488645,Unknown,Jonathan Torres,Uzilandor
+partnership,0.9224307,9488645,Gary Dunn,0,9488645,Unknown,Gary Dunn,Country_271835
+ownership,0.8677586,9488645,Morgan Black,0,9488645,Unknown,Morgan Black,Country_271835
+membership,0.8213074,9488645,75471,0,9488645,Unknown,75471,Unknown
+membership,0.871088,9488645,sectors sectors 2033,0,9488645,Unknown,sectors sectors 2033,Unknown
+membership,0.8791151,Lauren Moore,7298083,0,Lauren Moore,Merigrad,7298083,Unknown
+membership,0.8721187,Lauren Moore,âlocalâ,0,Lauren Moore,Merigrad,âlocalâ,Unknown
+membership,0.8798696,Lauren Moore,Ex-Lax,0,Lauren Moore,Merigrad,Ex-Lax,Unknown
+membership,0.87423563,âlocalâ,Ex-Lax,0,âlocalâ,Unknown,Ex-Lax,Unknown
+membership,0.8342798,Leominster Provincetownâ,7298083,0,Leominster Provincetownâ,Unknown,7298083,Unknown
+membership,0.83935314,Leominster Provincetownâ,âlocalâ,0,Leominster Provincetownâ,Unknown,âlocalâ,Unknown
+membership,0.8436681,Leominster Provincetownâ,Ex-Lax,0,Leominster Provincetownâ,Unknown,Ex-Lax,Unknown
+membership,0.8243859,371bf15a-3000-499a-88e4-cc096b028ec7,Spanish Shrimp  Carriers,0,371bf15a-3000-499a-88e4-cc096b028ec7,Unknown,Spanish Shrimp  Carriers,Nalakond
+membership,0.86956036,913428,Spanish Shrimp  Carriers,0,913428,Unknown,Spanish Shrimp  Carriers,Nalakond
+partnership,0.898044,913428,Marcus English,0,913428,Unknown,Marcus English,Oceanus
+family_relationship,0.8021364,Jason Davis,9488645,0,Jason Davis,Country_271835,9488645,Unknown
+family_relationship,0.9331588,Kyle Stanton,Laura Smith,0,Kyle Stanton,Country_271835,Laura Smith,Country_271835
+membership,0.80031896,Kyle Stanton,Mar del Oeste Pic,0,Kyle Stanton,Country_271835,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.8751236,Mar del Oeste Pic,165e0fe7-6725-4f4c-abc1-3ef485a939b0,0,Mar del Oeste Pic,Vesperlandia,165e0fe7-6725-4f4c-abc1-3ef485a939b0,Unknown
+family_relationship,0.87397677,Mar del Oeste Pic,165e0fe7-6725-4f4c-abc1-3ef485a939b0,1,Mar del Oeste Pic,Vesperlandia,165e0fe7-6725-4f4c-abc1-3ef485a939b0,Unknown
+ownership,0.80723625,Mar del Oeste Pic,Ocean Fisheries Llc,0,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+partnership,0.8295747,Mar del Oeste Pic,Ocean Fisheries Llc,1,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+family_relationship,0.8226809,Mar del Oeste Pic,Ocean Fisheries Llc,2,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+ownership,0.9316536,Mar del Oeste Pic,Ocean Fisheries Llc,3,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+ownership,0.81492865,Mar del Oeste Pic,Ocean Fisheries Llc,4,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+membership,0.89940596,Mar del Oeste Pic,Ocean Fisheries Llc,5,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+ownership,0.8783739,Mar del Oeste Pic,Ocean Fisheries Llc,6,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+family_relationship,0.84383374,Mar del Oeste Pic,Ocean Fisheries Llc,7,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+membership,0.80004823,Mar del Oeste Pic,Ocean Fisheries Llc,8,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+ownership,0.85324246,Mar del Oeste Pic,Ocean Fisheries Llc,9,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+ownership,0.86476946,Mar del Oeste Pic,Ocean Fisheries Llc,10,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+family_relationship,0.8120923,Mar del Oeste Pic,Ocean Fisheries Llc,11,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+ownership,0.90938544,Mar del Oeste Pic,Ocean Fisheries Llc,12,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+family_relationship,0.8029226,Mar del Oeste Pic,Ocean Fisheries Llc,13,Mar del Oeste Pic,Vesperlandia,Ocean Fisheries Llc,Unknown
+partnership,0.82036656,Mar del Oeste Pic,760079,0,Mar del Oeste Pic,Vesperlandia,760079,Unknown
+membership,0.9489468,Mar del Oeste Pic,9488645,0,Mar del Oeste Pic,Vesperlandia,9488645,Unknown
+membership,0.88231814,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,0,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.896761,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,1,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.82039213,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,2,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+membership,0.80510503,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,3,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+membership,0.85155565,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,4,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8730867,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,5,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.85065174,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,6,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.804586,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,7,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+membership,0.9370046,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,8,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.91564244,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,9,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.8226771,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,10,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.8040129,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,11,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8373503,Mar del Oeste Pic,SeaSpray Wave SRL Solutions,12,Mar del Oeste Pic,Vesperlandia,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.8000499,Mar del Oeste Pic,903311212,0,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+partnership,0.82323724,Mar del Oeste Pic,903311212,1,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+membership,0.8290507,Mar del Oeste Pic,903311212,2,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+family_relationship,0.8365035,Mar del Oeste Pic,903311212,3,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+membership,0.85893416,Mar del Oeste Pic,903311212,4,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+partnership,0.867724,Mar del Oeste Pic,903311212,5,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+partnership,0.8262119,Mar del Oeste Pic,903311212,6,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+ownership,0.9063428,Mar del Oeste Pic,903311212,7,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+ownership,0.804939,Mar del Oeste Pic,903311212,8,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+membership,0.93666303,Mar del Oeste Pic,903311212,9,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+ownership,0.9418166,Mar del Oeste Pic,903311212,10,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+ownership,0.846682,Mar del Oeste Pic,903311212,11,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+membership,0.80350846,Mar del Oeste Pic,903311212,12,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+partnership,0.8042166,Mar del Oeste Pic,903311212,13,Mar del Oeste Pic,Vesperlandia,903311212,Unknown
+ownership,0.8475681,Mar del Oeste Pic,489,0,Mar del Oeste Pic,Vesperlandia,489,Unknown
+family_relationship,0.893075,Mar del Oeste Pic,833355,0,Mar del Oeste Pic,Vesperlandia,833355,Unknown
+family_relationship,0.82327753,Mar del Oeste Pic,77b46bc7-7e31-41a0-973c-e633011d21b0,0,Mar del Oeste Pic,Vesperlandia,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown
+partnership,0.8334051,Mar del Oeste Pic,png xi  Line,0,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+ownership,0.82749975,Mar del Oeste Pic,png xi  Line,1,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+ownership,0.80770695,Mar del Oeste Pic,png xi  Line,2,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+membership,0.83555627,Mar del Oeste Pic,png xi  Line,3,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+membership,0.89853716,Mar del Oeste Pic,png xi  Line,4,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+membership,0.86264116,Mar del Oeste Pic,png xi  Line,5,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+membership,0.84665227,Mar del Oeste Pic,png xi  Line,6,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+membership,0.8448461,Mar del Oeste Pic,png xi  Line,7,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+membership,0.82728875,Mar del Oeste Pic,png xi  Line,8,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+partnership,0.8475789,Mar del Oeste Pic,png xi  Line,9,Mar del Oeste Pic,Vesperlandia,png xi  Line,Country_628643
+family_relationship,0.82532555,Mar del Oeste Pic,Tammy Ryan,0,Mar del Oeste Pic,Vesperlandia,Tammy Ryan,Country_271835
+ownership,0.9199958,Mar del Oeste Pic,1214936,0,Mar del Oeste Pic,Vesperlandia,1214936,Unknown
+ownership,0.90220946,Mar del Oeste Pic,262157542,0,Mar del Oeste Pic,Vesperlandia,262157542,Unknown
+partnership,0.8147725,Mar del Oeste Pic,Brandy Williams,0,Mar del Oeste Pic,Vesperlandia,Brandy Williams,Country_271835
+membership,0.9320283,Mar del Oeste Pic,Danielle Camacho,0,Mar del Oeste Pic,Vesperlandia,Danielle Camacho,Country_271835
+ownership,0.8520155,Mar del Oeste Pic,41695239,0,Mar del Oeste Pic,Vesperlandia,41695239,Unknown
+family_relationship,0.8103437,Mar del Oeste Pic,Jeremy Norris,0,Mar del Oeste Pic,Vesperlandia,Jeremy Norris,Country_271835
+membership,0.9389966,Mar del Oeste Pic,Joshua Hammond,0,Mar del Oeste Pic,Vesperlandia,Joshua Hammond,Country_271835
+membership,0.8563945,Mar del Oeste Pic,Madeline Collins,0,Mar del Oeste Pic,Vesperlandia,Madeline Collins,Country_271835
+membership,0.81180906,Mar del Oeste Pic,950ce1a6-a178-4e3e-9316-91ab7ca88664,0,Mar del Oeste Pic,Vesperlandia,950ce1a6-a178-4e3e-9316-91ab7ca88664,Unknown
+membership,0.80275637,Mar del Oeste Pic,637608,0,Mar del Oeste Pic,Vesperlandia,637608,Unknown
+partnership,0.8109839,Mar del Oeste Pic,Mrs. Katrina Williams,0,Mar del Oeste Pic,Vesperlandia,Mrs. Katrina Williams,Country_271835
+membership,0.8315998,Mar del Oeste Pic,West Bengal S.A. de C.V.,0,Mar del Oeste Pic,Vesperlandia,West Bengal S.A. de C.V.,Unknown
+partnership,0.8264622,Mar del Oeste Pic,West Bengal S.A. de C.V.,1,Mar del Oeste Pic,Vesperlandia,West Bengal S.A. de C.V.,Unknown
+membership,0.8568431,Mar del Oeste Pic,979893388,0,Mar del Oeste Pic,Vesperlandia,979893388,Unknown
+ownership,0.81371176,Mar del Oeste Pic,979893388,1,Mar del Oeste Pic,Vesperlandia,979893388,Unknown
+family_relationship,0.8361138,Mar del Oeste Pic,979893388,2,Mar del Oeste Pic,Vesperlandia,979893388,Unknown
+membership,0.85297817,Mar del Oeste Pic,979893388,3,Mar del Oeste Pic,Vesperlandia,979893388,Unknown
+membership,0.8073796,Mar del Oeste Pic,979893388,4,Mar del Oeste Pic,Vesperlandia,979893388,Unknown
+family_relationship,0.8792329,Mar del Oeste Pic,krxd,0,Mar del Oeste Pic,Vesperlandia,krxd,Unknown
+membership,0.89264756,Mar del Oeste Pic,Lauren Garner,0,Mar del Oeste Pic,Vesperlandia,Lauren Garner,Country_271835
+partnership,0.8007946,Mar del Oeste Pic,913428,0,Mar del Oeste Pic,Vesperlandia,913428,Unknown
+membership,0.9076619,Mar del Oeste Pic,George Vance,0,Mar del Oeste Pic,Vesperlandia,George Vance,Country_271835
+ownership,0.2641,Mar del Oeste Pic,40213337,0,Mar del Oeste Pic,Vesperlandia,40213337,Unknown
+membership,0.8532807,Mar del Oeste Pic,Samuel Cross,0,Mar del Oeste Pic,Vesperlandia,Samuel Cross,Country_230197
+partnership,0.95845234,Mar del Oeste Pic,Tristan Johnson,0,Mar del Oeste Pic,Vesperlandia,Tristan Johnson,Wysterion
+membership,0.8570943,Mar del Oeste Pic,James Horton,0,Mar del Oeste Pic,Vesperlandia,James Horton,Country_271835
+partnership,0.86518526,Mar del Oeste Pic,Thomas Morales,0,Mar del Oeste Pic,Vesperlandia,Thomas Morales,Country_542476
+membership,0.81550753,Mar del Oeste Pic,âHe,0,Mar del Oeste Pic,Vesperlandia,âHe,Unknown
+membership,0.9510209,Mar del Oeste Pic,electric cars,0,Mar del Oeste Pic,Vesperlandia,electric cars,Unknown
+membership,0.8637685,Mar del Oeste Pic,613281364,0,Mar del Oeste Pic,Vesperlandia,613281364,Unknown
+membership,0.9557688,Mar del Oeste Pic,Hardwoodsâ,0,Mar del Oeste Pic,Vesperlandia,Hardwoodsâ,Unknown
+membership,0.8415565,Mar del Oeste Pic,Robert Rodriguez,0,Mar del Oeste Pic,Vesperlandia,Robert Rodriguez,Country_271835
+family_relationship,0.95049995,Mar del Oeste Pic,Andrew Harrison,0,Mar del Oeste Pic,Vesperlandia,Andrew Harrison,Country_271835
+ownership,0.88600755,Mar del Oeste Pic,47924922,0,Mar del Oeste Pic,Vesperlandia,47924922,Unknown
+membership,0.88258886,Mar del Oeste Pic,Cody Lewis,0,Mar del Oeste Pic,Vesperlandia,Cody Lewis,Country_271835
+membership,0.88240725,Mar del Oeste Pic,Motor Vessel,0,Mar del Oeste Pic,Vesperlandia,Motor Vessel,Unknown
+family_relationship,0.8198177,Mar del Oeste Pic,bc507d7c-29c9-4b0d-909e-52dd450a25d3,0,Mar del Oeste Pic,Vesperlandia,bc507d7c-29c9-4b0d-909e-52dd450a25d3,Unknown
+ownership,0.85657567,Mar del Oeste Pic,Today,0,Mar del Oeste Pic,Vesperlandia,Today,Unknown
+partnership,0.8010948,Mar del Oeste Pic,037acfda-0d33-4ce8-8907-fe7da3e27dff,0,Mar del Oeste Pic,Vesperlandia,037acfda-0d33-4ce8-8907-fe7da3e27dff,Unknown
+membership,0.80872315,Mar del Oeste Pic,Nicholas King,0,Mar del Oeste Pic,Vesperlandia,Nicholas King,Country_271835
+membership,0.93571746,Mar del Oeste Pic,3506021,0,Mar del Oeste Pic,Vesperlandia,3506021,Unknown
+membership,0.9509635,Mar del Oeste Pic,64667049,0,Mar del Oeste Pic,Vesperlandia,64667049,Unknown
+family_relationship,0.85003537,Mar del Oeste Pic,DECEUNINCK,0,Mar del Oeste Pic,Vesperlandia,DECEUNINCK,Unknown
+family_relationship,0.8324256,Mar del Oeste Pic,65,0,Mar del Oeste Pic,Vesperlandia,65,Unknown
+partnership,0.857494,8327,185106,0,8327,Unknown,185106,Unknown
+ownership,0.8248391,8327,40213337,0,8327,Unknown,40213337,Unknown
+ownership,0.90779465,8327,cutters,0,8327,Unknown,cutters,Unknown
+membership,0.81697214,8327,435054320,0,8327,Unknown,435054320,Unknown
+partnership,0.900931,8327,Calvin Salas,0,8327,Unknown,Calvin Salas,Marebak
+membership,0.9256729,40213337,cutters,0,40213337,Unknown,cutters,Unknown
+membership,0.8750216,40213337,Tyler Brown,0,40213337,Unknown,Tyler Brown,Country_271835
+family_relationship,0.9692565,40213337,Teresa Rivera,0,40213337,Unknown,Teresa Rivera,Country_271835
+partnership,0.8283572,40213337,cutter James,0,40213337,Unknown,cutter James,Unknown
+membership,0.93361527,40213337,Cutter,0,40213337,Unknown,Cutter,Unknown
+membership,0.9169807,40213337,88a1fe65-33d9-487a-a3ac-d4208f41b754,0,40213337,Unknown,88a1fe65-33d9-487a-a3ac-d4208f41b754,Unknown
+membership,0.8425488,40213337,Jenna Barton,0,40213337,Unknown,Jenna Barton,Country_271835
+family_relationship,0.86628413,40213337,b636c0f8-2ddf-42ad-9f9c-73bd48682561,0,40213337,Unknown,b636c0f8-2ddf-42ad-9f9c-73bd48682561,Unknown
+membership,0.92125934,40213337,sailboat Freeport,0,40213337,Unknown,sailboat Freeport,Unknown
+ownership,0.1738,40213337,Sea Products,0,40213337,Unknown,Sea Products,Unknown
+ownership,0.8556742,Coast,40213337,0,Coast,Unknown,40213337,Unknown
+ownership,0.8234881,Coast,8327,0,Coast,Unknown,8327,Unknown
+ownership,0.8463294,Coast,435054320,0,Coast,Unknown,435054320,Unknown
+ownership,0.952898,Coast,cutters,0,Coast,Unknown,cutters,Unknown
+ownership,0.83152336,Coast,Cutter,0,Coast,Unknown,Cutter,Unknown
+membership,0.86516535,Coast,Tyler Brown,0,Coast,Unknown,Tyler Brown,Country_271835
+family_relationship,0.9702241,Coast,Teresa Rivera,0,Coast,Unknown,Teresa Rivera,Country_271835
+partnership,0.8524496,Coast,cutter James,0,Coast,Unknown,cutter James,Unknown
+membership,0.8987551,Coast,860600018,0,Coast,Unknown,860600018,Unknown
+membership,0.9366561,Coast,88a1fe65-33d9-487a-a3ac-d4208f41b754,0,Coast,Unknown,88a1fe65-33d9-487a-a3ac-d4208f41b754,Unknown
+membership,0.87688667,Coast,Jenna Barton,0,Coast,Unknown,Jenna Barton,Country_271835
+family_relationship,0.87333345,Coast,b636c0f8-2ddf-42ad-9f9c-73bd48682561,0,Coast,Unknown,b636c0f8-2ddf-42ad-9f9c-73bd48682561,Unknown
+membership,0.9474759,Coast,sailboat Freeport,0,Coast,Unknown,sailboat Freeport,Unknown
+ownership,0.8182766,Coast,CraftâLaw,0,Coast,Unknown,CraftâLaw,Unknown
+family_relationship,0.8232106,Coast,Ancla Azul Company Solutions,0,Coast,Unknown,Ancla Azul Company Solutions,Unknown
+family_relationship,0.906656,Coast,Ryan Perez,0,Coast,Unknown,Ryan Perez,Country_271835
+family_relationship,0.927945,Coast,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,0,Coast,Unknown,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,Unknown
+family_relationship,0.9470269,Coast,6567453,0,Coast,Unknown,6567453,Unknown
+membership,0.8916783,Today,8327,0,Today,Unknown,8327,Unknown
+membership,0.83579534,Today,435054320,0,Today,Unknown,435054320,Unknown
+family_relationship,0.80776775,9786,3878194,0,9786,Unknown,3878194,Unknown
+family_relationship,0.8237171,9786,Spanish Shrimp  Carriers,0,9786,Unknown,Spanish Shrimp  Carriers,Nalakond
+family_relationship,0.92924184,9786,Stephanie Garner,0,9786,Unknown,Stephanie Garner,Country_271835
+family_relationship,0.9051942,9786,83,0,9786,Unknown,83,Unknown
+ownership,0.87917453,9786,imo,0,9786,Unknown,imo,Unknown
+partnership,0.9232453,9786,Torremolinos,0,9786,Unknown,Torremolinos,Unknown
+partnership,0.90889716,9786,International-Convention,0,9786,Unknown,International-Convention,Unknown
+partnership,0.9131748,9786,52093e45-b873-4300-9612-8dfc291b1339,0,9786,Unknown,52093e45-b873-4300-9612-8dfc291b1339,Unknown
+ownership,0.9089387,9786,200640636,0,9786,Unknown,200640636,Unknown
+partnership,0.9151525,9786,3506021,0,9786,Unknown,3506021,Unknown
+partnership,0.8882055,9786,300668979,0,9786,Unknown,300668979,Unknown
+partnership,0.9184669,9786,Stacey Ortega,0,9786,Unknown,Stacey Ortega,Country_271835
+partnership,0.81368136,9786,262157542,0,9786,Unknown,262157542,Unknown
+partnership,0.8377153,9786,979893388,0,9786,Unknown,979893388,Unknown
+partnership,0.9278997,9786,Qingdao Kaiyuan Seafoods,0,9786,Unknown,Qingdao Kaiyuan Seafoods,Unknown
+partnership,0.8677555,Jeremy Norris,SeaSpray Wave SRL Solutions,0,Jeremy Norris,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.85524404,Ocean Tuna,262157542,0,Ocean Tuna,Unknown,262157542,Unknown
+partnership,0.82291484,Ocean Tuna,46194,0,Ocean Tuna,Unknown,46194,Unknown
+partnership,0.8634586,262157542,46194,0,262157542,Unknown,46194,Unknown
+family_relationship,0.8627794,262157542,2230601,0,262157542,Unknown,2230601,Unknown
+family_relationship,0.9393127,262157542,75835980,0,262157542,Unknown,75835980,Unknown
+membership,0.8025472,262157542,4,0,262157542,Unknown,4,Unknown
+partnership,0.801934,262157542,PC,0,262157542,Unknown,PC,Unknown
+partnership,0.80010974,262157542,39,0,262157542,Unknown,39,Unknown
+partnership,0.800031,262157542,6406040,0,262157542,Unknown,6406040,Unknown
+ownership,0.8415225,262157542,Petroleum Vapor Intrusion,0,262157542,Unknown,Petroleum Vapor Intrusion,Unknown
+partnership,0.80239207,262157542,185040354,0,262157542,Unknown,185040354,Unknown
+family_relationship,0.83264875,262157542,903311212,0,262157542,Unknown,903311212,Unknown
+family_relationship,0.85138786,9204971,262157542,0,9204971,Unknown,262157542,Unknown
+family_relationship,0.92770725,2230601,262157542,0,2230601,Unknown,262157542,Unknown
+ownership,0.8256529,Explorer,Ocean Fisheries Llc,0,Explorer,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8049549,Explorer,Ocean Fisheries Llc,1,Explorer,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8646559,Explorer,SeaSpray Wave SRL Solutions,0,Explorer,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8618666,36295,Fish Sea,0,36295,Unknown,Fish Sea,Unknown
+membership,0.8173479,36295,Sea Products,0,36295,Unknown,Sea Products,Unknown
+ownership,0.88914055,Jeremiah Delacruz,âsquids,0,Jeremiah Delacruz,Country_271835,âsquids,Unknown
+ownership,0.90926915,Jeremiah Delacruz,âclams,0,Jeremiah Delacruz,Country_271835,âclams,Unknown
+ownership,0.9299289,âsquids,âclams,0,âsquids,Unknown,âclams,Unknown
+membership,0.94389224,âsquids,Sea Products,0,âsquids,Unknown,Sea Products,Unknown
+ownership,0.9086055,âsquids,3506021,0,âsquids,Unknown,3506021,Unknown
+membership,0.9226187,âclams,Sea Products,0,âclams,Unknown,Sea Products,Unknown
+ownership,0.89450693,âclams,3506021,0,âclams,Unknown,3506021,Unknown
+ownership,0.94209874,Octopus,Jeremiah Delacruz,0,Octopus,Unknown,Jeremiah Delacruz,Country_271835
+ownership,0.9202638,Octopus,âsquids,0,Octopus,Unknown,âsquids,Unknown
+ownership,0.93791336,Octopus,âclams,0,Octopus,Unknown,âclams,Unknown
+membership,0.8996299,60253,âsquids,0,60253,Unknown,âsquids,Unknown
+membership,0.937795,60253,âclams,0,60253,Unknown,âclams,Unknown
+membership,0.8889137,60253,Sea Products,0,60253,Unknown,Sea Products,Unknown
+partnership,0.899521,13015105,Sea Products,0,13015105,Unknown,Sea Products,Unknown
+partnership,0.89351773,13015105,3506021,0,13015105,Unknown,3506021,Unknown
+membership,0.89433277,âSocioeconomic,âsquids,0,âSocioeconomic,Unknown,âsquids,Unknown
+partnership,0.91871035,âSocioeconomic,âclams,0,âSocioeconomic,Unknown,âclams,Unknown
+partnership,0.8067338,âSocioeconomic,3506021,0,âSocioeconomic,Unknown,3506021,Unknown
+ownership,0.82370836,Jeffrey Yates,Mar de Cristalino Co,0,Jeffrey Yates,Country_271835,Mar de Cristalino Co,Unknown
+ownership,0.8185757,Jeffrey Yates,903311212,0,Jeffrey Yates,Country_271835,903311212,Unknown
+partnership,0.8331412,Jeffrey Yates,903311212,1,Jeffrey Yates,Country_271835,903311212,Unknown
+ownership,0.8059453,Jeffrey Yates,903311212,2,Jeffrey Yates,Country_271835,903311212,Unknown
+partnership,0.81653965,Jeffrey Yates,Mar del Oeste Pic,0,Jeffrey Yates,Country_271835,Mar del Oeste Pic,Vesperlandia
+ownership,0.8101527,1465792,png xi  Line,0,1465792,Unknown,png xi  Line,Country_628643
+membership,0.86018044,760402,48115,0,760402,Unknown,48115,Unknown
+family_relationship,0.85366446,760402,Today,0,760402,Unknown,Today,Unknown
+partnership,0.88582915,760402,png xi  Line,0,760402,Unknown,png xi  Line,Country_628643
+family_relationship,0.8090638,760402,Mar del Oeste Pic,0,760402,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8298918,760402,903311212,0,760402,Unknown,903311212,Unknown
+ownership,0.82069683,Cape of Good Hope  Oyj,West Bengal S.A. de C.V.,0,Cape of Good Hope  Oyj,Country_271835,West Bengal S.A. de C.V.,Unknown
+membership,0.8231014,Cape of Good Hope  Oyj,116070050,0,Cape of Good Hope  Oyj,Country_271835,116070050,Unknown
+ownership,0.8314629,Cape of Good Hope  Oyj,Mar del Oeste Pic,0,Cape of Good Hope  Oyj,Country_271835,Mar del Oeste Pic,Vesperlandia
+membership,0.8652181,Cape of Good Hope  Oyj,Mar del Oeste Pic,1,Cape of Good Hope  Oyj,Country_271835,Mar del Oeste Pic,Vesperlandia
+membership,0.81837124,705283b0-cdb7-4f0a-8481-b3fea243a8e5,Shellfish Chile SA,0,705283b0-cdb7-4f0a-8481-b3fea243a8e5,Unknown,Shellfish Chile SA,Unknown
+membership,0.83769524,705283b0-cdb7-4f0a-8481-b3fea243a8e5,png xi  Line,0,705283b0-cdb7-4f0a-8481-b3fea243a8e5,Unknown,png xi  Line,Country_628643
+partnership,0.81405604,705283b0-cdb7-4f0a-8481-b3fea243a8e5,png xi  Line,1,705283b0-cdb7-4f0a-8481-b3fea243a8e5,Unknown,png xi  Line,Country_628643
+family_relationship,0.9401418,Boat,40213337,0,Boat,Unknown,40213337,Unknown
+family_relationship,0.94456553,Boat,Teresa Rivera,0,Boat,Unknown,Teresa Rivera,Country_271835
+family_relationship,0.8584218,Boat,Spanish Shrimp  Carriers,0,Boat,Unknown,Spanish Shrimp  Carriers,Nalakond
+ownership,0.8960638,salmon,George Ramirez,0,salmon,Unknown,George Ramirez,Country_271835
+ownership,0.85932136,George Ramirez,d5b94ebc-e03a-438e-872b-a15db349a748,0,George Ramirez,Country_271835,d5b94ebc-e03a-438e-872b-a15db349a748,Unknown
+ownership,0.80184597,7320771,Spanish Shrimp  Carriers,0,7320771,Unknown,Spanish Shrimp  Carriers,Nalakond
+ownership,0.873377,7320771,Guessl,0,7320771,Unknown,Guessl,Unknown
+ownership,0.8154269,7320771,Federated,0,7320771,Unknown,Federated,Unknown
+membership,0.8816011,94760735,Guessl,0,94760735,Unknown,Guessl,Unknown
+membership,0.80050755,Aleut Community St,KanuuxÌ,0,Aleut Community St,Unknown,KanuuxÌ,Unknown
+membership,0.80434686,Aleut Community St,9488645,0,Aleut Community St,Unknown,9488645,Unknown
+membership,0.894786,KanuuxÌ,9488645,0,KanuuxÌ,Unknown,9488645,Unknown
+membership,0.88743275,e8036bce-0679-41d2-aa7b-d444163ae65a,KanuuxÌ,0,e8036bce-0679-41d2-aa7b-d444163ae65a,Unknown,KanuuxÌ,Unknown
+membership,0.8909313,e8036bce-0679-41d2-aa7b-d444163ae65a,9488645,0,e8036bce-0679-41d2-aa7b-d444163ae65a,Unknown,9488645,Unknown
+ownership,0.88511235,e8036bce-0679-41d2-aa7b-d444163ae65a,âAlaÄum KanuuxÌ,0,e8036bce-0679-41d2-aa7b-d444163ae65a,Unknown,âAlaÄum KanuuxÌ,Unknown
+partnership,0.8582955,42603647,8544797,0,42603647,Unknown,8544797,Unknown
+partnership,0.8182903,42603647,5070599,0,42603647,Unknown,5070599,Unknown
+partnership,0.8544299,42603647,2989,0,42603647,Unknown,2989,Unknown
+partnership,0.8359397,42603647,8966,0,42603647,Unknown,8966,Unknown
+partnership,0.8622964,42603647,39,0,42603647,Unknown,39,Unknown
+partnership,0.83850676,42603647,7298083,0,42603647,Unknown,7298083,Unknown
+partnership,0.8084986,8544797,39,0,8544797,Unknown,39,Unknown
+partnership,0.86337566,5070599,2989,0,5070599,Unknown,2989,Unknown
+partnership,0.8453294,5070599,8966,0,5070599,Unknown,8966,Unknown
+partnership,0.86661536,5070599,39,0,5070599,Unknown,39,Unknown
+partnership,0.8467373,5070599,7298083,0,5070599,Unknown,7298083,Unknown
+partnership,0.84270453,8966,39,0,8966,Unknown,39,Unknown
+partnership,0.8293097,8966,7298083,0,8966,Unknown,7298083,Unknown
+membership,0.8187921,39,647724,0,39,Unknown,647724,Unknown
+membership,0.8588973,e53552bc-174b-4799-b96b-c23cfa0731cb,9166,0,e53552bc-174b-4799-b96b-c23cfa0731cb,Unknown,9166,Unknown
+family_relationship,0.84640205,e53552bc-174b-4799-b96b-c23cfa0731cb,5337,0,e53552bc-174b-4799-b96b-c23cfa0731cb,Unknown,5337,Unknown
+family_relationship,0.88288784,e53552bc-174b-4799-b96b-c23cfa0731cb,637608,0,e53552bc-174b-4799-b96b-c23cfa0731cb,Unknown,637608,Unknown
+ownership,0.86652917,48,475,0,48,Unknown,475,Unknown
+membership,0.8177947,48,Amanda Becker,0,48,Unknown,Amanda Becker,Country_271835
+ownership,0.8385719,48,6406040,0,48,Unknown,6406040,Unknown
+ownership,0.8665668,48,Amanda Rogers,0,48,Unknown,Amanda Rogers,Country_271835
+ownership,0.8154086,48,28890617,0,48,Unknown,28890617,Unknown
+ownership,0.85446984,48,png xi  Line,0,48,Unknown,png xi  Line,Country_628643
+family_relationship,0.822751,c14a3dc1-59d0-4b92-b9f3-331e51912787,979893388,0,c14a3dc1-59d0-4b92-b9f3-331e51912787,Unknown,979893388,Unknown
+ownership,0.834428,505943,3506021,0,505943,Unknown,3506021,Unknown
+ownership,0.93146694,505943,185040354,0,505943,Unknown,185040354,Unknown
+family_relationship,0.80601674,505943,903311212,0,505943,Unknown,903311212,Unknown
+membership,0.80965346,79538,Kevin Norton,0,79538,Unknown,Kevin Norton,Country_271835
+membership,0.8691713,79538,685607,0,79538,Unknown,685607,Unknown
+membership,0.8266207,79538,Danielle Camacho,0,79538,Unknown,Danielle Camacho,Country_271835
+partnership,0.847372,79538,âHe,0,79538,Unknown,âHe,Unknown
+membership,0.90949243,79538,Stacey Ortiz,0,79538,Unknown,Stacey Ortiz,Country_271835
+membership,0.8408821,79538,860600018,0,79538,Unknown,860600018,Unknown
+partnership,0.9277529,52093e45-b873-4300-9612-8dfc291b1339,200640636,0,52093e45-b873-4300-9612-8dfc291b1339,Unknown,200640636,Unknown
+partnership,0.9256498,52093e45-b873-4300-9612-8dfc291b1339,3506021,0,52093e45-b873-4300-9612-8dfc291b1339,Unknown,3506021,Unknown
+partnership,0.900681,52093e45-b873-4300-9612-8dfc291b1339,300668979,0,52093e45-b873-4300-9612-8dfc291b1339,Unknown,300668979,Unknown
+partnership,0.93504727,52093e45-b873-4300-9612-8dfc291b1339,Stacey Ortega,0,52093e45-b873-4300-9612-8dfc291b1339,Unknown,Stacey Ortega,Country_271835
+family_relationship,0.93646497,Christopher Miller,Morgan Black,0,Christopher Miller,Country_271835,Morgan Black,Country_271835
+partnership,0.84656453,Christopher Miller,299,0,Christopher Miller,Country_271835,299,Unknown
+family_relationship,0.8565448,Christopher Miller,Scott Anderson,0,Christopher Miller,Country_271835,Scott Anderson,Country_271835
+family_relationship,0.9063399,2ceda972-c633-4a88-bbe8-a4fe48cb5555,9786,0,2ceda972-c633-4a88-bbe8-a4fe48cb5555,Unknown,9786,Unknown
+family_relationship,0.87080437,2ceda972-c633-4a88-bbe8-a4fe48cb5555,Spanish Shrimp  Carriers,0,2ceda972-c633-4a88-bbe8-a4fe48cb5555,Unknown,Spanish Shrimp  Carriers,Nalakond
+family_relationship,0.8265621,2ceda972-c633-4a88-bbe8-a4fe48cb5555,83,0,2ceda972-c633-4a88-bbe8-a4fe48cb5555,Unknown,83,Unknown
+family_relationship,0.8564394,2ceda972-c633-4a88-bbe8-a4fe48cb5555,Torremolinos,0,2ceda972-c633-4a88-bbe8-a4fe48cb5555,Unknown,Torremolinos,Unknown
+family_relationship,0.8402125,2ceda972-c633-4a88-bbe8-a4fe48cb5555,International-Convention,0,2ceda972-c633-4a88-bbe8-a4fe48cb5555,Unknown,International-Convention,Unknown
+family_relationship,0.8782165,Torremolinos,International-Convention,0,Torremolinos,Unknown,International-Convention,Unknown
+partnership,0.8156032,International-Convention,Spanish Shrimp  Carriers,0,International-Convention,Unknown,Spanish Shrimp  Carriers,Nalakond
+partnership,0.86565757,imo,Torremolinos,0,imo,Unknown,Torremolinos,Unknown
+partnership,0.8562619,imo,International-Convention,0,imo,Unknown,International-Convention,Unknown
+ownership,0.830997,Spy,903311212,0,Spy,Unknown,903311212,Unknown
+family_relationship,0.94320035,Thomas Morales,Christopher Miller,0,Thomas Morales,Country_542476,Christopher Miller,Country_271835
+family_relationship,0.9120647,Thomas Morales,Morgan Black,0,Thomas Morales,Country_542476,Morgan Black,Country_271835
+family_relationship,0.90592545,Thomas Morales,Seth Kelley,0,Thomas Morales,Country_542476,Seth Kelley,Country_271835
+family_relationship,0.8979562,Thomas Morales,John Barnes DDS,0,Thomas Morales,Country_542476,John Barnes DDS,Country_271835
+family_relationship,0.86008865,Thomas Morales,Grace Perez,0,Thomas Morales,Country_542476,Grace Perez,Country_271835
+family_relationship,0.81228715,Thomas Morales,Travis Rivera,0,Thomas Morales,Country_542476,Travis Rivera,Country_271835
+family_relationship,0.86153245,Thomas Morales,Brandy Williams,0,Thomas Morales,Country_542476,Brandy Williams,Country_271835
+ownership,0.81957275,Thomas Morales,ââ,0,Thomas Morales,Country_542476,ââ,Unknown
+partnership,0.86877257,Thomas Morales,SeaSpray Wave SRL Solutions,0,Thomas Morales,Country_542476,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.88123304,Thomas Morales,Ocean Fisheries Llc,0,Thomas Morales,Country_542476,Ocean Fisheries Llc,Unknown
+membership,0.80555433,Morgan Black,Aqua Ambassadors Limited Liability Company,0,Morgan Black,Country_271835,Aqua Ambassadors Limited Liability Company,Unknown
+membership,0.8499088,Morgan Black,Kagera River  GmbH & Co. KG Delivery,0,Morgan Black,Country_271835,Kagera River  GmbH & Co. KG Delivery,Country_271835
+membership,0.8410441,Morgan Black,Sea Luxe Oceanography Kga Transportation,0,Morgan Black,Country_271835,Sea Luxe Oceanography Kga Transportation,Unknown
+ownership,0.83114743,Morgan Black,SeaSpray Wave SRL Solutions,0,Morgan Black,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.822587,Kristine Vaughn,Morgan Black,0,Kristine Vaughn,Oceanus,Morgan Black,Country_271835
+membership,0.8329927,Kristine Vaughn,860600018,0,Kristine Vaughn,Oceanus,860600018,Unknown
+family_relationship,0.823137,Kristine Vaughn,Anna Smith,0,Kristine Vaughn,Oceanus,Anna Smith,Marebak
+family_relationship,0.94104725,Kristine Vaughn,Stacey Ortiz,0,Kristine Vaughn,Oceanus,Stacey Ortiz,Country_271835
+family_relationship,0.9056474,Carlos White,Morgan Black,0,Carlos White,Country_271835,Morgan Black,Country_271835
+membership,0.82173383,Carlos White,ï¬sh,0,Carlos White,Country_271835,ï¬sh,Unknown
+partnership,0.8825854,Carlos White,34153143,0,Carlos White,Country_271835,34153143,Unknown
+family_relationship,0.8235788,Carlos White,Calvin Salas,0,Carlos White,Country_271835,Calvin Salas,Marebak
+partnership,0.8209345,Carlos White,âTheoretically,0,Carlos White,Country_271835,âTheoretically,Unknown
+family_relationship,0.82824755,Carlos White,Jonathan Torres,0,Carlos White,Country_271835,Jonathan Torres,Uzilandor
+family_relationship,0.90223944,Carlos White,Gary Dunn,0,Carlos White,Country_271835,Gary Dunn,Country_271835
+ownership,0.8439435,Carlos White,47924922,0,Carlos White,Country_271835,47924922,Unknown
+family_relationship,0.84604305,Robert Adams,Brandon Jackson,0,Robert Adams,Country_271835,Brandon Jackson,Country_271835
+family_relationship,0.84586096,Robert Adams,Alyssa Mccoy,0,Robert Adams,Country_271835,Alyssa Mccoy,Country_271835
+family_relationship,0.85860074,Robert Adams,Michael Baker,0,Robert Adams,Country_271835,Michael Baker,Country_271835
+family_relationship,0.88894504,Robert Adams,Lauren Garner,0,Robert Adams,Country_271835,Lauren Garner,Country_271835
+membership,0.9526592,Robert Adams,âshark finâ,0,Robert Adams,Country_271835,âshark finâ,Unknown
+ownership,0.80917835,Robert Adams,Ocean Fisheries Llc,0,Robert Adams,Country_271835,Ocean Fisheries Llc,Unknown
+membership,0.8670835,Robert Adams,903311212,0,Robert Adams,Country_271835,903311212,Unknown
+membership,0.8355387,âHe,Joshua Hammond,0,âHe,Unknown,Joshua Hammond,Country_271835
+ownership,0.8363937,979893388,Oceanfront Oasis Inc Carriers,0,979893388,Unknown,Oceanfront Oasis Inc Carriers,Unknown
+family_relationship,0.83718294,979893388,Sept,0,979893388,Unknown,Sept,Unknown
+family_relationship,0.8596191,979893388,John Gonzalez,0,979893388,Unknown,John Gonzalez,Nalakond
+membership,0.8037018,979893388,Amy Wise,0,979893388,Unknown,Amy Wise,Country_271835
+family_relationship,0.8509253,979893388,Jennifer Reilly,0,979893388,Unknown,Jennifer Reilly,Country_271835
+family_relationship,0.8067644,979893388,Krystal Lee,0,979893388,Unknown,Krystal Lee,Country_271835
+partnership,0.8316039,979893388,ARA Contraalmirante Cordero,0,979893388,Unknown,ARA Contraalmirante Cordero,Unknown
+family_relationship,0.8403481,979893388,4,0,979893388,Unknown,4,Unknown
+ownership,0.8241445,979893388,John Barnes DDS,0,979893388,Unknown,John Barnes DDS,Country_271835
+ownership,0.8138306,979893388,brianbushard,0,979893388,Unknown,brianbushard,Unknown
+family_relationship,0.88034105,979893388,Jeremy Woodard,0,979893388,Unknown,Jeremy Woodard,Country_271835
+membership,0.81853545,979893388,Paul Wiley,0,979893388,Unknown,Paul Wiley,Country_271835
+ownership,0.8148093,979893388,Miranda Long,0,979893388,Unknown,Miranda Long,Country_271835
+membership,0.86393744,979893388,Michelle Kelley,0,979893388,Unknown,Michelle Kelley,Country_271835
+membership,0.8872774,979893388,Austin Simpson,0,979893388,Unknown,Austin Simpson,Country_271835
+membership,0.8099027,979893388,su y CJSC Canal,0,979893388,Unknown,su y CJSC Canal,Country_271835
+membership,0.83982015,979893388,Robert Vega,0,979893388,Unknown,Robert Vega,Country_271835
+membership,0.8082725,979893388,ââ,0,979893388,Unknown,ââ,Unknown
+family_relationship,0.8689309,979893388,Christopher Miller,0,979893388,Unknown,Christopher Miller,Country_271835
+membership,0.8718408,979893388,âenticedâ,0,979893388,Unknown,âenticedâ,Unknown
+ownership,0.88416487,979893388,13d79d632036,0,979893388,Unknown,13d79d632036,Unknown
+family_relationship,0.8892602,979893388,png xi  Line,0,979893388,Unknown,png xi  Line,Country_628643
+family_relationship,0.81140435,979893388,png xi  Line,1,979893388,Unknown,png xi  Line,Country_628643
+family_relationship,0.85570407,979893388,Mar del Oeste Pic,0,979893388,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.8434077,e1d7b4ac-ed31-42a4-9375-4afb0f78f276,Mary Horton,0,e1d7b4ac-ed31-42a4-9375-4afb0f78f276,Unknown,Mary Horton,Country_271835
+family_relationship,0.82122797,e1d7b4ac-ed31-42a4-9375-4afb0f78f276,979893388,0,e1d7b4ac-ed31-42a4-9375-4afb0f78f276,Unknown,979893388,Unknown
+family_relationship,0.8549092,Mary Horton,Jeremy Norris,0,Mary Horton,Country_271835,Jeremy Norris,Country_271835
+family_relationship,0.90018874,Mary Horton,Angela Spencer,0,Mary Horton,Country_271835,Angela Spencer,Country_271835
+family_relationship,0.92963344,Mary Horton,979893388,0,Mary Horton,Country_271835,979893388,Unknown
+membership,0.87128115,1da2bc5a-e590-41c9-9982-2ade48dfc426,Spanish Shrimp  Carriers,0,1da2bc5a-e590-41c9-9982-2ade48dfc426,Unknown,Spanish Shrimp  Carriers,Nalakond
+partnership,0.80130005,842229565,39,0,842229565,Unknown,39,Unknown
+membership,0.9197934,Dylan Roberts,Hang,0,Dylan Roberts,Country_271835,Hang,Unknown
+membership,0.8346299,Dylan Roberts,860600018,0,Dylan Roberts,Country_271835,860600018,Unknown
+membership,0.8560779,Hang,860600018,0,Hang,Unknown,860600018,Unknown
+ownership,0.83871686,41695239,489,0,41695239,Unknown,489,Unknown
+ownership,0.9025884,7c54563c-577c-462f-8e30-389b510c776a,Mar del Oeste Pic,0,7c54563c-577c-462f-8e30-389b510c776a,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.8831196,Morning,Jennifer Simmons,0,Morning,Unknown,Jennifer Simmons,Country_271835
+ownership,0.8336785,Morning,SeaSpray Wave SRL Solutions,0,Morning,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.83826226,Jennifer Simmons,SeaSpray Wave SRL Solutions,0,Jennifer Simmons,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.8380365,678,hi xng BV Carriers,0,678,Unknown,hi xng BV Carriers,Oceanus
+membership,0.8969939,678,Mar del Oeste Pic,0,678,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.80257833,678,903311212,0,678,Unknown,903311212,Unknown
+family_relationship,0.8725732,6393,3506021,0,6393,Unknown,3506021,Unknown
+family_relationship,0.85020775,34f0cbbf-83c3-4e09-ad7a-b94a778f7c12,SeaSpray Wave SRL Solutions,0,34f0cbbf-83c3-4e09-ad7a-b94a778f7c12,Unknown,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.833308,Madison Edwards,ââ,0,Madison Edwards,Country_271835,ââ,Unknown
+partnership,0.83980256,Calvin Salas,âTheoretically,0,Calvin Salas,Marebak,âTheoretically,Unknown
+family_relationship,0.84546685,Calvin Salas,Jonathan Torres,0,Calvin Salas,Marebak,Jonathan Torres,Uzilandor
+family_relationship,0.9120568,Calvin Salas,Gary Dunn,0,Calvin Salas,Marebak,Gary Dunn,Country_271835
+family_relationship,0.8566364,Calvin Salas,Morgan Black,0,Calvin Salas,Marebak,Morgan Black,Country_271835
+family_relationship,0.84837514,Calvin Salas,Tristan Johnson,0,Calvin Salas,Marebak,Tristan Johnson,Wysterion
+membership,0.80752003,685607,Kristin Dawson,0,685607,Unknown,Kristin Dawson,Country_271835
+membership,0.85596204,492238508,3506021,0,492238508,Unknown,3506021,Unknown
+membership,0.8617591,Anita Tate,492238508,0,Anita Tate,Country_709784,492238508,Unknown
+membership,0.841796,Anita Tate,3506021,0,Anita Tate,Country_709784,3506021,Unknown
+membership,0.854402,Anita Tate,4447143,0,Anita Tate,Country_709784,4447143,Unknown
+family_relationship,0.9296665,Anita Tate,Thomas Morales,0,Anita Tate,Country_709784,Thomas Morales,Country_542476
+ownership,0.8760136,Anita Tate,âCinder,0,Anita Tate,Country_709784,âCinder,Unknown
+ownership,0.81652355,Anita Tate,Pitâ,0,Anita Tate,Country_709784,Pitâ,Unknown
+ownership,0.877691,Anita Tate,Kariba Dam  N.V. Brothers,0,Anita Tate,Country_709784,Kariba Dam  N.V. Brothers,Unknown
+membership,0.95096976,13,36b70b18-465a-442f-bfbe-cedb85d48acc,0,13,Unknown,36b70b18-465a-442f-bfbe-cedb85d48acc,Unknown
+partnership,0.8773374,13,Mar del Oeste Pic,0,13,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.93136925,13,png xi  Line,0,13,Unknown,png xi  Line,Country_628643
+family_relationship,0.94754744,reefers,Tuna Vietnam,0,reefers,Unknown,Tuna Vietnam,Unknown
+family_relationship,0.92690325,reefers,77b46bc7-7e31-41a0-973c-e633011d21b0,0,reefers,Unknown,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown
+partnership,0.9408794,Kimberly Lara,Ocean Fisheries Llc,0,Kimberly Lara,Country_271835,Ocean Fisheries Llc,Unknown
+partnership,0.8055281,Danielle Camacho,âHe,0,Danielle Camacho,Country_271835,âHe,Unknown
+family_relationship,0.80715287,Danielle Camacho,Jo Francis,0,Danielle Camacho,Country_271835,Jo Francis,Country_271835
+family_relationship,0.8147358,Danielle Camacho,Stephanie Thompson,0,Danielle Camacho,Country_271835,Stephanie Thompson,Country_271835
+family_relationship,0.8573944,Danielle Camacho,Sabrina Zamora,0,Danielle Camacho,Country_271835,Sabrina Zamora,Country_271835
+family_relationship,0.87889856,John Barnes DDS,Grace Perez,0,John Barnes DDS,Country_271835,Grace Perez,Country_271835
+family_relationship,0.84362286,John Barnes DDS,Travis Rivera,0,John Barnes DDS,Country_271835,Travis Rivera,Country_271835
+family_relationship,0.89135605,John Barnes DDS,Brandy Williams,0,John Barnes DDS,Country_271835,Brandy Williams,Country_271835
+ownership,0.84565175,John Barnes DDS,ââ,0,John Barnes DDS,Country_271835,ââ,Unknown
+ownership,0.8010385,9590898,Joshua Garrett,0,9590898,Unknown,Joshua Garrett,Arreciviento
+membership,0.8307211,9590898,95230042,0,9590898,Unknown,95230042,Unknown
+ownership,0.81204915,9590898,3308429,0,9590898,Unknown,3308429,Unknown
+ownership,0.8504263,9590898,979893388,0,9590898,Unknown,979893388,Unknown
+ownership,0.8359313,Joshua Garrett,979893388,0,Joshua Garrett,Arreciviento,979893388,Unknown
+ownership,0.89045435,21240092,4657860,0,21240092,Unknown,4657860,Unknown
+membership,0.9057934,21240092,979893388,0,21240092,Unknown,979893388,Unknown
+membership,0.8273782,7234,21240092,0,7234,Unknown,21240092,Unknown
+family_relationship,0.9152987,Mary Jenkins,262157542,0,Mary Jenkins,Country_271835,262157542,Unknown
+family_relationship,0.93735045,Mary Jenkins,75835980,0,Mary Jenkins,Country_271835,75835980,Unknown
+partnership,0.8666986,23774,185040354,0,23774,Unknown,185040354,Unknown
+family_relationship,0.8841425,Nicole Smith,Fisheries Inc,0,Nicole Smith,Luminsia,Fisheries Inc,Unknown
+ownership,0.88870114,Nicole Smith,185040354,0,Nicole Smith,Luminsia,185040354,Unknown
+partnership,0.83668834,Nicole Smith,7298083,0,Nicole Smith,Luminsia,7298083,Unknown
+partnership,0.8763803,Nicole Smith,6406040,0,Nicole Smith,Luminsia,6406040,Unknown
+family_relationship,0.83445495,Nicole Smith,Justin Fowler,0,Nicole Smith,Luminsia,Justin Fowler,Country_57382
+partnership,0.82451403,Nicole Smith,120,0,Nicole Smith,Luminsia,120,Unknown
+partnership,0.83538985,Nicole Smith,2422788,0,Nicole Smith,Luminsia,2422788,Unknown
+partnership,0.85598564,Nicole Smith,Marine Foods,0,Nicole Smith,Luminsia,Marine Foods,Unknown
+partnership,0.868807,Nicole Smith,MCDP,0,Nicole Smith,Luminsia,MCDP,Unknown
+membership,0.811525,Nicole Smith,c97073d1-61a4-4a06-a189-8b4642a699e1,0,Nicole Smith,Luminsia,c97073d1-61a4-4a06-a189-8b4642a699e1,Unknown
+membership,0.82014894,9992346,227,0,9992346,Unknown,227,Unknown
+membership,0.8706289,9992346,185040354,0,9992346,Unknown,185040354,Unknown
+membership,0.89615965,227,185040354,0,227,Unknown,185040354,Unknown
+family_relationship,0.88206136,Christopher Hernandez,Calvin Salas,0,Christopher Hernandez,Country_271835,Calvin Salas,Marebak
+membership,0.88603276,116070050,West Bengal S.A. de C.V.,0,116070050,Unknown,West Bengal S.A. de C.V.,Unknown
+membership,0.8504435,613465161,b47086b0-e225-436a-83b1-2cf5cda4dbd5,0,613465161,Unknown,b47086b0-e225-436a-83b1-2cf5cda4dbd5,Unknown
+family_relationship,0.9157868,613465161,krxd,0,613465161,Unknown,krxd,Unknown
+membership,0.874296,Jessica Owens,979893388,0,Jessica Owens,Country_271835,979893388,Unknown
+membership,0.8868683,Jessica Owens,SeaSpray Wave SRL Solutions,0,Jessica Owens,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+membership,0.89303756,Jessica Owens,Mar del Oeste Pic,0,Jessica Owens,Country_271835,Mar del Oeste Pic,Vesperlandia
+partnership,0.80396724,67909,6393,0,67909,Unknown,6393,Unknown
+membership,0.8686252,67909,3506021,0,67909,Unknown,3506021,Unknown
+ownership,0.810683,1012,6406040,0,1012,Unknown,6406040,Unknown
+membership,0.8713665,1012,99661834,0,1012,Unknown,99661834,Unknown
+ownership,0.820158,724,185040354,0,724,Unknown,185040354,Unknown
+partnership,0.8627963,1f899410-3447-48e7-bcb3-cbff10619e86,James Hernandez,0,1f899410-3447-48e7-bcb3-cbff10619e86,Unknown,James Hernandez,Country_271835
+partnership,0.8044948,Lauren Jackson DDS,ï¬shes,0,Lauren Jackson DDS,Country_271835,ï¬shes,Unknown
+partnership,0.9255303,ï¬sh,ï¬shes,0,ï¬sh,Unknown,ï¬shes,Unknown
+family_relationship,0.92980814,Darren Wilson,Andrew Miller,0,Darren Wilson,Country_990614,Andrew Miller,Country_271835
+family_relationship,0.9071046,Darren Wilson,John Barnes DDS,0,Darren Wilson,Country_990614,John Barnes DDS,Country_271835
+partnership,0.8290013,Darren Wilson,2038650116,0,Darren Wilson,Country_990614,2038650116,Unknown
+family_relationship,0.9314293,Andrew Miller,John Barnes DDS,0,Andrew Miller,Country_271835,John Barnes DDS,Country_271835
+membership,0.81502956,506986590,7321,0,506986590,Unknown,7321,Unknown
+membership,0.8173323,506986590,39,0,506986590,Unknown,39,Unknown
+family_relationship,0.803925,7321,39,0,7321,Unknown,39,Unknown
+ownership,0.9361835,7548555,ARA Contraalmirante Cordero,0,7548555,Unknown,ARA Contraalmirante Cordero,Unknown
+membership,0.8767191,7548555,Ocean Patrol,0,7548555,Unknown,Ocean Patrol,Unknown
+membership,0.936761,7548555,ARA Bouchard,0,7548555,Unknown,ARA Bouchard,Unknown
+family_relationship,0.80463594,7548555,979893388,0,7548555,Unknown,979893388,Unknown
+membership,0.89453554,461553,l y S.A. de C.V. International,0,461553,Unknown,l y S.A. de C.V. International,Unknown
+ownership,0.8717108,Rebecca Fox,Mar del Oeste Pic,0,Rebecca Fox,Oceanus,Mar del Oeste Pic,Vesperlandia
+membership,0.88066703,d6968538-6f18-4a1c-a4e2-59de3c0e25c2,Brandy Williams,0,d6968538-6f18-4a1c-a4e2-59de3c0e25c2,Unknown,Brandy Williams,Country_271835
+partnership,0.8481076,d6968538-6f18-4a1c-a4e2-59de3c0e25c2,Mar del Oeste Pic,0,d6968538-6f18-4a1c-a4e2-59de3c0e25c2,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.8161195,Frederick Hunter,Amanda Becker,0,Frederick Hunter,Oceanus,Amanda Becker,Country_271835
+ownership,0.82823896,06c161ac-e601-493f-b8df-839382e16a74,Mar del Oeste Pic,0,06c161ac-e601-493f-b8df-839382e16a74,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.8350976,USS Hurricane,PC,0,USS Hurricane,Unknown,PC,Unknown
+partnership,0.91522086,PC,1559,0,PC,Unknown,1559,Unknown
+membership,0.9106814,PC,185040354,0,PC,Unknown,185040354,Unknown
+membership,0.8762413,PC,6406040,0,PC,Unknown,6406040,Unknown
+ownership,0.83811104,PC,99661834,0,PC,Unknown,99661834,Unknown
+ownership,0.83973926,PC,39033859,0,PC,Unknown,39033859,Unknown
+ownership,0.819525,Tara Hanson,77b46bc7-7e31-41a0-973c-e633011d21b0,0,Tara Hanson,Country_271835,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown
+family_relationship,0.8946983,Tara Hanson,Wesley Vasquez,0,Tara Hanson,Country_271835,Wesley Vasquez,Country_271835
+family_relationship,0.86165565,Anthony Le,Danielle Camacho,0,Anthony Le,Marebak,Danielle Camacho,Country_271835
+family_relationship,0.82031506,Anthony Le,Tonya Key,0,Anthony Le,Marebak,Tonya Key,Country_699698
+family_relationship,0.8761302,Anthony Le,Anna Smith,0,Anthony Le,Marebak,Anna Smith,Marebak
+family_relationship,0.89096874,Jo Francis,Stephanie Thompson,0,Jo Francis,Country_271835,Stephanie Thompson,Country_271835
+family_relationship,0.8300705,Hannah Chandler,Danielle Camacho,0,Hannah Chandler,Country_271835,Danielle Camacho,Country_271835
+membership,0.85430425,91,Jennifer Barber,0,91,Unknown,Jennifer Barber,Country_271835
+partnership,0.83742744,91,Ryan Hudson,0,91,Unknown,Ryan Hudson,Country_271835
+partnership,0.97030824,91,Morgan Black,0,91,Unknown,Morgan Black,Country_271835
+partnership,0.9215463,91,299,0,91,Unknown,299,Unknown
+membership,0.84312,72875,1da2bc5a-e590-41c9-9982-2ade48dfc426,0,72875,Unknown,1da2bc5a-e590-41c9-9982-2ade48dfc426,Unknown
+membership,0.8736126,72875,Spanish Shrimp  Carriers,0,72875,Unknown,Spanish Shrimp  Carriers,Nalakond
+ownership,0.87721705,Heidi Kline,863749817,0,Heidi Kline,Country_443882,863749817,Unknown
+ownership,0.83580244,Heidi Kline,475,0,Heidi Kline,Country_443882,475,Unknown
+membership,0.8264693,475,Amanda Becker,0,475,Unknown,Amanda Becker,Country_271835
+ownership,0.8627166,567217,475,0,567217,Unknown,475,Unknown
+membership,0.80610543,567217,Amanda Becker,0,567217,Unknown,Amanda Becker,Country_271835
+membership,0.80978036,Oliver,Amanda Becker,0,Oliver,Unknown,Amanda Becker,Country_271835
+partnership,0.8891853,Oliver,Danielle Perry,0,Oliver,Unknown,Danielle Perry,Country_271835
+membership,0.85448897,60774,Ocean Fisheries Llc,0,60774,Unknown,Ocean Fisheries Llc,Unknown
+family_relationship,0.8479758,60774,SeaSpray Wave SRL Solutions,0,60774,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8612525,60774,903311212,0,60774,Unknown,903311212,Unknown
+family_relationship,0.8145536,Anna Smith,Michele Black,0,Anna Smith,Marebak,Michele Black,Oceanus
+partnership,0.83665895,760219951,PC,0,760219951,Unknown,PC,Unknown
+partnership,0.88225216,760219951,Mar del Oeste Pic,0,760219951,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.8040362,36744944,Joseph Williams,0,36744944,Unknown,Joseph Williams,Country_271835
+partnership,0.8305336,36744944,68ac10aa-80a3-4b3c-99e5-f5708715ab2c,0,36744944,Unknown,68ac10aa-80a3-4b3c-99e5-f5708715ab2c,Unknown
+membership,0.90055144,36744944,979893388,0,36744944,Unknown,979893388,Unknown
+partnership,0.81029093,36744944,Ocean Fisheries Llc,0,36744944,Unknown,Ocean Fisheries Llc,Unknown
+ownership,0.9171749,6b58646e-1d3a-4b72-b8a0-9f57c296d73d,Ocean Fisheries Llc,0,6b58646e-1d3a-4b72-b8a0-9f57c296d73d,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8210943,6b58646e-1d3a-4b72-b8a0-9f57c296d73d,SeaSpray Wave SRL Solutions,0,6b58646e-1d3a-4b72-b8a0-9f57c296d73d,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.84955347,Samuel Stokes,png xi  Line,0,Samuel Stokes,Country_271835,png xi  Line,Country_628643
+partnership,0.8001326,950574,Pacific Island States United Statesâ,0,950574,Unknown,Pacific Island States United Statesâ,Unknown
+partnership,0.831165,950574,territory American Samoa,0,950574,Unknown,territory American Samoa,Unknown
+partnership,0.8352726,Pacific Island States United Statesâ,territory American Samoa,0,Pacific Island States United Statesâ,Unknown,territory American Samoa,Unknown
+partnership,0.8134318,7892,39,0,7892,Unknown,39,Unknown
+partnership,0.81285846,7892,6406040,0,7892,Unknown,6406040,Unknown
+family_relationship,0.8007731,3433,Spanish Shrimp  Carriers,0,3433,Unknown,Spanish Shrimp  Carriers,Nalakond
+family_relationship,0.91251826,3433,Kara Sullivan,0,3433,Unknown,Kara Sullivan,Country_271835
+family_relationship,0.86786324,Shawna Welch,979893388,0,Shawna Welch,Country_271835,979893388,Unknown
+membership,0.8805014,Shawna Welch,Ocean Fisheries Llc,0,Shawna Welch,Country_271835,Ocean Fisheries Llc,Unknown
+ownership,0.8470033,89526932,48,0,89526932,Unknown,48,Unknown
+ownership,0.8230881,89526932,6406040,0,89526932,Unknown,6406040,Unknown
+membership,0.95109546,c66f5cd5-3891-43ce-a3f8-0147b3d643b1,d5b94ebc-e03a-438e-872b-a15db349a748,0,c66f5cd5-3891-43ce-a3f8-0147b3d643b1,Unknown,d5b94ebc-e03a-438e-872b-a15db349a748,Unknown
+membership,0.9457236,c66f5cd5-3891-43ce-a3f8-0147b3d643b1,032522db-8105-4c26-8142-ae9d5806f7c5,0,c66f5cd5-3891-43ce-a3f8-0147b3d643b1,Unknown,032522db-8105-4c26-8142-ae9d5806f7c5,Unknown
+membership,0.84995043,da7677f8-d1f0-4e35-afe9-4240613e866b,48115,0,da7677f8-d1f0-4e35-afe9-4240613e866b,Unknown,48115,Unknown
+membership,0.80661136,Rhonda Sullivan,48115,0,Rhonda Sullivan,Mawazam,48115,Unknown
+family_relationship,0.8862317,903311212,165e0fe7-6725-4f4c-abc1-3ef485a939b0,0,903311212,Unknown,165e0fe7-6725-4f4c-abc1-3ef485a939b0,Unknown
+ownership,0.9128092,903311212,Mar del Oeste Pic,0,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8137235,903311212,Mar del Oeste Pic,1,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.87646246,903311212,Mar del Oeste Pic,2,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.9136716,903311212,Mar del Oeste Pic,3,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8785192,903311212,Mar del Oeste Pic,4,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.84285223,903311212,Mar del Oeste Pic,5,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.9241358,903311212,Mar del Oeste Pic,6,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.9035419,903311212,Mar del Oeste Pic,7,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.95075,903311212,Mar del Oeste Pic,8,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8882168,903311212,Mar del Oeste Pic,9,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.9324387,903311212,Mar del Oeste Pic,10,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.82123375,903311212,Mar del Oeste Pic,11,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8323136,903311212,Mar del Oeste Pic,12,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.8705595,903311212,Mar del Oeste Pic,13,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8221366,903311212,Mar del Oeste Pic,14,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.87579393,903311212,Mar del Oeste Pic,15,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.86749274,903311212,Mar del Oeste Pic,16,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.9463026,903311212,Mar del Oeste Pic,17,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.8628906,903311212,Mar del Oeste Pic,18,903311212,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.8285434,903311212,84616,0,903311212,Unknown,84616,Unknown
+partnership,0.83308554,903311212,84616,1,903311212,Unknown,84616,Unknown
+family_relationship,0.92788804,903311212,png xi  Line,0,903311212,Unknown,png xi  Line,Country_628643
+membership,0.82826924,903311212,png xi  Line,1,903311212,Unknown,png xi  Line,Country_628643
+partnership,0.918801,903311212,png xi  Line,2,903311212,Unknown,png xi  Line,Country_628643
+partnership,0.8242714,903311212,png xi  Line,3,903311212,Unknown,png xi  Line,Country_628643
+membership,0.82385033,903311212,png xi  Line,4,903311212,Unknown,png xi  Line,Country_628643
+membership,0.8102347,903311212,png xi  Line,5,903311212,Unknown,png xi  Line,Country_628643
+family_relationship,0.87516224,903311212,png xi  Line,6,903311212,Unknown,png xi  Line,Country_628643
+membership,0.8339837,903311212,png xi  Line,7,903311212,Unknown,png xi  Line,Country_628643
+membership,0.8322494,903311212,png xi  Line,8,903311212,Unknown,png xi  Line,Country_628643
+membership,0.8245895,903311212,png xi  Line,9,903311212,Unknown,png xi  Line,Country_628643
+membership,0.88934654,903311212,png xi  Line,10,903311212,Unknown,png xi  Line,Country_628643
+ownership,0.890812,903311212,png xi  Line,11,903311212,Unknown,png xi  Line,Country_628643
+membership,0.9384548,903311212,png xi  Line,12,903311212,Unknown,png xi  Line,Country_628643
+membership,0.80620366,903311212,png xi  Line,13,903311212,Unknown,png xi  Line,Country_628643
+ownership,0.92771316,903311212,png xi  Line,14,903311212,Unknown,png xi  Line,Country_628643
+membership,0.81265485,903311212,png xi  Line,15,903311212,Unknown,png xi  Line,Country_628643
+ownership,0.81873333,903311212,png xi  Line,16,903311212,Unknown,png xi  Line,Country_628643
+family_relationship,0.8969025,903311212,png xi  Line,17,903311212,Unknown,png xi  Line,Country_628643
+membership,0.81846213,903311212,png xi  Line,18,903311212,Unknown,png xi  Line,Country_628643
+family_relationship,0.94144505,903311212,png xi  Line,19,903311212,Unknown,png xi  Line,Country_628643
+family_relationship,0.8570701,903311212,979893388,0,903311212,Unknown,979893388,Unknown
+membership,0.8110981,903311212,979893388,1,903311212,Unknown,979893388,Unknown
+membership,0.9051388,903311212,979893388,2,903311212,Unknown,979893388,Unknown
+membership,0.8002924,903311212,979893388,3,903311212,Unknown,979893388,Unknown
+family_relationship,0.81753856,903311212,979893388,4,903311212,Unknown,979893388,Unknown
+membership,0.80143344,903311212,979893388,5,903311212,Unknown,979893388,Unknown
+family_relationship,0.86049414,903311212,Spanish Shrimp  Carriers,0,903311212,Unknown,Spanish Shrimp  Carriers,Nalakond
+partnership,0.8427866,903311212,Spanish Shrimp  Carriers,1,903311212,Unknown,Spanish Shrimp  Carriers,Nalakond
+membership,0.9055009,903311212,Jeremy Norris,0,903311212,Unknown,Jeremy Norris,Country_271835
+partnership,0.8058832,903311212,Jeremy Norris,1,903311212,Unknown,Jeremy Norris,Country_271835
+partnership,0.81294495,903311212,salmon,0,903311212,Unknown,salmon,Unknown
+partnership,0.82247835,903311212,Ocean Fisheries Llc,0,903311212,Unknown,Ocean Fisheries Llc,Unknown
+family_relationship,0.97610974,903311212,Ocean Fisheries Llc,1,903311212,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.9387605,903311212,Ocean Fisheries Llc,2,903311212,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.84283745,903311212,Ocean Fisheries Llc,3,903311212,Unknown,Ocean Fisheries Llc,Unknown
+ownership,0.8045187,903311212,Ocean Fisheries Llc,4,903311212,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.82995784,903311212,Ocean Fisheries Llc,5,903311212,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.93267256,903311212,Ocean Fisheries Llc,6,903311212,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.94594467,903311212,Ocean Fisheries Llc,7,903311212,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8587282,903311212,Ocean Fisheries Llc,8,903311212,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.8667635,903311212,Ocean Fisheries Llc,9,903311212,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.8631427,903311212,Ocean Fisheries Llc,10,903311212,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.84501684,903311212,Ocean Fisheries Llc,11,903311212,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.80576813,903311212,528,0,903311212,Unknown,528,Unknown
+ownership,0.8826495,903311212,SeaSpray Wave SRL Solutions,0,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8129944,903311212,SeaSpray Wave SRL Solutions,1,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8860713,903311212,SeaSpray Wave SRL Solutions,2,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8199281,903311212,SeaSpray Wave SRL Solutions,3,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.93567574,903311212,SeaSpray Wave SRL Solutions,4,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8502066,903311212,SeaSpray Wave SRL Solutions,5,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.80074745,903311212,SeaSpray Wave SRL Solutions,6,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.9004629,903311212,SeaSpray Wave SRL Solutions,7,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.8002363,903311212,SeaSpray Wave SRL Solutions,8,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.88463604,903311212,SeaSpray Wave SRL Solutions,9,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.826787,903311212,SeaSpray Wave SRL Solutions,10,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.8141913,903311212,SeaSpray Wave SRL Solutions,11,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.80536443,903311212,SeaSpray Wave SRL Solutions,12,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8852797,903311212,SeaSpray Wave SRL Solutions,13,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.9263298,903311212,SeaSpray Wave SRL Solutions,14,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8024202,903311212,SeaSpray Wave SRL Solutions,15,903311212,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.88715553,903311212,833355,0,903311212,Unknown,833355,Unknown
+partnership,0.9426475,903311212,Amy Kent,0,903311212,Unknown,Amy Kent,Country_271835
+membership,0.8127276,903311212,95230042,0,903311212,Unknown,95230042,Unknown
+family_relationship,0.81053215,903311212,3506021,0,903311212,Unknown,3506021,Unknown
+ownership,0.85733896,903311212,88e9e7e8-3edf-4fd4-959d-8ec4f53e59d6,0,903311212,Unknown,88e9e7e8-3edf-4fd4-959d-8ec4f53e59d6,Unknown
+membership,0.80093277,903311212,e09b64a2-397a-4bec-96a1-7d61479fe37a,0,903311212,Unknown,e09b64a2-397a-4bec-96a1-7d61479fe37a,Unknown
+membership,0.8505763,903311212,262157542,0,903311212,Unknown,262157542,Unknown
+membership,0.8994399,903311212,Tristan Johnson,0,903311212,Unknown,Tristan Johnson,Wysterion
+membership,0.90853244,903311212,Miranda Small,0,903311212,Unknown,Miranda Small,Country_271835
+membership,0.80128944,903311212,John Gonzalez,0,903311212,Unknown,John Gonzalez,Nalakond
+membership,0.8945189,903311212,Christopher Simon,0,903311212,Unknown,Christopher Simon,Country_271835
+partnership,0.80651814,903311212,Mrs. Katrina Williams,0,903311212,Unknown,Mrs. Katrina Williams,Country_271835
+membership,0.834712,903311212,Aine,0,903311212,Unknown,Aine,Unknown
+membership,0.8929808,903311212,6204,0,903311212,Unknown,6204,Unknown
+membership,0.92157453,903311212,60774,0,903311212,Unknown,60774,Unknown
+family_relationship,0.81055963,903311212,4086,0,903311212,Unknown,4086,Unknown
+membership,0.8416894,903311212,5025f249-0b3c-4741-a7aa-090d93395acf,0,903311212,Unknown,5025f249-0b3c-4741-a7aa-090d93395acf,Unknown
+partnership,0.80017346,903311212,4146760,0,903311212,Unknown,4146760,Unknown
+partnership,0.84706634,903311212,26,0,903311212,Unknown,26,Unknown
+membership,0.9047118,903311212,aac2c35c-d06d-45df-a1f8-a0c4001f3897,0,903311212,Unknown,aac2c35c-d06d-45df-a1f8-a0c4001f3897,Unknown
+membership,0.8375621,903311212,John Avila,0,903311212,Unknown,John Avila,Country_271835
+family_relationship,0.93280613,903311212,Lindsey Barr,0,903311212,Unknown,Lindsey Barr,Country_271835
+ownership,0.9054461,903311212,Amanda Rogers,0,903311212,Unknown,Amanda Rogers,Country_271835
+membership,0.8156115,903311212,613281364,0,903311212,Unknown,613281364,Unknown
+ownership,0.84674585,903311212,Faurtil FÃ¡brica Urnas TietÃª,0,903311212,Unknown,Faurtil FÃ¡brica Urnas TietÃª,Unknown
+membership,0.8376606,903311212,Candice Brown,0,903311212,Unknown,Candice Brown,Country_271835
+membership,0.8673749,903311212,Motor Vessel,0,903311212,Unknown,Motor Vessel,Unknown
+membership,0.9643953,903311212,Motor Vessel,1,903311212,Unknown,Motor Vessel,Unknown
+partnership,0.8601562,903311212,Nathaniel Shah,0,903311212,Unknown,Nathaniel Shah,Country_271835
+ownership,0.81306833,903311212,Calvin Salas,0,903311212,Unknown,Calvin Salas,Marebak
+partnership,0.857656,903311212,Calvin Salas,1,903311212,Unknown,Calvin Salas,Marebak
+family_relationship,0.8503903,903311212,bc507d7c-29c9-4b0d-909e-52dd450a25d3,0,903311212,Unknown,bc507d7c-29c9-4b0d-909e-52dd450a25d3,Unknown
+membership,0.8084492,903311212,Noah Mitchell,0,903311212,Unknown,Noah Mitchell,Country_271835
+membership,0.8749123,903311212,Noah Mitchell,1,903311212,Unknown,Noah Mitchell,Country_271835
+membership,0.8679588,903311212,âHe,0,903311212,Unknown,âHe,Unknown
+membership,0.8401864,903311212,Joshua Garrett,0,903311212,Unknown,Joshua Garrett,Arreciviento
+partnership,0.8472393,903311212,Hannah Ray,0,903311212,Unknown,Hannah Ray,Country_271835
+partnership,0.8474301,903311212,715490,0,903311212,Unknown,715490,Unknown
+membership,0.94118375,903311212,Jharkhand s GmbH & Co. KG,0,903311212,Unknown,Jharkhand s GmbH & Co. KG,Unknown
+membership,0.87100625,903311212,âshark finâ,0,903311212,Unknown,âshark finâ,Unknown
+membership,0.8158544,903311212,âSewardâs Follyâ,0,903311212,Unknown,âSewardâs Follyâ,Unknown
+ownership,0.9251099,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Daniel Shaffer,0,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Unknown,Daniel Shaffer,Country_271835
+partnership,0.83090127,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,âHe,0,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Unknown,âHe,Unknown
+ownership,0.823374,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Diana Kelley,0,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Unknown,Diana Kelley,Country_271835
+partnership,0.80053616,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Phillips,0,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Unknown,Phillips,Unknown
+ownership,0.80386597,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Brittany Brewer,0,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Unknown,Brittany Brewer,Country_271835
+membership,0.8452344,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,903311212,0,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Unknown,903311212,Unknown
+membership,0.8058106,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Mar del Oeste Pic,0,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.80653393,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Mar del Oeste Pic,1,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.88322407,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Mar del Oeste Pic,2,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.85681736,Samuel Cross,1bf22b98-519c-4131-8bb4-53ecdd193100,0,Samuel Cross,Country_230197,1bf22b98-519c-4131-8bb4-53ecdd193100,Unknown
+membership,0.8442459,Ricardo Gomez,The Salty Dog Tidepool Kga Transport,0,Ricardo Gomez,Country_271835,The Salty Dog Tidepool Kga Transport,Unknown
+membership,0.9006022,75471,The Salty Dog Tidepool Kga Transport,0,75471,Unknown,The Salty Dog Tidepool Kga Transport,Unknown
+membership,0.82675594,75471,14 months,0,75471,Unknown,14 months,Unknown
+membership,0.88028944,75471,âMoby-Dickâ,0,75471,Unknown,âMoby-Dickâ,Unknown
+membership,0.94245744,75471,Amanda Santana,0,75471,Unknown,Amanda Santana,Country_271835
+membership,0.9683026,75471,Dana Macias,0,75471,Unknown,Dana Macias,Country_271835
+membership,0.9476226,75471,Jonathan Torres,0,75471,Unknown,Jonathan Torres,Uzilandor
+partnership,0.86484545,75471,721436,0,75471,Unknown,721436,Unknown
+partnership,0.9679797,75471,Gary Dunn,0,75471,Unknown,Gary Dunn,Country_271835
+ownership,0.9448022,75471,Morgan Black,0,75471,Unknown,Morgan Black,Country_271835
+membership,0.95182633,75471,Samuel Stokes,0,75471,Unknown,Samuel Stokes,Country_271835
+partnership,0.91222316,75471,Linda Holden,0,75471,Unknown,Linda Holden,Country_271835
+partnership,0.9041753,75471,Donna Romero,0,75471,Unknown,Donna Romero,Country_271835
+partnership,0.91228646,75471,Amanda Garcia,0,75471,Unknown,Amanda Garcia,Country_271835
+membership,0.938118,75471,9488645,0,75471,Unknown,9488645,Unknown
+membership,0.86938274,75471,sectors sectors 2033,0,75471,Unknown,sectors sectors 2033,Unknown
+ownership,0.81847584,75471,SeaSpray Wave SRL Solutions,0,75471,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.88397145,75471,Ocean Fisheries Llc,0,75471,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8802466,14 months,The Salty Dog Tidepool Kga Transport,0,14 months,Unknown,The Salty Dog Tidepool Kga Transport,Unknown
+membership,0.8978672,âcatch,âtotal,0,âcatch,Unknown,âtotal,Unknown
+membership,0.81554055,04eab3c4-ed99-467b-8844-b5279a6b955e,SeaSpray Wave SRL Solutions,0,04eab3c4-ed99-467b-8844-b5279a6b955e,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8237167,04eab3c4-ed99-467b-8844-b5279a6b955e,903311212,0,04eab3c4-ed99-467b-8844-b5279a6b955e,Unknown,903311212,Unknown
+family_relationship,0.96051633,Amanda Santana,Dana Macias,0,Amanda Santana,Country_271835,Dana Macias,Country_271835
+membership,0.8110642,34153143,Jonathan Torres,0,34153143,Unknown,Jonathan Torres,Uzilandor
+partnership,0.8753166,34153143,Gary Dunn,0,34153143,Unknown,Gary Dunn,Country_271835
+partnership,0.84424615,âTheoretically,Jonathan Torres,0,âTheoretically,Unknown,Jonathan Torres,Uzilandor
+partnership,0.91090095,âTheoretically,Gary Dunn,0,âTheoretically,Unknown,Gary Dunn,Country_271835
+partnership,0.8366257,âTheoretically,Morgan Black,0,âTheoretically,Unknown,Morgan Black,Country_271835
+family_relationship,0.92637795,Jonathan Torres,Gary Dunn,0,Jonathan Torres,Uzilandor,Gary Dunn,Country_271835
+family_relationship,0.87352836,Jonathan Torres,Morgan Black,0,Jonathan Torres,Uzilandor,Morgan Black,Country_271835
+partnership,0.9540083,721436,Gary Dunn,0,721436,Unknown,Gary Dunn,Country_271835
+ownership,0.9202079,721436,Morgan Black,0,721436,Unknown,Morgan Black,Country_271835
+family_relationship,0.89208406,Linda Holden,Donna Romero,0,Linda Holden,Country_271835,Donna Romero,Country_271835
+family_relationship,0.9041239,Linda Holden,Amanda Garcia,0,Linda Holden,Country_271835,Amanda Garcia,Country_271835
+partnership,0.89946157,Linda Holden,75471,0,Linda Holden,Country_271835,75471,Unknown
+membership,0.9300971,bottom otter trawler,png xi  Line,0,bottom otter trawler,Unknown,png xi  Line,Country_628643
+membership,0.9517276,bottom otter trawler,png xi  Line,1,bottom otter trawler,Unknown,png xi  Line,Country_628643
+membership,0.8980977,da91eeb8-11f7-4634-95e7-f9413e9957aa,Stephen Peterson,0,da91eeb8-11f7-4634-95e7-f9413e9957aa,Unknown,Stephen Peterson,Country_271835
+ownership,0.83009374,779,1559,0,779,Unknown,1559,Unknown
+ownership,0.8687192,428,Petroleum Vapor Intrusion,0,428,Unknown,Petroleum Vapor Intrusion,Unknown
+partnership,0.80048126,FlodstrÃ,Mar del Oeste Pic,0,FlodstrÃ,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8821811,900338,Spanish Shrimp  Carriers,0,900338,Unknown,Spanish Shrimp  Carriers,Nalakond
+family_relationship,0.98395973,665912557,979893388,0,665912557,Unknown,979893388,Unknown
+membership,0.8762242,Michele Black,860600018,0,Michele Black,Oceanus,860600018,Unknown
+family_relationship,0.88595074,Michele Black,Christopher Simon,0,Michele Black,Oceanus,Christopher Simon,Country_271835
+membership,0.8718967,Michele Black,Â£800,0,Michele Black,Oceanus,Â£800,Unknown
+membership,0.87618357,Michele Black,âHe,0,Michele Black,Oceanus,âHe,Unknown
+family_relationship,0.9261601,Michele Black,Anna Smith,0,Michele Black,Oceanus,Anna Smith,Marebak
+membership,0.80680853,Michele Black,813be272-d3de-43c9-90be-ab14231fcf17,0,Michele Black,Oceanus,813be272-d3de-43c9-90be-ab14231fcf17,Unknown
+membership,0.9044997,Michele Black,âSay,0,Michele Black,Oceanus,âSay,Unknown
+family_relationship,0.88918334,Michele Black,Scott Simpson,0,Michele Black,Oceanus,Scott Simpson,Oceanus
+family_relationship,0.92730194,Michele Black,Loretta Harrington,0,Michele Black,Oceanus,Loretta Harrington,Country_271835
+family_relationship,0.902559,Michele Black,Stacey Ortiz,0,Michele Black,Oceanus,Stacey Ortiz,Country_271835
+membership,0.8695718,Michele Black,png xi  Line,0,Michele Black,Oceanus,png xi  Line,Country_628643
+membership,0.82181764,Michele Black,Ocean Fisheries Llc,0,Michele Black,Oceanus,Ocean Fisheries Llc,Unknown
+partnership,0.8920684,Michele Black,Ocean Fisheries Llc,1,Michele Black,Oceanus,Ocean Fisheries Llc,Unknown
+membership,0.8655727,813be272-d3de-43c9-90be-ab14231fcf17,âSay,0,813be272-d3de-43c9-90be-ab14231fcf17,Unknown,âSay,Unknown
+family_relationship,0.9441998,Scott Simpson,Loretta Harrington,0,Scott Simpson,Oceanus,Loretta Harrington,Country_271835
+partnership,0.94145936,203,Stacey Ortiz,0,203,Unknown,Stacey Ortiz,Country_271835
+membership,0.9330349,221942,79538,0,221942,Unknown,79538,Unknown
+membership,0.8801834,221942,903311212,0,221942,Unknown,903311212,Unknown
+membership,0.8055897,0d1c7ce3-7243-47c0-9280-a3262b52dc0f,Hudsons Bay,0,0d1c7ce3-7243-47c0-9280-a3262b52dc0f,Unknown,Hudsons Bay,Unknown
+membership,0.81243277,327277616,637608,0,327277616,Unknown,637608,Unknown
+family_relationship,0.8288813,327277616,979893388,0,327277616,Unknown,979893388,Unknown
+membership,0.8433166,Benjamin Barton,637608,0,Benjamin Barton,Country_271835,637608,Unknown
+ownership,0.83663994,Benjamin Barton,Ocean Fisheries Llc,0,Benjamin Barton,Country_271835,Ocean Fisheries Llc,Unknown
+family_relationship,0.8800486,5337,637608,0,5337,Unknown,637608,Unknown
+membership,0.9708719,underwater,operated vehicle,0,underwater,Unknown,operated vehicle,Unknown
+family_relationship,0.88962305,underwater,png xi  Line,0,underwater,Unknown,png xi  Line,Country_628643
+membership,0.8606668,underwater,png xi  Line,1,underwater,Unknown,png xi  Line,Country_628643
+membership,0.86858326,13249468,Cutter,0,13249468,Unknown,Cutter,Unknown
+family_relationship,0.82425797,Blake Smith,42990314,0,Blake Smith,Country_271835,42990314,Unknown
+partnership,0.91295236,Blake Smith,2038650116,0,Blake Smith,Country_271835,2038650116,Unknown
+family_relationship,0.82644343,Blake Smith,979893388,0,Blake Smith,Country_271835,979893388,Unknown
+partnership,0.83785564,42990314,2038650116,0,42990314,Unknown,2038650116,Unknown
+membership,0.844001,âpoachedâ,903311212,0,âpoachedâ,Unknown,903311212,Unknown
+membership,0.9389265,Diao yu bi sai Tidal BV Export,Dana Knapp,0,Diao yu bi sai Tidal BV Export,Country_322527,Dana Knapp,Islavaria
+family_relationship,0.8675428,Diao yu bi sai Tidal BV Export,Andrew Gamble,0,Diao yu bi sai Tidal BV Export,Country_322527,Andrew Gamble,Country_271835
+membership,0.80191934,4657860,979893388,0,4657860,Unknown,979893388,Unknown
+partnership,0.9451036,806,903311212,0,806,Unknown,903311212,Unknown
+partnership,0.806834,806,png xi  Line,0,806,Unknown,png xi  Line,Country_628643
+family_relationship,0.8027803,Madhya Pradesh Market Pic Transportation,e53552bc-174b-4799-b96b-c23cfa0731cb,0,Madhya Pradesh Market Pic Transportation,Country_271835,e53552bc-174b-4799-b96b-c23cfa0731cb,Unknown
+ownership,0.83708423,Wendy Miller,3308429,0,Wendy Miller,Country_712875,3308429,Unknown
+partnership,0.851231,838200939,860600018,0,838200939,Unknown,860600018,Unknown
+family_relationship,0.84970903,Jennifer Washington,Peter Bush,0,Jennifer Washington,Country_271835,Peter Bush,Country_271835
+family_relationship,0.88451505,Jennifer Washington,Robin Fernandez,0,Jennifer Washington,Country_271835,Robin Fernandez,Country_271835
+membership,0.8037991,Jennifer Washington,66,0,Jennifer Washington,Country_271835,66,Unknown
+family_relationship,0.8468894,Peter Bush,Robin Fernandez,0,Peter Bush,Country_271835,Robin Fernandez,Country_271835
+partnership,0.81545734,2422788,MCDP,0,2422788,Unknown,MCDP,Unknown
+membership,0.8642422,c97073d1-61a4-4a06-a189-8b4642a699e1,120,0,c97073d1-61a4-4a06-a189-8b4642a699e1,Unknown,120,Unknown
+partnership,0.83025086,66,120,0,66,Unknown,120,Unknown
+membership,0.807367,66,c97073d1-61a4-4a06-a189-8b4642a699e1,0,66,Unknown,c97073d1-61a4-4a06-a189-8b4642a699e1,Unknown
+membership,0.8123647,6204,Katherine Chavez,0,6204,Unknown,Katherine Chavez,Country_271835
+membership,0.8899333,96c31987-d50d-4680-9397-2a9d0e3946e1,40213337,0,96c31987-d50d-4680-9397-2a9d0e3946e1,Unknown,40213337,Unknown
+membership,0.9339815,96c31987-d50d-4680-9397-2a9d0e3946e1,sailboat Freeport,0,96c31987-d50d-4680-9397-2a9d0e3946e1,Unknown,sailboat Freeport,Unknown
+membership,0.80286384,George Vance,2,0,George Vance,Country_271835,2,Unknown
+family_relationship,0.8486444,CraftâLaw,Ryan Perez,0,CraftâLaw,Unknown,Ryan Perez,Country_271835
+membership,0.8883777,CraftâLaw,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,0,CraftâLaw,Unknown,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,Unknown
+family_relationship,0.90598506,CraftâLaw,6567453,0,CraftâLaw,Unknown,6567453,Unknown
+membership,0.89070654,Ocean Patrol,ARA Bouchard,0,Ocean Patrol,Unknown,ARA Bouchard,Unknown
+membership,0.8196673,Kristin Dawson,png xi  Line,0,Kristin Dawson,Country_271835,png xi  Line,Country_628643
+membership,0.8908446,Ryan Perez,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,0,Ryan Perez,Country_271835,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,Unknown
+family_relationship,0.9201951,Ryan Perez,6567453,0,Ryan Perez,Country_271835,6567453,Unknown
+family_relationship,0.2882,Darin Torres,Kevin Morris,0,Darin Torres,Country_271835,Kevin Morris,Country_271835
+ownership,0.4255,Darin Torres,Federated,0,Darin Torres,Country_271835,Federated,Unknown
+membership,0.83420086,111274e2-c155-4640-9a8e-f506f3fbca06,Brett Lee,0,111274e2-c155-4640-9a8e-f506f3fbca06,Unknown,Brett Lee,Country_271835
+membership,0.8936861,111274e2-c155-4640-9a8e-f506f3fbca06,SeaSpray Wave SRL Solutions,0,111274e2-c155-4640-9a8e-f506f3fbca06,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8097937,111274e2-c155-4640-9a8e-f506f3fbca06,png xi  Line,0,111274e2-c155-4640-9a8e-f506f3fbca06,Unknown,png xi  Line,Country_628643
+ownership,0.84016085,James Horton,One Hongn,0,James Horton,Country_271835,One Hongn,Unknown
+membership,0.9637336,James Horton,SeaSpray Wave SRL Solutions,0,James Horton,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.8710245,17592,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,0,17592,Unknown,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,Unknown
+membership,0.89334214,17592,Paul Wiley,0,17592,Unknown,Paul Wiley,Country_271835
+membership,0.85566694,17592,ââ,0,17592,Unknown,ââ,Unknown
+family_relationship,0.85546297,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,17592,0,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,Unknown,17592,Unknown
+membership,0.8559299,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,png xi  Line,0,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,Unknown,png xi  Line,Country_628643
+partnership,0.8464862,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,Ocean Fisheries Llc,0,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.86889005,Michelle Long,903311212,0,Michelle Long,Country_271835,903311212,Unknown
+partnership,0.83270204,âlaughableâ,Calvin Salas,0,âlaughableâ,Unknown,Calvin Salas,Marebak
+membership,0.8560941,299,Brian Hansen,0,299,Unknown,Brian Hansen,Country_271835
+family_relationship,0.9261888,Jennifer Barber,Morgan Black,0,Jennifer Barber,Country_271835,Morgan Black,Country_271835
+partnership,0.8285872,Jennifer Barber,299,0,Jennifer Barber,Country_271835,299,Unknown
+family_relationship,0.9254491,Ryan Hudson,Morgan Black,0,Ryan Hudson,Country_271835,Morgan Black,Country_271835
+partnership,0.82581985,Ryan Hudson,299,0,Ryan Hudson,Country_271835,299,Unknown
+membership,0.8661583,2362,John Avila,0,2362,Unknown,John Avila,Country_271835
+membership,0.822203,519852438,âlegitimateâ,0,519852438,Unknown,âlegitimateâ,Unknown
+membership,0.8673591,519852438,William Kim,0,519852438,Unknown,William Kim,Country_271835
+membership,0.84742546,519852438,299,0,519852438,Unknown,299,Unknown
+membership,0.82302684,519852438,Brian Hansen,0,519852438,Unknown,Brian Hansen,Country_271835
+membership,0.85649467,âlegitimateâ,William Kim,0,âlegitimateâ,Unknown,William Kim,Country_271835
+membership,0.8521696,âlegitimateâ,299,0,âlegitimateâ,Unknown,299,Unknown
+membership,0.81089365,âlegitimateâ,Brian Hansen,0,âlegitimateâ,Unknown,Brian Hansen,Country_271835
+membership,0.8092769,William Kim,299,0,William Kim,Country_271835,299,Unknown
+family_relationship,0.8641103,Jeffrey Strong,Susan Williams,0,Jeffrey Strong,Country_271835,Susan Williams,Country_271835
+family_relationship,0.9423118,Jeffrey Strong,Thomas Morales,0,Jeffrey Strong,Country_271835,Thomas Morales,Country_542476
+partnership,0.9082632,Jeffrey Strong,âHe,0,Jeffrey Strong,Country_271835,âHe,Unknown
+family_relationship,0.84264827,Susan Williams,Thomas Morales,0,Susan Williams,Country_271835,Thomas Morales,Country_542476
+ownership,0.88923764,8851578d-3dd7-4430-8f73-b95305eb1f03,SeaSpray Wave SRL Solutions,0,8851578d-3dd7-4430-8f73-b95305eb1f03,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.83726734,8634589,7260903,0,8634589,Unknown,7260903,Unknown
+family_relationship,0.87911385,8634589,Sept,0,8634589,Unknown,Sept,Unknown
+ownership,0.82040226,8634589,Miranda Long,0,8634589,Unknown,Miranda Long,Country_271835
+membership,0.9246899,8634589,979893388,0,8634589,Unknown,979893388,Unknown
+membership,0.81719685,su y CJSC Canal,Marvin Everett,0,su y CJSC Canal,Country_271835,Marvin Everett,Country_271835
+membership,0.8720794,su y CJSC Canal,Robert Vega,0,su y CJSC Canal,Country_271835,Robert Vega,Country_271835
+membership,0.8373085,su y CJSC Canal,ââ,0,su y CJSC Canal,Country_271835,ââ,Unknown
+membership,0.8702173,cc3c9a3e-9226-43e0-9c2e-2cabec77b0fc,Ocean Fisheries Llc,0,cc3c9a3e-9226-43e0-9c2e-2cabec77b0fc,Unknown,Ocean Fisheries Llc,Unknown
+family_relationship,0.8863837,9345,John Gonzalez,0,9345,Unknown,John Gonzalez,Nalakond
+membership,0.90859944,9345,Gerald Washington,0,9345,Unknown,Gerald Washington,Country_271835
+membership,0.9243419,9345,Mar de la Vida OJSC,0,9345,Unknown,Mar de la Vida OJSC,Unknown
+membership,0.90687877,9345,Jessica Kelly,0,9345,Unknown,Jessica Kelly,Country_271835
+membership,0.9046441,9345,Jon White,0,9345,Unknown,Jon White,Polarisdom
+membership,0.95507807,9345,âHe,0,9345,Unknown,âHe,Unknown
+membership,0.9409171,9345,60017,0,9345,Unknown,60017,Unknown
+ownership,0.819125,9345,979893388,0,9345,Unknown,979893388,Unknown
+membership,0.9354372,9345,Ancla Azul Company Solutions,0,9345,Unknown,Ancla Azul Company Solutions,Unknown
+family_relationship,0.82134914,Jon White,Kevin Burnett,0,Jon White,Polarisdom,Kevin Burnett,Country_271835
+family_relationship,0.8024978,Jon White,Rebecca Walker,0,Jon White,Polarisdom,Rebecca Walker,Country_271835
+family_relationship,0.8865107,Jon White,22 Raptor,0,Jon White,Polarisdom,22 Raptor,Unknown
+membership,0.8501727,Jon White,âHe,0,Jon White,Polarisdom,âHe,Unknown
+partnership,0.8123229,Kevin Burnett,Mar de la Vida OJSC,0,Kevin Burnett,Country_271835,Mar de la Vida OJSC,Unknown
+ownership,0.862692,218148,Kevin Burnett,0,218148,Unknown,Kevin Burnett,Country_271835
+partnership,0.8027684,decfc924-5bdc-4fba-8bbd-bb57d8d478d9,Mar de la Vida OJSC,0,decfc924-5bdc-4fba-8bbd-bb57d8d478d9,Unknown,Mar de la Vida OJSC,Unknown
+ownership,0.87992376,decfc924-5bdc-4fba-8bbd-bb57d8d478d9,Kevin Burnett,0,decfc924-5bdc-4fba-8bbd-bb57d8d478d9,Unknown,Kevin Burnett,Country_271835
+partnership,0.86107284,Amanda Scott,22 Raptor,0,Amanda Scott,Polarisdom,22 Raptor,Unknown
+family_relationship,0.8606569,Estrella del Mar Inc Merchants,22 Raptor,0,Estrella del Mar Inc Merchants,Polarisdom,22 Raptor,Unknown
+membership,0.84232104,Gerald Washington,âHe,0,Gerald Washington,Country_271835,âHe,Unknown
+family_relationship,0.80953336,Scott Johnson,Seth Kelley,0,Scott Johnson,Country_271835,Seth Kelley,Country_271835
+partnership,0.8260676,Scott Johnson,png xi  Line,0,Scott Johnson,Country_271835,png xi  Line,Country_628643
+family_relationship,0.9239468,Seth Kelley,John Barnes DDS,0,Seth Kelley,Country_271835,John Barnes DDS,Country_271835
+family_relationship,0.88524574,Seth Kelley,Grace Perez,0,Seth Kelley,Country_271835,Grace Perez,Country_271835
+family_relationship,0.8532434,Seth Kelley,Travis Rivera,0,Seth Kelley,Country_271835,Travis Rivera,Country_271835
+family_relationship,0.89776725,Seth Kelley,Brandy Williams,0,Seth Kelley,Country_271835,Brandy Williams,Country_271835
+family_relationship,0.8197088,Seth Kelley,Tammy Martin,0,Seth Kelley,Country_271835,Tammy Martin,Country_271835
+ownership,0.8559913,Seth Kelley,ââ,0,Seth Kelley,Country_271835,ââ,Unknown
+family_relationship,0.82787496,Seth Kelley,979893388,0,Seth Kelley,Country_271835,979893388,Unknown
+ownership,0.88750327,Seth Kelley,SeaSpray Wave SRL Solutions,0,Seth Kelley,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+membership,0.89314026,5362,Morgan Black,0,5362,Unknown,Morgan Black,Country_271835
+membership,0.8519429,5362,Calvin Salas,0,5362,Unknown,Calvin Salas,Marebak
+ownership,0.82622534,5362,SeaSpray Wave SRL Solutions,0,5362,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.83275026,4852,48,0,4852,Unknown,48,Unknown
+ownership,0.9522465,4852,Amanda Rogers,0,4852,Unknown,Amanda Rogers,Country_271835
+ownership,0.8948284,4852,28890617,0,4852,Unknown,28890617,Unknown
+membership,0.9600214,1bf22b98-519c-4131-8bb4-53ecdd193100,Ocean Fisheries Llc,0,1bf22b98-519c-4131-8bb4-53ecdd193100,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8968933,8503254,80 Percent Arms,0,8503254,Unknown,80 Percent Arms,Unknown
+membership,0.8468856,8503254,CM Nationali,0,8503254,Unknown,CM Nationali,Unknown
+partnership,0.8159845,8503254,Calvin Salas,0,8503254,Unknown,Calvin Salas,Marebak
+membership,0.86220187,Randall Newman,png xi  Line,0,Randall Newman,Country_271835,png xi  Line,Country_628643
+ownership,0.8065851,Randall Newman,SeaSpray Wave SRL Solutions,0,Randall Newman,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.8429352,Austin Simpson,Thomas Morales,0,Austin Simpson,Country_271835,Thomas Morales,Country_542476
+family_relationship,0.90574294,Austin Simpson,Seth Kelley,0,Austin Simpson,Country_271835,Seth Kelley,Country_271835
+family_relationship,0.89382124,Austin Simpson,John Barnes DDS,0,Austin Simpson,Country_271835,John Barnes DDS,Country_271835
+family_relationship,0.84969,Austin Simpson,Grace Perez,0,Austin Simpson,Country_271835,Grace Perez,Country_271835
+family_relationship,0.8063354,Austin Simpson,Travis Rivera,0,Austin Simpson,Country_271835,Travis Rivera,Country_271835
+family_relationship,0.8566257,Austin Simpson,Brandy Williams,0,Austin Simpson,Country_271835,Brandy Williams,Country_271835
+ownership,0.80464196,Austin Simpson,ââ,0,Austin Simpson,Country_271835,ââ,Unknown
+membership,0.85238266,Austin Simpson,su y CJSC Canal,0,Austin Simpson,Country_271835,su y CJSC Canal,Country_271835
+family_relationship,0.84189254,Austin Simpson,Marvin Everett,0,Austin Simpson,Country_271835,Marvin Everett,Country_271835
+family_relationship,0.88001263,Austin Simpson,Robert Vega,0,Austin Simpson,Country_271835,Robert Vega,Country_271835
+membership,0.8009433,Austin Simpson,Mar del Oeste Pic,0,Austin Simpson,Country_271835,Mar del Oeste Pic,Vesperlandia
+ownership,0.921677,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Jeremy Woodard,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,Jeremy Woodard,Country_271835
+ownership,0.86554664,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Miranda Long,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,Miranda Long,Country_271835
+membership,0.8983629,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Michelle Kelley,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,Michelle Kelley,Country_271835
+membership,0.91638297,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Austin Simpson,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,Austin Simpson,Country_271835
+membership,0.8396719,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,su y CJSC Canal,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,su y CJSC Canal,Country_271835
+membership,0.8246562,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Marvin Everett,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,Marvin Everett,Country_271835
+membership,0.881382,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Robert Vega,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,Robert Vega,Country_271835
+membership,0.8495153,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,ââ,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,ââ,Unknown
+ownership,0.9100664,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Christopher Miller,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,Christopher Miller,Country_271835
+ownership,0.8368295,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Scott Anderson,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,Scott Anderson,Country_271835
+membership,0.9147,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,âenticedâ,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,âenticedâ,Unknown
+ownership,0.9370244,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,13d79d632036,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,13d79d632036,Unknown
+family_relationship,0.9433061,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,979893388,0,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,Unknown,979893388,Unknown
+family_relationship,0.8498479,Grace Perez,Travis Rivera,0,Grace Perez,Country_271835,Travis Rivera,Country_271835
+family_relationship,0.89265037,Grace Perez,Brandy Williams,0,Grace Perez,Country_271835,Brandy Williams,Country_271835
+family_relationship,0.81913054,Grace Perez,Tammy Martin,0,Grace Perez,Country_271835,Tammy Martin,Country_271835
+ownership,0.8496676,Grace Perez,ââ,0,Grace Perez,Country_271835,ââ,Unknown
+family_relationship,0.91777575,Travis Rivera,Brandy Williams,0,Travis Rivera,Country_271835,Brandy Williams,Country_271835
+family_relationship,0.8548355,Travis Rivera,Tammy Martin,0,Travis Rivera,Country_271835,Tammy Martin,Country_271835
+ownership,0.8909699,Travis Rivera,ââ,0,Travis Rivera,Country_271835,ââ,Unknown
+family_relationship,0.8484908,Larry Morrow,Seth Kelley,0,Larry Morrow,Country_271835,Seth Kelley,Country_271835
+family_relationship,0.8219843,Larry Morrow,John Barnes DDS,0,Larry Morrow,Country_271835,John Barnes DDS,Country_271835
+ownership,0.8043173,Tammy Martin,ââ,0,Tammy Martin,Country_271835,ââ,Unknown
+family_relationship,0.9163618,436460757,Jeremy Woodard,0,436460757,Unknown,Jeremy Woodard,Country_271835
+family_relationship,0.83467865,436460757,Sept,0,436460757,Unknown,Sept,Unknown
+membership,0.8953731,436460757,Christopher Miller,0,436460757,Unknown,Christopher Miller,Country_271835
+family_relationship,0.8287259,436460757,Scott Anderson,0,436460757,Unknown,Scott Anderson,Country_271835
+membership,0.90880597,436460757,âenticedâ,0,436460757,Unknown,âenticedâ,Unknown
+membership,0.8207582,436460757,Robert Vega,0,436460757,Unknown,Robert Vega,Country_271835
+membership,0.8138585,436460757,ââ,0,436460757,Unknown,ââ,Unknown
+family_relationship,0.8729532,436460757,979893388,0,436460757,Unknown,979893388,Unknown
+membership,0.88047504,436460757,903311212,0,436460757,Unknown,903311212,Unknown
+membership,0.8660916,436460757,Ocean Fisheries Llc,0,436460757,Unknown,Ocean Fisheries Llc,Unknown
+ownership,0.84388566,siladityaray,13d79d632036,0,siladityaray,Unknown,13d79d632036,Unknown
+membership,0.8348491,Jeremy Woodard,âenticedâ,0,Jeremy Woodard,Country_271835,âenticedâ,Unknown
+family_relationship,0.8005713,8302,Sept,0,8302,Unknown,Sept,Unknown
+membership,0.85172224,6352,Paul Wiley,0,6352,Unknown,Paul Wiley,Country_271835
+family_relationship,0.85867095,Michelle Kelley,Austin Simpson,0,Michelle Kelley,Country_271835,Austin Simpson,Country_271835
+family_relationship,0.8132594,Michelle Kelley,Robert Vega,0,Michelle Kelley,Country_271835,Robert Vega,Country_271835
+ownership,0.8568837,176,Joseph Williams,0,176,Unknown,Joseph Williams,Country_271835
+membership,0.8528148,176,Seth Kelley,0,176,Unknown,Seth Kelley,Country_271835
+partnership,0.8107779,3657479,Ocean Fisheries Llc,0,3657479,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8041704,3657479,SeaSpray Wave SRL Solutions,0,3657479,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.85114014,The Defendantsâ,86ac9e66-f9e8-4f2b-ad17-39a52c23288c,0,The Defendantsâ,Unknown,86ac9e66-f9e8-4f2b-ad17-39a52c23288c,Unknown
+membership,0.83584255,The Defendantsâ,png xi  Line,0,The Defendantsâ,Unknown,png xi  Line,Country_628643
+family_relationship,0.8638726,6ffd3349-37f4-48c5-bc9a-1b80e722e939,Sept,0,6ffd3349-37f4-48c5-bc9a-1b80e722e939,Unknown,Sept,Unknown
+ownership,0.88795215,352,Faurtil FÃ¡brica Urnas TietÃª,0,352,Unknown,Faurtil FÃ¡brica Urnas TietÃª,Unknown
+ownership,0.82011855,352,SeaSpray Wave SRL Solutions,0,352,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.9122542,In month,Mar del Oeste Pic,0,In month,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8481842,Vincent Cummings,Mar del Oeste Pic,0,Vincent Cummings,Country_271835,Mar del Oeste Pic,Vesperlandia
+ownership,0.83376557,Pitâ,Kariba Dam  N.V. Brothers,0,Pitâ,Unknown,Kariba Dam  N.V. Brothers,Unknown
+ownership,0.9363473,David Romero,Mar del Oeste Pic,0,David Romero,Country_271835,Mar del Oeste Pic,Vesperlandia
+ownership,0.895859,David Romero,SeaSpray Wave SRL Solutions,0,David Romero,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.9134855,Elizabeth Armstrong,Melissa Brock,0,Elizabeth Armstrong,Country_271835,Melissa Brock,Country_271835
+family_relationship,0.9341114,Elizabeth Armstrong,Carlos White,0,Elizabeth Armstrong,Country_271835,Carlos White,Country_271835
+ownership,0.9343428,Elizabeth Armstrong,47924922,0,Elizabeth Armstrong,Country_271835,47924922,Unknown
+family_relationship,0.90769964,Melissa Brock,Carlos White,0,Melissa Brock,Country_271835,Carlos White,Country_271835
+ownership,0.91072756,Melissa Brock,47924922,0,Melissa Brock,Country_271835,47924922,Unknown
+ownership,0.81671757,62532,39033859,0,62532,Unknown,39033859,Unknown
+ownership,0.82889396,62532,649009867,0,62532,Unknown,649009867,Unknown
+ownership,0.8270946,62532,PC,0,62532,Unknown,PC,Unknown
+ownership,0.8209127,649009867,PC,0,649009867,Unknown,PC,Unknown
+ownership,0.89798886,cd7cb49f-0021-4fe9-a3a9-cc8b3fce0c57,Mar del Oeste Pic,0,cd7cb49f-0021-4fe9-a3a9-cc8b3fce0c57,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.89771116,cd7cb49f-0021-4fe9-a3a9-cc8b3fce0c57,png xi  Line,0,cd7cb49f-0021-4fe9-a3a9-cc8b3fce0c57,Unknown,png xi  Line,Country_628643
+family_relationship,0.82341194,Bryan King,Ocean Fisheries Llc,0,Bryan King,Country_271835,Ocean Fisheries Llc,Unknown
+partnership,0.882352,Manuel Hess,Ocean Fisheries Llc,0,Manuel Hess,Country_271835,Ocean Fisheries Llc,Unknown
+membership,0.9476959,24996,Motor Vessel,0,24996,Unknown,Motor Vessel,Unknown
+family_relationship,0.8064992,24996,90411963,0,24996,Unknown,90411963,Unknown
+membership,0.81267,Christopher Moore,f64e747e-13de-4628-b939-92a8ff4eb03f,0,Christopher Moore,Country_271835,f64e747e-13de-4628-b939-92a8ff4eb03f,Unknown
+membership,0.91288066,Storm,SeaSpray Wave SRL Solutions,0,Storm,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.88088804,Diane Forbes,Dawn Robinson,0,Diane Forbes,Country_271835,Dawn Robinson,Country_271835
+membership,0.8604429,Diane Forbes,979893388,0,Diane Forbes,Country_271835,979893388,Unknown
+membership,0.8768208,Dawn Robinson,979893388,0,Dawn Robinson,Country_271835,979893388,Unknown
+ownership,0.8819191,Martin Jones,Ocean Fisheries Llc,0,Martin Jones,Country_271835,Ocean Fisheries Llc,Unknown
+membership,0.8592017,Martin Jones,903311212,0,Martin Jones,Country_271835,903311212,Unknown
+family_relationship,0.82941115,Chad Ruiz,png xi  Line,0,Chad Ruiz,Country_271835,png xi  Line,Country_628643
+membership,0.81514436,Chad Ruiz,SeaSpray Wave SRL Solutions,0,Chad Ruiz,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.83503944,687878,903311212,0,687878,Unknown,903311212,Unknown
+membership,0.8219053,687878,Ocean Fisheries Llc,0,687878,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.81284505,368951,png xi  Line,0,368951,Unknown,png xi  Line,Country_628643
+membership,0.8078752,368951,Mar del Oeste Pic,0,368951,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.87715274,c0ce6d15-622b-42a3-b892-f5efe5b4d00c,SeaSpray Wave SRL Solutions,0,c0ce6d15-622b-42a3-b892-f5efe5b4d00c,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8680873,c0ce6d15-622b-42a3-b892-f5efe5b4d00c,Mar del Oeste Pic,0,c0ce6d15-622b-42a3-b892-f5efe5b4d00c,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.86037844,a086a63d-19c7-4241-845a-f82c628d09a2,Brett Lee,0,a086a63d-19c7-4241-845a-f82c628d09a2,Unknown,Brett Lee,Country_271835
+ownership,0.8182828,a086a63d-19c7-4241-845a-f82c628d09a2,Ocean Fisheries Llc,0,a086a63d-19c7-4241-845a-f82c628d09a2,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8043811,Noah Mitchell,Ocean Fisheries Llc,0,Noah Mitchell,Country_271835,Ocean Fisheries Llc,Unknown
+membership,0.8074486,Noah Mitchell,SeaSpray Wave SRL Solutions,0,Noah Mitchell,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.8169554,037acfda-0d33-4ce8-8907-fe7da3e27dff,SeaSpray Wave SRL Solutions,0,037acfda-0d33-4ce8-8907-fe7da3e27dff,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8604057,332bb88e-0a63-41e3-8a27-87795fd552e9,course years,0,332bb88e-0a63-41e3-8a27-87795fd552e9,Unknown,course years,Unknown
+membership,0.86099994,332bb88e-0a63-41e3-8a27-87795fd552e9,Mar del Oeste Pic,0,332bb88e-0a63-41e3-8a27-87795fd552e9,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.8536375,440,Calvin Salas,0,440,Unknown,Calvin Salas,Marebak
+membership,0.9369775,4294544a-9643-4cfd-97a0-ac656cb17e60,Lauren Jackson DDS,0,4294544a-9643-4cfd-97a0-ac656cb17e60,Unknown,Lauren Jackson DDS,Country_271835
+partnership,0.85628206,214883455,Morgan Black,0,214883455,Unknown,Morgan Black,Country_271835
+ownership,0.86545396,214883455,Ocean Fisheries Llc,0,214883455,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.91782695,Kagera River  GmbH & Co. KG Delivery,Sea Luxe Oceanography Kga Transportation,0,Kagera River  GmbH & Co. KG Delivery,Country_271835,Sea Luxe Oceanography Kga Transportation,Unknown
+membership,0.86852366,Kagera River  GmbH & Co. KG Delivery,8503254,0,Kagera River  GmbH & Co. KG Delivery,Country_271835,8503254,Unknown
+partnership,0.86245435,715490,Carlos White,0,715490,Unknown,Carlos White,Country_271835
+membership,0.9595371,Terri Rodriguez,903311212,0,Terri Rodriguez,Country_271835,903311212,Unknown
+membership,0.8679703,Terri Rodriguez,903311212,1,Terri Rodriguez,Country_271835,903311212,Unknown
+ownership,0.87664104,Margaret Hodges,SeaSpray Wave SRL Solutions,0,Margaret Hodges,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8429752,Margaret Hodges,SeaSpray Wave SRL Solutions,1,Margaret Hodges,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.8781569,Margaret Hodges,png xi  Line,0,Margaret Hodges,Country_271835,png xi  Line,Country_628643
+membership,0.88074625,Margaret Hodges,png xi  Line,1,Margaret Hodges,Country_271835,png xi  Line,Country_628643
+partnership,0.8606178,Margaret Hodges,Ocean Fisheries Llc,0,Margaret Hodges,Country_271835,Ocean Fisheries Llc,Unknown
+membership,0.879967,Margaret Hodges,Ocean Fisheries Llc,1,Margaret Hodges,Country_271835,Ocean Fisheries Llc,Unknown
+membership,0.9183834,Margaret Hodges,Ocean Fisheries Llc,2,Margaret Hodges,Country_271835,Ocean Fisheries Llc,Unknown
+membership,0.87092316,Margaret Hodges,903311212,0,Margaret Hodges,Country_271835,903311212,Unknown
+membership,0.911773,Margaret Hodges,Mar del Oeste Pic,0,Margaret Hodges,Country_271835,Mar del Oeste Pic,Vesperlandia
+membership,0.84641635,613556,436460757,0,613556,Unknown,436460757,Unknown
+membership,0.84055233,979294,Mar del Oeste Pic,0,979294,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.8065531,Travis Sparks,Deborah Porter DDS,0,Travis Sparks,Country_271835,Deborah Porter DDS,Country_271835
+ownership,0.88477135,Travis Sparks,505943,0,Travis Sparks,Country_271835,505943,Unknown
+ownership,0.9348997,Deborah Porter DDS,505943,0,Deborah Porter DDS,Country_271835,505943,Unknown
+partnership,0.81018,Kelly Mccarthy,79538,0,Kelly Mccarthy,Country_271835,79538,Unknown
+family_relationship,0.8637494,Kelly Mccarthy,Danielle Camacho,0,Kelly Mccarthy,Country_271835,Danielle Camacho,Country_271835
+partnership,0.892221,Kelly Mccarthy,âHe,0,Kelly Mccarthy,Country_271835,âHe,Unknown
+membership,0.90954226,3eed159b-e98e-4f8a-98c2-c34341435411,Jeremy Norris,0,3eed159b-e98e-4f8a-98c2-c34341435411,Unknown,Jeremy Norris,Country_271835
+membership,0.8388765,Curtis Grant,Ocean Fisheries Llc,0,Curtis Grant,Country_271835,Ocean Fisheries Llc,Unknown
+membership,0.8084579,Curtis Grant,SeaSpray Wave SRL Solutions,0,Curtis Grant,Country_271835,SeaSpray Wave SRL Solutions,Unknown
+membership,0.7268,FishEye International,Federated,0,FishEye International,Unknown,Federated,Unknown
+membership,0.4487,FishEye International,83,0,FishEye International,Unknown,83,Unknown
+membership,0.9495,FishEye International,48,0,FishEye International,Unknown,48,Unknown
+membership,0.4604,FishEye International,Mar de la Vida OJSC,0,FishEye International,Unknown,Mar de la Vida OJSC,Unknown
+ownership,0.4353,FishEye International,903311212,0,FishEye International,Unknown,903311212,Unknown
+membership,0.8777,FishEye International,Logistics,0,FishEye International,Unknown,Logistics,Unknown
+membership,0.9249,FishEye International,C Express,0,FishEye International,Unknown,C Express,Unknown
+membership,0.4922,FishEye International,Conduct Joint,0,FishEye International,Unknown,Conduct Joint,Unknown
+membership,0.2374,FishEye International,âGenev,0,FishEye International,Unknown,âGenev,Unknown
+membership,0.93,FishEye International,80 Percent Arms,0,FishEye International,Unknown,80 Percent Arms,Unknown
+membership,0.4461,FishEye International,Oceanfront Oasis Inc Carriers,0,FishEye International,Unknown,Oceanfront Oasis Inc Carriers,Unknown
+family_relationship,0.85607153,Ancla Azul Company Solutions,Ryan Perez,0,Ancla Azul Company Solutions,Unknown,Ryan Perez,Country_271835
+family_relationship,0.8759605,Ancla Azul Company Solutions,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,0,Ancla Azul Company Solutions,Unknown,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,Unknown
+family_relationship,0.9196004,Ancla Azul Company Solutions,6567453,0,Ancla Azul Company Solutions,Unknown,6567453,Unknown
+membership,0.8959766,Ancla Azul Company Solutions,Gerald Washington,0,Ancla Azul Company Solutions,Unknown,Gerald Washington,Country_271835
+membership,0.9002734,Ancla Azul Company Solutions,Mar de la Vida OJSC,0,Ancla Azul Company Solutions,Unknown,Mar de la Vida OJSC,Unknown
+membership,0.8948628,Ancla Azul Company Solutions,Jessica Kelly,0,Ancla Azul Company Solutions,Unknown,Jessica Kelly,Country_271835
+membership,0.89380264,Ancla Azul Company Solutions,Jon White,0,Ancla Azul Company Solutions,Unknown,Jon White,Polarisdom
+membership,0.94233364,Ancla Azul Company Solutions,âHe,0,Ancla Azul Company Solutions,Unknown,âHe,Unknown
+membership,0.92063236,Ancla Azul Company Solutions,60017,0,Ancla Azul Company Solutions,Unknown,60017,Unknown
+family_relationship,0.92363864,Ancla Azul Company Solutions,Mar del Oeste Pic,0,Ancla Azul Company Solutions,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.83203876,Guessl,Federated,0,Guessl,Unknown,Federated,Unknown
+membership,0.809118,Federated,Guessl,0,Federated,Unknown,Guessl,Unknown
+membership,0.9456855,Federated,âtotal,0,Federated,Unknown,âtotal,Unknown
+ownership,0.81183654,Federated,f64e747e-13de-4628-b939-92a8ff4eb03f,0,Federated,Unknown,f64e747e-13de-4628-b939-92a8ff4eb03f,Unknown
+membership,0.85501623,Federated,114d2882-b620-4098-bb56-d865bbb85339,0,Federated,Unknown,114d2882-b620-4098-bb56-d865bbb85339,Unknown
+membership,0.82330275,Federated,Christopher Moore,0,Federated,Unknown,Christopher Moore,Country_271835
+ownership,0.86851835,Federated,Mar del Oeste Pic,0,Federated,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.9182026,l y S.A. de C.V. International,ipoa-iuu,0,l y S.A. de C.V. International,Unknown,ipoa-iuu,Unknown
+family_relationship,0.8746734,SeaSpray Wave SRL Solutions,165e0fe7-6725-4f4c-abc1-3ef485a939b0,0,SeaSpray Wave SRL Solutions,Unknown,165e0fe7-6725-4f4c-abc1-3ef485a939b0,Unknown
+family_relationship,0.8578592,SeaSpray Wave SRL Solutions,f20779bf-63b5-4ea4-bb5f-944bb9449bce,0,SeaSpray Wave SRL Solutions,Unknown,f20779bf-63b5-4ea4-bb5f-944bb9449bce,Unknown
+family_relationship,0.9326209,SeaSpray Wave SRL Solutions,349,0,SeaSpray Wave SRL Solutions,Unknown,349,Unknown
+membership,0.8962495,SeaSpray Wave SRL Solutions,Rose,0,SeaSpray Wave SRL Solutions,Unknown,Rose,Unknown
+membership,0.9089503,SeaSpray Wave SRL Solutions,Aine,0,SeaSpray Wave SRL Solutions,Unknown,Aine,Unknown
+membership,0.8964616,SeaSpray Wave SRL Solutions,5,0,SeaSpray Wave SRL Solutions,Unknown,5,Unknown
+family_relationship,0.8955125,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,0,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.81505597,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,1,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.9129027,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,2,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+ownership,0.8279576,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,3,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+family_relationship,0.9054189,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,4,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.85061604,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,5,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8132912,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,6,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.916617,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,7,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.9228224,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,8,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8457687,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,9,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.8125543,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,10,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.80292726,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,11,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.85396785,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,12,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.82347167,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,13,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8279524,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,14,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+ownership,0.80918485,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,15,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.8238601,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,16,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.9343025,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,17,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+ownership,0.81985265,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,18,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.9369613,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,19,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+family_relationship,0.8589691,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,20,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.9486266,SeaSpray Wave SRL Solutions,Ocean Fisheries Llc,21,SeaSpray Wave SRL Solutions,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.8700393,SeaSpray Wave SRL Solutions,979893388,0,SeaSpray Wave SRL Solutions,Unknown,979893388,Unknown
+membership,0.8115935,SeaSpray Wave SRL Solutions,979893388,1,SeaSpray Wave SRL Solutions,Unknown,979893388,Unknown
+membership,0.85199714,SeaSpray Wave SRL Solutions,979893388,2,SeaSpray Wave SRL Solutions,Unknown,979893388,Unknown
+family_relationship,0.9394672,SeaSpray Wave SRL Solutions,979893388,3,SeaSpray Wave SRL Solutions,Unknown,979893388,Unknown
+membership,0.8305527,SeaSpray Wave SRL Solutions,979893388,4,SeaSpray Wave SRL Solutions,Unknown,979893388,Unknown
+membership,0.8155429,SeaSpray Wave SRL Solutions,979893388,5,SeaSpray Wave SRL Solutions,Unknown,979893388,Unknown
+membership,0.8392257,SeaSpray Wave SRL Solutions,df42b319-be6a-4a2e-b11d-c4da7ecfc01c,0,SeaSpray Wave SRL Solutions,Unknown,df42b319-be6a-4a2e-b11d-c4da7ecfc01c,Unknown
+ownership,0.8271803,SeaSpray Wave SRL Solutions,Clayton Rodgers,0,SeaSpray Wave SRL Solutions,Unknown,Clayton Rodgers,Country_271835
+partnership,0.8506976,SeaSpray Wave SRL Solutions,Jeremy Norris,0,SeaSpray Wave SRL Solutions,Unknown,Jeremy Norris,Country_271835
+partnership,0.83298683,SeaSpray Wave SRL Solutions,Jeremy Norris,1,SeaSpray Wave SRL Solutions,Unknown,Jeremy Norris,Country_271835
+membership,0.8445432,SeaSpray Wave SRL Solutions,Jeremy Norris,2,SeaSpray Wave SRL Solutions,Unknown,Jeremy Norris,Country_271835
+membership,0.8078207,SeaSpray Wave SRL Solutions,903311212,0,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+ownership,0.8704109,SeaSpray Wave SRL Solutions,903311212,1,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.8028749,SeaSpray Wave SRL Solutions,903311212,2,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.9158683,SeaSpray Wave SRL Solutions,903311212,3,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+ownership,0.94057524,SeaSpray Wave SRL Solutions,903311212,4,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+ownership,0.8146285,SeaSpray Wave SRL Solutions,903311212,5,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.8085463,SeaSpray Wave SRL Solutions,903311212,6,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.8951298,SeaSpray Wave SRL Solutions,903311212,7,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.87062025,SeaSpray Wave SRL Solutions,903311212,8,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.80524653,SeaSpray Wave SRL Solutions,903311212,9,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+ownership,0.80024755,SeaSpray Wave SRL Solutions,903311212,10,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+ownership,0.8548015,SeaSpray Wave SRL Solutions,903311212,11,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.83435005,SeaSpray Wave SRL Solutions,903311212,12,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.87141025,SeaSpray Wave SRL Solutions,903311212,13,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+ownership,0.90545857,SeaSpray Wave SRL Solutions,903311212,14,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+partnership,0.8280645,SeaSpray Wave SRL Solutions,903311212,15,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+partnership,0.80150676,SeaSpray Wave SRL Solutions,903311212,16,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.91094923,SeaSpray Wave SRL Solutions,903311212,17,SeaSpray Wave SRL Solutions,Unknown,903311212,Unknown
+membership,0.8295939,SeaSpray Wave SRL Solutions,Mar del Oeste Pic,0,SeaSpray Wave SRL Solutions,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.80629736,SeaSpray Wave SRL Solutions,Mar del Oeste Pic,1,SeaSpray Wave SRL Solutions,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.9291284,SeaSpray Wave SRL Solutions,Mar del Oeste Pic,2,SeaSpray Wave SRL Solutions,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8250831,SeaSpray Wave SRL Solutions,Mar del Oeste Pic,3,SeaSpray Wave SRL Solutions,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.9304948,SeaSpray Wave SRL Solutions,Mar del Oeste Pic,4,SeaSpray Wave SRL Solutions,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.80105317,SeaSpray Wave SRL Solutions,Mar del Oeste Pic,5,SeaSpray Wave SRL Solutions,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.91232157,SeaSpray Wave SRL Solutions,Mar del Oeste Pic,6,SeaSpray Wave SRL Solutions,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.92099506,SeaSpray Wave SRL Solutions,Mar del Oeste Pic,7,SeaSpray Wave SRL Solutions,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8778965,SeaSpray Wave SRL Solutions,ipoa-iuu,0,SeaSpray Wave SRL Solutions,Unknown,ipoa-iuu,Unknown
+membership,0.84904605,SeaSpray Wave SRL Solutions,505943,0,SeaSpray Wave SRL Solutions,Unknown,505943,Unknown
+membership,0.85170656,SeaSpray Wave SRL Solutions,1301719,0,SeaSpray Wave SRL Solutions,Unknown,1301719,Unknown
+membership,0.83174783,SeaSpray Wave SRL Solutions,âHe,0,SeaSpray Wave SRL Solutions,Unknown,âHe,Unknown
+family_relationship,0.86744195,SeaSpray Wave SRL Solutions,png xi  Line,0,SeaSpray Wave SRL Solutions,Unknown,png xi  Line,Country_628643
+membership,0.9247863,SeaSpray Wave SRL Solutions,png xi  Line,1,SeaSpray Wave SRL Solutions,Unknown,png xi  Line,Country_628643
+membership,0.8145918,SeaSpray Wave SRL Solutions,png xi  Line,2,SeaSpray Wave SRL Solutions,Unknown,png xi  Line,Country_628643
+partnership,0.8875229,SeaSpray Wave SRL Solutions,png xi  Line,3,SeaSpray Wave SRL Solutions,Unknown,png xi  Line,Country_628643
+partnership,0.8477377,SeaSpray Wave SRL Solutions,png xi  Line,4,SeaSpray Wave SRL Solutions,Unknown,png xi  Line,Country_628643
+membership,0.84022725,SeaSpray Wave SRL Solutions,png xi  Line,5,SeaSpray Wave SRL Solutions,Unknown,png xi  Line,Country_628643
+ownership,0.85149634,SeaSpray Wave SRL Solutions,png xi  Line,6,SeaSpray Wave SRL Solutions,Unknown,png xi  Line,Country_628643
+membership,0.833403,SeaSpray Wave SRL Solutions,b47086b0-e225-436a-83b1-2cf5cda4dbd5,0,SeaSpray Wave SRL Solutions,Unknown,b47086b0-e225-436a-83b1-2cf5cda4dbd5,Unknown
+membership,0.8549064,SeaSpray Wave SRL Solutions,e09b64a2-397a-4bec-96a1-7d61479fe37a,0,SeaSpray Wave SRL Solutions,Unknown,e09b64a2-397a-4bec-96a1-7d61479fe37a,Unknown
+family_relationship,0.82662785,SeaSpray Wave SRL Solutions,6406040,0,SeaSpray Wave SRL Solutions,Unknown,6406040,Unknown
+partnership,0.8461743,SeaSpray Wave SRL Solutions,James Hernandez,0,SeaSpray Wave SRL Solutions,Unknown,James Hernandez,Country_271835
+ownership,0.80357856,SeaSpray Wave SRL Solutions,Laurie Clark,0,SeaSpray Wave SRL Solutions,Unknown,Laurie Clark,Country_271835
+partnership,0.9229469,SeaSpray Wave SRL Solutions,Jennifer Brown,0,SeaSpray Wave SRL Solutions,Unknown,Jennifer Brown,Country_271835
+ownership,0.83765465,SeaSpray Wave SRL Solutions,Michael Baker,0,SeaSpray Wave SRL Solutions,Unknown,Michael Baker,Country_271835
+partnership,0.86327827,SeaSpray Wave SRL Solutions,l y S.A. de C.V. International,0,SeaSpray Wave SRL Solutions,Unknown,l y S.A. de C.V. International,Unknown
+partnership,0.8914668,SeaSpray Wave SRL Solutions,l y S.A. de C.V. International,1,SeaSpray Wave SRL Solutions,Unknown,l y S.A. de C.V. International,Unknown
+partnership,0.9083629,SeaSpray Wave SRL Solutions,Thomas Morales,0,SeaSpray Wave SRL Solutions,Unknown,Thomas Morales,Country_542476
+family_relationship,0.8380098,SeaSpray Wave SRL Solutions,Rhonda Price,0,SeaSpray Wave SRL Solutions,Unknown,Rhonda Price,Oceanus
+membership,0.9139637,SeaSpray Wave SRL Solutions,âgreenâ,0,SeaSpray Wave SRL Solutions,Unknown,âgreenâ,Unknown
+partnership,0.9302441,SeaSpray Wave SRL Solutions,1559,0,SeaSpray Wave SRL Solutions,Unknown,1559,Unknown
+partnership,0.8044734,SeaSpray Wave SRL Solutions,Robert Vega,0,SeaSpray Wave SRL Solutions,Unknown,Robert Vega,Country_271835
+membership,0.8088174,SeaSpray Wave SRL Solutions,West Bengal S.A. de C.V.,0,SeaSpray Wave SRL Solutions,Unknown,West Bengal S.A. de C.V.,Unknown
+membership,0.9421325,SeaSpray Wave SRL Solutions,operated vehicle,0,SeaSpray Wave SRL Solutions,Unknown,operated vehicle,Unknown
+family_relationship,0.852053,SeaSpray Wave SRL Solutions,Carol Wade,0,SeaSpray Wave SRL Solutions,Unknown,Carol Wade,Country_271835
+membership,0.88439435,SeaSpray Wave SRL Solutions,Dana Knapp,0,SeaSpray Wave SRL Solutions,Unknown,Dana Knapp,Islavaria
+membership,0.9311811,SeaSpray Wave SRL Solutions,6204,0,SeaSpray Wave SRL Solutions,Unknown,6204,Unknown
+partnership,0.8925213,SeaSpray Wave SRL Solutions,4086,0,SeaSpray Wave SRL Solutions,Unknown,4086,Unknown
+ownership,0.8883276,SeaSpray Wave SRL Solutions,aac2c35c-d06d-45df-a1f8-a0c4001f3897,0,SeaSpray Wave SRL Solutions,Unknown,aac2c35c-d06d-45df-a1f8-a0c4001f3897,Unknown
+membership,0.84120804,SeaSpray Wave SRL Solutions,James Horton,0,SeaSpray Wave SRL Solutions,Unknown,James Horton,Country_271835
+membership,0.8072261,SeaSpray Wave SRL Solutions,Sea Products,0,SeaSpray Wave SRL Solutions,Unknown,Sea Products,Unknown
+membership,0.8349302,SeaSpray Wave SRL Solutions,Sea Products,1,SeaSpray Wave SRL Solutions,Unknown,Sea Products,Unknown
+family_relationship,0.8020135,SeaSpray Wave SRL Solutions,Sylvia Johnson,0,SeaSpray Wave SRL Solutions,Unknown,Sylvia Johnson,Country_271835
+partnership,0.8863163,SeaSpray Wave SRL Solutions,Wanda Collins,0,SeaSpray Wave SRL Solutions,Unknown,Wanda Collins,Country_271835
+family_relationship,0.90347946,SeaSpray Wave SRL Solutions,Lindsey Barr,0,SeaSpray Wave SRL Solutions,Unknown,Lindsey Barr,Country_271835
+family_relationship,0.89722437,SeaSpray Wave SRL Solutions,b8649055-5b40-43e1-ba33-93182cf978d4,0,SeaSpray Wave SRL Solutions,Unknown,b8649055-5b40-43e1-ba33-93182cf978d4,Unknown
+family_relationship,0.88043404,SeaSpray Wave SRL Solutions,Seth Kelley,0,SeaSpray Wave SRL Solutions,Unknown,Seth Kelley,Country_271835
+family_relationship,0.81350946,SeaSpray Wave SRL Solutions,âPartnersâ,0,SeaSpray Wave SRL Solutions,Unknown,âPartnersâ,Unknown
+membership,0.81129724,SeaSpray Wave SRL Solutions,Candice Brown,0,SeaSpray Wave SRL Solutions,Unknown,Candice Brown,Country_271835
+partnership,0.9579581,SeaSpray Wave SRL Solutions,Hardwoodsâ,0,SeaSpray Wave SRL Solutions,Unknown,Hardwoodsâ,Unknown
+membership,0.85241574,SeaSpray Wave SRL Solutions,86ac9e66-f9e8-4f2b-ad17-39a52c23288c,0,SeaSpray Wave SRL Solutions,Unknown,86ac9e66-f9e8-4f2b-ad17-39a52c23288c,Unknown
+family_relationship,0.8574939,SeaSpray Wave SRL Solutions,Robert Rodriguez,0,SeaSpray Wave SRL Solutions,Unknown,Robert Rodriguez,Country_271835
+membership,0.9224531,SeaSpray Wave SRL Solutions,Motor Vessel,0,SeaSpray Wave SRL Solutions,Unknown,Motor Vessel,Unknown
+membership,0.80091965,SeaSpray Wave SRL Solutions,Bryan King,0,SeaSpray Wave SRL Solutions,Unknown,Bryan King,Country_271835
+partnership,0.8223545,SeaSpray Wave SRL Solutions,Morgan Black,0,SeaSpray Wave SRL Solutions,Unknown,Morgan Black,Country_271835
+partnership,0.81383806,SeaSpray Wave SRL Solutions,Calvin Salas,0,SeaSpray Wave SRL Solutions,Unknown,Calvin Salas,Marebak
+partnership,0.85660565,SeaSpray Wave SRL Solutions,Calvin Salas,1,SeaSpray Wave SRL Solutions,Unknown,Calvin Salas,Marebak
+membership,0.8001809,Ocean Fisheries Llc,903311212,0,Ocean Fisheries Llc,Unknown,903311212,Unknown
+membership,0.88676596,Ocean Fisheries Llc,903311212,1,Ocean Fisheries Llc,Unknown,903311212,Unknown
+partnership,0.8265983,Ocean Fisheries Llc,903311212,2,Ocean Fisheries Llc,Unknown,903311212,Unknown
+partnership,0.8196937,Ocean Fisheries Llc,903311212,3,Ocean Fisheries Llc,Unknown,903311212,Unknown
+ownership,0.8135304,Ocean Fisheries Llc,903311212,4,Ocean Fisheries Llc,Unknown,903311212,Unknown
+membership,0.89973664,Ocean Fisheries Llc,903311212,5,Ocean Fisheries Llc,Unknown,903311212,Unknown
+family_relationship,0.82993,Ocean Fisheries Llc,903311212,6,Ocean Fisheries Llc,Unknown,903311212,Unknown
+membership,0.81316787,Ocean Fisheries Llc,903311212,7,Ocean Fisheries Llc,Unknown,903311212,Unknown
+membership,0.893739,Ocean Fisheries Llc,903311212,8,Ocean Fisheries Llc,Unknown,903311212,Unknown
+partnership,0.8294158,Ocean Fisheries Llc,903311212,9,Ocean Fisheries Llc,Unknown,903311212,Unknown
+membership,0.8014878,Ocean Fisheries Llc,903311212,10,Ocean Fisheries Llc,Unknown,903311212,Unknown
+ownership,0.8440701,Ocean Fisheries Llc,903311212,11,Ocean Fisheries Llc,Unknown,903311212,Unknown
+membership,0.85122055,Ocean Fisheries Llc,Claire Russell,0,Ocean Fisheries Llc,Unknown,Claire Russell,Country_271835
+membership,0.85003227,Ocean Fisheries Llc,âunregulatedâ,0,Ocean Fisheries Llc,Unknown,âunregulatedâ,Unknown
+partnership,0.93821424,Ocean Fisheries Llc,png xi  Line,0,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+membership,0.9800934,Ocean Fisheries Llc,png xi  Line,1,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+partnership,0.8603415,Ocean Fisheries Llc,png xi  Line,2,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+ownership,0.8448923,Ocean Fisheries Llc,png xi  Line,3,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+ownership,0.81615347,Ocean Fisheries Llc,png xi  Line,4,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+family_relationship,0.86670923,Ocean Fisheries Llc,png xi  Line,5,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+membership,0.89173955,Ocean Fisheries Llc,png xi  Line,6,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+membership,0.8107397,Ocean Fisheries Llc,png xi  Line,7,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+family_relationship,0.81569093,Ocean Fisheries Llc,png xi  Line,8,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+membership,0.842974,Ocean Fisheries Llc,png xi  Line,9,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+membership,0.87715906,Ocean Fisheries Llc,png xi  Line,10,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+membership,0.8010685,Ocean Fisheries Llc,png xi  Line,11,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+membership,0.82815963,Ocean Fisheries Llc,png xi  Line,12,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+ownership,0.8278228,Ocean Fisheries Llc,png xi  Line,13,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+membership,0.96251535,Ocean Fisheries Llc,png xi  Line,14,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+ownership,0.8607963,Ocean Fisheries Llc,png xi  Line,15,Ocean Fisheries Llc,Unknown,png xi  Line,Country_628643
+membership,0.8216502,Ocean Fisheries Llc,water fishing,0,Ocean Fisheries Llc,Unknown,water fishing,Unknown
+ownership,0.8601975,Ocean Fisheries Llc,874124852,0,Ocean Fisheries Llc,Unknown,874124852,Unknown
+ownership,0.9037825,Ocean Fisheries Llc,874124852,1,Ocean Fisheries Llc,Unknown,874124852,Unknown
+partnership,0.8590563,Ocean Fisheries Llc,salmon,0,Ocean Fisheries Llc,Unknown,salmon,Unknown
+membership,0.80161357,Ocean Fisheries Llc,Aleut Community St,0,Ocean Fisheries Llc,Unknown,Aleut Community St,Unknown
+ownership,0.8025336,Ocean Fisheries Llc,âAlaÄum KanuuxÌ,0,Ocean Fisheries Llc,Unknown,âAlaÄum KanuuxÌ,Unknown
+ownership,0.8292601,Ocean Fisheries Llc,Mar del Oeste Pic,0,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.829923,Ocean Fisheries Llc,Mar del Oeste Pic,1,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.8343085,Ocean Fisheries Llc,Mar del Oeste Pic,2,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.890718,Ocean Fisheries Llc,Mar del Oeste Pic,3,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.8264466,Ocean Fisheries Llc,Mar del Oeste Pic,4,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.81519204,Ocean Fisheries Llc,Mar del Oeste Pic,5,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.80247176,Ocean Fisheries Llc,Mar del Oeste Pic,6,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.80449903,Ocean Fisheries Llc,Mar del Oeste Pic,7,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+family_relationship,0.8861232,Ocean Fisheries Llc,Mar del Oeste Pic,8,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.9173641,Ocean Fisheries Llc,Mar del Oeste Pic,9,Ocean Fisheries Llc,Unknown,Mar del Oeste Pic,Vesperlandia
+membership,0.82006115,Ocean Fisheries Llc,36,0,Ocean Fisheries Llc,Unknown,36,Unknown
+membership,0.8167291,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,0,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.80543554,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,1,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.8348955,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,2,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8884072,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,3,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.81869966,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,4,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8304806,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,5,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8430229,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,6,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8984813,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,7,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8691214,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,8,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8286541,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,9,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.8902789,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,10,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8786924,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,11,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8786229,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,12,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.93574846,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,13,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.84993553,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,14,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.9126283,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,15,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+ownership,0.85329,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,16,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8363564,Ocean Fisheries Llc,SeaSpray Wave SRL Solutions,17,Ocean Fisheries Llc,Unknown,SeaSpray Wave SRL Solutions,Unknown
+partnership,0.8285203,Ocean Fisheries Llc,505943,0,Ocean Fisheries Llc,Unknown,505943,Unknown
+ownership,0.8228057,Ocean Fisheries Llc,801809,0,Ocean Fisheries Llc,Unknown,801809,Unknown
+partnership,0.9325767,Ocean Fisheries Llc,Calvin Salas,0,Ocean Fisheries Llc,Unknown,Calvin Salas,Marebak
+family_relationship,0.83104,Ocean Fisheries Llc,Andrew Gamble,0,Ocean Fisheries Llc,Unknown,Andrew Gamble,Country_271835
+membership,0.82357424,Ocean Fisheries Llc,2,0,Ocean Fisheries Llc,Unknown,2,Unknown
+partnership,0.8140194,Ocean Fisheries Llc,21240092,0,Ocean Fisheries Llc,Unknown,21240092,Unknown
+partnership,0.8076928,Ocean Fisheries Llc,3506021,0,Ocean Fisheries Llc,Unknown,3506021,Unknown
+membership,0.8697705,Ocean Fisheries Llc,3506021,1,Ocean Fisheries Llc,Unknown,3506021,Unknown
+partnership,0.8548162,Ocean Fisheries Llc,3506021,2,Ocean Fisheries Llc,Unknown,3506021,Unknown
+membership,0.81491095,Ocean Fisheries Llc,b47086b0-e225-436a-83b1-2cf5cda4dbd5,0,Ocean Fisheries Llc,Unknown,b47086b0-e225-436a-83b1-2cf5cda4dbd5,Unknown
+membership,0.9246764,Ocean Fisheries Llc,Morgan Black,0,Ocean Fisheries Llc,Unknown,Morgan Black,Country_271835
+membership,0.88156664,Ocean Fisheries Llc,Alyssa Mccoy,0,Ocean Fisheries Llc,Unknown,Alyssa Mccoy,Country_271835
+ownership,0.9043895,Ocean Fisheries Llc,Christopher Simon,0,Ocean Fisheries Llc,Unknown,Christopher Simon,Country_271835
+partnership,0.93376875,Ocean Fisheries Llc,John Barnes DDS,0,Ocean Fisheries Llc,Unknown,John Barnes DDS,Country_271835
+ownership,0.9340217,Ocean Fisheries Llc,1214936,0,Ocean Fisheries Llc,Unknown,1214936,Unknown
+ownership,0.81023705,Ocean Fisheries Llc,Amanda Becker,0,Ocean Fisheries Llc,Unknown,Amanda Becker,Country_271835
+family_relationship,0.8134036,Ocean Fisheries Llc,Sept,0,Ocean Fisheries Llc,Unknown,Sept,Unknown
+membership,0.8860568,Ocean Fisheries Llc,Miranda Small,0,Ocean Fisheries Llc,Unknown,Miranda Small,Country_271835
+partnership,0.86924493,Ocean Fisheries Llc,da91eeb8-11f7-4634-95e7-f9413e9957aa,0,Ocean Fisheries Llc,Unknown,da91eeb8-11f7-4634-95e7-f9413e9957aa,Unknown
+membership,0.8010778,Ocean Fisheries Llc,Laurie Mclaughlin,0,Ocean Fisheries Llc,Unknown,Laurie Mclaughlin,Country_271835
+ownership,0.8495481,Ocean Fisheries Llc,morningâs,0,Ocean Fisheries Llc,Unknown,morningâs,Unknown
+ownership,0.8487019,Ocean Fisheries Llc,morningâs,1,Ocean Fisheries Llc,Unknown,morningâs,Unknown
+partnership,0.85511005,Ocean Fisheries Llc,waterâ,0,Ocean Fisheries Llc,Unknown,waterâ,Unknown
+membership,0.8838335,Ocean Fisheries Llc,âHe,0,Ocean Fisheries Llc,Unknown,âHe,Unknown
+partnership,0.8539889,Ocean Fisheries Llc,Snow Crab,0,Ocean Fisheries Llc,Unknown,Snow Crab,Unknown
+ownership,0.9281183,Ocean Fisheries Llc,Carol Wade,0,Ocean Fisheries Llc,Unknown,Carol Wade,Country_271835
+membership,0.87092525,Ocean Fisheries Llc,Laura Smith,0,Ocean Fisheries Llc,Unknown,Laura Smith,Country_271835
+membership,0.92678297,Ocean Fisheries Llc,6204,0,Ocean Fisheries Llc,Unknown,6204,Unknown
+partnership,0.83174574,Ocean Fisheries Llc,Lindsey Conway,0,Ocean Fisheries Llc,Unknown,Lindsey Conway,Country_271835
+family_relationship,0.9421566,Ocean Fisheries Llc,a0ea93dc-6767-4682-b424-21b5a24ea24b,0,Ocean Fisheries Llc,Unknown,a0ea93dc-6767-4682-b424-21b5a24ea24b,Unknown
+membership,0.80266255,Ocean Fisheries Llc,Blue Water Ventures Kga,0,Ocean Fisheries Llc,Unknown,Blue Water Ventures Kga,Unknown
+membership,0.9668782,Ocean Fisheries Llc,Jeremy Norris,0,Ocean Fisheries Llc,Unknown,Jeremy Norris,Country_271835
+partnership,0.8155851,Ocean Fisheries Llc,Jeremy Norris,1,Ocean Fisheries Llc,Unknown,Jeremy Norris,Country_271835
+family_relationship,0.8389524,Ocean Fisheries Llc,Stephen Marks,0,Ocean Fisheries Llc,Unknown,Stephen Marks,Country_271835
+membership,0.84381944,Ocean Fisheries Llc,Tristan Johnson,0,Ocean Fisheries Llc,Unknown,Tristan Johnson,Wysterion
+membership,0.8530785,Ocean Fisheries Llc,Tristan Johnson,1,Ocean Fisheries Llc,Unknown,Tristan Johnson,Wysterion
+partnership,0.9326524,Ocean Fisheries Llc,electric cars,0,Ocean Fisheries Llc,Unknown,electric cars,Unknown
+ownership,0.8389201,Ocean Fisheries Llc,979893388,0,Ocean Fisheries Llc,Unknown,979893388,Unknown
+family_relationship,0.8307202,Ocean Fisheries Llc,979893388,1,Ocean Fisheries Llc,Unknown,979893388,Unknown
+family_relationship,0.89331144,Ocean Fisheries Llc,Danish Lobster Limited Liability Company Brothers,0,Ocean Fisheries Llc,Unknown,Danish Lobster Limited Liability Company Brothers,Country_271835
+ownership,0.86794037,Ocean Fisheries Llc,Faurtil FÃ¡brica Urnas TietÃª,0,Ocean Fisheries Llc,Unknown,Faurtil FÃ¡brica Urnas TietÃª,Unknown
+ownership,0.87701076,Ocean Fisheries Llc,Patricia Flores,0,Ocean Fisheries Llc,Unknown,Patricia Flores,Oceanus
+ownership,0.92705065,Ocean Fisheries Llc,Patricia Flores,1,Ocean Fisheries Llc,Unknown,Patricia Flores,Oceanus
+membership,0.85431534,Ocean Fisheries Llc,Manuel Hess,0,Ocean Fisheries Llc,Unknown,Manuel Hess,Country_271835
+membership,0.92946917,Ocean Fisheries Llc,Motor Vessel,0,Ocean Fisheries Llc,Unknown,Motor Vessel,Unknown
+membership,0.82270485,Ocean Fisheries Llc,114d2882-b620-4098-bb56-d865bbb85339,0,Ocean Fisheries Llc,Unknown,114d2882-b620-4098-bb56-d865bbb85339,Unknown
+ownership,0.8686541,Ocean Fisheries Llc,14636,0,Ocean Fisheries Llc,Unknown,14636,Unknown
+partnership,0.82898384,Ocean Fisheries Llc,Nathaniel Shah,0,Ocean Fisheries Llc,Unknown,Nathaniel Shah,Country_271835
+family_relationship,0.85740256,Ocean Fisheries Llc,Bloomberg Law,0,Ocean Fisheries Llc,Unknown,Bloomberg Law,Unknown
+family_relationship,0.84756887,Ocean Fisheries Llc,âexemplaryâ,0,Ocean Fisheries Llc,Unknown,âexemplaryâ,Unknown
+membership,0.8060395,Ocean Fisheries Llc,5246016,0,Ocean Fisheries Llc,Unknown,5246016,Unknown
+membership,0.97272134,Ocean Fisheries Llc,64667049,0,Ocean Fisheries Llc,Unknown,64667049,Unknown
+membership,0.9052297,Ocean Fisheries Llc,cc3c9a3e-9226-43e0-9c2e-2cabec77b0fc,0,Ocean Fisheries Llc,Unknown,cc3c9a3e-9226-43e0-9c2e-2cabec77b0fc,Unknown
+ownership,0.88734645,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,863749817,0,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Unknown,863749817,Unknown
+ownership,0.85863686,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,475,0,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Unknown,475,Unknown
+membership,0.806217,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Amanda Becker,0,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Unknown,Amanda Becker,Country_271835
+membership,0.8472917,Fish Sea,Sea Products,0,Fish Sea,Unknown,Sea Products,Unknown
+ownership,0.9172765,Sea Products,13015105,0,Sea Products,Unknown,13015105,Unknown
+partnership,0.877942,Sea Products,3506021,0,Sea Products,Unknown,3506021,Unknown
+membership,0.8357131,Sea Products,The Salty Dog Tidepool Kga Transport,0,Sea Products,Unknown,The Salty Dog Tidepool Kga Transport,Unknown
+partnership,0.9123665,Qingdao Kaiyuan Seafoods,Spanish Shrimp  Carriers,0,Qingdao Kaiyuan Seafoods,Unknown,Spanish Shrimp  Carriers,Nalakond
+partnership,0.9076584,Qingdao Kaiyuan Seafoods,52093e45-b873-4300-9612-8dfc291b1339,0,Qingdao Kaiyuan Seafoods,Unknown,52093e45-b873-4300-9612-8dfc291b1339,Unknown
+partnership,0.9119889,Qingdao Kaiyuan Seafoods,200640636,0,Qingdao Kaiyuan Seafoods,Unknown,200640636,Unknown
+partnership,0.9080298,Qingdao Kaiyuan Seafoods,3506021,0,Qingdao Kaiyuan Seafoods,Unknown,3506021,Unknown
+partnership,0.87980926,Qingdao Kaiyuan Seafoods,300668979,0,Qingdao Kaiyuan Seafoods,Unknown,300668979,Unknown
+partnership,0.9215489,Qingdao Kaiyuan Seafoods,Stacey Ortega,0,Qingdao Kaiyuan Seafoods,Unknown,Stacey Ortega,Country_271835
+partnership,0.8848821,Mar de la Vida OJSC,Kevin Burnett,0,Mar de la Vida OJSC,Unknown,Kevin Burnett,Country_271835
+ownership,0.81111944,Mar de la Vida OJSC,Jon White,0,Mar de la Vida OJSC,Unknown,Jon White,Polarisdom
+partnership,0.8822145,Mar de la Vida OJSC,Rebecca Walker,0,Mar de la Vida OJSC,Unknown,Rebecca Walker,Country_271835
+membership,0.812559,Mar de la Vida OJSC,Amanda Scott,0,Mar de la Vida OJSC,Unknown,Amanda Scott,Polarisdom
+family_relationship,0.933199,Mar de la Vida OJSC,22 Raptor,0,Mar de la Vida OJSC,Unknown,22 Raptor,Unknown
+membership,0.92325133,Mar de la Vida OJSC,Gerald Washington,0,Mar de la Vida OJSC,Unknown,Gerald Washington,Country_271835
+membership,0.9229233,Mar de la Vida OJSC,Jessica Kelly,0,Mar de la Vida OJSC,Unknown,Jessica Kelly,Country_271835
+membership,0.9568139,Mar de la Vida OJSC,âHe,0,Mar de la Vida OJSC,Unknown,âHe,Unknown
+membership,0.9361945,Mar de la Vida OJSC,60017,0,Mar de la Vida OJSC,Unknown,60017,Unknown
+membership,0.9335016,Mar de la Vida OJSC,Ancla Azul Company Solutions,0,Mar de la Vida OJSC,Unknown,Ancla Azul Company Solutions,Unknown
+partnership,0.8601555,Fisheries Inc,Mr. Justin Bailey MD,0,Fisheries Inc,Unknown,Mr. Justin Bailey MD,Country_271835
+partnership,0.8286144,Fisheries Inc,185040354,0,Fisheries Inc,Unknown,185040354,Unknown
+membership,0.94407046,Fisheries Inc,Morgan Black,0,Fisheries Inc,Unknown,Morgan Black,Country_271835
+ownership,0.9203933,Fisheries Inc,1214936,0,Fisheries Inc,Unknown,1214936,Unknown
+membership,0.8669836,Fisheries Inc,903311212,0,Fisheries Inc,Unknown,903311212,Unknown
+membership,0.8000154,Getis-Ord,3506021,0,Getis-Ord,Unknown,3506021,Unknown
+family_relationship,0.8859729,Getis-Ord,f514483d-fb5f-4cb2-bb8d-b616b10336d8,0,Getis-Ord,Unknown,f514483d-fb5f-4cb2-bb8d-b616b10336d8,Unknown
+membership,0.8184103,Bergmanâs,Stacey Ortiz,0,Bergmanâs,Unknown,Stacey Ortiz,Country_271835
+partnership,0.8529478,Shellfish Chile SA,3009706,0,Shellfish Chile SA,Unknown,3009706,Unknown
+membership,0.8048321,Shellfish Chile SA,903311212,0,Shellfish Chile SA,Unknown,903311212,Unknown
+membership,0.951431,Mar de Cristalino Co,Brandon Berger,0,Mar de Cristalino Co,Unknown,Brandon Berger,Country_271835
+membership,0.93499553,Mar de Cristalino Co,SaltwaterSavor Shipyard LC Merchants,0,Mar de Cristalino Co,Unknown,SaltwaterSavor Shipyard LC Merchants,Unknown
+membership,0.85658735,The Salty Dog Tidepool Kga Transport,e0cdfc51-7473-481d-8900-03f66d6e359e,0,The Salty Dog Tidepool Kga Transport,Unknown,e0cdfc51-7473-481d-8900-03f66d6e359e,Unknown
+membership,0.8764055,The Salty Dog Tidepool Kga Transport,Ricardo Gomez,0,The Salty Dog Tidepool Kga Transport,Unknown,Ricardo Gomez,Country_271835
+membership,0.84773993,The Salty Dog Tidepool Kga Transport,75471,0,The Salty Dog Tidepool Kga Transport,Unknown,75471,Unknown
+partnership,0.82381034,The Salty Dog Tidepool Kga Transport,Mar del Oeste Pic,0,The Salty Dog Tidepool Kga Transport,Unknown,Mar del Oeste Pic,Vesperlandia
+partnership,0.8856591,Stock SA,png xi  Line,0,Stock SA,Unknown,png xi  Line,Country_628643
+membership,0.83731556,Stock SA,SeaSpray Wave SRL Solutions,0,Stock SA,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.952973,Aqua Ambassadors Limited Liability Company,Kagera River  GmbH & Co. KG Delivery,0,Aqua Ambassadors Limited Liability Company,Unknown,Kagera River  GmbH & Co. KG Delivery,Country_271835
+membership,0.9473975,Aqua Ambassadors Limited Liability Company,Sea Luxe Oceanography Kga Transportation,0,Aqua Ambassadors Limited Liability Company,Unknown,Sea Luxe Oceanography Kga Transportation,Unknown
+membership,0.90833753,Aqua Ambassadors Limited Liability Company,8503254,0,Aqua Ambassadors Limited Liability Company,Unknown,8503254,Unknown
+membership,0.87986606,Sea Luxe Oceanography Kga Transportation,8503254,0,Sea Luxe Oceanography Kga Transportation,Unknown,8503254,Unknown
+membership,0.882796,Sea Luxe Oceanography Kga Transportation,Ocean Fisheries Llc,0,Sea Luxe Oceanography Kga Transportation,Unknown,Ocean Fisheries Llc,Unknown
+family_relationship,0.82489574,Blue Water Ventures Kga,Danish Lobster Limited Liability Company Brothers,0,Blue Water Ventures Kga,Unknown,Danish Lobster Limited Liability Company Brothers,Country_271835
+ownership,0.84633017,âCinder,Kariba Dam  N.V. Brothers,0,âCinder,Unknown,Kariba Dam  N.V. Brothers,Unknown
+partnership,0.9227231,Kariba Dam  N.V. Brothers,SeaSpray Wave SRL Solutions,0,Kariba Dam  N.V. Brothers,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.84103715,Tuna Vietnam,77b46bc7-7e31-41a0-973c-e633011d21b0,0,Tuna Vietnam,Unknown,77b46bc7-7e31-41a0-973c-e633011d21b0,Unknown
+partnership,0.8347394,Marine Foods,MCDP,0,Marine Foods,Unknown,MCDP,Unknown
+membership,0.83523107,Marine Foods,png xi  Line,0,Marine Foods,Unknown,png xi  Line,Country_628643
+family_relationship,0.82202166,3 Ltd. Liability Co,Qingdao Kaiyuan Seafoods,0,3 Ltd. Liability Co,Unknown,Qingdao Kaiyuan Seafoods,Unknown
+partnership,0.9117197,Hudsons Bay,Gary Dunn,0,Hudsons Bay,Unknown,Gary Dunn,Country_271835
+ownership,0.8556643,Hudsons Bay,Morgan Black,0,Hudsons Bay,Unknown,Morgan Black,Country_271835
+partnership,0.91627383,STL,Ocean Fisheries Llc,0,STL,Unknown,Ocean Fisheries Llc,Unknown
+ownership,0.81881154,Phillips,Brittany Brewer,0,Phillips,Unknown,Brittany Brewer,Country_271835
+membership,0.9243718,Phillips,Noah Mitchell,0,Phillips,Unknown,Noah Mitchell,Country_271835
+ownership,0.8630621,Phillips,Mar del Oeste Pic,0,Phillips,Unknown,Mar del Oeste Pic,Vesperlandia
+ownership,0.8163952,Phillips,SeaSpray Wave SRL Solutions,0,Phillips,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.84080863,Rose,Aine,0,Rose,Unknown,Aine,Unknown
+membership,0.846052,Savaneta Corporation Marine life,Scott Simpson,0,Savaneta Corporation Marine life,Unknown,Scott Simpson,Oceanus
+partnership,0.89454347,Savaneta Corporation Marine life,Loretta Harrington,0,Savaneta Corporation Marine life,Unknown,Loretta Harrington,Country_271835
+family_relationship,0.83641094,Michael Limited Liability Company,SeaSpray Wave SRL Solutions,0,Michael Limited Liability Company,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.826424,Michael Limited Liability Company,Ocean Fisheries Llc,0,Michael Limited Liability Company,Unknown,Ocean Fisheries Llc,Unknown
+membership,0.9372099,âUS,3 Ltd. Liability Co,0,âUS,Unknown,3 Ltd. Liability Co,Unknown
+membership,0.9091044,âUS,intrafish,0,âUS,Unknown,intrafish,Unknown
+membership,0.8988331,âUS,979893388,0,âUS,Unknown,979893388,Unknown
+partnership,0.918663,One Hongn,James Horton,0,One Hongn,Unknown,James Horton,Country_271835
+ownership,0.80588394,One Hongn,SeaSpray Wave SRL Solutions,0,One Hongn,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.84387934,Kores De Venezuela C A,John Gonzalez,0,Kores De Venezuela C A,Unknown,John Gonzalez,Nalakond
+membership,0.80287445,Kores De Venezuela C A,Jon White,0,Kores De Venezuela C A,Unknown,Jon White,Polarisdom
+membership,0.82433665,Kores De Venezuela C A,Emily Kennedy,0,Kores De Venezuela C A,Unknown,Emily Kennedy,Country_614826
+membership,0.9011563,Faroe Islands Plc Investment,png xi  Line,0,Faroe Islands Plc Investment,Unknown,png xi  Line,Country_628643
+membership,0.8308499,Logistics,Dr. Christina Jensen DDS,0,Logistics,Unknown,Dr. Christina Jensen DDS,Country_271835
+family_relationship,0.8035537,Dispenseroo,b8649055-5b40-43e1-ba33-93182cf978d4,0,Dispenseroo,Unknown,b8649055-5b40-43e1-ba33-93182cf978d4,Unknown
+membership,0.84242773,Dispenseroo,903311212,0,Dispenseroo,Unknown,903311212,Unknown
+membership,0.89384556,80 Percent Arms,CM Nationali,0,80 Percent Arms,Unknown,CM Nationali,Unknown
+membership,0.86435175,MV,36744944,0,MV,Unknown,36744944,Unknown
+family_relationship,0.90409166,MV,979893388,0,MV,Unknown,979893388,Unknown
+ownership,0.8481775,Ronald,C Express,0,Ronald,Unknown,C Express,Unknown
+ownership,0.81229156,IndÃºstria Madeireira Uliana,Faurtil FÃ¡brica Urnas TietÃª,0,IndÃºstria Madeireira Uliana,Unknown,Faurtil FÃ¡brica Urnas TietÃª,Unknown
