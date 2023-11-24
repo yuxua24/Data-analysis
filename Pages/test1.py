@@ -41,6 +41,9 @@ with left_column:
     if node_query:
         selected_nodes.append(node_query)
 
+    conf_threshold = st.slider(
+        'Weight threshold', min_value=0.0000, max_value=1.0, value=0.0000, step=0.0001)
+
     selected_link_types = set()
     st.subheader("Link Type")
     for link_type in link_types:
@@ -63,7 +66,7 @@ def get_neighbors(selected_nodes, links_df, selected_link_types, selected_catego
     for node in selected_nodes:
         # Check if node is in selected categories
         if node_types[node] in selected_categories:
-            filtered_df = links_df[links_df['type'].isin(selected_link_types)]
+            filtered_df = links_df[(links_df['type'].isin(selected_link_types)) & (links_df['weight'] > conf_threshold)]
             neighbors.update(
                 filtered_df[filtered_df['source'] == node]['target'].tolist())
             neighbors.update(
@@ -108,9 +111,10 @@ with mid_column:
 
         echarts_links = filtered_df.apply(
             lambda row: {"source": row['source'],
-                         "target": row['target'], "value": row['type']},
+                         "target": row['target'], "value": row['type']}
+            if row['weight'] > conf_threshold else None,
             axis=1
-        ).tolist()
+        ).dropna().tolist()
 
         # 定义不同类别的节点样式
         categories = [
@@ -141,7 +145,7 @@ with mid_column:
                     "focusNodeAdjacency": True,
                     "roam": True,
                     "draggable": True,
-                    "focusNodeAdjacency": True,  # 当点击一个节点时，高亮显示与其相连的边和节点
+                    "focusNodeAdjacency": False,  # 当点击一个节点时，高亮显示与其相连的边和节点
                     "label": {
                         "show": True,
                         "position": 'right',  # 可以根据实际情况调整标签位置
@@ -167,7 +171,7 @@ with mid_column:
                     "force": {
                         "layoutAnimation": False,
                         "repulsion": 1000,
-                        "edgeLength": 100,
+                        "edgeLength": 10,
                         "gravity": 0.5
                     }
                 }
@@ -201,6 +205,10 @@ with right_column:
     st.subheader("Edeg Statistics")
 
     # Calculate the count of each link type in the filtered graph
+    neighbors_set = get_neighbors(
+        selected_nodes, links_df, selected_link_types, selected_categories)
+    filtered_df = links_df[(links_df['source'].isin(neighbors_set)) & (
+        links_df['target'].isin(neighbors_set)) & (links_df['type'].isin(selected_link_types))]
     link_type_counts = filtered_df['type'].value_counts().reset_index()
     link_type_counts.columns = ['type', 'count']
 
