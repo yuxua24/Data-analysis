@@ -207,10 +207,27 @@ with right_column:
     # Calculate the count of each link type in the filtered graph
     neighbors_set = get_neighbors(
         selected_nodes, links_df, selected_link_types, selected_categories)
-    filtered_df = links_df[(links_df['source'].isin(neighbors_set)) & (
-        links_df['target'].isin(neighbors_set)) & (links_df['type'].isin(selected_link_types))]
+    filtered_df = links_df[((links_df['source'].isin(selected_nodes)) | (
+        links_df['target'].isin(selected_nodes))) & (links_df['type'].isin(selected_link_types))]
     link_type_counts = filtered_df['type'].value_counts().reset_index()
     link_type_counts.columns = ['type', 'count']
+
+    # Calculate in-degree and out-degree for each link type
+    in_degree_counts = links_df[links_df['target'].isin(selected_nodes)]['type'].value_counts().reset_index()
+    out_degree_counts = links_df[links_df['source'].isin(selected_nodes)]['type'].value_counts().reset_index()
+
+    # Transform the value counts into the format needed for ECharts
+    def transform_counts_to_data(counts):
+        return [{"value": row['count'], "name": row['type']} for index, row in counts.iterrows()]
+
+    all_degree_data = transform_counts_to_data(link_type_counts)
+    in_degree_data = transform_counts_to_data(in_degree_counts)
+    out_degree_data = transform_counts_to_data(out_degree_counts)
+
+    # Sort the data by the 'name' key using sorted function
+    all_degree_data = sorted(all_degree_data, key=lambda x: x['name'].lower())
+    in_degree_data = sorted(in_degree_data, key=lambda x: x['name'].lower())
+    out_degree_data = sorted(out_degree_data, key=lambda x: x['name'].lower())
 
     # Prepare data for ECharts pie chart
     pie_data = [
@@ -220,35 +237,77 @@ with right_column:
 
     # ECharts pie chart configuration
     pie_option = {
-        "tooltip": {
-            "trigger": 'item',
-            "formatter": "{a} <br/>{b}: {c} ({d}%)"
-        },
-        "legend": {
-            "orient": 'vertical',
-            "left": 'left',
-        },
-        "series": [
-            {
-                "name": 'Edeg Statistics',
-                "type": 'pie',
-                "radius": '50%',
-                "data": pie_data,
-                "avoidLabelOverlap": True,
-                "label": {
-                    "show": False,  # Set to False to hide labels on the pie sectors
-                    "position": 'outside',
-                },
-                "emphasis": {
-                    "itemStyle": {
-                        "shadowBlur": 10,
-                        "shadowOffsetX": 0,
-                        "shadowColor": 'rgba(0, 0, 0, 0.5)'
-                    }
-                }
-            }
-        ]
+    "tooltip": {
+        "trigger": 'item',
+        "formatter": "{a} <br/>{b}: {c} ({d}%)"
+    },
+    "legend": {
+        "show": True,
+        "orient": 'horizontal',
+        "left": 'left',
+    },
+    "graphic": [
+    {
+        # 文本元素用于'in_degree'
+        "type": 'text',
+        "z": 100,
+        "left": 'center',  # 水平居中
+        "top": '70%',  # 小圆环的顶部位置，需要调整
+        "style": {
+            "text": 'in_degree',  # 显示的文本
+            "textAlign": 'center',
+            "font": '14px Arial',
+            "fill": 'black',  # 文本颜色
+             "fontWeight": "bold"  # 加粗文本
+        }
+    },
+    {
+        # 文本元素用于'out_degree'
+        "type": 'text',
+        "z": 100,
+        "left": 'center',  # 水平居中
+        "top": '83%',  # 大圆环的顶部位置，需要调整
+        "style": {
+            "text": 'out_degree',  # 显示的文本
+            "textAlign": 'center',
+            "font": '14px Arial',
+            "fill": 'black',  # 文本颜色
+             "fontWeight": "bold"  # 加粗文本
+        }
     }
+],
+    "series": [
+        {
+            "name": '',
+            "type": 'pie',
+            "selectedMode": 'single',
+            "radius": ['0%', '30%'],
+            "label": {
+                "show": False
+            },
+            "data": all_degree_data
+        },
+        {
+            "name": '',
+            "type": 'pie',
+            "radius": ['40%', '55%'],
+            "label": {
+                "show": False
+            },
+            "data": in_degree_data
+        },
+        {
+            "name": '',
+            "type": 'pie',
+            "radius": ['65%', '80%'],
+            "label": {
+                "show": False
+            },
+            "data": out_degree_data
+        }
+    ]
+}
+
 
     # Display the pie chart
     st_echarts(options=pie_option, height="400px")
@@ -285,7 +344,7 @@ with right_column:
         },
         "series": [
             {
-                "name": 'Node Statistics',
+                "name": '',
                 "type": 'pie',
                 "radius": '50%',
                 "data": node_pie_data,
