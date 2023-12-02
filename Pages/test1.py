@@ -95,28 +95,59 @@ category_colors = {
 
 # Load and prepare data for Parallel Axis Plot
 def prepare_parallel_axis_data():
-    # Load the dataset
     data_df = pd.read_csv('Dataset/MC1/community2/community_stats.csv')
 
-    # Extract column names for axis labels
-    axis_labels = data_df.columns.tolist()[1:]  # Assuming first column is an index or identifier
+    # Extract column names for axis labels, skip the first column (index)
+    axis_labels = data_df.columns.tolist()[1:]
 
-    # Prepare data for ECharts format
-    data = data_df.values.tolist()
+    # Prepare data and assign colors
+    color_palette = sns.color_palette("hsv", len(data_df)).as_hex()  # Generate color palette
+    # print(color_palette)
+    data = []
+    for idx, row in data_df.iterrows():
+        # Add line color based on index
+        data.append({"value": row.tolist()[1:], "lineStyle": {"color": color_palette[idx]}})
+    # for item in data:
+    #     print(item["lineStyle"]["color"])
 
     return axis_labels, data
 
 # Configuration for parallel axis plot
 def get_parallel_axis_option(axis_labels, data):
-    # Define axis configuration based on the labels
     axes = [{"dim": i, "name": label} for i, label in enumerate(axis_labels)]
 
     option = {
+        "tooltip": {
+            "trigger": 'item',
+            # "formatter": '{c}'  # {c} will be replaced by the content of the data item
+        },
         "parallelAxis": axes,
-        "series": {
-            "type": "parallel",
-            "data": data
-        }
+        "parallel": {
+            "parallelAxisDefault": {
+                "type": 'value',
+                "nameLocation": 'end',
+                "nameTextStyle": {
+                    "fontSize": 12
+                }
+            }
+        },
+        "series": [{
+            "type": 'parallel',
+            "lineStyle": {
+                "width": 2
+            },
+            "data": [
+                {
+                    "value": item["value"],
+                    "lineStyle": {
+                        "color": item["lineStyle"]["color"]
+                                }
+                    # "name": "<br>".join(
+                    #     f"{axis_labels[i]}: {item['value'][i]}" for i in range(len(axis_labels))
+                    # )
+                } for item in data
+            ]
+        }]
     }
     return option
 
@@ -235,13 +266,8 @@ with mid_column:
             # Display the graph using streamlit_echarts
             st_echarts(options=option, height="1000px")
     elif graph_type == 'Parallel Axis Plot':
-        # Prepare data for parallel axis plot
         axis_labels, data = prepare_parallel_axis_data()
-
-        # Get the parallel axis plot configuration
         parallel_axis_option = get_parallel_axis_option(axis_labels, data)
-
-        # Display the parallel axis plot using streamlit_echarts
         st_echarts(options=parallel_axis_option, height="1000px")
 
 
