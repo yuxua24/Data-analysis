@@ -96,7 +96,7 @@ category_colors = {
 # Load and prepare data for Parallel Axis Plot
 def prepare_parallel_axis_data():
     # Load the dataset
-    data_df = pd.read_csv('Dataset/MC1/community/community_stats.csv')
+    data_df = pd.read_csv('Dataset/MC1/community2/community_stats.csv')
 
     # Extract column names for axis labels
     axis_labels = data_df.columns.tolist()[1:]  # Assuming first column is an index or identifier
