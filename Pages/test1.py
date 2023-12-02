@@ -6,8 +6,8 @@ import pandas as pd
 st.set_page_config(layout="wide", page_icon=None,
                    initial_sidebar_state="collapsed", page_title=None)
 
-links_df = pd.read_csv('Dataset/community/links_1.csv')
-nodes_df = pd.read_csv('Dataset/community/nodes_1_Louvain.csv')
+links_df = pd.read_csv('Dataset/MC1/Links.csv')
+nodes_df = pd.read_csv('Dataset/MC1/Nodes.csv')
 
 # Create a dictionary that maps node IDs to their types using the Nodes.csv data
 node_types = nodes_df.set_index('id')['type'].to_dict()
@@ -41,6 +41,9 @@ with left_column:
     if node_query:
         selected_nodes.append(node_query)
 
+    conf_threshold = st.slider(
+        'Weight threshold', min_value=0.0000, max_value=1.0, value=0.0000, step=0.0001)
+
     selected_link_types = set()
     st.subheader("Link Type")
     for link_type in link_types:
@@ -63,7 +66,7 @@ def get_neighbors(selected_nodes, links_df, selected_link_types, selected_catego
     for node in selected_nodes:
         # Check if node is in selected categories
         if node_types[node] in selected_categories:
-            filtered_df = links_df[links_df['type'].isin(selected_link_types)]
+            filtered_df = links_df[(links_df['type'].isin(selected_link_types)) & (links_df['weight'] > conf_threshold)]
             neighbors.update(
                 filtered_df[filtered_df['source'] == node]['target'].tolist())
             neighbors.update(
@@ -108,9 +111,10 @@ with mid_column:
 
         echarts_links = filtered_df.apply(
             lambda row: {"source": row['source'],
-                         "target": row['target'], "value": row['type']},
+                         "target": row['target'], "value": row['type']}
+            if row['weight'] > conf_threshold else None,
             axis=1
-        ).tolist()
+        ).dropna().tolist()
 
         # 定义不同类别的节点样式
         categories = [
@@ -146,12 +150,12 @@ with mid_column:
                         "show": True,
                         "position": 'right',  # 可以根据实际情况调整标签位置
                         "color": "black"  # 设置节点文字颜色
-                    },                    
+                    },
+                    "categories": categories,
                     "edgeSymbol": ["none", "arrow"],
                     "edgeSymbolSize": [0, 10],  # 根据需要调整箭头的大小
                     "nodes": echarts_nodes,
                     "links": echarts_links,
-                    "categories": categories,
                     "lineStyle": {
                         "opacity": 0.9,
                         "width": 2,
@@ -202,11 +206,28 @@ with right_column:
 
     # Calculate the count of each link type in the filtered graph
     neighbors_set = get_neighbors(
-            selected_nodes, links_df, selected_link_types, selected_categories)
-    filtered_df = links_df[(links_df['source'].isin(neighbors_set)) & (
-            links_df['target'].isin(neighbors_set)) & (links_df['type'].isin(selected_link_types))]
+        selected_nodes, links_df, selected_link_types, selected_categories)
+    filtered_df = links_df[((links_df['source'].isin(selected_nodes)) | (
+        links_df['target'].isin(selected_nodes))) & (links_df['type'].isin(selected_link_types))]
     link_type_counts = filtered_df['type'].value_counts().reset_index()
     link_type_counts.columns = ['type', 'count']
+
+    # Calculate in-degree and out-degree for each link type
+    in_degree_counts = links_df[links_df['target'].isin(selected_nodes)]['type'].value_counts().reset_index()
+    out_degree_counts = links_df[links_df['source'].isin(selected_nodes)]['type'].value_counts().reset_index()
+
+    # Transform the value counts into the format needed for ECharts
+    def transform_counts_to_data(counts):
+        return [{"value": row['count'], "name": row['type']} for index, row in counts.iterrows()]
+
+    all_degree_data = transform_counts_to_data(link_type_counts)
+    in_degree_data = transform_counts_to_data(in_degree_counts)
+    out_degree_data = transform_counts_to_data(out_degree_counts)
+
+    # Sort the data by the 'name' key using sorted function
+    all_degree_data = sorted(all_degree_data, key=lambda x: x['name'].lower())
+    in_degree_data = sorted(in_degree_data, key=lambda x: x['name'].lower())
+    out_degree_data = sorted(out_degree_data, key=lambda x: x['name'].lower())
 
     # Prepare data for ECharts pie chart
     pie_data = [
@@ -216,35 +237,77 @@ with right_column:
 
     # ECharts pie chart configuration
     pie_option = {
-        "tooltip": {
-            "trigger": 'item',
-            "formatter": "{a} <br/>{b}: {c} ({d}%)"
-        },
-        "legend": {
-            "orient": 'vertical',
-            "left": 'left',
-        },
-        "series": [
-            {
-                "name": 'Edeg Statistics',
-                "type": 'pie',
-                "radius": '50%',
-                "data": pie_data,
-                "avoidLabelOverlap": True,
-                "label": {
-                    "show": False,  # Set to False to hide labels on the pie sectors
-                    "position": 'outside',
-                },
-                "emphasis": {
-                    "itemStyle": {
-                        "shadowBlur": 10,
-                        "shadowOffsetX": 0,
-                        "shadowColor": 'rgba(0, 0, 0, 0.5)'
-                    }
-                }
-            }
-        ]
+    "tooltip": {
+        "trigger": 'item',
+        "formatter": "{a} <br/>{b}: {c} ({d}%)"
+    },
+    "legend": {
+        "show": True,
+        "orient": 'horizontal',
+        "left": 'left',
+    },
+    "graphic": [
+    {
+        # 文本元素用于'in_degree'
+        "type": 'text',
+        "z": 100,
+        "left": 'center',  # 水平居中
+        "top": '70%',  # 小圆环的顶部位置，需要调整
+        "style": {
+            "text": 'in_degree',  # 显示的文本
+            "textAlign": 'center',
+            "font": '14px Arial',
+            "fill": 'black',  # 文本颜色
+             "fontWeight": "bold"  # 加粗文本
+        }
+    },
+    {
+        # 文本元素用于'out_degree'
+        "type": 'text',
+        "z": 100,
+        "left": 'center',  # 水平居中
+        "top": '83%',  # 大圆环的顶部位置，需要调整
+        "style": {
+            "text": 'out_degree',  # 显示的文本
+            "textAlign": 'center',
+            "font": '14px Arial',
+            "fill": 'black',  # 文本颜色
+             "fontWeight": "bold"  # 加粗文本
+        }
     }
+],
+    "series": [
+        {
+            "name": '',
+            "type": 'pie',
+            "selectedMode": 'single',
+            "radius": ['0%', '30%'],
+            "label": {
+                "show": False
+            },
+            "data": all_degree_data
+        },
+        {
+            "name": '',
+            "type": 'pie',
+            "radius": ['40%', '55%'],
+            "label": {
+                "show": False
+            },
+            "data": in_degree_data
+        },
+        {
+            "name": '',
+            "type": 'pie',
+            "radius": ['65%', '80%'],
+            "label": {
+                "show": False
+            },
+            "data": out_degree_data
+        }
+    ]
+}
+
 
     # Display the pie chart
     st_echarts(options=pie_option, height="400px")
@@ -281,7 +344,7 @@ with right_column:
         },
         "series": [
             {
-                "name": 'Node Statistics',
+                "name": '',
                 "type": 'pie',
                 "radius": '50%',
                 "data": node_pie_data,

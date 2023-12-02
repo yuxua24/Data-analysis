@@ -12,8 +12,8 @@ WIDTH = 900
 
 st.set_page_config(layout="wide", page_icon=None, initial_sidebar_state="collapsed", page_title=None)
 
-links = pd.read_csv("Dataset/Links.csv")
-nodes = pd.read_csv("Dataset/Nodes.csv")
+links = pd.read_csv("Dataset/MC1/Links.csv")
+nodes = pd.read_csv("Dataset/MC1/Nodes.csv")
 
 st.title('Knowledge Graph Analysis')
 
