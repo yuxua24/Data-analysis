@@ -6,6 +6,8 @@ from pyecharts import options as opts
 from pyecharts.charts import Pie
 from pyecharts.charts import Graph
 from pyecharts.commons.utils import JsCode
+import numpy as np
+import base64
 
 st.set_page_config(layout="wide", page_icon=None,
                    initial_sidebar_state="collapsed", page_title=None)
@@ -15,6 +17,7 @@ nodes_df = pd.read_csv('Dataset/MC1/Nodes.csv')
 
 # Create a dictionary that maps node IDs to their types using the Nodes.csv data
 node_types = nodes_df.set_index('id')['type'].to_dict()
+node_neighbor_count = nodes_df.set_index('id')['neighbor_count'].to_dict() #节点邻居节点数量
 
 # Extract unique nodes and link types
 all_nodes = set(links_df['source']).union(set(links_df['target']))
@@ -68,19 +71,6 @@ with left_column:
             selected_categories.discard(category)  # 如果用户取消选中，则从集合中移除
 
 # Function to get neighbors
-
-def get_all_neighbors(nodes, links_df):
-    neighbors = set()
-    for node in nodes:
-        # Check if node is in selected categories
-        neighbors.update(
-            links_df[links_df['source'] == node]['target'].tolist())
-        neighbors.update(
-            links_df[links_df['target'] == node]['source'].tolist())
-    return neighbors.union(set(selected_nodes))
-
-
-
 def get_neighbors(selected_nodes, links_df, selected_link_types, selected_categories):
     neighbors = set()
     for node in selected_nodes:
@@ -92,6 +82,14 @@ def get_neighbors(selected_nodes, links_df, selected_link_types, selected_catego
             neighbors.update(
                 filtered_df[filtered_df['target'] == node]['source'].tolist())
     return neighbors.union(set(selected_nodes))
+
+# 定义一个函数来计算节点大小，使用对数函数来增加非线性关系
+def calculate_node_size(neighbor_count, base_size):
+    if neighbor_count > 0:
+        # 使用对数函数来计算节点大小，确保至少为 base_size
+        return base_size + np.sqrt(neighbor_count) * 2.5
+    else:
+        return base_size
 
 
 # Define the colors for each node type
@@ -107,6 +105,16 @@ category_colors = {
     "Uncategorized": "#eca680"
 }
 
+# 将图片转换为base64编码
+def image_to_base64(path):
+    with open(path, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read()).decode()
+    return "data:image/png;base64," + encoded_string
+
+# 使用上面的函数获取图片的base64编码
+image_path = 'Dataset/MC1/3.png'  # 这里替换为您图片的实际路径
+special_node_base64 = image_to_base64(image_path)
+
 #中间列
 with mid_column:
     #---------------绘制有向图--------------
@@ -114,7 +122,6 @@ with mid_column:
         if selected_nodes and selected_link_types and selected_categories:
             neighbors_set = get_neighbors(
                 selected_nodes, links_df, selected_link_types, selected_categories)
-            all_neighbors_set=get_all_neighbors()
             filtered_df = links_df[(links_df['source'].isin(neighbors_set)) & (
                 links_df['target'].isin(neighbors_set)) & (links_df['type'].isin(selected_link_types))]
             
@@ -122,12 +129,12 @@ with mid_column:
             echarts_nodes = [
                 {
                     "name": node,
-                    # Increase size for special nodes
-                    "symbolSize": 10 if node in special_node_ids else 5,
+                    # 使用neighbor_count字典设置节点大小，如果节点ID不在字典中，默认大小为5
+                    "symbolSize": calculate_node_size(node_neighbor_count.get(node),1),
                     "draggable": True,
                     "category": node_types.get(node, "Unknown"),
                     # Set shape to star for special nodes
-                    "symbol": 'rect' if node in special_node_ids else 'circle',
+                    "symbol": 'image://' + special_node_base64 if node in special_node_ids else 'circle',
                 }
                 for node in neighbors_set
             ]
@@ -208,7 +215,7 @@ with mid_column:
             result = st_pyecharts(graph, 
                                 events={"click": click_event_js},
                                 width="100%",
-                                height=750)
+                                height=1000)
             
             #---------------绘制饼图-------------
             # 创建饼图对象
@@ -403,14 +410,14 @@ with mid_column:
                     st.markdown("---")
 
                     if info_type == 'ID':
-                        # 显示第2到7列
-                        for col in node_info.columns[1:7]:  # Python 列索引从0开始
+                        # 显示第2到9列
+                        for col in node_info.columns[1:8]:  # Python 列索引从0开始
                             st.text(f"{col}: {node_info.iloc[0][col]}")
                     elif info_type == 'Statistics':
-                        # 显示第8到22列
-                        for col in node_info.columns[7:22]:
+                        # 显示第10到21列
+                        for col in node_info.columns[8:21]:
                             st.text(f"{col}: {node_info.iloc[0][col]}")
                     elif info_type == 'Community Information':
-                        # 显示第1列和第23列
+                        # 显示第1列和第22列
                         st.text(f"{node_info.columns[0]}: {node_info.iloc[0][0]}")
-                        st.text(f"{node_info.columns[22]}: {node_info.iloc[0][22]}")
+                        st.text(f"{node_info.columns[21]}: {node_info.iloc[0][21]}")
