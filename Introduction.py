@@ -5,8 +5,8 @@ from pyvis.network import Network
 import networkx as nx
 
 # ----------------------- Importing dataframes -----------------------
-nodes = pd.read_csv('Dataset/Nodes.csv')
-links = pd.read_csv('Dataset/PreMergeLinks.csv')
+nodes = pd.read_csv('Dataset/MC1/Nodes.csv')
+links = pd.read_csv('Dataset/MC1/PreMergeLinks.csv')
 # ---------------------------------------------------------------------
 
 HEIGHT = 700
