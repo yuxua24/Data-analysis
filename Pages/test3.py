@@ -201,9 +201,6 @@ with mid_column:
         )
 
         # 设置点击事件的JavaScript函数
-        click_event_js = "function(params) {return params.data;}"            
-
-        # 设置点击事件的JavaScript函数
         click_event_js = "function(params) {return params.data;}"
 
         # 渲染有向图并设置点击事件
