@@ -19,6 +19,10 @@ def main():
     edge_data = pd.read_csv("Dataset/MC1/Links.csv")
     parallel_data = pd.read_csv("Dataset/MC1/Parallel_coordinates/community_edge_node_stats_new.csv")
 
+    # Suspected nodes list
+    suspected_nodes = ["Mar de la Vida OJSC", "979893388",
+                    "Oceanfront Oasis Inc Carriers", "8327"]  
+
     # Filter nodes and edges based on the selected community
     filtered_nodes = node_data[node_data["Community"] == community_number]
     filtered_edges = edge_data[edge_data["source"].isin(filtered_nodes["id"]) & edge_data["target"].isin(filtered_nodes["id"])]
@@ -28,7 +32,7 @@ def main():
     if chart_type == "Graph":
         display_graph(filtered_nodes, filtered_edges)
     elif chart_type == "Parallel":
-        display_parallel(filtered_parallel)
+        display_parallel(filtered_parallel, suspected_nodes)
 
 def display_graph(filtered_nodes, filtered_edges):
     # Prepare graph data
@@ -41,10 +45,23 @@ def display_graph(filtered_nodes, filtered_edges):
     g.set_global_opts(title_opts=opts.TitleOpts(title="Community Graph"))
     st_pyecharts(g)
 
-def display_parallel(filtered_parallel):
+def display_parallel(filtered_parallel, suspected_nodes):
+    # Convert suspected_nodes to a set for faster lookup
+    suspected_nodes_set = set(suspected_nodes)
+    
     # Prepare parallel data
-    schema = [opts.ParallelAxisOpts(dim=i, name=col) for i, col in enumerate(filtered_parallel.columns[3:])]
-    data = filtered_parallel.iloc[:, 3:].values.tolist()
+    schema = [opts.ParallelAxisOpts(dim=i, name=col) for i, col in enumerate(filtered_parallel.columns[4:])]
+    ids = filtered_parallel["id"].tolist()  # Extract ids for performance
+    data = []
+    
+    for i, row in enumerate(filtered_parallel.itertuples()):
+        is_suspected = ids[i] in suspected_nodes_set
+        color = 'red' if is_suspected else 'gray'
+        line_width = 3 if is_suspected else 1
+        data.append({
+            "value": list(row)[5:],  # Skip index and first 4 columns
+            "lineStyle": {"color": color, "width": line_width}
+        })
 
     # Create and display a parallel chart
     parallel = Parallel(init_opts=opts.InitOpts(width="100%", height="600px"))
@@ -52,6 +69,7 @@ def display_parallel(filtered_parallel):
     parallel.add("parallel", data)
     parallel.set_global_opts(title_opts=opts.TitleOpts(title="Community Parallel Coordinates"))
     st_pyecharts(parallel)
+
 
 def st_pyecharts(chart):
     # Render a Pyecharts chart in Streamlit
