@@ -35,15 +35,40 @@ def main():
         display_parallel(filtered_parallel, suspected_nodes)
 
 def display_graph(filtered_nodes, filtered_edges):
+    # Define categories and their respective colors
+    categories_list = [
+        "person", "political_organization", "organization", "event", "company", 
+        "location", "vessel", "movement", "Uncategorized"
+    ]
+    colors = ["#df493f", "#f9d580", "#e4a2b8", "#54beaa", "#fcf1f0", "#b0d992", "#99b9e9", "#af8fd0", "#eca680"]
+    categories = [{"name": category, "itemStyle": {"color": color}} for category, color in zip(categories_list, colors)]
+
+    # Create a mapping from type to category index
+    type_to_category = {type_: index for index, type_ in enumerate(categories_list)}
+
     # Prepare graph data
-    nodes = [{"name": str(node), "symbolSize": 10} for node in filtered_nodes["id"]]
+    nodes = []
+    for _, node in filtered_nodes.iterrows():
+        category_index = type_to_category.get(node["type"], len(categories_list) - 1)
+        node_color = categories[category_index]["itemStyle"]["color"]
+        nodes.append({
+            "name": str(node["id"]),
+            "symbolSize": 10,
+            "category": category_index,
+            "itemStyle": {"color": node_color},
+            "label": {"show": True, "color": "black"}  # Set label color to black
+        })
+
     links = [{"source": str(source), "target": str(target)} for source, target in zip(filtered_edges["source"], filtered_edges["target"])]
 
     # Create and display a graph
     g = Graph(init_opts=opts.InitOpts(width="100%", height="600px"))
-    g.add("", nodes, links, repulsion=5000)
+    g.add("", nodes, links, repulsion=5000, categories=categories)
     g.set_global_opts(title_opts=opts.TitleOpts(title="Community Graph"))
     st_pyecharts(g)
+
+
+
 
 def display_parallel(filtered_parallel, suspected_nodes):
     # Convert suspected_nodes to a set for faster lookup
