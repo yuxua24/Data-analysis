@@ -401,19 +401,22 @@ with mid_column:
                 # 在右侧列显示节点信息
                 with right_column:
                     # 创建一个选择框让用户选择信息类型
-                    # Custom CSS to inject
+                    # 自定义 CSS
+                    # 自定义 CSS
                     style = """
                     <style>
-                        .css-15l0r34-edgvbvh4 {
-                            # Your custom CSS styles
-                            font-size: 20px;
-                            color: red;
-                        }
+                    .st-b4 st-bg st-bh st-bi st-bj st-bk st-bl {
+                        font-family: 'Arial'; /* 设置字体 */
+                        font-size: 16px; /* 设置字体大小 */
+                        color: #FF4B4B; /* 设置字体颜色 */
+                        font-weight: bold; /* 设置字体加粗 */
+                    }
                     </style>
                     """
 
                     st.markdown(style, unsafe_allow_html=True)
 
+                    # 创建单选按钮
                     info_type = st.radio(
                         "",
                         ('ID', 'Statistics', 'Community Information')
