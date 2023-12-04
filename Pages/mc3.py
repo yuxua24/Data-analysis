@@ -27,9 +27,12 @@ page_ratio = st.slider('', min_value=0.0000, max_value=1.0,
                        value=0.5, step=0.0001, label_visibility='hidden')
 
 
-# 节点选择的集合
-if 'nodes_chosen' not in st.session_state:
-    st.session_state.nodes_chosen = set()
+# 如果不存在 'all_chosen_nodes'，在 session state 中初始化它
+if 'all_chosen_nodes' not in st.session_state:
+    st.session_state.all_chosen_nodes = []
+
+if 'clear_signal' not in st.session_state:
+    st.session_state.clear_signal = False
 
 company_type = pd.read_csv('Dataset/MC3/country-company_type.csv')
 company_lable = pd.read_csv('Dataset/MC3/country-company_lable.csv')
@@ -48,6 +51,11 @@ with options_col:
                     'country-company_revenue',
                     'country-related2seafood']
     heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
+
+    if st.button('Clear Selection'):
+        # You can add any action you want to perform when the button is clicked
+        st.session_state.all_chosen_nodes  =[]
+        st.session_state.clear_signal = True  # 设置标志，指示需要忽略点击事件
 
     data = [[col_index - 1, row_index, row[col_index]]
             for row_index, row in company_type.iterrows()
@@ -91,7 +99,6 @@ with options_col:
         )
         # 添加VisualMap组件
         .set_global_opts(
-            title_opts=opts.TitleOpts(title="HeatMap Example"),
             tooltip_opts=opts.TooltipOpts(
                 is_show=True, formatter="{b0}: {c}"),
             yaxis_opts=opts.AxisOpts(
@@ -110,11 +117,20 @@ with options_col:
     # 设置点击事件的JavaScript函数
     click_event_js = "function(params) {return params.data;}"
 
+    # 渲染热力图并设置点击事件
     node_chosen = st_pyecharts(
         heatmap,
         events={"click": click_event_js},
         width="100%",
         height=700
     )
-    st.session_state.nodes_chosen.add(node_chosen[2])
-    st.write(st.session_state.nodes_chosen)
+    
+    # 当热力图被点击时，添加新节点到 session state
+    if node_chosen and node_chosen not in st.session_state.all_chosen_nodes and st.session_state.clear_signal is False:
+        st.session_state.all_chosen_nodes.append(node_chosen)
+
+    # 如果清除信号被设置，则重置该信号
+    if st.session_state.clear_signal:
+        st.session_state.clear_signal = False
+
+    st.write(st.session_state.all_chosen_nodes)
