@@ -1,4 +1,4 @@
-Community,id,type,country,in_degree,out_degree,weight,neighbor,ownership,partnership,family_relationship,membership,Connected_company_count,Connected_organization_count,Connected_Uncategorized_count,Connected_person_count,Connected_location_count,Connected_political_organization_count,Connected_vessel_count,Connected_movement_count,Connected_event_count,Suspect
+Community,id,type,country,in_degree,out_degree,weight,neighbor,ownership,partnership,family_relationship,membership,company,organization,Uncategorized,person,location,political_organization,vessel,movement,event,Suspect
 0,Spanish Shrimp  Carriers,company,Nalakond,35,61,0.8728520586458334,96,14,19,22,41,6,51,21,7,8,1,1,0,1,4
 0,27641046,organization,Unknown,0,2,0.83076909,2,0,0,0,2,0,0,1,0,0,1,0,0,0,0
 0,Edward Ferry SE Transportation,Uncategorized,Unknown,1,3,0.8618133400000001,4,1,0,1,2,0,0,0,3,1,0,0,0,0,0

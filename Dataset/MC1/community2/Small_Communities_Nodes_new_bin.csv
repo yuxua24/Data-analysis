@@ -1,0 +1,37 @@
+Node,type,country,In-Degree,Out-Degree,Avg-Weight,Node_Count,Edge_Count,ownership,partnership,family_relationship,membership,Connected_Node_Type_company,Connected_Node_Type_organization,Connected_Node_Type_Uncategorized,Connected_Node_Type_person,Connected_Node_Type_location,Connected_Node_Type_political_organization,Connected_Node_Type_vessel,Connected_Node_Type_movement,Connected_Node_Type_event,Suspect_link
+307,organization,Unknown,0,1,0.9534096,2,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+33,organization,Unknown,1,0,0.9852588,2,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+3896,organization,Unknown,4,16,0.7364023279999999,21,20,7,1,1,11,1,10,3,3,1,1,0,0,1,0
+492220197,organization,Unknown,3,0,0.9412770433333332,4,3,0,0,2,1,0,3,0,0,0,0,0,0,0,0
+544344,organization,Unknown,5,4,0.7169048633333334,10,9,3,6,0,0,0,6,1,2,0,0,0,0,0,0
+6b19fec0-f5d4-4d31-b461-fef270debb3e,location,Unknown,2,1,0.95251669,4,3,0,3,0,0,0,0,0,1,2,0,0,0,0,0
+923825740,organization,Unknown,4,4,0.61835567,8,8,3,5,0,0,0,3,3,2,0,0,0,0,0,0
+924,organization,Unknown,8,6,0.744832132142857,14,14,1,5,6,2,3,7,0,2,1,0,1,0,0,0
+Blue Venturew,Uncategorized,Unknown,17,1,0.8085097700000001,19,18,2,0,1,15,1,1,8,6,1,1,0,0,0,1
+Breanna Welch DDS,person,Country_271835,1,1,0.16195,3,2,1,0,1,0,0,1,0,1,0,0,0,0,0,0
+Brett Lopez,person,Country_271835,3,0,0.96033209,4,3,0,3,0,0,0,0,0,0,3,0,0,0,0,0
+Conduct Joint,Uncategorized,Unknown,4,0,0.75067125,5,4,3,0,0,1,0,3,1,0,0,0,0,0,0,0
+Congo Rapids  Marine sanctuary GmbH & Co. KG Marine sanctuary,company,Country_271835,2,2,0.692965335,5,4,0,0,3,1,0,3,0,0,1,0,0,0,0,0
+Daniel Henderson,person,Country_271835,0,6,0.3972333333333333,7,6,1,0,5,0,0,1,1,4,0,0,0,0,0,0
+Darin Torres,person,Country_271835,0,2,0.35685,3,2,1,0,1,0,0,0,1,1,0,0,0,0,0,0
+Debit Cards Autopay,Uncategorized,Unknown,3,0,0.96519484,4,3,0,0,0,3,1,1,1,0,0,0,0,0,0,0
+Dr. Gregory Rice,person,Country_271835,2,2,0.40185,5,4,2,0,2,0,0,1,1,2,0,0,0,0,0,0
+Federated,Uncategorized,Unknown,5,14,0.7441787,19,19,11,2,0,6,2,5,5,2,2,0,1,0,2,0
+FishEye International,organization,Unknown,0,24,0.5671,24,24,1,0,0,23,4,5,15,0,0,0,0,0,0,1
+Henry Lambert,person,Country_271835,6,0,0.950328275,7,6,0,0,3,3,0,1,1,3,0,1,0,0,0,0
+Jeffrey Reed,person,Country_271835,1,0,0.96526986,2,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Joseph Smith,person,Country_271835,2,2,0.39895,5,4,2,0,2,0,0,1,1,2,0,0,0,0,0,0
+Kevin Morris,person,Country_271835,1,1,0.3189,3,2,1,0,1,0,0,0,1,1,0,0,0,0,0,0
+Kristina Frazier,person,Oceanus,1,0,0.837482,2,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Lake Mweru A/S Carriers,Uncategorized,Unknown,3,2,0.7098100580000001,6,5,1,0,0,4,2,2,1,0,0,0,0,0,0,0
+Oceanfront Oasis Inc Carriers,Uncategorized,Unknown,4,0,0.7350099625,5,4,1,0,2,1,0,4,0,0,0,0,0,0,0,0
+Seabreeze Foods Ltd. Corporation United,Uncategorized,Unknown,6,9,0.7677298819999999,16,15,6,4,0,5,0,12,2,0,0,1,0,0,0,0
+Traci Shields,person,Country_271835,1,4,0.5545599999999999,6,5,0,0,4,1,1,0,0,4,0,0,0,0,0,0
+Tracy Rogers,person,Country_271835,0,2,0.5792,3,2,1,0,0,1,0,1,1,0,0,0,0,0,0,0
+Welding,Uncategorized,Unknown,1,3,0.7395369125,5,4,1,1,0,2,0,2,1,0,1,0,0,0,0,0
+meridaâ,Uncategorized,Unknown,8,0,0.96395672,9,8,0,0,8,0,0,3,3,1,1,0,0,0,0,0
+waterâs,vessel,Unknown,2,0,0.91913695,3,2,0,0,2,0,0,0,1,1,0,0,0,0,0,0
+âGenev,Uncategorized,Unknown,2,0,0.52247545,3,2,1,0,0,1,0,2,0,0,0,0,0,0,0,0
+âVirginia,Uncategorized,Unknown,1,0,0.9531976,2,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+œlÞuï,Uncategorized,Unknown,12,2,0.9624739099999998,15,14,0,0,14,0,0,0,14,0,0,0,0,0,0,0
+œe1Pï¿œPï,Uncategorized,Unknown,2,11,0.9325610576923076,14,13,0,0,13,0,0,0,13,0,0,0,0,0,0,0
