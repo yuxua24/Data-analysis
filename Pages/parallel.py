@@ -15,9 +15,9 @@ def main():
     chart_type = st.radio("Select Chart Type", ("Graph", "Parallel"))
 
     # Load data
-    node_data = pd.read_csv("Dataset/MC1/community2/community_edge_node_stats_new.csv")
+    node_data = pd.read_csv("Dataset/MC1/Parallel coordinates/community_node_stats.csv")
     edge_data = pd.read_csv("Dataset/MC1/Links.csv")
-    parallel_data = pd.read_csv("Dataset/MC1/Parallel_coordinates/community_edge_node_stats_new.csv")
+    parallel_data = pd.read_csv("Dataset/MC1/Parallel coordinates/community_stats.csv")
 
     # Suspected nodes list
     suspected_nodes = ["Mar de la Vida OJSC", "979893388",

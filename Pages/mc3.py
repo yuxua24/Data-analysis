@@ -31,10 +31,10 @@ page_ratio = st.slider('', min_value=0.0000, max_value=1.0,
 if 'nodes_chosen' not in st.session_state:
     st.session_state.nodes_chosen = set()
 
-company_type = pd.read_csv('Dataset/country-company_type.csv')
-company_lable = pd.read_csv('Dataset/country-company_lable.csv')
-company_revenue = pd.read_csv('Dataset/country-company_revenue.csv')
-related2seafood = pd.read_csv('Dataset/country-company_related2seafood.csv')
+company_type = pd.read_csv('Dataset/MC3/country-company_type.csv')
+company_lable = pd.read_csv('Dataset/MC3/country-company_lable.csv')
+company_revenue = pd.read_csv('Dataset/MC3/country-company_revenue.csv')
+related2seafood = pd.read_csv('Dataset/MC3/country-company_related2seafood.csv')
 
 
 main_container = st.container()
