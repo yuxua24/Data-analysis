@@ -3,6 +3,8 @@ from streamlit_echarts import st_pyecharts
 from pyecharts import options as opts
 from pyecharts.charts import HeatMap
 import pandas as pd
+from pyecharts.commons.utils import JsCode
+
 
 st.set_page_config(layout="wide", page_icon=None,
                    initial_sidebar_state="collapsed", page_title=None)
@@ -70,7 +72,6 @@ graph_node=[]
 graph_link=[]
 
 with options_col:
-
     heatmap_type = ['country-company_type',
                     'country-company_lable',
                     'country-company_revenue',
@@ -98,7 +99,16 @@ with options_col:
         )
         .set_global_opts(
             title_opts=opts.TitleOpts(title="HeatMap Example"),
-            tooltip_opts=opts.TooltipOpts(is_show=True, formatter="{b0}: {c}"),
+            #标签样式
+            tooltip_opts = opts.TooltipOpts(
+                is_show=True,  # 是否显示提示框组件，包括提示框浮层和 axisPointer。
+                trigger="item",  # 触发类型。'item' 表示数据项图形触发。
+                background_color="rgba(50,50,50,0.7)",  # 提示框浮层的背景颜色。
+                border_color="#333",  # 提示框浮层的边框颜色。
+                border_width=0,  # 提示框浮层的边框宽。
+                textstyle_opts=opts.TextStyleOpts(color="#fff"),  # 提示框浮层的文本样式。
+                formatter=JsCode("function(params){return params.value[2] + ' nodes';}")
+            ),
             yaxis_opts=opts.AxisOpts(
                 axislabel_opts=opts.LabelOpts(font_size=10),
                 position="right"),
@@ -152,7 +162,6 @@ with options_col:
 
                         filtered_df = nodes[(nodes['country'] == selected_country) & (nodes['company_type'] == selected_company_type)]
                         graph_node.extend(filtered_df['id'].tolist())
-
         
         # 去除重复的节点ID
         graph_node = list(set(graph_node))
