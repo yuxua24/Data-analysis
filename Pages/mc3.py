@@ -146,6 +146,7 @@ with options_col:
         )
         .set_global_opts(
             title_opts=opts.TitleOpts(title="HeatMap Example"),
+            legend_opts=opts.LegendOpts(is_show=False),  # 关闭图例显示
             #标签样式
             tooltip_opts = opts.TooltipOpts(
                 is_show=True,  # 是否显示提示框组件，包括提示框浮层和 axisPointer。
@@ -176,12 +177,14 @@ with options_col:
                 
             ), 
             xaxis_opts=opts.AxisOpts(
-                axislabel_opts=opts.LabelOpts(font_size=10),
+                axislabel_opts=opts.LabelOpts(font_size=5),
                 position="bottom",
             ),
             yaxis_opts=opts.AxisOpts(
-                axislabel_opts=opts.LabelOpts(font_size=10),
-                position="left"),
+                axislabel_opts=opts.LabelOpts(font_size=10, is_show=True),
+                name_gap=100,  # 增加轴名称和轴线之间的距离
+                name_textstyle_opts=opts.TextStyleOpts(font_size=10),  # 可以调整y轴名称的字体大小
+            ),
             visualmap_opts=opts.VisualMapOpts(
                 is_show=False,  # 隐藏视觉映射控件
                 min_=min_value,
@@ -190,9 +193,18 @@ with options_col:
                 orient="horizontal",
                 pos_left="center",
                 range_color=["#ffffff", "#000080"]  # 从白色到深蓝色
-            )
+            ),
         )
     )
+
+    # 计算宽度和高度
+    num_x_labels = len(xaxis_labels)
+    num_y_labels = len(yaxis_labels) + 10
+
+    # 假设每个单元格的大小为25像素，您可以根据需要调整
+    cell_size = 25
+    width = cell_size * num_x_labels
+    height = cell_size * num_y_labels
 
     # 设置点击事件的JavaScript函数
     click_event_js = "function(params) {return params.data;}"
@@ -201,8 +213,8 @@ with options_col:
     node_chosen = st_pyecharts(
         heatmap,
         events={"click": click_event_js},
-        width="100%",
-        height=700
+        width=f"{width}px",
+        height=f"{height}px"
     )
     
     # 当热力图被点击时，添加新节点到 session state
