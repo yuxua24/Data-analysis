@@ -4,6 +4,7 @@ from pyecharts import options as opts
 from pyecharts.charts import HeatMap
 import pandas as pd
 from pyecharts.commons.utils import JsCode
+from pyecharts.charts import Graph
 
 
 st.set_page_config(layout="wide", page_icon=None,
@@ -26,7 +27,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # 页面比例
 page_ratio = st.slider('Page Ratio', min_value=0.0000, max_value=1.0,
-                       value=0.5, step=0.0001, label_visibility='hidden')
+                       value=0.35, step=0.0001, label_visibility='hidden')
 
 
 # 如果不存在 'all_chosen_nodes'，在 session state 中初始化它
@@ -36,13 +37,23 @@ if 'all_chosen_nodes' not in st.session_state:
 if 'clear_signal' not in st.session_state:
     st.session_state.clear_signal = False
 
+# 初始化 session state 变量
+if 'click_result' not in st.session_state:
+    st.session_state.click_result = None
+
+    # 确保 graph_node 和 graph_link 在 session_state 中持久化
+if 'graph_node' not in st.session_state:
+    st.session_state.graph_node = []
+if 'graph_link' not in st.session_state:
+    st.session_state.graph_link = []
+
 company_type = pd.read_csv('Dataset/MC3/country-company_type.csv')
 company_lable = pd.read_csv('Dataset/MC3/country-company_lable.csv')
 company_revenue = pd.read_csv('Dataset/MC3/country-company_revenue.csv')
 related2seafood = pd.read_csv('Dataset/MC3/country-company_related2seafood.csv')
 
 nodes=pd.read_csv('Dataset/MC3/nodes.csv')
-links=('Dataset/MC3/links.csv')
+links=pd.read_csv('Dataset/MC3/links.csv')
 
 # 优化后的数据处理函数
 def process_heatmap_data(heatmap_choice):
@@ -71,6 +82,7 @@ options_col, chart_col = main_container.columns((page_ratio, 1-page_ratio))
 graph_node=[]
 graph_link=[]
 
+
 with options_col:
     heatmap_type = ['country-company_type',
                     'country-company_lable',
@@ -81,10 +93,12 @@ with options_col:
     xaxis_labels, yaxis_labels, data, data_df,min_value, max_value = process_heatmap_data(heatmap_choice)
 
     col1, col2 = st.columns(2)
+
+    
     with col1:
         # 如果点击了“清除选中节点”按钮
         if st.button('Clear Selection'):
-            st.session_state.all_chosen_nodes = []
+            st.session_state.all_chosen_nodes.clear()
             st.session_state.clear_signal = True  # 设置标志，指示需要忽略点击事件
 
     # 创建热力图
@@ -103,21 +117,34 @@ with options_col:
             tooltip_opts = opts.TooltipOpts(
                 is_show=True,  # 是否显示提示框组件，包括提示框浮层和 axisPointer。
                 trigger="item",  # 触发类型。'item' 表示数据项图形触发。
+                position="inside",
+                axis_pointer_type='cross',  # 使用十字准线指示器
                 background_color="rgba(50,50,50,0.7)",  # 提示框浮层的背景颜色。
                 border_color="#333",  # 提示框浮层的边框颜色。
                 border_width=0,  # 提示框浮层的边框宽。
                 textstyle_opts=opts.TextStyleOpts(color="#fff"),  # 提示框浮层的文本样式。
                 formatter=JsCode("function(params){return params.value[2] + ' nodes';}")
             ),
+            axispointer_opts=opts.AxisPointerOpts(
+                is_show=True,
+                type_="none",  # 'line' | 'shadow' | 'none'
+                
+            ), 
+            xaxis_opts=opts.AxisOpts(
+                axislabel_opts=opts.LabelOpts(font_size=10),
+                position="bottom",
+            ),
             yaxis_opts=opts.AxisOpts(
                 axislabel_opts=opts.LabelOpts(font_size=10),
-                position="right"),
+                position="left"),
             visualmap_opts=opts.VisualMapOpts(
+                is_show=False,  # 隐藏视觉映射控件
                 min_=min_value,
                 max_=max_value,
                 is_calculable=True,
                 orient="horizontal",
                 pos_left="center",
+                range_color=["#ffffff", "#000080"]  # 从白色到深蓝色
             )
         )
     )
@@ -146,14 +173,13 @@ with options_col:
     with col2:
         # 如果点击了“添加到图表”按钮
         if st.button('Add to Graph'):
-            temp_chosen_nodes = st.session_state.all_chosen_nodes.copy()
+            #temp_chosen_nodes = st.session_state.all_chosen_nodes.copy()
+            # st.session_state.all_chosen_nodes = []
+            # st.session_state.clear_signal = True  # 设置标志，指示需要忽略点击事件
             
-            # 清空 st.session_state.all_chosen_nodes
-            st.session_state.all_chosen_nodes = []
-            st.session_state.clear_signal = True
-            
+
             # 遍历 node_chosen 列表
-            for item in temp_chosen_nodes:
+            for item in st.session_state.all_chosen_nodes:
                 if isinstance(item, list) and len(item) == 3:
                     col_idx, row_idx, number = item
                     if number != 0:
@@ -161,9 +187,70 @@ with options_col:
                         selected_company_type = data_df.columns[col_idx + 1]  # +1 因为我们跳过了第一列，它通常是索引列
 
                         filtered_df = nodes[(nodes['country'] == selected_country) & (nodes['company_type'] == selected_company_type)]
-                        graph_node.extend(filtered_df['id'].tolist())
+                        st.session_state.graph_node.extend(filtered_df['id'].tolist())
         
-        # 去除重复的节点ID
-        graph_node = list(set(graph_node))
-        # 打印结果
-        print("graph_node:",graph_node)
+            # 去除重复的节点ID
+            st.session_state.graph_node = list(set(st.session_state.graph_node))
+
+            # # 打印结果将
+st.write("graph_node:",st.session_state.graph_node)
+
+# 定义类型到颜色的映射
+type_color_mapping = {
+    'Beneficial Owner': 'red',   # 请用实际的颜色代码替换 'color1'，例如 '#ff0000'
+    'Company': 'yellow',            # 请用实际的颜色代码替换 'color2'，例如 '#00ff00'
+    'Company Contacts': 'blue',   # 请用实际的颜色代码替换 'color3'，例如 '#0000ff'
+}
+
+# 使用 chart_col 作为父容器来创建两个子容器
+upper_chart_container = chart_col.container()
+lower_chart_container = chart_col.container()
+
+with upper_chart_container:
+    #分为左右两部分，左边展示图，右边展示信息
+    left_part,right_part=upper_chart_container.columns([2,1])
+
+    with left_part:
+        # 筛选出与 graph_node 相关的边
+        filtered_links = links[links['source'].isin(st.session_state.graph_node) & links['target'].isin(st.session_state.graph_node)]
+
+        # 准备节点和边的数据
+        # 准备节点数据，为每个类型的节点设置不同的颜色
+        nodes_data = [
+            {
+                "name": str(node['id']),
+                "symbolSize": 10,
+                "itemStyle": {"color": type_color_mapping.get(node['type'], 'default_color')} # 如果类型不匹配，则使用默认颜色
+            }
+            for index, node in nodes.iterrows() if node['id'] in st.session_state.graph_node
+        ]
+        links_data = [{"source": str(row['source']), "target": str(row['target'])} for index, row in filtered_links.iterrows()]
+
+        # 创建图表
+        graph=Graph()
+        graph.add("", nodes_data, links_data, repulsion=4000)
+        graph.set_global_opts(title_opts=opts.TitleOpts(title="Directed Graph"))
+
+        # 设置点击事件的JavaScript函数
+        click_event_js = "function(params) {return params.data;}"
+
+        # 渲染有向图并设置点击事件
+        result=st_pyecharts(graph,
+                            events={"click": click_event_js},
+                            height="400px", 
+                            width="100%")
+        
+        print("=++=")
+        print(result)
+        # 检查点击事件的结果
+        if result:
+            st.session_state.click_result = result
+
+        # 在右边的部分显示点击的节点信息
+    with right_part:
+        if st.session_state.click_result:
+            st.subheader("Node Details")
+            st.write("Last clicked node data:", st.session_state.click_result)
+
+    with lower_chart_container:
+        st.subheader("Additional Information")
