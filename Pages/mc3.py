@@ -5,6 +5,7 @@ from pyecharts.charts import HeatMap
 import pandas as pd
 from pyecharts.commons.utils import JsCode
 from pyecharts.charts import Graph
+from pyecharts.charts import Bar
 import numpy as np
 
 
@@ -125,8 +126,6 @@ with options_col:
         log_scale = st.checkbox('Log Color Scale')
 
     processed_data,min_value, max_value=process_data(data,log_scale)
-
-    
 
     # 创建热力图
     heatmap = (
@@ -250,6 +249,7 @@ node_categories = [
 
 # 使用 chart_col 作为父容器来创建两个子容器
 upper_chart_container = chart_col.container()
+mid_chart_container=chart_col.container()
 lower_chart_container = chart_col.container()
 
 with upper_chart_container:
@@ -291,8 +291,6 @@ with upper_chart_container:
                             height="400px", 
                             width="100%")
         
-        print("=++=")
-        print(result)
         # 检查点击事件的结果
         if result:
             st.session_state.click_result = result
@@ -300,8 +298,66 @@ with upper_chart_container:
         # 在右边的部分显示点击的节点信息
     with right_part:
         if st.session_state.click_result:
-            st.subheader("Node Details")
-            st.write("Last clicked node data:", st.session_state.click_result)
+            # 提取被点击节点的ID
+            clicked_node_id = st.session_state.click_result['name']
+            
+            # 在DataFrame中查找与该ID匹配的行
+            node_details = nodes[nodes['id'] == clicked_node_id]
+            
+            # 如果找到匹配的节点，则显示其详细信息
+            if not node_details.empty:
+                st.subheader("Node Details")
+                # 遍历DataFrame中的所有列，并显示每个列的信息
+                for col in node_details.columns:
+                    # 获取列的值，如果是空值则替换为字符串 "null"
+                    value = node_details.iloc[0][col]
+                    if pd.isna(value):  # 检查值是否为NaN或None
+                        value = "null"
+                    st.text(f"{col}: {value}")
+
+with mid_chart_container:
+    left,right=mid_chart_container.columns([1,1])
+
+with left:
+    Histogram_type = ['Country','Revenue','Label']
+    Histogram_choice = st.selectbox("选择柱状图类型:", Histogram_type)
+
+with right:
+    # 添加一个勾选框，用户可以选择是否应用对数尺度
+    log_scale2 = st.checkbox('Log Color Scale ')
+
+country_count=pd.read_csv("Dataset/MC3/Country_count.csv")
 
 with lower_chart_container:
+    
+    data=country_count
+    # 根据log_scale2复选框的状态选择是否取对数
+    if log_scale2:
+        counts = np.log2(data['count']).tolist()  # 使用 log1p 来避免 log(0) 的问题
+    else:
+        counts = data['count'].tolist()
+
+    # 创建直方图
+    bar = Bar()
+    bar.add_xaxis(data['country'].tolist())
+    bar.add_yaxis("count", 
+                counts,
+                label_opts=opts.LabelOpts(is_show=False),
+            )
+    bar.set_global_opts(
+        #title_opts=opts.TitleOpts(title="Country Count Histogram"),
+        legend_opts=opts.LegendOpts(is_show=False),
+        yaxis_opts=opts.AxisOpts(name="number"),#去掉网格线
+        xaxis_opts=opts.AxisOpts(name="Country", 
+                                 axislabel_opts=opts.LabelOpts(rotate=-15)),#x轴上标签旋转
+        tooltip_opts=opts.TooltipOpts(
+            is_show=True,
+            trigger="axis",  # 当鼠标悬停在轴的时候显示
+            axis_pointer_type="cross",  # 十字线指针
+        ),
+    )
+
+    # 在 Streamlit 中渲染直方图
+    st_pyecharts(bar, height="400px", width="100%")
+
 
