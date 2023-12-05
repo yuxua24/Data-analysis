@@ -5,6 +5,7 @@ from pyecharts.charts import HeatMap
 import pandas as pd
 from pyecharts.commons.utils import JsCode
 from pyecharts.charts import Graph
+import numpy as np
 
 
 st.set_page_config(layout="wide", page_icon=None,
@@ -41,7 +42,7 @@ if 'clear_signal' not in st.session_state:
 if 'click_result' not in st.session_state:
     st.session_state.click_result = None
 
-    # 确保 graph_node 和 graph_link 在 session_state 中持久化
+# 确保 graph_node 和 graph_link 在 session_state 中持久化
 if 'graph_node' not in st.session_state:
     st.session_state.graph_node = []
 if 'graph_link' not in st.session_state:
@@ -76,6 +77,25 @@ def process_heatmap_data(heatmap_choice):
 
     return data_df.keys()[1:], data_df['country'], data,data_df, min_value, max_value
 
+# 根据用户的选择来处理数据
+def process_data(data, log_scale):
+    if log_scale:
+        # Apply a logarithmic transformation to the third element of each list
+        processed_data = [[x[0], x[1], np.log2(x[2])] if x[2] > 0 else [x[0], x[1], 0] for x in data]
+        # Extract the third element from each sub-list for min and max calculation
+        values = [x[2] for x in processed_data]
+        # Calculate new min and max values
+        min_value = min(values)
+        max_value = max(values)
+    else:
+        processed_data = data
+        # Extract the third element from each sub-list for min and max calculation
+        values = [x[2] for x in data]
+        # Use original min and max values
+        min_value = min(values)
+        max_value = max(values)
+    return processed_data, min_value, max_value
+
 main_container = st.container()
 options_col, chart_col = main_container.columns((page_ratio, 1-page_ratio))
 
@@ -92,14 +112,21 @@ with options_col:
 
     xaxis_labels, yaxis_labels, data, data_df,min_value, max_value = process_heatmap_data(heatmap_choice)
 
-    col1, col2 = st.columns(2)
-
+    col1, mid,col2 = st.columns(3)
     
     with col1:
         # 如果点击了“清除选中节点”按钮
         if st.button('Clear Selection'):
             st.session_state.all_chosen_nodes.clear()
             st.session_state.clear_signal = True  # 设置标志，指示需要忽略点击事件
+
+    with col2:
+        # 添加一个勾选框，用户可以选择是否应用对数尺度
+        log_scale = st.checkbox('Log Color Scale')
+
+    processed_data,min_value, max_value=process_data(data,log_scale)
+
+    
 
     # 创建热力图
     heatmap = (
@@ -108,7 +135,7 @@ with options_col:
         .add_yaxis(
             series_name=heatmap_choice,
             yaxis_data=list(yaxis_labels),
-            value=data,
+            value=processed_data,
             label_opts=opts.LabelOpts(is_show=False, position="inside"),
         )
         .set_global_opts(
@@ -123,7 +150,19 @@ with options_col:
                 border_color="#333",  # 提示框浮层的边框颜色。
                 border_width=0,  # 提示框浮层的边框宽。
                 textstyle_opts=opts.TextStyleOpts(color="#fff"),  # 提示框浮层的文本样式。
-                formatter=JsCode("function(params){return params.value[2] + ' nodes';}")
+                formatter=JsCode("function(params){return params.value[2] + ' nodes';}") if not log_scale else(
+                    JsCode(
+                        """
+                        function(params){
+                            if (params.value[2] === 0) {
+                                return '0'  + ' nodes';
+                            } else {
+                                return (2 ** params.value[2]).toFixed(0)  + ' nodes';
+                            }
+                        }
+                        """
+                    )
+                )
             ),
             axispointer_opts=opts.AxisPointerOpts(
                 is_show=True,
@@ -170,7 +209,7 @@ with options_col:
 
     st.write(st.session_state.all_chosen_nodes)
 
-    with col2:
+    with mid:
         # 如果点击了“添加到图表”按钮
         if st.button('Add to Graph'):
             #temp_chosen_nodes = st.session_state.all_chosen_nodes.copy()
@@ -202,6 +241,13 @@ type_color_mapping = {
     'Company Contacts': 'blue',   # 请用实际的颜色代码替换 'color3'，例如 '#0000ff'
 }
 
+# 创建节点类型列表
+node_categories = [
+    {"name": "Beneficial Owner", "itemStyle": {"color": "red"}},
+    {"name": "Company", "itemStyle": {"color": "yellow"}},
+    {"name": "Company Contacts", "itemStyle": {"color": "blue"}}
+]
+
 # 使用 chart_col 作为父容器来创建两个子容器
 upper_chart_container = chart_col.container()
 lower_chart_container = chart_col.container()
@@ -220,7 +266,8 @@ with upper_chart_container:
             {
                 "name": str(node['id']),
                 "symbolSize": 10,
-                "itemStyle": {"color": type_color_mapping.get(node['type'], 'default_color')} # 如果类型不匹配，则使用默认颜色
+                "category": node['type'],  # 假设 nodes DataFrame 有一个 'type' 列
+                "itemStyle": {"color": type_color_mapping.get(node['type'], 'default_color')}
             }
             for index, node in nodes.iterrows() if node['id'] in st.session_state.graph_node
         ]
@@ -228,7 +275,11 @@ with upper_chart_container:
 
         # 创建图表
         graph=Graph()
-        graph.add("", nodes_data, links_data, repulsion=4000)
+        graph.add("",
+                nodes_data, 
+                links_data,
+                categories=node_categories,  # 添加 categories
+                repulsion=4000)
         graph.set_global_opts(title_opts=opts.TitleOpts(title="Directed Graph"))
 
         # 设置点击事件的JavaScript函数
@@ -252,5 +303,5 @@ with upper_chart_container:
             st.subheader("Node Details")
             st.write("Last clicked node data:", st.session_state.click_result)
 
-    with lower_chart_container:
-        st.subheader("Additional Information")
+with lower_chart_container:
+
