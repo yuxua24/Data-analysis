@@ -54,19 +54,18 @@ if 'graph_link' not in st.session_state:
 if 'selected_x' not in st.session_state:
     st.session_state.selected_x = None
 
-company_type = pd.read_csv('Dataset/MC3/country-company_type-new.csv')
-company_lable = pd.read_csv('Dataset/MC3/country-company_lable.csv')
-company_revenue = pd.read_csv('Dataset/MC3/country-company_revenue.csv')
-related2seafood = pd.read_csv('Dataset/MC3/country-company_related2seafood.csv')
-size_revenue=pd.read_csv('Dataset/MC3/size-revenue.csv')
-country_tot_revenue=pd.read_csv('Dataset/MC3/country-tot_revenue.csv')
+company_type = pd.read_csv('Dataset/MC3/heat_map/country-company_type-new.csv')
+company_lable = pd.read_csv('Dataset/MC3/heat_map/country-company_lable.csv')
+country_category = pd.read_csv('Dataset/MC3/heat_map/country-category_counts-new.csv')
+size_revenue=pd.read_csv('Dataset/MC3/heat_map/size-revenue.csv')
+country_tot_revenue=pd.read_csv('Dataset/MC3/heat_map/country-tot_revenue.csv')
 
 nodes=pd.read_csv('Dataset/MC3/nodes.csv')
 links=pd.read_csv('Dataset/MC3/links.csv')
 
-country_count=pd.read_csv("Dataset/MC3/Country_count.csv")
-label_count=pd.read_csv("Dataset/MC3/Label_count.csv")
-company_revenue_count=pd.read_csv("Dataset/MC3/company_revenue_count.csv")
+country_count=pd.read_csv("Dataset/MC3/bar/Country_count.csv")
+label_count=pd.read_csv("Dataset/MC3/bar/Label_count.csv")
+company_revenue_count=pd.read_csv("Dataset/MC3/bar/company_revenue_count.csv")
 
 # 优化后的数据处理函数
 def process_heatmap_data(heatmap_choice):
@@ -74,14 +73,12 @@ def process_heatmap_data(heatmap_choice):
         data_df = company_type
     elif heatmap_choice == 'country-company_lable':
         data_df = company_lable
-    elif heatmap_choice == 'country-company_revenue':
-        data_df = company_revenue
     elif heatmap_choice == 'size-revenue':
         data_df = size_revenue
     elif heatmap_choice == 'country-tot_revenue':
         data_df = country_tot_revenue
     else:
-        data_df = related2seafood
+        data_df = country_category
 
     data = [
         [col_index - 1, row_index, row[col_index]]
@@ -122,8 +119,7 @@ graph_link=[]
 with options_col:
     heatmap_type = ['country-company_type',
                     'country-company_lable',
-                    'country-company_revenue',
-                    'country-related2seafood',
+                    'country-category_counts',
                     'country-tot_revenue']
     heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
 
