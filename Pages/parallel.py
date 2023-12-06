@@ -54,7 +54,7 @@ def display_graph(filtered_nodes, filtered_edges):
         node_color = categories[category_index]["itemStyle"]["color"]
         nodes.append({
             "name": str(node["id"]),
-            "symbolSize": 10,
+            "symbolSize": 30,
             "category": category_index,
             "itemStyle": {"color": node_color},
             "label": {"show": True, "color": "black"}  # Set label color to black
@@ -63,7 +63,7 @@ def display_graph(filtered_nodes, filtered_edges):
     links = [{"source": str(source), "target": str(target)} for source, target in zip(filtered_edges["source"], filtered_edges["target"])]
 
     # Create and display a graph
-    g = Graph(init_opts=opts.InitOpts(width="100%", height="600px"))
+    g = Graph(init_opts=opts.InitOpts(width="100%", height="1000px"))
     g.add("", nodes, links, repulsion=5000, categories=categories)
     g.set_global_opts(title_opts=opts.TitleOpts(title="Community Graph"))
     st_pyecharts(g)
@@ -112,14 +112,10 @@ def display_parallel(filtered_parallel, suspected_nodes, parallel_ave_data, comm
     )
     st_pyecharts(parallel)
 
-
-
-
-
 def st_pyecharts(chart):
     # Render a Pyecharts chart in Streamlit
     raw_html = chart.render_embed()
-    html(raw_html, width=1600, height=600)
+    html(raw_html, width=2000, height=2000)
 
 if __name__ == "__main__":
     main()

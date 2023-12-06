@@ -54,7 +54,7 @@ if 'graph_link' not in st.session_state:
 if 'selected_x' not in st.session_state:
     st.session_state.selected_x = None
 
-company_type = pd.read_csv('Dataset/MC3/5.csv')
+company_type = pd.read_csv('Dataset/MC3/country-company_type-new.csv')
 company_lable = pd.read_csv('Dataset/MC3/country-company_lable.csv')
 company_revenue = pd.read_csv('Dataset/MC3/country-company_revenue.csv')
 related2seafood = pd.read_csv('Dataset/MC3/country-company_related2seafood.csv')

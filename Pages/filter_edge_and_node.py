@@ -12,7 +12,7 @@ WIDTH = 900
 
 st.set_page_config(layout="wide", page_icon=None, initial_sidebar_state="collapsed", page_title=None)
 
-links = pd.read_csv("Dataset/MC1/Links.csv")
+links = pd.read_csv("Dataset/MC1/filtered_movement_links.csv")
 nodes = pd.read_csv("Dataset/MC1/Nodes.csv")
 
 st.title('Knowledge Graph Analysis')
@@ -28,11 +28,11 @@ with options_col:
     #选择边的类型
     edge_types = set(links["type"])
     edge_types.add('all')
-    edge_type_choice = st.multiselect("Edge Type:", edge_types)
+    edge_type_choice = st.multiselect("Edge Type:", edge_types,default='all')
     #选择节点的类型
     node_types = set(nodes["type"])
     node_types.add('all')
-    node_type_choice = st.multiselect("Node Type:", node_types)
+    node_type_choice = st.multiselect("Node Type:", node_types,default='all')
 
     st.divider()# 分割线
 

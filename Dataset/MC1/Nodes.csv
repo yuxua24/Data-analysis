@@ -1,4 +1,4 @@
-type,country,id,neighbor_count
+﻿type,country,id,neighbor_count
 company,Nalakond,Spanish Shrimp  Carriers,96
 organization,Unknown,12744,4
 organization,Unknown,143129355,16
@@ -292,7 +292,7 @@ political_organization,Unknown,49048884,2
 organization,Unknown,9612243,2
 person,Country_271835,Andrea Hansen,2
 Uncategorized,Unknown,189,1
-Uncategorized,Unknown,07,2
+Uncategorized,Unknown,7,2
 organization,Unknown,737205,2
 event,Unknown,April,35
 organization,Unknown,5705060,1
@@ -696,7 +696,7 @@ location,Unknown,87ea830d-be41-4317-8b1b-142f23da70d7,5
 organization,Unknown,662118,4
 organization,Unknown,45,4
 location,Unknown,c14a3dc1-59d0-4b92-b9f3-331e51912787,1
-Uncategorized,Unknown,17 Sept,2
+Uncategorized,Unknown,17-Sep,2
 person,Oceanus,Christopher Peterson,3
 organization,Unknown,505943,9
 person,Country_271835,Isaiah Hammond,2
@@ -3018,7 +3018,7 @@ vessel,Unknown,AirPods,2
 organization,Unknown,5246016,2
 organization,Unknown,64863263,4
 company,Country_271835,Danish Lobster Ltd. Liability Co,5
-Uncategorized,Unknown,076,2
+Uncategorized,Unknown,76,2
 Uncategorized,Unknown,vansâ,2
 organization,Unknown,36868,1
 organization,Unknown,3127062,2
@@ -3059,11 +3059,11 @@ person,Country_271835,Suzanne Reed,6
 person,Country_271835,Cody Lewis,2
 organization,Unknown,1263250,2
 person,Country_271835,Chris Booth,4
-movement,Unknown,July 2036,2
+movement,Unknown,Jul-36,2
 person,Country_271835,Lisa Henderson,1
 person,Country_271835,Karen Delgado,4
 Uncategorized,Unknown,13d79d632036,3
-Uncategorized,Unknown,2037/09,2
+Uncategorized,Unknown,Sep-37,2
 person,Country_615819,Melissa Norman,5
 person,Country_271835,Jennifer Andrade,1
 person,Country_271835,Lori Cummings,3
@@ -3081,12 +3081,12 @@ location,Unknown,f1e84016-0f09-4907-a777-a6bb02b5f419,2
 location,Unknown,e916e286-85e5-4a43-b2ef-89ad5260ebdc,6
 Uncategorized,Unknown,sectors sectors 2033,2
 Uncategorized,Unknown,yearbook2034,4
-Uncategorized,Unknown,20370602035941,5
+Uncategorized,Unknown,2.03706E+13,5
 Uncategorized,Unknown,yearbook2036,5
 location,Unknown,b8567859-bf54-49fd-8332-5775e19c65af,123
-Uncategorized,Unknown,2036-06,1
+Uncategorized,Unknown,Jun-36,1
 person,Country_271835,Hannah Walter,2
-Uncategorized,Unknown,2035/03,2
+Uncategorized,Unknown,Mar-35,2
 location,Unknown,b8f8208c-0388-484e-a700-b4c265170827,7
 location,Unknown,1aa47ffc-05a8-4edd-a8e0-94c10b650bd8,4
 person,Country_271835,Kelly Mccarthy,6

@@ -1,0 +1,22 @@
+type,weight,source,target,key,source_id,source_country,target_id,target_country
+family_relationship,0.8428989,monthsâ,months,0,monthsâ,Unknown,months,Unknown
+ownership,0.80037636,months,Ocean Fisheries Llc,0,months,Unknown,Ocean Fisheries Llc,Unknown
+partnership,0.95343107,days,sh rn y Corporation,0,days,Unknown,sh rn y Corporation,Unknown
+membership,0.92037016,three,DOFâs,0,three,Unknown,DOFâs,Unknown
+partnership,0.87088156,38,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,0,38,Unknown,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Unknown
+partnership,0.87088156,38,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,0,38,Unknown,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,Unknown
+membership,0.8802466,14 months,The Salty Dog Tidepool Kga Transport,0,14 months,Unknown,The Salty Dog Tidepool Kga Transport,Unknown
+partnership,0.8811708,ninety,sh rn y Corporation,0,ninety,Unknown,sh rn y Corporation,Unknown
+membership,0.88832986,2028,DOFâs,0,2028,Unknown,DOFâs,Unknown
+partnership,0.80618554,2028,Sonia Fisheries Pvt,0,2028,Unknown,Sonia Fisheries Pvt,Unknown
+family_relationship,0.94167334,2028,SeaSpray Wave SRL Solutions,0,2028,Unknown,SeaSpray Wave SRL Solutions,Unknown
+membership,0.8724779,2028,SeaSpray Wave SRL Solutions,1,2028,Unknown,SeaSpray Wave SRL Solutions,Unknown
+family_relationship,0.825216,Ocean Fisheries Llc,hours,0,Ocean Fisheries Llc,Unknown,hours,Unknown
+membership,0.87846667,Master,Greenwich,0,Master,Unknown,Greenwich,Unknown
+partnership,0.9519476,Estrella de Coral Ltd. Corporation Logistics,months,0,Estrella de Coral Ltd. Corporation Logistics,Unknown,months,Unknown
+membership,0.9053972,sh rn y Corporation,ninety,0,sh rn y Corporation,Unknown,ninety,Unknown
+membership,0.96113175,sh rn y Corporation,days,0,sh rn y Corporation,Unknown,days,Unknown
+membership,0.83329636,Mitsubishi,three,0,Mitsubishi,Unknown,three,Unknown
+family_relationship,0.8234727,Sea Seekers Merchants Cruise ship,2028,0,Sea Seekers Merchants Cruise ship,Unknown,2028,Unknown
+membership,0.9079706,Yeezy,thirty days,0,Yeezy,Unknown,thirty days,Unknown
+family_relationship,0.84221584,Ocano del Este SE,months,0,Ocano del Este SE,Unknown,months,Unknown
