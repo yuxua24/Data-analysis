@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ï»¿type,country,id,neighbor_count
 company,Nalakond,Spanish Shrimp  Carriers,96
 organization,Unknown,12744,4
@@ -3428,8 +3427,8 @@ Uncategorized,Unknown,Ã¢Â€ÂœEntirely,2
 Uncategorized,Unknown,Ocano del Este SE,4
 Uncategorized,Unknown,Norwegian Shrimp N.V. -,3
 Uncategorized,Unknown,Malabar Sea Catch Sp,2
-=======
-type,country,id,neighbor_count
+=======,,,
+type,country,id,
 company,Nalakond,Spanish Shrimp  Carriers,96
 organization,Unknown,12744,4
 organization,Unknown,143129355,16
@@ -3851,9 +3850,9 @@ Uncategorized,Unknown,????,14
 Uncategorized,Unknown,?e1P?,14
 Uncategorized,Unknown,?e1P???P?,13
 Uncategorized,Unknown,?P?,13
-Uncategorized,Unknown,?¨ª???,14
+Uncategorized,Unknown,?ï¿½ï¿½???,14
 Uncategorized,Unknown,?Xu?,14
-Uncategorized,Unknown,?T¡ê?,14
+Uncategorized,Unknown,?Tï¿½ï¿½?,14
 Uncategorized,Unknown,?8p,14
 Uncategorized,Unknown,?k,14
 Uncategorized,Unknown,?Pj?,14
@@ -3880,7 +3879,7 @@ Uncategorized,Unknown,?bjNnn?,35
 Uncategorized,Unknown,?L?,35
 Uncategorized,Unknown,??,35
 Uncategorized,Unknown,?5?,35
-Uncategorized,Unknown,¨¦?d,35
+Uncategorized,Unknown,ï¿½ï¿½?d,35
 Uncategorized,Unknown,L?,35
 Uncategorized,Unknown,?jO?,35
 Uncategorized,Unknown,?Y,35
@@ -3888,13 +3887,13 @@ Uncategorized,Unknown,?nO?,35
 Uncategorized,Unknown,N?,35
 Uncategorized,Unknown,?z?,35
 organization,Unknown,18,16
-Uncategorized,Unknown,?¨°?ip?,35
+Uncategorized,Unknown,?ï¿½ï¿½?ip?,35
 Uncategorized,Unknown,?MSss?,35
 Uncategorized,Unknown,?V?,35
 Uncategorized,Unknown,?Uk?,35
 Uncategorized,Unknown,?m???d?,35
-Uncategorized,Unknown,?m??¡ék?,35
-Uncategorized,Unknown,?m??¡ék???F1?,34
+Uncategorized,Unknown,?m??ï¿½ï¿½k?,35
+Uncategorized,Unknown,?m??ï¿½ï¿½k???F1?,34
 Uncategorized,Unknown,?F1?,34
 Uncategorized,Unknown,?F1???F,35
 person,Country_271835,Miguel Fisher,4
@@ -4076,13 +4075,13 @@ location,Unknown,50335cc3-71d6-4803-baca-5faaecfc33cb,2
 person,Country_271835,Virginia Carter,2
 person,Country_271835,April James,3
 Uncategorized,Unknown,Aleut Community St,3
-Uncategorized,Unknown,Kanuux¨¬,3
+Uncategorized,Unknown,Kanuuxï¿½ï¿½,3
 location,Unknown,e8036bce-0679-41d2-aa7b-d444163ae65a,4
 Uncategorized,Unknown,a??Sewarda??s Follya,1
 person,Country_271835,Wendy Duarte,4
 location,Unknown,aa1f466d-d060-40fa-ab0e-3f8bb2ca940f,4
 person,Country_271835,Alexis Murphy,2
-Uncategorized,Unknown,Ala??um Kanuux¨¬,3
+Uncategorized,Unknown,Ala??um Kanuuxï¿½ï¿½,3
 person,Country_34878,Angela Powers,41
 person,Country_271835,Eric Gentry,1
 person,Country_271835,Donna Shepherd,1
@@ -4098,7 +4097,7 @@ organization,Unknown,2421,3
 organization,Unknown,7413,2
 political_organization,Unknown,43185,14
 organization,Unknown,937182447,2
-Uncategorized,Unknown,a??Ala??um Kanuux¨¬,2
+Uncategorized,Unknown,a??Ala??um Kanuuxï¿½ï¿½,2
 organization,Unknown,861,2
 person,Country_271835,Gary Scott,3
 organization,Unknown,883290144,5
@@ -4216,7 +4215,7 @@ Uncategorized,Unknown,Mexicoa??s Yucat?,2
 person,Country_271835,Jerry Welch,29
 location,Unknown,1196cfc8-175c-465b-aee9-fbf74c81aa49,2
 organization,Unknown,87,3
-event,Unknown,Ni?¡Ào,3
+event,Unknown,Ni?ï¿½ï¿½o,3
 person,Country_271835,Judy Johns,2
 person,Country_271835,Richard Greer,5
 person,Country_271835,David Hayden,1
@@ -5038,7 +5037,7 @@ organization,Unknown,933754160,2
 person,Country_271835,Tyler Turner,2
 Uncategorized,Unknown,allAfrica,1
 location,Unknown,933c4581-7ecc-4377-995c-7a200fee617b,1
-Uncategorized,Unknown,?¡ê9,1
+Uncategorized,Unknown,?ï¿½ï¿½9,1
 person,Country_462996,Melinda Bentley,2
 organization,Unknown,41713,1
 organization,Unknown,900338,1
@@ -5058,7 +5057,7 @@ person,Oceanus,Michele Black,21
 organization,Unknown,3857345,2
 person,Country_271835,Ms. Brittany Murray,2
 person,Oceanus,Matthew White,2
-Uncategorized,Unknown,?¡ê800,6
+Uncategorized,Unknown,?ï¿½ï¿½800,6
 person,Country_699698,Tonya Key,1
 person,Country_271835,Sara Waller,2
 organization,Unknown,99233,3
@@ -5657,7 +5656,7 @@ Uncategorized,Unknown,a??Frontlinea,3
 political_organization,Unknown,71084,1
 person,Country_271835,Wanda Collins,1
 person,Country_271835,Miguel Harrison,2
-Uncategorized,Unknown,a??a?¡¥The,2
+Uncategorized,Unknown,a??a?ï¿½ï¿½The,2
 location,Unknown,24e1e725-9a8e-489c-bbdd-0ce140fd6e3b,3
 person,Country_271835,Zachary Sellers,4
 location,Unknown,357987c8-3ecb-4e38-9f10-857007f2cd3b,3
@@ -5728,7 +5727,7 @@ person,Arreciviento,Joseph Hawkins,3
 location,Unknown,b8649055-5b40-43e1-ba33-93182cf978d4,2
 person,Country_945731,Linda Jones,2
 Uncategorized,Unknown,est?,2
-Uncategorized,Unknown,ma?¡Àana as?,2
+Uncategorized,Unknown,ma?ï¿½ï¿½ana as?,2
 person,Country_271835,Caleb Webster,2
 organization,Unknown,739622,4
 organization,Unknown,7675191,6
@@ -5866,9 +5865,9 @@ organization,Unknown,90831,3
 organization,Unknown,66820,6
 person,Country_271835,Kristen Martin,5
 location,Unknown,da71710a-9b0e-41d8-a9f6-a0b93f1ab772,2
-Uncategorized,Unknown,D¡ã?,3
-Uncategorized,Unknown,D?D¡ã D¡ÀD????,3
-Uncategorized,Unknown,D¡êDo??D¡ã??D?D?,3
+Uncategorized,Unknown,Dï¿½ï¿½?,3
+Uncategorized,Unknown,D?Dï¿½ï¿½ Dï¿½ï¿½D????,3
+Uncategorized,Unknown,Dï¿½ï¿½Do??Dï¿½ï¿½??D?D?,3
 person,Country_271835,Janet Floyd,3
 person,Country_271835,Richard Anderson,2
 Uncategorized,Unknown,a??Compromisea,2
@@ -6023,8 +6022,8 @@ Uncategorized,Unknown,Menardsa,2
 person,Country_271835,Jason Garcia,2
 person,Country_670336,Melissa Gonzalez,2
 company,Country_246944,Pregolya Delivery Cruise ship,1
-Uncategorized,Unknown,?¡ê103,2
-Uncategorized,Unknown,?¡ê10,2
+Uncategorized,Unknown,?ï¿½ï¿½103,2
+Uncategorized,Unknown,?ï¿½ï¿½10,2
 location,Unknown,f64e747e-13de-4628-b939-92a8ff4eb03f,3
 person,Country_271835,Rachel Arnold,2
 Uncategorized,Unknown,a??tigera,2
@@ -6664,7 +6663,7 @@ Uncategorized,Unknown,Belgian Scallop Limited Liability Company Krill,3
 Uncategorized,Unknown,Sea Harvest,16
 Uncategorized,Unknown,SMILE,15
 Uncategorized,Unknown,Haryana s Co Transit,7
-Uncategorized,Unknown,a?¡é,4
+Uncategorized,Unknown,a?ï¿½ï¿½,4
 Uncategorized,Unknown,DOFa??s Long Xing,4
 Uncategorized,Unknown,Insung,3
 Uncategorized,Unknown,Chuan gou Company Overseas,4
@@ -6693,7 +6692,7 @@ Uncategorized,Unknown,Thomas Corp Cargo ship,3
 Uncategorized,Unknown,Blue Lagoon Sailor Limited Liability Company Worldwide,4
 Uncategorized,Unknown,Amorim Flooring,4
 Uncategorized,Unknown,Edward Ferry SE Transportation,4
-Uncategorized,Unknown,?¡ê1,3
+Uncategorized,Unknown,?ï¿½ï¿½1,3
 Uncategorized,Unknown,Stock SA,2
 Uncategorized,Unknown,Forwading S.A. de C.V.,37
 Uncategorized,Unknown,OceanicOrigin Foods River AG Marine ecology,3
@@ -6850,4 +6849,3 @@ Uncategorized,Unknown,a??Entirely,2
 Uncategorized,Unknown,Ocano del Este SE,4
 Uncategorized,Unknown,Norwegian Shrimp N.V. -,3
 Uncategorized,Unknown,Malabar Sea Catch Sp,2
->>>>>>> f4a174878798052cd745bce39a2bd1dc1c628f80
