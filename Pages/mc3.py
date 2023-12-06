@@ -59,12 +59,14 @@ company_lable = pd.read_csv('Dataset/MC3/country-company_lable.csv')
 company_revenue = pd.read_csv('Dataset/MC3/country-company_revenue.csv')
 related2seafood = pd.read_csv('Dataset/MC3/country-company_related2seafood.csv')
 size_revenue=pd.read_csv('Dataset/MC3/size-revenue.csv')
+country_tot_revenue=pd.read_csv('Dataset/MC3/country-tot_revenue.csv')
 
 nodes=pd.read_csv('Dataset/MC3/nodes.csv')
 links=pd.read_csv('Dataset/MC3/links.csv')
 
 country_count=pd.read_csv("Dataset/MC3/Country_count.csv")
 label_count=pd.read_csv("Dataset/MC3/Label_count.csv")
+company_revenue_count=pd.read_csv("Dataset/MC3/company_revenue_count.csv")
 
 # 优化后的数据处理函数
 def process_heatmap_data(heatmap_choice):
@@ -76,6 +78,8 @@ def process_heatmap_data(heatmap_choice):
         data_df = company_revenue
     elif heatmap_choice == 'size-revenue':
         data_df = size_revenue
+    elif heatmap_choice == 'country-tot_revenue':
+        data_df = country_tot_revenue
     else:
         data_df = related2seafood
 
@@ -119,7 +123,8 @@ with options_col:
     heatmap_type = ['country-company_type',
                     'country-company_lable',
                     'country-company_revenue',
-                    'country-related2seafood']
+                    'country-related2seafood',
+                    'country-tot_revenue']
     heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
 
     xaxis_labels, yaxis_labels, data, data_df,min_value, max_value = process_heatmap_data(heatmap_choice)
@@ -351,27 +356,36 @@ with upper_chart_container:
                     st.text(f"{col}: {value}")
 
 with mid_chart_container:
-    left,right=mid_chart_container.columns([1,1])
+    left,mid,right=mid_chart_container.columns([2,1,1])
 
 with left:
     Histogram_type = ['Country','Label','Personal Revenue','Company Revenue']
     bar_choice = st.selectbox("选择柱状图类型:", Histogram_type)
 
+with mid:
+    hide_missing=st.checkbox('Hide Missing')
+
 with right:
     # 添加一个勾选框，用户可以选择是否应用对数尺度
     log_scale2 = st.checkbox('Log Color Scale ')
 
-def process_bar_data2(bar_choice):
-    if bar_choice=='Country':
+def process_bar_data2(bar_choice,hide_missing):
+    if bar_choice == 'Country':
         bar_data=country_count
+    elif bar_choice == 'Company Revenue':
+        bar_data = company_revenue_count
     else:
         bar_data=label_count
+
+    # 如果勾选了“Hide Missing”，过滤掉标记为“missing”的数据
+    if hide_missing:
+        bar_data = bar_data[bar_data[bar_data.columns[0]] != 'missing']
     return bar_data
 
 
 with lower_chart_container:
 
-    bar_data=process_bar_data2(bar_choice)
+    bar_data=process_bar_data2(bar_choice,hide_missing)
     selectes_type=bar_data.columns[0]
     
     # 根据log_scale2复选框的状态选择是否取对数
