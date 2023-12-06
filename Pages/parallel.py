@@ -54,7 +54,7 @@ def display_graph(filtered_nodes, filtered_edges):
         node_color = categories[category_index]["itemStyle"]["color"]
         nodes.append({
             "name": str(node["id"]),
-            "symbolSize": 10,
+            "symbolSize": 30,
             "category": category_index,
             "itemStyle": {"color": node_color},
             "label": {"show": True, "color": "black"}  # Set label color to black
