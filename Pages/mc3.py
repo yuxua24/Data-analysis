@@ -54,7 +54,7 @@ if 'graph_link' not in st.session_state:
 if 'selected_x' not in st.session_state:
     st.session_state.selected_x = None
 
-company_type = pd.read_csv('Dataset/MC3/country-company_type.csv')
+company_type = pd.read_csv('Dataset/MC3/5.csv')
 company_lable = pd.read_csv('Dataset/MC3/country-company_lable.csv')
 company_revenue = pd.read_csv('Dataset/MC3/country-company_revenue.csv')
 related2seafood = pd.read_csv('Dataset/MC3/country-company_related2seafood.csv')
@@ -63,6 +63,7 @@ nodes=pd.read_csv('Dataset/MC3/nodes.csv')
 links=pd.read_csv('Dataset/MC3/links.csv')
 
 country_count=pd.read_csv("Dataset/MC3/Country_count.csv")
+label_count=pd.read_csv("Dataset/MC3/Label_count.csv")
 
 # 优化后的数据处理函数
 def process_heatmap_data(heatmap_choice):
@@ -199,7 +200,7 @@ with options_col:
 
     # 计算宽度和高度
     num_x_labels = len(xaxis_labels)
-    num_y_labels = len(yaxis_labels) + 10
+    num_y_labels = len(yaxis_labels)
 
     # 假设每个单元格的大小为25像素，您可以根据需要调整
     cell_size = 25
@@ -319,7 +320,7 @@ with upper_chart_container:
         # 渲染有向图并设置点击事件
         result=st_pyecharts(graph,
                             events={"click": click_event_js},
-                            height="500px", 
+                            height="600px", 
                             width="100%")
         
         # 检查点击事件的结果
@@ -350,46 +351,56 @@ with mid_chart_container:
     left,right=mid_chart_container.columns([1,1])
 
 with left:
-    Histogram_type = ['Country','Revenue','Label']
-    Histogram_choice = st.selectbox("选择柱状图类型:", Histogram_type)
+    Histogram_type = ['Country','Label','Personal Revenue','Company Revenue']
+    bar_choice = st.selectbox("选择柱状图类型:", Histogram_type)
 
 with right:
     # 添加一个勾选框，用户可以选择是否应用对数尺度
     log_scale2 = st.checkbox('Log Color Scale ')
 
+def process_bar_data2(bar_choice):
+    if bar_choice=='Country':
+        bar_data=country_count
+    else:
+        bar_data=label_count
+    return bar_data
+
+
 with lower_chart_container:
+
+    bar_data=process_bar_data2(bar_choice)
+    selectes_type=bar_data.columns[0]
     
-    data=country_count
     # 根据log_scale2复选框的状态选择是否取对数
     if log_scale2:
-        counts = np.log2(data['count']).tolist()  # 使用 log1p 来避免 log(0) 的问题
+        counts = np.log2(bar_data['count']).tolist()  # 使用 log1p 来避免 log(0) 的问题
     else:
-        counts = data['count'].tolist()
+        counts = bar_data['count'].tolist()
 
     if st.session_state.click_result:
         print("====")
         clicked_node_id = st.session_state.click_result['name']
         # 获取点击的节点对应的国家名称
-        selected_country = nodes[nodes['id'] == clicked_node_id]['country'].values[0]
+        selected_country = nodes[nodes['id'] == clicked_node_id][selectes_type].values[0]
         st.session_state.selected_x = selected_country
         print(st.session_state.selected_x)
-        bar_item_colors = ['#A01D14' if country == st.session_state.selected_x else '#2E5276' for country in data['country'].tolist()]
+        bar_item_colors = ['#A01D14' if country == st.session_state.selected_x else '#2E5276' for country in bar_data[selectes_type].tolist()]
     else:
-        bar_item_colors = ['#2E5276'] * len(data['country'])
+        bar_item_colors = ['#2E5276'] * len(bar_data[selectes_type])
 
     # 将 y_data 转换为包含样式的字典列表
     y_data_with_style = [{"value": y, "itemStyle": {"color": color}} for y, color in zip(counts, bar_item_colors)]
 
     # 创建直方图
     bar = Bar()
-    bar.add_xaxis(data['country'].tolist())
+    bar.add_xaxis(bar_data[selectes_type].tolist())
     bar.add_yaxis("count",y_data_with_style,
                 label_opts=opts.LabelOpts(is_show=False)) 
     bar.set_global_opts(
         #title_opts=opts.TitleOpts(title="Country Count Histogram"),
         legend_opts=opts.LegendOpts(is_show=False),
         yaxis_opts=opts.AxisOpts(name="number"),
-        xaxis_opts=opts.AxisOpts(name="Country"),#x轴上标签旋转
+        xaxis_opts=opts.AxisOpts(name=selectes_type),#x轴上标签旋转
         tooltip_opts=opts.TooltipOpts(
             is_show=True,
             trigger="axis",  # 当鼠标悬停在轴的时候显示
@@ -399,5 +410,3 @@ with lower_chart_container:
 
     # 在 Streamlit 中渲染直方图
     st_pyecharts(bar, height="400px", width="100%")
-
-

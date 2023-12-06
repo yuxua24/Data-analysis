@@ -1,21 +1,26 @@
 import csv
 
-# 读取Nodes.csv文件并将节点存储到集合中
-nodes_set = set()
-with open('Dataset/MC3/nodes.csv', 'r',encoding='utf-8') as nodes_file:
-    csv_reader = csv.reader(nodes_file)
-    for row in csv_reader:
-        nodes_set.add(row[0])  # 假设节点在每行的第一列
+# 输入和输出文件名
+input_file = 'Dataset/MC3/4.csv'
+output_file = 'Dataset/MC3/5.csv'
 
-# 读取Links.csv文件并统计没有出现在Nodes.csv中的节点数量
-missing_nodes_count = 0
-with open('Dataset/MC3/links.csv', 'r',encoding='utf-8') as links_file:
-    csv_reader = csv.reader(links_file)
-    for row in csv_reader:
-        source_node, target_node = row[0], row[1]  # 假设源节点和目的节点在每行的第一列和第二列
-        if source_node not in nodes_set:
-            missing_nodes_count += 1
-        if target_node not in nodes_set:
-            missing_nodes_count += 1
+# 打开输入文件和输出文件
+with open(input_file, 'r') as csv_in_file, open(output_file, 'w', newline='') as csv_out_file:
+    reader = csv.reader(csv_in_file)
+    writer = csv.writer(csv_out_file)
+    
+    # 写入第一行（标题行）
+    header = next(reader)
+    writer.writerow(header)
 
-print(missing_nodes_count)
+    # 遍历每一行数据
+    for row in reader:
+        # 计算除第一列外其他列的总和
+        total = sum(map(float, row[1:]))
+        
+        # 检查总和是否不超过10
+        if total > 10:
+            # 如果是，将这一行写入输出文件
+            writer.writerow(row)
+
+print(f"已删除除了第一列其他列相加总数不超过10的行，并将结果保存到{output_file}")
