@@ -58,6 +58,7 @@ company_type = pd.read_csv('Dataset/MC3/country-company_type-new.csv')
 company_lable = pd.read_csv('Dataset/MC3/country-company_lable.csv')
 company_revenue = pd.read_csv('Dataset/MC3/country-company_revenue.csv')
 related2seafood = pd.read_csv('Dataset/MC3/country-company_related2seafood.csv')
+size_revenue=pd.read_csv('Dataset/MC3/size-revenue.csv')
 
 nodes=pd.read_csv('Dataset/MC3/nodes.csv')
 links=pd.read_csv('Dataset/MC3/links.csv')
@@ -73,6 +74,8 @@ def process_heatmap_data(heatmap_choice):
         data_df = company_lable
     elif heatmap_choice == 'country-company_revenue':
         data_df = company_revenue
+    elif heatmap_choice == 'size-revenue':
+        data_df = size_revenue
     else:
         data_df = related2seafood
 

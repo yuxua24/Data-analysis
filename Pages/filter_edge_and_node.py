@@ -118,7 +118,7 @@ with chart_col:
         'vessel':'#99b9e9',
         'movement':'#af8fd0',
         'event':'#54beaa',
-        'uncategorized':'#eca680'
+        'Uncategorized':'#eca680'
     }
 
 
