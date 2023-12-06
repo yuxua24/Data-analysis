@@ -88,7 +88,7 @@ def process_heatmap_data(heatmap_choice):
     min_value = min(value for _, _, value in data)
     max_value = max(value for _, _, value in data)
 
-    return data_df.keys()[1:], data_df['country'], data,data_df, min_value, max_value
+    return data_df.keys()[1:], data_df.iloc[:, 0] , data,data_df, min_value, max_value
 
 # 根据用户的选择来处理数据
 def process_data(data, log_scale):
@@ -120,7 +120,8 @@ with options_col:
     heatmap_type = ['country-company_type',
                     'country-company_lable',
                     'country-category_counts',
-                    'country-tot_revenue']
+                    'country-tot_revenue',
+                    'size-revenue']
     heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
 
     xaxis_labels, yaxis_labels, data, data_df,min_value, max_value = process_heatmap_data(heatmap_choice)
