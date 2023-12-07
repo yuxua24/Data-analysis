@@ -76,14 +76,16 @@ product_service_revenue = pd.read_csv(
 nodes = pd.read_csv('Dataset/MC3/nodes.csv')
 links = pd.read_csv('Dataset/MC3/links.csv')
 
-country_count=pd.read_csv("Dataset/MC3/bar/Country_count.csv")
-label_count=pd.read_csv("Dataset/MC3/bar/Label_count.csv")
-company_revenue_count=pd.read_csv("Dataset/MC3/bar/company_revenue_count.csv")
-person_revenue_count=pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
-company_size_count=pd.read_csv("Dataset/MC3/bar/company_size_count.csv")
-company_category_counts=pd.read_csv("Dataset/MC3/bar/company_category_counts.csv")
+country_count = pd.read_csv("Dataset/MC3/bar/Country_count.csv")
+label_count = pd.read_csv("Dataset/MC3/bar/Label_count.csv")
+company_revenue_count = pd.read_csv(
+    "Dataset/MC3/bar/company_revenue_count.csv")
+person_revenue_count = pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
+company_size_count = pd.read_csv("Dataset/MC3/bar/company_size_count.csv")
 
 # 优化后的数据处理函数
+
+
 def process_heatmap_data(heatmap_choice):
     if heatmap_choice == 'country-company_type':
         data_df = company_type
@@ -372,13 +374,13 @@ with upper_chart_container:
         if result:
             st.session_state.click_result = result
 
-        # 在右边的部分显示点击的节点信息
     with right_part:
-        if st.button('Clear Graph'):
-            # 清除图中所有的节点和边
+        def handle_clear_graph():
             st.session_state.graph_node = []
-            st.session_state.graph_link = [] 
-            st.experimental_rerun()
+            st.session_state.graph_link = []
+            # st.experimental_rerun()
+
+        st.button('Clear Graph', on_click=handle_clear_graph)
 
 
 with mid_chart_container:
@@ -386,7 +388,7 @@ with mid_chart_container:
 
 with left:
     Histogram_type = ['Country', 'Label',
-                      'Personal Revenue', 'Company Revenue','company size','company category']
+                      'Personal Revenue', 'Company Revenue', 'company size']
     bar_choice = st.selectbox("选择柱状图类型:", Histogram_type)
 
 with mid:
@@ -406,8 +408,6 @@ def process_bar_data2(bar_choice, hide_missing):
         bar_data = person_revenue_count
     elif bar_choice == 'company size':
         bar_data = company_size_count
-    elif bar_choice == 'company category':
-        bar_data = company_category_counts
     else:
         bar_data = label_count
 
