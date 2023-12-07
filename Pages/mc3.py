@@ -9,6 +9,7 @@ from pyecharts.charts import Bar
 from pyecharts.options import LabelOpts
 from pyecharts.charts import Grid
 import numpy as np
+import json
 
 
 st.set_page_config(layout="wide", page_icon=None,
@@ -62,11 +63,15 @@ if 'selected_x' not in st.session_state:
 
 company_type = pd.read_csv('Dataset/MC3/heat_map/country-company_type-new.csv')
 company_label = pd.read_csv('Dataset/MC3/heat_map/country-company_label.csv')
-country_category = pd.read_csv('Dataset/MC3/heat_map/country-category_counts-new.csv')
-size_revenue=pd.read_csv('Dataset/MC3/heat_map/size-revenue.csv')
-country_company_revenue=pd.read_csv('Dataset/MC3/heat_map/country-company_revenue.csv')
-product_service_size=pd.read_csv('Dataset/MC3/heat_map/Product_Service-Size.csv')
-product_service_revenue=pd.read_csv('Dataset/MC3/heat_map/Product_Service-revenue.csv')
+country_category = pd.read_csv(
+    'Dataset/MC3/heat_map/country-category_counts-new.csv')
+size_revenue = pd.read_csv('Dataset/MC3/heat_map/size-revenue.csv')
+country_company_revenue = pd.read_csv(
+    'Dataset/MC3/heat_map/country-company_revenue.csv')
+product_service_size = pd.read_csv(
+    'Dataset/MC3/heat_map/Product_Service-Size.csv')
+product_service_revenue = pd.read_csv(
+    'Dataset/MC3/heat_map/Product_Service-revenue.csv')
 
 nodes = pd.read_csv('Dataset/MC3/nodes.csv')
 links = pd.read_csv('Dataset/MC3/links.csv')
@@ -170,7 +175,7 @@ with options_col:
             label_opts=opts.LabelOpts(is_show=False, position="inside"),
         )
         .set_global_opts(
-            title_opts=opts.TitleOpts(title="HeatMap Example"),
+            title_opts=opts.TitleOpts(title="HeatMap"),
             legend_opts=opts.LegendOpts(is_show=False),  # 关闭图例显示
             # 标签样式
             tooltip_opts=opts.TooltipOpts(
@@ -296,7 +301,7 @@ lower_chart_container = chart_col.container()
 
 with upper_chart_container:
     # 分为左右两部分，左边展示图，右边展示信息
-    left_part, right_part = upper_chart_container.columns([2, 1])
+    left_part, right_part = upper_chart_container.columns([12, 1])
 
     with left_part:
         # 筛选出与 graph_node 相关的边
@@ -308,6 +313,7 @@ with upper_chart_container:
         nodes_data = [
             {
                 "name": str(node['id']),
+                "details": ','.join(f"{key}  :  {str(node[key])}" for key in node.keys()),
                 "symbolSize": 40,
                 "draggable": "True",  # 确保节点是可拖拽的
                 "category": node['type'],  # 假设 nodes DataFrame 有一个 'type' 列
@@ -315,8 +321,8 @@ with upper_chart_container:
             }
             for index, node in nodes.iterrows() if node['id'] in st.session_state.graph_node
         ]
-        links_data = [{"source": str(row['source']), "target": str(
-            row['target'])} for index, row in filtered_links.iterrows()]
+        links_data = [{"source": str(row['source']),
+                       "target": str(row['target'])} for index, row in filtered_links.iterrows()]
 
         # 创建图表
         graph = Graph()
@@ -340,6 +346,18 @@ with upper_chart_container:
             )
         )
 
+        # 设置鼠标悬浮时的提示框
+        graph.set_global_opts(
+            tooltip_opts=opts.TooltipOpts(
+                is_show=True,
+                formatter=JsCode("""
+                    function(data) {
+                        return data.data.details.replace(/,/g, '<br/>');
+                    }
+        """)
+            )
+        )
+
         # 设置点击事件的JavaScript函数
         click_event_js = "function(params) {return params.data;}"
 
@@ -355,23 +373,9 @@ with upper_chart_container:
 
         # 在右边的部分显示点击的节点信息
     with right_part:
-        if st.session_state.click_result:
-            # 提取被点击节点的ID
-            clicked_node_id = st.session_state.click_result['name']
+        if st.button('Clear Graph'):
+            pass  # 清除图所有节点
 
-            # 在DataFrame中查找与该ID匹配的行
-            node_details = nodes[nodes['id'] == clicked_node_id]
-
-            # 如果找到匹配的节点，则显示其详细信息
-            if not node_details.empty:
-                st.subheader("Node Details")
-                # 遍历DataFrame中的所有列，并显示每个列的信息
-                for col in node_details.columns:
-                    # 获取列的值，如果是空值则替换为字符串 "null"
-                    value = node_details.iloc[0][col]
-                    if pd.isna(value):  # 检查值是否为NaN或None
-                        value = "null"
-                    st.text(f"{col}: {value}")
 
 with mid_chart_container:
     left, mid, right = mid_chart_container.columns([2, 1, 1])
