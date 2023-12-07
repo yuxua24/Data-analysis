@@ -1,0 +1,4 @@
+person_revenue_count：
+将company_0_from_links.csv中avg_revenue作为受益人的收入，不考虑联系人，对收入范围计数，
+missing是avg_revenue为0的受益人总和
+

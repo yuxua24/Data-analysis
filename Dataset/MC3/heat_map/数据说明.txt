@@ -1,0 +1,2 @@
+country-company_type-new.csv:
+去掉country-company_type.csv中全为0和每行数字之和<10的行
