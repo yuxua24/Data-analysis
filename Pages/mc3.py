@@ -55,7 +55,7 @@ if 'selected_x' not in st.session_state:
     st.session_state.selected_x = None
 
 company_type = pd.read_csv('Dataset/MC3/heat_map/country-company_type-new.csv')
-company_lable = pd.read_csv('Dataset/MC3/heat_map/country-company_lable.csv')
+company_label = pd.read_csv('Dataset/MC3/heat_map/country-company_label.csv')
 country_category = pd.read_csv('Dataset/MC3/heat_map/country-category_counts-new.csv')
 size_revenue=pd.read_csv('Dataset/MC3/heat_map/size-revenue.csv')
 country_tot_revenue=pd.read_csv('Dataset/MC3/heat_map/country-tot_revenue.csv')
@@ -71,8 +71,8 @@ company_revenue_count=pd.read_csv("Dataset/MC3/bar/company_revenue_count.csv")
 def process_heatmap_data(heatmap_choice):
     if heatmap_choice == 'country-company_type':
         data_df = company_type
-    elif heatmap_choice == 'country-company_lable':
-        data_df = company_lable
+    elif heatmap_choice == 'country-company_label':
+        data_df = company_label
     elif heatmap_choice == 'size-revenue':
         data_df = size_revenue
     elif heatmap_choice == 'country-tot_revenue':
@@ -118,7 +118,7 @@ graph_link=[]
 
 with options_col:
     heatmap_type = ['country-company_type',
-                    'country-company_lable',
+                    'country-company_label',
                     'country-category_counts',
                     'country-tot_revenue',
                     'size-revenue']
