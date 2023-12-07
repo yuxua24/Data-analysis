@@ -72,6 +72,7 @@ links = pd.read_csv('Dataset/MC3/links.csv')
 country_count=pd.read_csv("Dataset/MC3/bar/Country_count.csv")
 label_count=pd.read_csv("Dataset/MC3/bar/Label_count.csv")
 company_revenue_count=pd.read_csv("Dataset/MC3/bar/company_revenue_count.csv")
+person_revenue_count=pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
 
 # 优化后的数据处理函数
 def process_heatmap_data(heatmap_choice):
