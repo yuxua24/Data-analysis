@@ -65,7 +65,8 @@ company_label = pd.read_csv('Dataset/MC3/heat_map/country-company_label.csv')
 country_category = pd.read_csv('Dataset/MC3/heat_map/country-category_counts-new.csv')
 size_revenue=pd.read_csv('Dataset/MC3/heat_map/size-revenue.csv')
 country_company_revenue=pd.read_csv('Dataset/MC3/heat_map/country-company_revenue.csv')
-Product_Service_Size=pd.read_csv('Dataset/MC3/heat_map/Product_Service-Size.csv')
+product_service_size=pd.read_csv('Dataset/MC3/heat_map/Product_Service-Size.csv')
+product_service_revenue=pd.read_csv('Dataset/MC3/heat_map/Product_Service-revenue.csv')
 
 nodes = pd.read_csv('Dataset/MC3/nodes.csv')
 links = pd.read_csv('Dataset/MC3/links.csv')
@@ -85,8 +86,10 @@ def process_heatmap_data(heatmap_choice):
         data_df = size_revenue
     elif heatmap_choice == 'country-company_revenue':
         data_df = country_company_revenue
-    elif heatmap_choice == 'Product_Service-Size':
-        data_df = Product_Service_Size
+    elif heatmap_choice == 'product_service-size':
+        data_df = product_service_size
+    elif heatmap_choice == 'product_service_revenue':
+        data_df = product_service_revenue
     else:
         data_df = country_category
 
@@ -134,7 +137,8 @@ with options_col:
                     'country-category_counts',
                     'country-company_revenue',
                     'size-revenue',
-                    'Product_Service-Size']
+                    'product_service-size',
+                    'product_service-revenue']
     heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
 
     xaxis_labels, yaxis_labels, data, data_df, min_value, max_value = process_heatmap_data(
