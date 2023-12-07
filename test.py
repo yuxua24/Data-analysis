@@ -1,15 +1,13 @@
 import pandas as pd
 
 # 读取CSV文件
-df = pd.read_csv('Dataset/MC3/333.csv')
+df = pd.read_csv('Dataset/MC3/company.csv')
 
-# 计算平均收入
-# 使用numpy的where函数来进行条件选择
-# 如果BOCnt不为0，使用revenue_omu / BOCnt，否则使用revenue_omu / CCCnt
-df['average_income'] = df.apply(
-    lambda row: row['revenue_omu'] / row['BOCnt'] if row['BOCnt'] != 0 else row['revenue_omu'] / row['CCCnt'], 
-    axis=1
-)
+# 筛选出avg_revenue为0的行
+zero_revenue_df = df[df['avg_revenue'] == 0]
 
-# 将结果保存到新的CSV文件
-df.to_csv('Dataset/MC3/44.csv', index=False)
+# 计算这些行中BOCnt的总和
+total_bo_count = zero_revenue_df['BOCnt'].sum()
+
+# 打印结果
+print(f"Total number of beneficial owners with avg_revenue of 0: {total_bo_count}")
