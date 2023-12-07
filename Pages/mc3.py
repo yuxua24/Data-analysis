@@ -301,7 +301,7 @@ lower_chart_container = chart_col.container()
 
 with upper_chart_container:
     # 分为左右两部分，左边展示图，右边展示信息
-    left_part, right_part = upper_chart_container.columns([12, 1])
+    left_part, right_part = upper_chart_container.columns([10, 1])
 
     with left_part:
         # 筛选出与 graph_node 相关的边
@@ -374,7 +374,10 @@ with upper_chart_container:
         # 在右边的部分显示点击的节点信息
     with right_part:
         if st.button('Clear Graph'):
-            pass  # 清除图所有节点
+            # 清除图中所有的节点和边
+            st.session_state.graph_node = []
+            st.session_state.graph_link = [] 
+            st.experimental_rerun()
 
 
 with mid_chart_container:
