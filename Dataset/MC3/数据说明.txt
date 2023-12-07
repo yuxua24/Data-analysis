@@ -6,3 +6,6 @@ company_1_from_links_nodes.csv:
 
 company_2：
 对company_1_from_links_nodes计算出公司的size，联系人+受益人
+
+nodes：
+将nodes_3删掉两列
