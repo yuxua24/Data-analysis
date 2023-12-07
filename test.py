@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 读取CSV文件
-df = pd.read_csv('Dataset/MC3/2.csv')
+df = pd.read_csv('Dataset/MC3/333.csv')
 
 # 计算平均收入
 # 使用numpy的where函数来进行条件选择
@@ -12,7 +12,4 @@ df['average_income'] = df.apply(
 )
 
 # 将结果保存到新的CSV文件
-df.to_csv('Dataset/MC3/3.csv', index=False)
-
-
-
+df.to_csv('Dataset/MC3/44.csv', index=False)
