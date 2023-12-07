@@ -378,6 +378,7 @@ with upper_chart_container:
         def handle_clear_graph():
             st.session_state.graph_node = []
             st.session_state.graph_link = []
+            st.session_state.click_result = None  # 重置 click_result
             # st.experimental_rerun()
 
         st.button('Clear Graph', on_click=handle_clear_graph)
@@ -440,6 +441,8 @@ with lower_chart_container:
                            st.session_state.selected_x else '#2E5276' for country in bar_data[selectes_type].tolist()]
     else:
         bar_item_colors = ['#2E5276'] * len(bar_data[selectes_type])
+
+    
 
     # 将 y_data 转换为包含样式的字典列表
     y_data_with_style = [{"value": y, "itemStyle": {"color": color}}
