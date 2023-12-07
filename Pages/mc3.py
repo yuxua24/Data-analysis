@@ -76,12 +76,11 @@ product_service_revenue = pd.read_csv(
 nodes = pd.read_csv('Dataset/MC3/nodes.csv')
 links = pd.read_csv('Dataset/MC3/links.csv')
 
-country_count = pd.read_csv("Dataset/MC3/bar/Country_count.csv")
-label_count = pd.read_csv("Dataset/MC3/bar/Label_count.csv")
-company_revenue_count = pd.read_csv(
-    "Dataset/MC3/bar/company_revenue_count.csv")
-person_revenue_count = pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
-
+country_count=pd.read_csv("Dataset/MC3/bar/Country_count.csv")
+label_count=pd.read_csv("Dataset/MC3/bar/Label_count.csv")
+company_revenue_count=pd.read_csv("Dataset/MC3/bar/company_revenue_count.csv")
+person_revenue_count=pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
+company_size_count=pd.read_csv("Dataset/MC3/bar/company_size_count.csv")
 
 # 优化后的数据处理函数
 def process_heatmap_data(heatmap_choice):
@@ -95,7 +94,7 @@ def process_heatmap_data(heatmap_choice):
         data_df = country_company_revenue
     elif heatmap_choice == 'product_service-size':
         data_df = product_service_size
-    elif heatmap_choice == 'product_service_revenue':
+    elif heatmap_choice == 'product_service-revenue':
         data_df = product_service_revenue
     else:
         data_df = country_category
@@ -383,7 +382,7 @@ with mid_chart_container:
 
 with left:
     Histogram_type = ['Country', 'Label',
-                      'Personal Revenue', 'Company Revenue']
+                      'Personal Revenue', 'Company Revenue','company size']
     bar_choice = st.selectbox("选择柱状图类型:", Histogram_type)
 
 with mid:
@@ -401,6 +400,8 @@ def process_bar_data2(bar_choice, hide_missing):
         bar_data = company_revenue_count
     elif bar_choice == 'Personal Revenue':
         bar_data = person_revenue_count
+    elif bar_choice == 'company size':
+        bar_data = company_size_count
     else:
         bar_data = label_count
 
