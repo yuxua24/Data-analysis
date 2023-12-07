@@ -64,7 +64,7 @@ company_type = pd.read_csv('Dataset/MC3/heat_map/country-company_type-new.csv')
 company_label = pd.read_csv('Dataset/MC3/heat_map/country-company_label.csv')
 country_category = pd.read_csv('Dataset/MC3/heat_map/country-category_counts-new.csv')
 size_revenue=pd.read_csv('Dataset/MC3/heat_map/size-revenue.csv')
-country_tot_revenue=pd.read_csv('Dataset/MC3/heat_map/country-tot_revenue.csv')
+country_company_revenue=pd.read_csv('Dataset/MC3/heat_map/country-company_revenue.csv')
 
 nodes = pd.read_csv('Dataset/MC3/nodes.csv')
 links = pd.read_csv('Dataset/MC3/links.csv')
