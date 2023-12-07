@@ -7,6 +7,7 @@ from pyecharts.commons.utils import JsCode
 from pyecharts.charts import Graph
 from pyecharts.charts import Bar
 from pyecharts.options import LabelOpts
+from pyecharts.charts import Grid
 import numpy as np
 
 
@@ -58,7 +59,7 @@ company_type = pd.read_csv('Dataset/MC3/heat_map/country-company_type-new.csv')
 company_lable = pd.read_csv('Dataset/MC3/heat_map/country-company_lable.csv')
 country_category = pd.read_csv('Dataset/MC3/heat_map/country-category_counts-new.csv')
 size_revenue=pd.read_csv('Dataset/MC3/heat_map/size-revenue.csv')
-country_tot_revenue=pd.read_csv('Dataset/MC3/heat_map/country-tot_revenue.csv')
+country_company_revenue=pd.read_csv('Dataset/MC3/heat_map/country-company_revenue.csv')
 
 nodes=pd.read_csv('Dataset/MC3/nodes.csv')
 links=pd.read_csv('Dataset/MC3/links.csv')
@@ -66,6 +67,7 @@ links=pd.read_csv('Dataset/MC3/links.csv')
 country_count=pd.read_csv("Dataset/MC3/bar/Country_count.csv")
 label_count=pd.read_csv("Dataset/MC3/bar/Label_count.csv")
 company_revenue_count=pd.read_csv("Dataset/MC3/bar/company_revenue_count.csv")
+person_revenue_count=pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
 
 # 优化后的数据处理函数
 def process_heatmap_data(heatmap_choice):
@@ -75,8 +77,8 @@ def process_heatmap_data(heatmap_choice):
         data_df = company_lable
     elif heatmap_choice == 'size-revenue':
         data_df = size_revenue
-    elif heatmap_choice == 'country-tot_revenue':
-        data_df = country_tot_revenue
+    elif heatmap_choice == 'country-company_revenue':
+        data_df = country_company_revenue
     else:
         data_df = country_category
 
@@ -120,7 +122,7 @@ with options_col:
     heatmap_type = ['country-company_type',
                     'country-company_lable',
                     'country-category_counts',
-                    'country-tot_revenue',
+                    'country-company_revenue',
                     'size-revenue']
     heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
 
@@ -371,6 +373,8 @@ def process_bar_data2(bar_choice,hide_missing):
         bar_data=country_count
     elif bar_choice == 'Company Revenue':
         bar_data = company_revenue_count
+    elif bar_choice == 'Personal Revenue':
+        bar_data = person_revenue_count
     else:
         bar_data=label_count
 
@@ -422,5 +426,12 @@ with lower_chart_container:
         ),
     )
 
-    # 在 Streamlit 中渲染直方图
-    st_pyecharts(bar, height="400px", width="100%")
+    # 创建 Grid 实例
+    grid = Grid()
+
+    # 将柱状图 (bar) 添加到 Grid 中，并设置 grid 的布局选项
+    # 此处设置了 left 边距为 10%，可以根据需要调整
+    grid.add(bar, grid_opts=opts.GridOpts(pos_left="5%"))
+
+    # 在 Streamlit 中渲染 Grid
+    st_pyecharts(grid, height="400px", width="100%")
