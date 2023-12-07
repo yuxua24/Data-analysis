@@ -3,3 +3,6 @@ company_0_from_links.csv:
 
 company_1_from_links_nodes.csv:
 在company_0_from_links后添加在nodes不在links中的公司，BOCnt CCCnt，avg_revenue均设置为0
+
+company_2：
+对company_1_from_links_nodes计算出公司的size，联系人+受益人
