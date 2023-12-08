@@ -83,10 +83,9 @@ company_revenue_count = pd.read_csv(
 person_revenue_count = pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
 company_size_count = pd.read_csv("Dataset/MC3/bar/company_size_count.csv")
 
+
 # 优化后的数据处理函数
-
-
-def process_heatmap_data(heatmap_choice):
+def process_heatmap_data(heatmap_choice, is_hide_missing):
     if heatmap_choice == 'country-company_type':
         data_df = company_type
     elif heatmap_choice == 'country-company_label':
@@ -101,6 +100,10 @@ def process_heatmap_data(heatmap_choice):
         data_df = product_service_revenue
     else:
         data_df = country_category
+    
+    if is_hide_missing:
+        if 'missing' in data_df.columns:
+            data_df = data_df.drop('missing', axis=1)
 
     data = [
         [col_index - 1, row_index, row[col_index]]
@@ -116,18 +119,13 @@ def process_heatmap_data(heatmap_choice):
 # 根据用户的选择来处理数据
 def process_data(data, log_scale):
     if log_scale:
-        # Apply a logarithmic transformation to the third element of each list
         processed_data = [[x[0], x[1], np.log2(x[2]+1)] for x in data]
-        # Extract the third element from each sub-list for min and max calculation
         values = [x[2] for x in processed_data]
-        # Calculate new min and max values
         min_value = min(values)
         max_value = max(values)
     else:
         processed_data = data
-        # Extract the third element from each sub-list for min and max calculation
         values = [x[2] for x in data]
-        # Use original min and max values
         min_value = min(values)
         max_value = max(values)
     return processed_data, min_value, max_value
@@ -150,10 +148,7 @@ with options_col:
                     'product_service-revenue']
     heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
 
-    xaxis_labels, yaxis_labels, data, data_df, min_value, max_value = process_heatmap_data(
-        heatmap_choice)
-
-    col1, mid, col2 = st.columns(3)
+    col1, col2, col3, col4, col5 = st.columns(5)
 
     with col1:
         # 如果点击了“清除选中节点”按钮
@@ -161,9 +156,24 @@ with options_col:
             st.session_state.all_chosen_nodes.clear()
             st.session_state.clear_signal = True  # 设置标志，指示需要忽略点击事件
 
-    with col2:
+    with col3:
+        def handle_clear_graph():
+            st.session_state.graph_node = []
+            st.session_state.graph_link = []
+            st.session_state.click_result = None  # 重置 click_result
+            # st.experimental_rerun()
+
+        st.button('Clear Graph', on_click=handle_clear_graph)
+
+    with col4:
+        is_hide_missing = st.checkbox('Hide missing')
+
+    with col5:
         # 添加一个勾选框，用户可以选择是否应用对数尺度
-        log_scale = st.checkbox('Log Color Scale')
+        log_scale = st.checkbox('Log Scale')
+
+    xaxis_labels, yaxis_labels, data, data_df, min_value, max_value = process_heatmap_data(
+        heatmap_choice, is_hide_missing)
 
     processed_data, min_value, max_value = process_data(data, log_scale)
 
@@ -252,7 +262,7 @@ with options_col:
 
     st.write(st.session_state.all_chosen_nodes)
 
-    with mid:
+    with col2:
         # 如果点击了“添加到图表”按钮
         if st.button('Add to Graph'):
             # temp_chosen_nodes = st.session_state.all_chosen_nodes.copy()
@@ -375,13 +385,14 @@ with upper_chart_container:
             st.session_state.click_result = result
 
     with right_part:
-        def handle_clear_graph():
-            st.session_state.graph_node = []
-            st.session_state.graph_link = []
-            st.session_state.click_result = None  # 重置 click_result
-            # st.experimental_rerun()
+        # def handle_clear_graph():
+        #     st.session_state.graph_node = []
+        #     st.session_state.graph_link = []
+        #     st.session_state.click_result = None  # 重置 click_result
+        #     # st.experimental_rerun()
 
-        st.button('Clear Graph', on_click=handle_clear_graph)
+        # st.button('Clear Graph', on_click=handle_clear_graph)
+        pass
 
 
 with mid_chart_container:
@@ -397,7 +408,7 @@ with mid:
 
 with right:
     # 添加一个勾选框，用户可以选择是否应用对数尺度
-    log_scale2 = st.checkbox('Log Color Scale ')
+    log_scale2 = st.checkbox('Log Scale ')
 
 
 def process_bar_data2(bar_choice, hide_missing):
@@ -441,8 +452,6 @@ with lower_chart_container:
                            st.session_state.selected_x else '#2E5276' for country in bar_data[selectes_type].tolist()]
     else:
         bar_item_colors = ['#2E5276'] * len(bar_data[selectes_type])
-
-    
 
     # 将 y_data 转换为包含样式的字典列表
     y_data_with_style = [{"value": y, "itemStyle": {"color": color}}
