@@ -48,7 +48,7 @@ with st.container():
             show_similar = True
             cols = ['id','product_services','revenue_omu','type','country','company_type','company_size','clothing','furniture','groceries','logistics','machinery','management','metals','miscellaneous','pharmaceutical','plastics','food','seafood','missing']
             res = dict()
-            for idx1, row1 in nodes1:
+            for idx1, row1 in nodes1.iterrows():
                 if row1['id']==node_chosen:#先找到选择的节点
                     for idx, row in nodes1:
                         sum=0.0
