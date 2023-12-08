@@ -249,7 +249,7 @@ with options_col:
     node_chosen = st_pyecharts(
         heatmap,
         events={"click": click_event_js},
-        width=f"{width}px",
+        width='100%',
         height=f"{height}px"
     )
 
@@ -319,25 +319,43 @@ with upper_chart_container:
 
     with left_part:
         # 筛选出与 graph_node 相关的边
-        filtered_links = links[links['source'].isin(
-            st.session_state.graph_node) & links['target'].isin(st.session_state.graph_node)]
-
-        # 准备节点和边的数据
+        filtered_links = links[links['source'].isin(st.session_state.graph_node) | 
+                    links['target'].isin(st.session_state.graph_node)]
+        
+        # 获取所有相关的个体节点ID
+        individual_nodes = set()
+        for index, row in filtered_links.iterrows():
+            if row['source'] not in st.session_state.graph_node:
+                individual_nodes.add(row['source'])
+            if row['target'] not in st.session_state.graph_node:
+                individual_nodes.add(row['target'])
+        
         # 准备节点数据，为每个类型的节点设置不同的颜色
-        nodes_data = [
-            {
-                "name": str(node['id']),
-                "details": ','.join(f"{key}  :  {str(node[key])}" for key in node.keys()),
-                "symbolSize": 40,
-                "draggable": "True",  # 确保节点是可拖拽的
-                "category": node['type'],  # 假设 nodes DataFrame 有一个 'type' 列
-                "itemStyle": {"color": type_color_mapping.get(node['type'], 'default_color')}
-            }
-            for index, node in nodes.iterrows() if node['id'] in st.session_state.graph_node
-        ]
-        links_data = [{"source": str(row['source']),
-                       "target": str(row['target'])} for index, row in filtered_links.iterrows()]
+        nodes_data = []
+        for index, node in nodes.iterrows():
+            if node['id'] in st.session_state.graph_node or node['id'] in individual_nodes:
+                nodes_data.append({
+                    "name": str(node['id']),
+                    "details": ','.join(f"{key}  :  {str(node[key])}" for key in node.keys()),
+                    "symbolSize": 40,
+                    "draggable": "True",
+                    "category": node['type'],
+                    "itemStyle": {"color": type_color_mapping.get(node['type'], 'default_color')}
+                })
+        
 
+        # 准备边数据，添加箭头
+        links_data = []
+        for index, row in filtered_links.iterrows():
+            links_data.append({
+                "source": str(row['source']),
+                "target": str(row['target']),
+                "lineStyle": {"normal": {"curveness": 0}},  # 设置为直线
+                "label": {"normal": {"show": False}},
+                "symbol": ['none', 'arrow'],  # 这里添加箭头
+                "symbolSize": [0, 10]  # 调整箭头大小
+            })
+        
         # 创建图表
         graph = Graph()
         graph.add("",
@@ -354,7 +372,7 @@ with upper_chart_container:
                 is_show=True,  # 显示标签
                 position="right",  # 标签位置
                 font_size=14,  # 字体大小
-                color="auto",  # 标签字体颜色，'auto'为自动颜色
+                color="#000",  # 标签字体颜色，'auto'为自动颜色
                 # 使用节点的name属性作为标签
                 formatter=JsCode("function(data){return data.data.name;}")
             )
