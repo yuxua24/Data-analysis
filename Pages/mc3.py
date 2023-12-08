@@ -61,7 +61,7 @@ if 'selected_x' not in st.session_state:
     st.session_state.selected_x = None
 
 
-company_type = pd.read_csv('Dataset/MC3/heat_map/country-company_type.csv')
+company_type = pd.read_csv('Dataset/MC3/heat_map/country-company_type-new.csv')
 company_label = pd.read_csv('Dataset/MC3/heat_map/country-company_label.csv')
 country_category = pd.read_csv(
     'Dataset/MC3/heat_map/country-category_counts-new.csv')
@@ -82,6 +82,7 @@ company_revenue_count = pd.read_csv(
     "Dataset/MC3/bar/company_revenue_count.csv")
 person_revenue_count = pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
 company_size_count = pd.read_csv("Dataset/MC3/bar/company_size_count.csv")
+company_type_count=pd.read_csv("Dataset/MC3/bar/company_type-count.csv")
 
 
 # 优化后的数据处理函数
@@ -400,7 +401,7 @@ with mid_chart_container:
 
 with left:
     Histogram_type = ['Country', 'Label',
-                      'Personal Revenue', 'Company Revenue', 'company size']
+                      'Personal Revenue', 'Company Revenue', 'company size','company type']
     bar_choice = st.selectbox("选择柱状图类型:", Histogram_type)
 
 with mid:
@@ -420,6 +421,8 @@ def process_bar_data2(bar_choice, hide_missing):
         bar_data = person_revenue_count
     elif bar_choice == 'company size':
         bar_data = company_size_count
+    elif bar_choice == 'company type':
+        bar_data = company_type_count
     else:
         bar_data = label_count
 
