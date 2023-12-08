@@ -70,8 +70,8 @@ country_company_revenue = pd.read_csv(
     'Dataset/MC3/heat_map/country-company_revenue.csv')
 product_service_size = pd.read_csv(
     'Dataset/MC3/heat_map/Product_Service-Size.csv')
-product_service_revenue = pd.read_csv(
-    'Dataset/MC3/heat_map/Product_Service-revenue.csv')
+product_service_revenue = pd.read_csv('Dataset/MC3/heat_map/Product_Service-revenue.csv')
+country_avg_revenue=pd.read_csv('Dataset/MC3/heat_map/country-avg_revenue.csv')
 
 nodes = pd.read_csv('Dataset/MC3/nodes.csv')
 links = pd.read_csv('Dataset/MC3/links.csv')
@@ -99,6 +99,8 @@ def process_heatmap_data(heatmap_choice, is_hide_missing):
         data_df = product_service_size
     elif heatmap_choice == 'product_service-revenue':
         data_df = product_service_revenue
+    elif heatmap_choice == 'country-avg_revenue':
+        data_df = country_avg_revenue 
     else:
         data_df = country_category
     
@@ -146,7 +148,8 @@ with options_col:
                     'country-company_revenue',
                     'size-revenue',
                     'product_service-size',
-                    'product_service-revenue']
+                    'product_service-revenue',
+                    'country-avg_revenue']
     heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
 
     col1, col2, col3, col4, col5 = st.columns(5)
@@ -208,15 +211,16 @@ with options_col:
             ),
             axispointer_opts=opts.AxisPointerOpts(
                 is_show=True,
-                type_="none",  # 'line' | 'shadow' | 'none'
-
+                type_="shadow",  # 'line' | 'shadow' | 'none'
+                #label=opts.LabelOpts(color="black", background_color="rgba(255, 255, 255, 0)", font_size=14),  # 设置标签颜色、背景和字体大小
             ),
             xaxis_opts=opts.AxisOpts(
-                axislabel_opts=opts.LabelOpts(font_size=5),
+                axislabel_opts=opts.LabelOpts(font_size=10, color="black"),
                 position="bottom",
             ),
             yaxis_opts=opts.AxisOpts(
-                axislabel_opts=opts.LabelOpts(font_size=10, is_show=True),
+                is_show=True,
+                axislabel_opts=opts.LabelOpts(font_size=10, is_show=True, color="black"),
                 name_gap=100,  # 增加轴名称和轴线之间的距离
                 name_textstyle_opts=opts.TextStyleOpts(
                     font_size=10),  # 可以调整y轴名称的字体大小
@@ -314,104 +318,90 @@ mid_chart_container = chart_col.container()
 lower_chart_container = chart_col.container()
 
 with upper_chart_container:
-    # 分为左右两部分，左边展示图，右边展示信息
-    left_part, right_part = upper_chart_container.columns([10, 1])
-
-    with left_part:
-        # 筛选出与 graph_node 相关的边
-        filtered_links = links[links['source'].isin(st.session_state.graph_node) | 
-                    links['target'].isin(st.session_state.graph_node)]
-        
-        # 获取所有相关的个体节点ID
-        individual_nodes = set()
-        for index, row in filtered_links.iterrows():
-            if row['source'] not in st.session_state.graph_node:
-                individual_nodes.add(row['source'])
-            if row['target'] not in st.session_state.graph_node:
-                individual_nodes.add(row['target'])
-        
-        # 准备节点数据，为每个类型的节点设置不同的颜色
-        nodes_data = []
-        for index, node in nodes.iterrows():
-            if node['id'] in st.session_state.graph_node or node['id'] in individual_nodes:
-                nodes_data.append({
-                    "name": str(node['id']),
-                    "details": ','.join(f"{key}  :  {str(node[key])}" for key in node.keys()),
-                    "symbolSize": 40,
-                    "draggable": "True",
-                    "category": node['type'],
-                    "itemStyle": {"color": type_color_mapping.get(node['type'], 'default_color')}
-                })
-        
-
-        # 准备边数据，添加箭头
-        links_data = []
-        for index, row in filtered_links.iterrows():
-            links_data.append({
-                "source": str(row['source']),
-                "target": str(row['target']),
-                "lineStyle": {"normal": {"curveness": 0}},  # 设置为直线
-                "label": {"normal": {"show": False}},
-                "symbol": ['none', 'arrow'],  # 这里添加箭头
-                "symbolSize": [0, 10]  # 调整箭头大小
+    # 筛选出与 graph_node 相关的边
+    filtered_links = links[links['source'].isin(st.session_state.graph_node) | 
+                links['target'].isin(st.session_state.graph_node)]
+    
+    # 获取所有相关的个体节点ID
+    individual_nodes = set()
+    for index, row in filtered_links.iterrows():
+        if row['source'] not in st.session_state.graph_node:
+            individual_nodes.add(row['source'])
+        if row['target'] not in st.session_state.graph_node:
+            individual_nodes.add(row['target'])
+    
+    # 准备节点数据，为每个类型的节点设置不同的颜色
+    nodes_data = []
+    for index, node in nodes.iterrows():
+        if node['id'] in st.session_state.graph_node or node['id'] in individual_nodes:
+            nodes_data.append({
+                "name": str(node['id']),
+                "details": ','.join(f"{key}  :  {str(node[key])}" for key in node.keys()),
+                "symbolSize": 40,
+                "draggable": "False",
+                "category": node['type'],
+                "itemStyle": {"color": type_color_mapping.get(node['type'], 'default_color')}
             })
-        
-        # 创建图表
-        graph = Graph()
-        graph.add("",
-                  nodes_data,
-                  links_data,
-                  categories=node_categories,  # 添加 categories
-                  repulsion=4000)
-        graph.set_global_opts(
-            title_opts=opts.TitleOpts(title="Directed Graph"))
+    
 
-        # 标签
-        graph.set_series_opts(
-            label_opts=LabelOpts(
-                is_show=True,  # 显示标签
-                position="right",  # 标签位置
-                font_size=14,  # 字体大小
-                color="#000",  # 标签字体颜色，'auto'为自动颜色
-                # 使用节点的name属性作为标签
-                formatter=JsCode("function(data){return data.data.name;}")
-            )
+    # 准备边数据，添加箭头
+    links_data = []
+    for index, row in filtered_links.iterrows():
+        links_data.append({
+            "source": str(row['source']),
+            "target": str(row['target']),
+            "lineStyle": {"normal": {"curveness": 0}},  # 设置为直线
+            "label": {"normal": {"show": False}},
+            "symbol": ['none', 'arrow'],  # 这里添加箭头
+            "symbolSize": [0, 10]  # 调整箭头大小
+        })
+    
+    # 创建图表
+    graph = Graph()
+    graph.add("",
+                nodes_data,
+                links_data,
+                categories=node_categories,  # 添加 categories
+                repulsion=4000)
+    graph.set_global_opts(
+        title_opts=opts.TitleOpts(title="Directed Graph"))
+
+    # 标签
+    graph.set_series_opts(
+        label_opts=LabelOpts(
+            is_show=True,  # 显示标签
+            position="inside",  # 标签位置
+            font_size=8,  # 字体大小
+            color="#000",  # 标签字体颜色，'auto'为自动颜色
+            # 使用节点的name属性作为标签
+            formatter=JsCode("function(data){return data.data.name;}")
         )
+    )
 
-        # 设置鼠标悬浮时的提示框
-        graph.set_global_opts(
-            tooltip_opts=opts.TooltipOpts(
-                is_show=True,
-                formatter=JsCode("""
-                    function(data) {
-                        return data.data.details.replace(/,/g, '<br/>');
-                    }
-        """)
-            )
+    # 设置鼠标悬浮时的提示框
+    graph.set_global_opts(
+        tooltip_opts=opts.TooltipOpts(
+            is_show=True,
+            formatter=JsCode("""
+                function(data) {
+                    return data.data.details.replace(/,/g, '<br/>');
+                }
+    """)
         )
+    )
 
-        # 设置点击事件的JavaScript函数
-        click_event_js = "function(params) {return params.data;}"
+    # 设置点击事件的JavaScript函数
+    click_event_js = "function(params) {return params.data;}"
 
-        # 渲染有向图并设置点击事件
-        result = st_pyecharts(graph,
-                              events={"click": click_event_js},
-                              height="600px",
-                              width="100%")
+    # 渲染有向图并设置点击事件
+    result = st_pyecharts(graph,
+                            events={"click": click_event_js},
+                            height="600px",
+                            width="100%")
 
-        # 检查点击事件的结果
-        if result:
-            st.session_state.click_result = result
-
-    with right_part:
-        # def handle_clear_graph():
-        #     st.session_state.graph_node = []
-        #     st.session_state.graph_link = []
-        #     st.session_state.click_result = None  # 重置 click_result
-        #     # st.experimental_rerun()
-
-        # st.button('Clear Graph', on_click=handle_clear_graph)
-        pass
+    # 检查点击事件的结果
+    if result:
+        st.session_state.click_result = result
 
 
 with mid_chart_container:
