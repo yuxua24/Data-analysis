@@ -9,7 +9,6 @@ from pyecharts.charts import Bar
 from pyecharts.options import LabelOpts
 from pyecharts.charts import Grid
 import numpy as np
-import json
 
 
 st.set_page_config(layout="wide", page_icon=None,
@@ -84,6 +83,11 @@ person_revenue_count = pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
 company_size_count = pd.read_csv("Dataset/MC3/bar/company_size_count.csv")
 company_type_count=pd.read_csv("Dataset/MC3/bar/company_type-count.csv")
 
+if 'sus_nodes3' not in st.session_state:
+    st.session_state['sus_nodes3'] = set()
+
+st.session_state['sus_nodes3'].add('Smith PLC')
+st.session_state['sus_nodes3'].add('Jones Group')
 
 # 优化后的数据处理函数
 def process_heatmap_data(heatmap_choice, is_hide_missing):
