@@ -1,40 +1,47 @@
 import pandas as pd
 import streamlit as st
+from streamlit_echarts import st_pyecharts
 from pyecharts import options as opts
 from pyecharts.charts import Graph, Parallel
 from streamlit.components.v1 import html
+import base64
 
-def main():
-    st.set_page_config(layout="wide")
-    
-    # Streamlit application layout
-    st.title("Community Visualization")
+st.set_page_config(layout="wide", page_icon=None,
+                   initial_sidebar_state="collapsed", page_title=None)
 
-    # Controls for community selection and chart type, placed at the top
-    community_number = st.selectbox("Select a Community Number", range(16))
-    chart_type = st.radio("Select Chart Type", ("Graph", "Parallel"))
+# Streamlit application layout
+st.title("Community Visualization")
 
-    # Load data
-    node_data = pd.read_csv("Dataset/MC1/Parallel_coordinates/community_node_stats.csv")
-    edge_data = pd.read_csv("Dataset/MC1/Links.csv")
-    parallel_data = pd.read_csv("Dataset/MC1/Parallel_coordinates/community_node_stats.csv")
-    parallel_ave_data = pd.read_csv("Dataset/MC1/Parallel_coordinates/community_stats.csv")
+# Controls for community selection and chart type, placed at the top
+community_number = st.selectbox("Select a Community Number", range(16))
+chart_type = st.radio("Select Chart Type", ("Graph", "Parallel"))
 
-    # Suspected nodes list
-    suspected_nodes = ["Mar de la Vida OJSC", "979893388",
-                    "Oceanfront Oasis Inc Carriers", "8327"]  
+# Load data
+node_data = pd.read_csv("Dataset/MC1/Parallel_coordinates/community_node_stats.csv")
+edge_data = pd.read_csv("Dataset/MC1/Links.csv")
+parallel_data = pd.read_csv("Dataset/MC1/Parallel_coordinates/community_node_stats.csv")
+parallel_ave_data = pd.read_csv("Dataset/MC1/Parallel_coordinates/community_stats.csv")
 
-    # Filter nodes and edges based on the selected community
-    filtered_nodes = node_data[node_data["Community"] == community_number]
-    filtered_edges = edge_data[edge_data["source"].isin(filtered_nodes["id"]) & edge_data["target"].isin(filtered_nodes["id"])]
-    filtered_parallel = parallel_data[parallel_data.iloc[:, 0] == community_number]
+# Suspected nodes list
+suspected_nodes = ["Mar de la Vida OJSC", "979893388",
+                "Oceanfront Oasis Inc Carriers", "8327"]  
 
-    # Depending on the chart type, display the respective chart
-    if chart_type == "Graph":
-        display_graph(filtered_nodes, filtered_edges)
-    elif chart_type == "Parallel":
-        display_parallel(filtered_parallel, suspected_nodes, parallel_ave_data,community_number )
+# 将图片转换为base64编码
+def image_to_base64(path):
+    with open(path, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read()).decode()
+    return "data:image/png;base64," + encoded_string
 
+# 使用上面的函数获取图片的base64编码
+image_path = 'Dataset/MC1/3.png'  # 这里替换为您图片的实际路径
+special_node_base64 = image_to_base64(image_path)
+
+# Filter nodes and edges based on the selected community
+filtered_nodes = node_data[node_data["Community"] == community_number]
+filtered_edges = edge_data[edge_data["source"].isin(filtered_nodes["id"]) & edge_data["target"].isin(filtered_nodes["id"])]
+filtered_parallel = parallel_data[parallel_data.iloc[:, 0] == community_number]
+
+#绘制图
 def display_graph(filtered_nodes, filtered_edges):
     # Define categories and their respective colors
     categories_list = [
@@ -52,25 +59,26 @@ def display_graph(filtered_nodes, filtered_edges):
     for _, node in filtered_nodes.iterrows():
         category_index = type_to_category.get(node["type"], len(categories_list) - 1)
         node_color = categories[category_index]["itemStyle"]["color"]
+        is_suspected = node["id"] in suspected_nodes  # Check if the node name is in suspected_nodes
         nodes.append({
             "name": str(node["id"]),
             "symbolSize": 30,
             "category": category_index,
             "itemStyle": {"color": node_color},
-            "label": {"show": True, "color": "black"}  # Set label color to black
+            "label": {"show": False},   # Set label color to black
+            "symbol": 'image://' + special_node_base64 if is_suspected else 'circle',
         })
+
 
     links = [{"source": str(source), "target": str(target)} for source, target in zip(filtered_edges["source"], filtered_edges["target"])]
 
     # Create and display a graph
-    g = Graph(init_opts=opts.InitOpts(width="100%", height="600px"))
+    g = Graph(init_opts=opts.InitOpts(width="100%", height="1000px"))
     g.add("", nodes, links, repulsion=5000, categories=categories)
     g.set_global_opts(title_opts=opts.TitleOpts(title="Community Graph"))
-    st_pyecharts(g)
+    st_pyecharts(g,width="100%",height=800)
 
-
-
-
+#绘制平行坐标
 def display_parallel(filtered_parallel, suspected_nodes, parallel_ave_data, community_number):
     # Convert suspected_nodes to a set for faster lookup
     suspected_nodes_set = set(suspected_nodes)
@@ -113,13 +121,9 @@ def display_parallel(filtered_parallel, suspected_nodes, parallel_ave_data, comm
     st_pyecharts(parallel)
 
 
+# Depending on the chart type, display the respective chart
+if chart_type == "Graph":
+    display_graph(filtered_nodes, filtered_edges)
+elif chart_type == "Parallel":
+    display_parallel(filtered_parallel, suspected_nodes, parallel_ave_data,community_number )
 
-
-
-def st_pyecharts(chart):
-    # Render a Pyecharts chart in Streamlit
-    raw_html = chart.render_embed()
-    html(raw_html, width=1600, height=600)
-
-if __name__ == "__main__":
-    main()
