@@ -69,8 +69,10 @@ country_company_revenue = pd.read_csv(
     'Dataset/MC3/heat_map/country-company_revenue.csv')
 product_service_size = pd.read_csv(
     'Dataset/MC3/heat_map/Product_Service-Size.csv')
-product_service_revenue = pd.read_csv('Dataset/MC3/heat_map/Product_Service-revenue.csv')
-country_avg_revenue=pd.read_csv('Dataset/MC3/heat_map/country-avg_revenue.csv')
+product_service_revenue = pd.read_csv(
+    'Dataset/MC3/heat_map/Product_Service-revenue.csv')
+country_avg_revenue = pd.read_csv(
+    'Dataset/MC3/heat_map/country-avg_revenue.csv')
 
 nodes = pd.read_csv('Dataset/MC3/nodes.csv')
 links = pd.read_csv('Dataset/MC3/links.csv')
@@ -81,18 +83,40 @@ company_revenue_count = pd.read_csv(
     "Dataset/MC3/bar/company_revenue_count.csv")
 person_revenue_count = pd.read_csv("Dataset/MC3/bar/person_revenue_count.csv")
 company_size_count = pd.read_csv("Dataset/MC3/bar/company_size_count.csv")
-company_type_count=pd.read_csv("Dataset/MC3/bar/company_type-count.csv")
+company_type_count = pd.read_csv("Dataset/MC3/bar/company_type-count.csv")
 
 if 'sus_nodes3' not in st.session_state:
     st.session_state['sus_nodes3'] = set()
 
 st.session_state['sus_nodes3'].add('Smith PLC')
 st.session_state['sus_nodes3'].add('Jones Group')
+st.session_state['sus_nodes3'].add('Neptune\'s Harvest LC Transport')
+st.session_state['sus_nodes3'].add('Caracola del Mar NV Family')
+st.session_state['sus_nodes3'].add('Estrella de la Costa Ltd Trawler')
+st.session_state['sus_nodes3'].add('Assam  Market Incorporated -')
+st.session_state['sus_nodes3'].add('ReefRider Ges.m.b.H. Marine life')
+st.session_state['sus_nodes3'].add('SeaScape Foods Ltd. Liability Co')
+st.session_state['sus_nodes3'].add('Surf and Sea Marine')
+st.session_state['sus_nodes3'].add('Mar del Placer Sagl Solutions')
+st.session_state['sus_nodes3'].add('Playa Blanca LC Solutions')
+st.session_state['sus_nodes3'].add('Mar del Golfo Ges.m.b.H. Transport')
+st.session_state['sus_nodes3'].add('Luangwa River   Limited Liability Company Holdings')
+st.session_state['sus_nodes3'].add('Carpenter-Gilbert')
+st.session_state['sus_nodes3'].add('Aqua Aura SE Marine life')
+st.session_state['sus_nodes3'].add('Baker Inc')
+st.session_state['sus_nodes3'].add('Gujarat ers Limited Liability Company')
+st.session_state['sus_nodes3'].add('Jones Group')
+st.session_state['sus_nodes3'].add('Jones LLC')
+st.session_state['sus_nodes3'].add('Lewis LLC')
+st.session_state['sus_nodes3'].add('Morgan Group')
+
 
 if 'suspect_set' not in st.session_state:
     st.session_state.suspect_set = []
 
 # 优化后的数据处理函数
+
+
 def process_heatmap_data(heatmap_choice, is_hide_missing):
     if heatmap_choice == 'country-company_type':
         data_df = company_type
@@ -107,10 +131,10 @@ def process_heatmap_data(heatmap_choice, is_hide_missing):
     elif heatmap_choice == 'product_service-revenue':
         data_df = product_service_revenue
     elif heatmap_choice == 'country-avg_revenue':
-        data_df = country_avg_revenue 
+        data_df = country_avg_revenue
     else:
         data_df = country_category
-    
+
     if is_hide_missing:
         if 'missing' in data_df.columns:
             data_df = data_df.drop('missing', axis=1)
@@ -219,7 +243,7 @@ with options_col:
             axispointer_opts=opts.AxisPointerOpts(
                 is_show=True,
                 type_="shadow",  # 'line' | 'shadow' | 'none'
-                #label=opts.LabelOpts(color="black", background_color="rgba(255, 255, 255, 0)", font_size=14),  # 设置标签颜色、背景和字体大小
+                # label=opts.LabelOpts(color="black", background_color="rgba(255, 255, 255, 0)", font_size=14),  # 设置标签颜色、背景和字体大小
             ),
             xaxis_opts=opts.AxisOpts(
                 axislabel_opts=opts.LabelOpts(font_size=10, color="black"),
@@ -227,7 +251,8 @@ with options_col:
             ),
             yaxis_opts=opts.AxisOpts(
                 is_show=True,
-                axislabel_opts=opts.LabelOpts(font_size=10, is_show=True, color="black"),
+                axislabel_opts=opts.LabelOpts(
+                    font_size=10, is_show=True, color="black"),
                 name_gap=100,  # 增加轴名称和轴线之间的距离
                 name_textstyle_opts=opts.TextStyleOpts(
                     font_size=10),  # 可以调整y轴名称的字体大小
@@ -328,12 +353,12 @@ with upper_chart_container:
     # 分为左右两部分，左边展示图，右边展示信息
     left_part, right_part = upper_chart_container.columns([10, 1])
 
-    #有向图
+    # 有向图
     with left_part:
         # 筛选出与 graph_node 相关的边
-        filtered_links = links[links['source'].isin(st.session_state.graph_node) | 
-                    links['target'].isin(st.session_state.graph_node)]
-        
+        filtered_links = links[links['source'].isin(st.session_state.graph_node) |
+                               links['target'].isin(st.session_state.graph_node)]
+
         # 获取所有相关的个体节点ID
         individual_nodes = set()
         for index, row in filtered_links.iterrows():
@@ -341,7 +366,7 @@ with upper_chart_container:
                 individual_nodes.add(row['source'])
             if row['target'] not in st.session_state.graph_node:
                 individual_nodes.add(row['target'])
-        
+
         # 准备节点数据，为每个类型的节点设置不同的颜色
         nodes_data = []
         for index, node in nodes.iterrows():
@@ -354,7 +379,6 @@ with upper_chart_container:
                     "category": node['type'],
                     "itemStyle": {"color": type_color_mapping.get(node['type'], 'default_color')}
                 })
-        
 
         # 准备边数据，添加箭头
         links_data = []
@@ -367,14 +391,22 @@ with upper_chart_container:
                 "symbol": ['none', 'arrow'],  # 这里添加箭头
                 "symbolSize": [0, 10]  # 调整箭头大小
             })
-        
+
         # 创建图表
         graph = Graph()
         graph.add("",
-                    nodes_data,
-                    links_data,
-                    categories=node_categories,  # 添加 categories
-                    repulsion=10000) # 增加这个值以减少节点的动态效果
+                  nodes_data,
+                  links_data,
+                  categories=node_categories,  # 添加 categories
+                  #   repulsion=10000,  # 增加这个值以减少节点的动态效果
+                  #   is_layout_animation=True  # 是否启用布局动画
+                  repulsion=10000,
+                  layout='force',
+                  gravity=0.05,    # 减少引力
+                  edge_length=100,  # 增加边长
+                  friction=0.5,    # 调整摩擦力
+                  is_roam=True
+                  )
         graph.set_global_opts(
             title_opts=opts.TitleOpts(title="Directed Graph"))
 
@@ -407,20 +439,20 @@ with upper_chart_container:
 
         # 渲染有向图并设置点击事件
         result = st_pyecharts(graph,
-                                events={"click": click_event_js},
-                                height="600px",
-                                width="100%")
-        
+                              events={"click": click_event_js},
+                              height="600px",
+                              width="100%")
+
     # 检查点击事件的结果
     if result:
         st.session_state.click_result = result
-        
+
     with right_part:
         if st.button('Add to Set'):
             if st.session_state.click_result:
                 clicked_node_id = st.session_state.click_result['name']
                 st.session_state.suspect_set.append(clicked_node_id)
-        
+
         if st.button('Add to Suspicious node'):
             st.session_state['sus_nodes3'].update(st.session_state.suspect_set)
             st.session_state.suspect_set.clear()
@@ -428,18 +460,12 @@ with upper_chart_container:
     st.write(st.session_state['sus_nodes3'])
 
 
-
-
-
-    
-
-
 with mid_chart_container:
     left, mid, right = mid_chart_container.columns([2, 1, 1])
 
 with left:
     Histogram_type = ['Country', 'Label',
-                      'Personal Revenue', 'Company Revenue', 'company size','company type']
+                      'Personal Revenue', 'Company Revenue', 'company size', 'company type']
     bar_choice = st.selectbox("选择柱状图类型:", Histogram_type)
 
 with mid:
