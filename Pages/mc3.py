@@ -173,16 +173,6 @@ graph_link = []
 
 
 with options_col:
-    heatmap_type = ['country-company_type',
-                    'country-company_label',
-                    'country-category_counts',
-                    'country-company_revenue',
-                    'size-revenue',
-                    'product_service-size',
-                    'product_service-revenue',
-                    'country-avg_revenue']
-    # heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
-
     col1, col2, col3, col4, col5 = st.columns(5)
 
     with col1:
@@ -341,12 +331,14 @@ with options_col:
     if st.session_state.clear_signal:
         st.session_state.clear_signal = False
 
-    st.write(st.session_state.all_chosen_nodes)
+    #st.write(st.session_state.all_chosen_nodes)
 
     with col2:
         # 如果点击了“添加到图表”按钮
         if st.button('Add to Graph'):
-            # 遍历 node_chosen 列表
+            xaxis_labels, yaxis_labels, data, data_df, min_value, max_value = process_heatmap_data(
+                heatmap_type[st.session_state.selected_heatmap], is_hide_missing)
+            # 遍历 all_chosen_nodes 列表
             for item in st.session_state.all_chosen_nodes:
                 if isinstance(item, list) and len(item) == 3:
                     col_idx, row_idx, number = item
@@ -365,7 +357,7 @@ with options_col:
                 set(st.session_state.graph_node))
 
             # # 打印结果将
-st.write("graph_node:", st.session_state.graph_node)
+#st.write("graph_node:", st.session_state.graph_node)
 
 
 # 定义类型到颜色的映射
@@ -493,11 +485,11 @@ with upper_chart_container:
                 clicked_node_id = st.session_state.click_result['name']
                 st.session_state.suspect_set.append(clicked_node_id)
 
-        if st.button('Add to Suspicious node'):
+        if st.button('Add to Sus'):
             st.session_state['sus_nodes3'].update(st.session_state.suspect_set)
             st.session_state.suspect_set.clear()
-    st.write(st.session_state.suspect_set)
-    st.write(st.session_state['sus_nodes3'])
+    #st.write(st.session_state.suspect_set)
+    #st.write(st.session_state['sus_nodes3'])
 
 
 with mid_chart_container:
