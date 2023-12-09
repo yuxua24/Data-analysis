@@ -100,7 +100,8 @@ st.session_state['sus_nodes3'].add('Surf and Sea Marine')
 st.session_state['sus_nodes3'].add('Mar del Placer Sagl Solutions')
 st.session_state['sus_nodes3'].add('Playa Blanca LC Solutions')
 st.session_state['sus_nodes3'].add('Mar del Golfo Ges.m.b.H. Transport')
-st.session_state['sus_nodes3'].add('Luangwa River   Limited Liability Company Holdings')
+st.session_state['sus_nodes3'].add(
+    'Luangwa River   Limited Liability Company Holdings')
 st.session_state['sus_nodes3'].add('Carpenter-Gilbert')
 st.session_state['sus_nodes3'].add('Aqua Aura SE Marine life')
 st.session_state['sus_nodes3'].add('Baker Inc')
@@ -114,9 +115,8 @@ st.session_state['sus_nodes3'].add('Morgan Group')
 if 'suspect_set' not in st.session_state:
     st.session_state.suspect_set = []
 
+
 # 优化后的数据处理函数
-
-
 def process_heatmap_data(heatmap_choice, is_hide_missing):
     if heatmap_choice == 'country-company_type':
         data_df = company_type
@@ -181,7 +181,7 @@ with options_col:
                     'product_service-size',
                     'product_service-revenue',
                     'country-avg_revenue']
-    heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
+    # heatmap_choice = st.selectbox("选择热力图类型:", heatmap_type)
 
     col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -207,87 +207,131 @@ with options_col:
         # 添加一个勾选框，用户可以选择是否应用对数尺度
         log_scale = st.checkbox('Log Scale')
 
-    xaxis_labels, yaxis_labels, data, data_df, min_value, max_value = process_heatmap_data(
-        heatmap_choice, is_hide_missing)
+    heatmap_type = ['country-company_type',
+                    'country-company_label',
+                    'country-category_counts',
+                    'country-company_revenue',
+                    'size-revenue',
+                    'product_service-size',
+                    'product_service-revenue',
+                    'country-avg_revenue']
 
-    processed_data, min_value, max_value = process_data(data, log_scale)
+    heatmap_data = []
+
+    for i in range(8):
+        xaxis_labels, yaxis_labels, data, data_df, min_value, max_value = process_heatmap_data(
+            heatmap_type[i], is_hide_missing)
+        processed_data, min_value, max_value = process_data(data, log_scale)
+        heatmap_data.append([xaxis_labels, yaxis_labels,
+                             processed_data, min_value, max_value])
 
     # 创建热力图
-    heatmap = (
-        HeatMap()
-        .add_xaxis(list(xaxis_labels))
-        .add_yaxis(
-            series_name=heatmap_choice,
-            yaxis_data=list(yaxis_labels),
-            value=processed_data,
-            label_opts=opts.LabelOpts(is_show=False, position="inside"),
-        )
-        .set_global_opts(
-            title_opts=opts.TitleOpts(title="HeatMap"),
-            legend_opts=opts.LegendOpts(is_show=False),  # 关闭图例显示
-            # 标签样式
-            tooltip_opts=opts.TooltipOpts(
-                is_show=True,  # 是否显示提示框组件，包括提示框浮层和 axisPointer。
-                trigger="item",  # 触发类型。'item' 表示数据项图形触发。
-                position="inside",
-                axis_pointer_type='cross',  # 使用十字准线指示器
-                background_color="rgba(50,50,50,0.7)",  # 提示框浮层的背景颜色。
-                border_color="#333",  # 提示框浮层的边框颜色。
-                border_width=0,  # 提示框浮层的边框宽。
-                textstyle_opts=opts.TextStyleOpts(color="#fff"),  # 提示框浮层的文本样式。
-                formatter=JsCode("function(params){return params.value[2] + ' nodes';}") if not log_scale else (
-                    JsCode(
-                        "function(params){return (2 ** params.value[2]-1).toFixed(0)  + ' nodes';}")
-                )
-            ),
-            axispointer_opts=opts.AxisPointerOpts(
-                is_show=True,
-                type_="shadow",  # 'line' | 'shadow' | 'none'
-                # label=opts.LabelOpts(color="black", background_color="rgba(255, 255, 255, 0)", font_size=14),  # 设置标签颜色、背景和字体大小
-            ),
-            xaxis_opts=opts.AxisOpts(
-                axislabel_opts=opts.LabelOpts(font_size=10, color="black"),
-                position="bottom",
-            ),
-            yaxis_opts=opts.AxisOpts(
-                is_show=True,
-                axislabel_opts=opts.LabelOpts(
-                    font_size=10, is_show=True, color="black"),
-                name_gap=100,  # 增加轴名称和轴线之间的距离
-                name_textstyle_opts=opts.TextStyleOpts(
-                    font_size=10),  # 可以调整y轴名称的字体大小
-            ),
-            visualmap_opts=opts.VisualMapOpts(
-                is_show=False,  # 隐藏视觉映射控件
-                min_=min_value,
-                max_=max_value,
-                is_calculable=True,
-                orient="horizontal",
-                pos_left="center",
-                range_color=["#ffffff", "#000080"]  # 从白色到深蓝色
-            ),
-        )
-    )
 
-    # 计算宽度和高度
-    num_x_labels = len(xaxis_labels)
-    num_y_labels = len(yaxis_labels)
+    def create_heatmap(heatmap_data, heatmap_choice, width='100%', height="300px"):
+        heatmap = (
+            HeatMap()
+            .add_xaxis(list(heatmap_data[0]))
+            .add_yaxis(
+                series_name=heatmap_choice,
+                yaxis_data=list(heatmap_data[1]),
+                value=heatmap_data[2],
+                label_opts=opts.LabelOpts(is_show=False, position="inside"),
+            )
+            .set_global_opts(
+                legend_opts=opts.LegendOpts(is_show=False),  # 关闭图例显示
+                # 标签样式
+                tooltip_opts=opts.TooltipOpts(
+                    is_show=True,  # 是否显示提示框组件，包括提示框浮层和 axisPointer。
+                    trigger="item",  # 触发类型。'item' 表示数据项图形触发。
+                    position="inside",
+                    axis_pointer_type='cross',  # 使用十字准线指示器
+                    background_color="rgba(50,50,50,0.7)",  # 提示框浮层的背景颜色。
+                    border_color="#333",  # 提示框浮层的边框颜色。
+                    border_width=0,  # 提示框浮层的边框宽。
+                    textstyle_opts=opts.TextStyleOpts(
+                        color="#fff"),  # 提示框浮层的文本样式。
+                    formatter=JsCode("function(params){return params.value[2] + ' nodes';}") if not log_scale else (
+                        JsCode(
+                            "function(params){return (2 ** params.value[2]-1).toFixed(0)  + ' nodes';}")
+                    )
+                ),
+                axispointer_opts=opts.AxisPointerOpts(
+                    is_show=True,
+                    type_="shadow",  # 'line' | 'shadow' | 'none'
+                    # label=opts.LabelOpts(color="black", background_color="rgba(255, 255, 255, 0)", font_size=14),  # 设置标签颜色、背景和字体大小
+                ),
+                xaxis_opts=opts.AxisOpts(
+                    axislabel_opts=opts.LabelOpts(font_size=10, color="black"),
+                    position="bottom",
+                ),
+                yaxis_opts=opts.AxisOpts(
+                    is_show=True,
+                    axislabel_opts=opts.LabelOpts(
+                        font_size=10, is_show=True, color="black"),
+                    name_gap=100,  # 增加轴名称和轴线之间的距离
+                    name_textstyle_opts=opts.TextStyleOpts(
+                        font_size=10),  # 可以调整y轴名称的字体大小
+                ),
+                visualmap_opts=opts.VisualMapOpts(
+                    is_show=False,  # 隐藏视觉映射控件
+                    min_=heatmap_data[3],
+                    max_=heatmap_data[4],
+                    is_calculable=True,
+                    orient="horizontal",
+                    pos_left="center",
+                    range_color=["#ffffff", "#000080"]  # 从白色到深蓝色
+                ),
+            )
+        )
+        heatmap.width = width
+        heatmap.height = height
+        return heatmap
 
-    # 假设每个单元格的大小为25像素，您可以根据需要调整
-    cell_size = 25
-    width = cell_size * num_x_labels
-    height = cell_size * num_y_labels
+    # 更新选择的热力图
+    def select_heatmap(index):
+        st.session_state.selected_heatmap = index
+
+    # 处理返回操作
+    def handle_return():
+        st.session_state.selected_heatmap = None
+
+    # 初始化session_state
+    if 'selected_heatmap' not in st.session_state:
+        st.session_state.selected_heatmap = None
 
     # 设置点击事件的JavaScript函数
     click_event_js = "function(params) {return params.data;}"
 
-    # 渲染热力图并设置点击事件
-    node_chosen = st_pyecharts(
-        heatmap,
-        events={"click": click_event_js},
-        width='100%',
-        height=f"{height}px"
-    )
+    node_chosen = 0
+
+    # 布局所有缩略图的逻辑
+    if st.session_state.selected_heatmap is None:
+        cols = st.columns(4)
+        for i in range(8):
+            with cols[i % 4]:
+                heatmap = create_heatmap(
+                    heatmap_data[i], heatmap_type[i])
+                st_pyecharts(heatmap, height="400px")
+                st.button(heatmap_type[i], key=f"btn_{i}",
+                          on_click=select_heatmap, args=(i,))
+    # 显示选中的热力图的逻辑
+    else:
+        # 计算宽度和高度
+        num_x_labels = len(heatmap_data[st.session_state.selected_heatmap][0])
+        num_y_labels = len(heatmap_data[st.session_state.selected_heatmap][1])
+
+        # 假设每个单元格的大小为25像素，可以根据需要调整
+        cell_size = 25
+        width = cell_size * num_x_labels
+        height = cell_size * num_y_labels
+
+        st.markdown(heatmap_type[st.session_state.selected_heatmap])
+        heatmap = create_heatmap(heatmap_data[st.session_state.selected_heatmap],
+                                 heatmap_type[st.session_state.selected_heatmap], height="600px")
+        node_chosen = st_pyecharts(
+            heatmap, events={"click": click_event_js}, width=width, height=height)
+
+        st.button("Return to all heatmaps", on_click=handle_return)
 
     # 当热力图被点击时，添加新节点到 session state
     if node_chosen and node_chosen not in st.session_state.all_chosen_nodes and st.session_state.clear_signal is False:
@@ -302,10 +346,6 @@ with options_col:
     with col2:
         # 如果点击了“添加到图表”按钮
         if st.button('Add to Graph'):
-            # temp_chosen_nodes = st.session_state.all_chosen_nodes.copy()
-            # st.session_state.all_chosen_nodes = []
-            # st.session_state.clear_signal = True  # 设置标志，指示需要忽略点击事件
-
             # 遍历 node_chosen 列表
             for item in st.session_state.all_chosen_nodes:
                 if isinstance(item, list) and len(item) == 3:
@@ -440,7 +480,7 @@ with upper_chart_container:
         # 渲染有向图并设置点击事件
         result = st_pyecharts(graph,
                               events={"click": click_event_js},
-                              height="600px",
+                              height="400px",
                               width="100%")
 
     # 检查点击事件的结果
