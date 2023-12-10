@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 在边栏创建一个下拉选择框，用于页面导航
-page = st.sidebar.selectbox("选择一个页面", ["首页", "页面 1", "页面 2"])
+page = st.sidebar.selectbox("", ["首页", "页面 1", "页面 2"])
 
 # 根据选择的页面显示不同的内容
 if page == "首页":
