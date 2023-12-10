@@ -319,7 +319,7 @@ with options_col:
         heatmap = create_heatmap(heatmap_data[st.session_state.selected_heatmap],
                                  heatmap_type[st.session_state.selected_heatmap], height="600px")
         node_chosen = st_pyecharts(
-            heatmap, events={"click": click_event_js}, width=width, height=height)
+            heatmap, events={"click": click_event_js}, width='100%', height=height)
 
         st.button("Return to all heatmaps", on_click=handle_return)
 
