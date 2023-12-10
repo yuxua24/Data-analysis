@@ -89,11 +89,13 @@ def display_parallel(filtered_parallel, suspected_nodes, parallel_ave_data, comm
     suspected_data = []
     normal_data = []
     
-    # Add data for each node
+    # Add data for each node with their IDs and category as part of the name
     for i, row in enumerate(filtered_parallel.itertuples()):
         is_suspected = ids[i] in suspected_nodes_set
+        category = "Suspected" if is_suspected else "Normal"
         data_point = {
             "value": list(row)[5:],  # Skip index and first 4 columns
+            "name": f"{category} - ID: {ids[i]}"  # Combine category and ID
         }
         if is_suspected:
             suspected_data.append(data_point)
@@ -104,10 +106,12 @@ def display_parallel(filtered_parallel, suspected_nodes, parallel_ave_data, comm
     parallel = Parallel(init_opts=opts.InitOpts(width="100%", height="600px"))
     parallel.add_schema(schema)
 
-    # Add normal and suspected data to the chart with specific line styles
-    parallel.add("Normal", normal_data, linestyle_opts=opts.LineStyleOpts(color='#ADD8E6'))
-    parallel.add("Suspected", suspected_data, linestyle_opts=opts.LineStyleOpts(color='red', width=3))
+    # Set tooltip formatting to show both category and ID
+    tooltip_formatter = opts.TooltipOpts(formatter=lambda params: params.name)
 
+    # When adding data to the parallel chart, include the formatted tooltip
+    parallel.add("Normal", normal_data, linestyle_opts=opts.LineStyleOpts(color='#ADD8E6'), tooltip_opts=tooltip_formatter)
+    parallel.add("Suspected", suspected_data, linestyle_opts=opts.LineStyleOpts(color='red', width=3), tooltip_opts=tooltip_formatter)
     # Add average data for the selected community
     avg_data = parallel_ave_data[parallel_ave_data["Community"] == community_number]
     if not avg_data.empty:
