@@ -36,6 +36,13 @@ node_categories = nodes_df['type'].unique()
 # 默认选中所有类别
 selected_categories = set(node_categories)
 
+#添加怀疑节点全局变量
+if 'sus_nodes1' not in st.session_state:
+    st.session_state['sus_nodes1'] = set()
+
+if 'last_action' not in st.session_state:
+    st.session_state['last_action'] = None
+
 selected_nodes = []
 with left_column:
         
@@ -208,6 +215,11 @@ with mid_column:
                             events={"click": click_event_js},
                             width="100%",
                             height=1000)
+        
+        if result:
+            # 更新点击的节点ID
+            st.session_state['clicked_node'] = result["name"]
+            st.session_state['last_action'] = 'click'
         
         #---------------绘制饼图-------------
         # 创建饼图对象
@@ -382,53 +394,91 @@ with mid_column:
 
 
         # ---------用户点击图表交互---------
-        if result:
-            # 提取点击的节点名称
-            click_node_id = result["name"]
-            # 读取节点信息
-            node_info_df = pd.read_csv('Dataset/MC1/community2/community_node_suspect_sum.csv')
-            # 检索节点信息
-            node_info = node_info_df[node_info_df['Node'] == click_node_id]  # 假设CSV有一个'Node'列
+with right_column:
+    # 定义变量保存当前点击的节点ID
+    current_node_id = None
 
-            # 在右侧列显示节点信息
-            with right_column:
-                # 创建一个选择框让用户选择信息类型
-                # 创建单选按钮
-                info_type = st.radio(
-                    "",
-                    ('ID', 'Statistics', 'Community Information')
-                )
+    # 筛选框
+    st.subheader("Suspect Set")
+    # 这里可以添加你需要的筛选框或其他控件
+    selected_sus_node = st.selectbox("Select the suspected node", list(st.session_state['sus_nodes1']), index=0, key='suspect_select')
 
-                # 添加横线
-                st.markdown("---")
+    if selected_sus_node:
+        if (selected_sus_node != st.session_state.get('selected_node')) or (st.session_state.get('last_action') != 'click'):
+            # 更新选择的节点ID，并将操作设置为“select”
+            st.session_state['selected_node'] = selected_sus_node
+            st.session_state['last_action'] = 'select'
 
-                # 定义 CSS 样式
-                my_font_style = """
-                <style>
-                .my-font {
-                    font-family: Arial;
-                    color: skyblue;
-                    font-size: 20px;
-                }
-                <yle>
-                """
+    # 显示节点信息
+    if st.session_state.get('last_action') == 'click':
+        current_node_id = st.session_state.get('clicked_node')
+    else:
+        current_node_id = st.session_state.get('selected_node')
 
-                # 应用 CSS 样式
-                st.markdown(my_font_style, unsafe_allow_html=True)
+    if current_node_id:
+        # 读取节点信息
+        node_info_df = pd.read_csv('Dataset/MC1/community2/community_node_suspect_sum.csv')
+        # 检索节点信息
+        node_info = node_info_df[node_info_df['Node'] == current_node_id]  # 假设CSV有一个'Node'列
 
-                # 使用自定义样式显示文本
-                #st.markdown('<p class="my-font">这是自定义字体样式的文本</p>', unsafe_allow_html=True)
+        # 在右侧列显示节点信息
+        # 创建一个选择框让用户选择信息类型
+        # 创建单选按钮
+        info_type = st.radio(
+            "",
+            ('ID', 'Statistics', 'Community Information')
+        )
 
-                if info_type == 'ID':
-                    # 显示第2到9列
-                    for col in node_info.columns[1:8]:  # Python 列索引从0开始
-                        #st.text(f"{col}: {node_info.iloc[0][col]}")
-                        st.markdown(f'<p class="my-font">"{col}: {node_info.iloc[0][col]}"</p>', unsafe_allow_html=True)
-                elif info_type == 'Statistics':
-                    # 显示第10到21列
-                    for col in node_info.columns[8:21]:
-                        st.text(f"{col}: {node_info.iloc[0][col]}")
-                elif info_type == 'Community Information':
-                    # 显示第1列和第22列
-                    st.text(f"{node_info.columns[0]}: {node_info.iloc[0][0]}")
-                    st.text(f"{node_info.columns[21]}: {node_info.iloc[0][21]}")
+        # 添加横线
+        st.markdown("---")
+
+        # 定义 CSS 样式
+        my_font_style = """
+        <style>
+        .my-font {
+            font-family: Arial;
+            color: skyblue;
+            font-size: 20px;
+        }
+        <yle>
+        """
+
+        # 应用 CSS 样式
+        st.markdown(my_font_style, unsafe_allow_html=True)
+
+        # 使用自定义样式显示文本
+        #st.markdown('<p class="my-font">这是自定义字体样式的文本</p>', unsafe_allow_html=True)
+
+        if info_type == 'ID':
+            # 显示第2到9列
+            for col in node_info.columns[1:8]:  # Python 列索引从0开始
+                #st.text(f"{col}: {node_info.iloc[0][col]}")
+                st.markdown(f'<p class="my-font">"{col}: {node_info.iloc[0][col]}"</p>', unsafe_allow_html=True)
+        elif info_type == 'Statistics':
+            # 显示第10到21列
+            for col in node_info.columns[8:21]:
+                st.text(f"{col}: {node_info.iloc[0][col]}")
+        elif info_type == 'Community Information':
+            # 显示第1列和第22列
+            st.text(f"{node_info.columns[0]}: {node_info.iloc[0][0]}")
+            st.text(f"{node_info.columns[21]}: {node_info.iloc[0][21]}")
+    
+    # 添加另一个分隔符
+    st.markdown("---")
+
+    # 创建两列来放置按钮
+    col1, col2 = st.columns(2)
+    with col1:
+        def handle_add_set():
+            st.session_state['sus_nodes1'].add(current_node_id)
+
+        st.button('Add to Suspect Set', on_click=handle_add_set)
+                
+
+    with col2:
+        def handle_remove():
+            st.session_state['sus_nodes1'].discard(selected_sus_node)
+
+        st.button('Remove', on_click=handle_remove)
+
+
