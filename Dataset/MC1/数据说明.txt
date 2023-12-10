@@ -1,2 +1,8 @@
 Nodes_0：最原始的节点数据
 Nodes：在最原始的数据基础上，添加了邻居节点的个数
+
+Connected_political_organization_3_types：
+统计和政府组织有边直接相连的组织、公司和未分类的节点id
+
+no_location_3_types：
+没有和location有边直接相连的组织、公司和未分类的节点id，type
