@@ -12,9 +12,9 @@ st.set_page_config(layout="wide", page_icon=None,
                    initial_sidebar_state="collapsed", page_title=None)
 
 
-page = st.sidebar.selectbox("", ["GRAPH", "PARALLEL"])
+page = st.sidebar.selectbox("", ["Graph", "Parallel"])
 
-if page == "GRAPH":
+if page == "Graph":
     links_df = pd.read_csv('Dataset/MC1/Links.csv')
     nodes_df = pd.read_csv('Dataset/MC1/Nodes.csv')
 
@@ -502,13 +502,13 @@ if page == "GRAPH":
             st.button('Remove', on_click=handle_remove)
 
 
-elif page == "PARALLEL":
+elif page == "Parallel":
     # Streamlit application layout
     st.title("Community Visualization")
 
     # Controls for community selection and chart type, placed at the top
     community_number = st.selectbox("Select a Community Number", range(16))
-    chart_type = st.radio("Select Chart Type", ("Graph", "Parallel"))
+    chart_type = st.radio("Select Chart Type", ("Community Graph", "Parallel"))
 
     # Load data
     node_data = pd.read_csv(
@@ -637,7 +637,7 @@ elif page == "PARALLEL":
         st_pyecharts(parallel)
 
     # Depending on the chart type, display the respective chart
-    if chart_type == "Graph":
+    if chart_type == "Community Graph":
         display_graph(filtered_nodes, filtered_edges)
     elif chart_type == "Parallel":
         display_parallel(filtered_parallel, suspected_nodes,
