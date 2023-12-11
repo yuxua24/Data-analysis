@@ -14,7 +14,7 @@ import numpy as np
 st.set_page_config(layout="wide", page_icon=None,
                    initial_sidebar_state="collapsed", page_title=None)
 
-hide_st_style = """
+st.markdown("""
             <style>
             /* Removes padding, margin and set full height to the main content area */
             .main .block-container { 
@@ -26,8 +26,7 @@ hide_st_style = """
             }
             /* Additional custom styles can be added here */
             </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+            """, unsafe_allow_html=True)
 
 
 # 页面比例
@@ -331,7 +330,7 @@ with options_col:
     if st.session_state.clear_signal:
         st.session_state.clear_signal = False
 
-    #st.write(st.session_state.all_chosen_nodes)
+    # st.write(st.session_state.all_chosen_nodes)
 
     with col2:
         # 如果点击了“添加到图表”按钮
@@ -357,7 +356,7 @@ with options_col:
                 set(st.session_state.graph_node))
 
             # # 打印结果将
-#st.write("graph_node:", st.session_state.graph_node)
+# st.write("graph_node:", st.session_state.graph_node)
 
 
 # 定义类型到颜色的映射
@@ -488,8 +487,8 @@ with upper_chart_container:
         if st.button('Add to Sus'):
             st.session_state['sus_nodes3'].update(st.session_state.suspect_set)
             st.session_state.suspect_set.clear()
-    #st.write(st.session_state.suspect_set)
-    #st.write(st.session_state['sus_nodes3'])
+    # st.write(st.session_state.suspect_set)
+    # st.write(st.session_state['sus_nodes3'])
 
 
 with mid_chart_container:
