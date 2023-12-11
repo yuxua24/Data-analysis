@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 type,country,id,neighbor_count,InDegree,OutDegree,AverageWeight
 company,Nalakond,Spanish Shrimp  Carriers,84,35.0,61.0,0.8728520586458334
 organization,Unknown,12744,3,1.0,3.0,0.9116671125
@@ -3427,3 +3428,3434 @@ Uncategorized,Unknown,âEntirely,2,2.0,0.0,0.8874136800000001
 Uncategorized,Unknown,Ocano del Este SE,4,0.0,4.0,0.8562884675
 Uncategorized,Unknown,Norwegian Shrimp N.V. -,3,1.0,2.0,0.8527527233333334
 Uncategorized,Unknown,Malabar Sea Catch Sp,2,0.0,2.0,0.8190531
+=======
+type,country,id,neighbor_count,InDegree,OutDegree
+company,Nalakond,Spanish Shrimp  Carriers,84,35.0,61.0
+organization,Unknown,12744,3,1.0,3.0
+organization,Unknown,143129355,16,12.0,4.0
+organization,Unknown,7775,12,7.0,6.0
+organization,Unknown,1017141,3,0.0,3.0
+organization,Unknown,2591586,11,4.0,7.0
+organization,Unknown,185040354,42,30.0,19.0
+company,Rio Isla,Faroe Islands Shrimp Shark,164,121.0,88.0
+organization,Unknown,341411,192,102.0,151.0
+organization,Unknown,21323516,3,3.0,0.0
+Uncategorized,Unknown,âvictimâ,1,0.0,1.0
+Uncategorized,Unknown,âperpetratorâ,1,1.0,0.0
+organization,Unknown,8561,1,1.0,0.0
+person,Country_271835,William Bradley,7,1.0,6.0
+person,Country_271835,Joseph Griffin,2,1.0,1.0
+Uncategorized,Unknown,âŠâ,3,3.0,0.0
+organization,Unknown,853949688,1,0.0,1.0
+organization,Unknown,650512,3,3.0,0.0
+organization,Unknown,8,1,0.0,1.0
+organization,Unknown,128692,13,10.0,4.0
+organization,Unknown,172711,1,1.0,0.0
+person,Country_789455,Jacob Caldwell,15,6.0,9.0
+organization,Unknown,14253815,2,0.0,2.0
+location,Unknown,4369922c-ce1d-40ff-904c-1f6a3000bf6b,1,1.0,0.0
+company,Country_271835,Saltwater Solitude GmbH & Co. KG,5,3.0,2.0
+Uncategorized,Unknown,PRK,5,3.0,2.0
+Uncategorized,Unknown,âVikingâ,4,3.0,1.0
+organization,Unknown,506,1,0.0,1.0
+organization,Unknown,4937447,3,2.0,1.0
+Uncategorized,Unknown,âregularâ,1,0.0,1.0
+organization,Unknown,2079436,2,2.0,0.0
+person,Osterivaria,Ann Daniels,2,0.0,2.0
+person,Osterivaria,Stephanie Mccormick MD,2,1.0,1.0
+person,Country_271835,Lisa Clay,2,2.0,0.0
+organization,Unknown,589,7,4.0,3.0
+person,Country_712875,Elizabeth Welch,7,2.0,7.0
+location,Unknown,da0a7bbb-5bd1-42aa-bcc0-b8923d5c15d4,2,1.0,2.0
+person,Country_271835,Eugene Ochoa,1,1.0,0.0
+organization,Unknown,967900443,14,5.0,14.0
+person,Country_271835,Lisa Jimenez,2,2.0,0.0
+organization,Unknown,1,13,10.0,5.0
+location,Unknown,445a6124-4650-4e5a-83bb-a0e0b4040ee9,1,0.0,1.0
+person,Country_271835,Martha Robbins,2,0.0,2.0
+person,Country_271835,Don Hopkins,2,1.0,1.0
+person,Country_271835,Joseph Gray,2,2.0,0.0
+organization,Unknown,4,31,3.0,32.0
+organization,Unknown,4975,8,3.0,6.0
+organization,Unknown,7282284,3,2.0,1.0
+organization,Unknown,0,13,6.0,7.0
+person,Country_271835,Sean Vasquez,3,2.0,1.0
+organization,Unknown,196159,23,5.0,19.0
+organization,Unknown,755,11,7.0,4.0
+organization,Unknown,860067396,2,1.0,1.0
+organization,Unknown,664738735,13,10.0,4.0
+organization,Unknown,290834957,34,18.0,20.0
+person,Country_271835,Timothy Reeves,7,5.0,3.0
+organization,Unknown,457009514,5,4.0,2.0
+organization,Unknown,6043477,4,2.0,2.0
+organization,Unknown,526269,13,13.0,0.0
+person,Oceanus,Jason Cameron,6,2.0,4.0
+location,Unknown,77b46bc7-7e31-41a0-973c-e633011d21b0,29,16.0,14.0
+organization,Unknown,7,7,3.0,5.0
+organization,Unknown,35,10,5.0,5.0
+political_organization,Unknown,6406040,23,15.0,9.0
+person,Country_271835,Jamie Knox,2,2.0,0.0
+person,Country_271835,Kristin Graham,1,1.0,0.0
+organization,Unknown,99575926,4,4.0,1.0
+political_organization,Unknown,72371354,2,2.0,0.0
+organization,Unknown,55,7,3.0,4.0
+political_organization,Unknown,766649,12,8.0,4.0
+organization,Unknown,955425,2,0.0,2.0
+organization,Unknown,132,8,4.0,5.0
+organization,Unknown,8701038,3,0.0,3.0
+organization,Unknown,9067,26,7.0,19.0
+organization,Unknown,750975,29,8.0,25.0
+organization,Unknown,3404599,15,15.0,1.0
+political_organization,Unknown,85117949,13,3.0,11.0
+organization,Unknown,3506021,54,34.0,30.0
+political_organization,Unknown,348079,2,1.0,1.0
+political_organization,Unknown,78,1,1.0,0.0
+organization,Unknown,95,27,17.0,17.0
+Uncategorized,Unknown,â8â,3,0.0,3.0
+Uncategorized,Unknown,ârefer,3,1.0,2.0
+Uncategorized,Unknown,â10â,3,2.0,1.0
+person,Country_271835,Alyssa Huffman,3,3.0,0.0
+organization,Unknown,245,6,2.0,4.0
+organization,Unknown,300668979,10,6.0,4.0
+Uncategorized,Unknown,âNoticesââ,3,3.0,0.0
+organization,Unknown,651,3,2.0,1.0
+political_organization,Unknown,7845,5,3.0,3.0
+organization,Unknown,265700083,2,0.0,3.0
+organization,Unknown,47679,48,31.0,33.0
+location,Unknown,d0123474-8425-4ab0-90d5-175920158638,18,5.0,13.0
+organization,Unknown,425887173,11,7.0,4.0
+organization,Unknown,86597,7,5.0,2.0
+location,Unknown,405ab2a5-68f0-4304-ab94-24c7995a248e,3,0.0,3.0
+political_organization,Unknown,44842,6,1.0,5.0
+location,Unknown,e2b334d9-4d51-40b2-a7b1-441b88400b75,4,1.0,3.0
+political_organization,Unknown,68,2,0.0,2.0
+organization,Unknown,610,2,1.0,1.0
+organization,Unknown,4063,1,1.0,0.0
+organization,Unknown,740523,1,1.0,0.0
+vessel,Unknown,Marine,9,0.0,9.0
+Uncategorized,Unknown,255â273,4,4.0,0.0
+location,Unknown,91dcf36d-dba8-41e8-a4cc-912981a27296,4,3.0,1.0
+organization,Unknown,69150209,20,7.0,14.0
+organization,Unknown,2,8,2.0,6.0
+organization,Unknown,72,2,0.0,2.0
+organization,Unknown,35881,2,2.0,0.0
+location,Unknown,06430a2c-805a-4a76-bbda-2a24c0c860d7,1,0.0,1.0
+person,Nalakond,Derek Burke,40,28.0,17.0
+political_organization,Unknown,490653,3,0.0,3.0
+political_organization,Unknown,888,2,2.0,0.0
+organization,Unknown,775298545,3,0.0,3.0
+organization,Unknown,26676370,2,2.0,0.0
+company,Country_271835,Viento Azul Harbor LLC Investment,3,3.0,0.0
+vessel,Unknown,Viking fishing,2,2.0,0.0
+organization,Unknown,44956,5,2.0,3.0
+political_organization,Unknown,3,3,2.0,1.0
+organization,Unknown,5,5,1.0,5.0
+location,Unknown,0715f2ea-3d11-4eaa-a0c4-fb3290896531,1,1.0,0.0
+vessel,Unknown,77,12,14.0,12.0
+person,Oceanus,Andrea Gibson,18,14.0,5.0
+movement,Unknown,hours,9,9.0,0.0
+organization,Unknown,7298083,37,16.0,25.0
+organization,Unknown,21,3,1.0,3.0
+organization,Unknown,6,10,5.0,6.0
+person,Country_271835,Alexander Buchanan,2,2.0,0.0
+person,Oceanus,Maria Mitchell,14,9.0,7.0
+organization,Unknown,9,5,0.0,5.0
+location,Unknown,14bda3bb-9993-4265-97cc-1747808c144e,30,10.0,22.0
+person,Oceanus,Amanda Mckenzie,85,71.0,29.0
+organization,Unknown,8698,7,1.0,6.0
+person,Country_271835,Claire Russell,3,3.0,0.0
+organization,Unknown,964,2,1.0,1.0
+person,Country_271835,Scott Medina,5,4.0,1.0
+organization,Unknown,2262,55,32.0,36.0
+organization,Unknown,93873119,2,0.0,2.0
+person,Country_271835,Jeremy Cordova,2,0.0,2.0
+location,Unknown,602ea158-0519-47fc-badc-787721580418,1,0.0,2.0
+person,Country_271835,Victoria Parks,3,2.0,1.0
+Uncategorized,Unknown,St,8,1.0,9.0
+location,Unknown,e40c01a4-8ed5-400f-857d-31e7bd263e35,5,5.0,0.0
+organization,Unknown,49494,4,3.0,2.0
+organization,Unknown,551,10,10.0,0.0
+person,Country_271835,Bryan Taylor,3,1.0,2.0
+organization,Unknown,380,27,4.0,23.0
+location,Unknown,f20779bf-63b5-4ea4-bb5f-944bb9449bce,2,1.0,1.0
+organization,Unknown,349,2,2.0,0.0
+organization,Unknown,97453782,3,3.0,0.0
+organization,Unknown,71835024,4,0.0,4.0
+person,Country_271835,Anne Anderson,3,3.0,0.0
+person,Country_271835,Brian Nelson,2,2.0,0.0
+organization,Unknown,78590886,4,0.0,4.0
+organization,Unknown,7209,3,1.0,2.0
+organization,Unknown,79139,6,4.0,3.0
+organization,Unknown,78135,6,5.0,2.0
+organization,Unknown,5810,5,5.0,0.0
+organization,Unknown,704138011,1,0.0,1.0
+organization,Unknown,84616,1,2.0,0.0
+organization,Unknown,66538530,4,0.0,4.0
+organization,Unknown,12731,4,3.0,2.0
+location,Unknown,ee05a28e-82ba-4f1d-a60f-68797a422ada,5,0.0,5.0
+political_organization,Unknown,82344,9,0.0,9.0
+organization,Unknown,58,8,8.0,3.0
+person,Country_19028,Cynthia Williams,6,4.0,3.0
+Uncategorized,Unknown,Armed Robberyâ,6,5.0,2.0
+organization,Unknown,76,5,5.0,1.0
+organization,Unknown,6731,51,10.0,41.0
+organization,Unknown,83,17,6.0,12.0
+person,Vesperanda,Ms. Stephanie Rivera DDS,9,6.0,6.0
+organization,Unknown,665,39,11.0,29.0
+organization,Unknown,89772543,7,4.0,3.0
+Uncategorized,Unknown,âunregulatedâ,1,1.0,0.0
+location,Unknown,aea12579-8802-4b2d-b432-fc35fe4d10d5,6,3.0,3.0
+location,Unknown,a7948099-0cab-4b80-8707-2ada931ac288,1,1.0,0.0
+person,Country_271835,Michael Smith,4,0.0,4.0
+person,Country_271835,Melanie Miller,2,2.0,0.0
+organization,Unknown,12,12,8.0,4.0
+organization,Unknown,27,3,3.0,0.0
+person,Country_271835,Timothy Allen,4,0.0,4.0
+person,Riodelsol,Nathaniel Jimenez,9,0.0,9.0
+location,Unknown,3b728c8f-1eaa-4f16-8c63-d3bcffd437bb,3,0.0,3.0
+company,Oceanus,Turkish Sword Buoy Incorporated Forwading,10,5.0,9.0
+organization,Unknown,498817,3,3.0,0.0
+organization,Unknown,2989,4,2.0,2.0
+organization,Unknown,967,2,1.0,1.0
+location,Unknown,df42b319-be6a-4a2e-b11d-c4da7ecfc01c,2,2.0,0.0
+organization,Unknown,185106,3,2.0,1.0
+organization,Unknown,947,10,1.0,9.0
+person,Vesperand's Bay,Gregory Ortiz,4,4.0,0.0
+person,Vesperand's Bay,Michael Compton,6,3.0,3.0
+organization,Unknown,4348721,7,2.0,5.0
+vessel,Unknown,USS Hershel,3,3.0,0.0
+location,Unknown,b20c0baf-8530-4a84-a5b6-8da324ebebdb,6,4.0,2.0
+organization,Unknown,26,1,1.0,0.0
+organization,Unknown,21538,26,6.0,20.0
+organization,Unknown,860600018,26,11.0,16.0
+organization,Unknown,237659945,2,2.0,0.0
+person,Country_271835,Victoria Anderson,7,6.0,1.0
+vessel,Unknown,USCGC Spencer,3,2.0,1.0
+vessel,Unknown,WMEC,3,3.0,0.0
+organization,Unknown,435054320,61,6.0,61.0
+vessel,Unknown,Cutter,5,4.0,1.0
+location,Unknown,f21800ca-b3c9-404b-8438-3d75ea84c409,19,8.0,11.0
+organization,Unknown,1560,13,8.0,6.0
+Uncategorized,Unknown,Sept,36,13.0,25.0
+person,Nalakond,John Gonzalez,21,13.0,9.0
+organization,Unknown,68703341,2,0.0,2.0
+political_organization,Unknown,57,30,29.0,10.0
+political_organization,Unknown,6046437,5,1.0,4.0
+location,Unknown,03b6c1a6-dcd8-462f-9a7e-bf9ea7e0a987,2,1.0,1.0
+event,Unknown,Act,13,6.0,7.0
+location,Unknown,9a651d73-d88f-4f9c-9497-7321ef575c6f,2,1.0,1.0
+person,Country_271835,Natasha Phillips,2,2.0,0.0
+location,Unknown,36351742-aff4-4df7-a495-1f1f2c94127a,4,3.0,1.0
+person,Country_951683,Dakota Hansen,2,0.0,2.0
+organization,Unknown,301,5,4.0,1.0
+person,Country_271835,James Best,2,2.0,0.0
+organization,Unknown,9203,2,0.0,2.0
+organization,Unknown,3878194,5,1.0,4.0
+person,Country_271835,Amy Kent,2,2.0,0.0
+Uncategorized,Unknown,Conventionâ,2,2.0,0.0
+event,Unknown,months years,2,2.0,0.0
+vessel,Unknown,water fishing,1,1.0,0.0
+Uncategorized,Unknown,monthsâ,2,0.0,3.0
+vessel,Unknown,18,7,8.0,8.0
+movement,Unknown,months,45,23.0,26.0
+person,Country_271835,Emily Johnson,5,0.0,5.0
+organization,Unknown,94,3,2.0,1.0
+location,Unknown,e85c691a-2adc-4094-8d29-5ea328486951,6,1.0,5.0
+organization,Unknown,760079,4,2.0,2.0
+organization,Unknown,3009706,2,2.0,0.0
+location,Unknown,41870892-4565-42cd-9374-8665d01e9aa9,23,9.0,15.0
+person,Country_271835,Susan Erickson,2,2.0,0.0
+organization,Unknown,80191,8,5.0,4.0
+location,Unknown,0f5fd4f9-1683-464e-9459-a4488de5064b,7,4.0,3.0
+event,Unknown,cookies,4,2.0,2.0
+person,Syrithania,Ashley Davis,2,1.0,1.0
+organization,Unknown,924,13,8.0,6.0
+organization,Unknown,865275,14,7.0,10.0
+organization,Unknown,449308,3,0.0,3.0
+organization,Unknown,28,8,6.0,5.0
+organization,Unknown,23777,10,8.0,3.0
+organization,Unknown,518,5,5.0,0.0
+organization,Unknown,426469,5,2.0,3.0
+location,Unknown,6064a564-2a82-44b7-8614-3a33f25e41ba,1,1.0,0.0
+location,Unknown,3cda9d0b-77af-4e85-bef8-e935ca55ea06,3,0.0,3.0
+organization,Unknown,494197,2,2.0,0.0
+organization,Unknown,200640636,8,4.0,4.0
+organization,Unknown,23,39,20.0,60.0
+organization,Unknown,144431,2,1.0,1.0
+person,Country_271835,Debbie Daniel,1,0.0,1.0
+company,Country_628643,png xi  Line,249,186.0,214.0
+organization,Unknown,26261586,1,0.0,1.0
+organization,Unknown,15910405,9,6.0,3.0
+organization,Unknown,7361,2,1.0,1.0
+organization,Unknown,85052185,2,0.0,2.0
+organization,Unknown,48605,5,0.0,5.0
+location,Unknown,c73572b6-7b24-49e7-8f52-11cf8ec3c7d2,1,1.0,0.0
+organization,Unknown,8412071,5,1.0,5.0
+organization,Unknown,439861274,5,4.0,3.0
+person,Country_271835,Brian Williams,3,3.0,0.0
+organization,Unknown,908724,5,5.0,0.0
+person,Country_271835,Jennifer Price,4,0.0,4.0
+political_organization,Unknown,653505420,1,0.0,1.0
+person,Country_271835,Kimberly Palmer,3,3.0,1.0
+organization,Unknown,5848,5,5.0,1.0
+organization,Unknown,15785056,2,2.0,0.0
+organization,Unknown,733,7,5.0,2.0
+organization,Unknown,277983365,17,12.0,6.0
+company,Rio Isla,Playa del Cielo Kga,138,79.0,98.0
+organization,Unknown,26431,6,5.0,1.0
+location,Unknown,6d249c4d-1f62-4ab2-b107-8fd978f115c7,2,0.0,2.0
+organization,Unknown,3785,2,2.0,0.0
+organization,Unknown,164575,3,1.0,2.0
+person,Country_271835,Spencer King,5,3.0,2.0
+person,Country_271835,Dawn Oconnell,2,1.0,1.0
+event,Unknown,âŠ,46,39.0,10.0
+organization,Unknown,1396,1,0.0,1.0
+organization,Unknown,235866056,19,9.0,21.0
+location,Unknown,d5b94ebc-e03a-438e-872b-a15db349a748,5,2.0,3.0
+organization,Unknown,486,16,8.0,9.0
+event,Unknown,arts,2,0.0,2.0
+Uncategorized,Unknown,98,7,14.0,2.0
+person,Country_271835,Timothy Cuevas,3,1.0,2.0
+person,Country_271835,Joshua Glover,3,2.0,1.0
+person,Country_271835,Tara Villegas,3,3.0,0.0
+person,Country_271835,Ashley Wiggins,1,1.0,0.0
+political_organization,Unknown,49048884,2,2.0,0.0
+organization,Unknown,9612243,2,2.0,0.0
+person,Country_271835,Andrea Hansen,2,2.0,0.0
+Uncategorized,Unknown,189,1,0.0,1.0
+Uncategorized,Unknown,07,2,2.0,0.0
+organization,Unknown,737205,2,0.0,2.0
+event,Unknown,April,33,7.0,28.0
+organization,Unknown,5705060,1,0.0,1.0
+organization,Unknown,959,2,2.0,0.0
+company,Country_271835,Belgian Scallop Ltd. Liability Co,3,0.0,3.0
+Uncategorized,Unknown,ânecessaryâ,2,1.0,2.0
+organization,Unknown,883320938,2,2.0,0.0
+person,Country_271835,Ryan Williams,3,0.0,3.0
+person,Country_271835,Colleen Everett,3,1.0,2.0
+person,Country_271835,Brenda Gonzalez,3,2.0,1.0
+organization,Unknown,2198,17,6.0,12.0
+person,Country_271835,Clayton Rodgers,2,2.0,0.0
+person,Country_271835,Randy Collins,2,0.0,2.0
+location,Unknown,41398ea8-d14a-4666-80e8-6a212684d871,3,1.0,3.0
+person,Country_271835,Brandon Berger,1,1.0,0.0
+organization,Unknown,40690,2,0.0,2.0
+location,Unknown,e836e8c3-a45e-4225-870d-d3e8dbc62c26,2,2.0,0.0
+person,Oceanus,Jennifer Alvarez,2,0.0,2.0
+person,Oceanus,Bryce Baker,14,6.0,8.0
+organization,Unknown,743225,14,5.0,9.0
+company,Country_271835,Norwegian Shrimp Ltd. Liability Co,2,0.0,2.0
+company,Nalakond,Rajasthan Limited Liability Company,5,5.0,0.0
+organization,Unknown,4783,4,0.0,4.0
+person,Country_271835,Timothy Estrada,2,0.0,2.0
+event,Unknown,ten,1,0.0,1.0
+location,Unknown,e2816018-e01c-4eac-8dc5-e84aebc22cff,2,0.0,2.0
+person,Country_271835,Vanessa Avila,9,8.0,1.0
+organization,Unknown,529,2,2.0,0.0
+organization,Unknown,47924922,6,5.0,1.0
+organization,Unknown,49,32,13.0,21.0
+political_organization,Unknown,12845006,1,0.0,1.0
+organization,Unknown,9488645,25,13.0,13.0
+person,Merigrad,Lauren Moore,3,0.0,3.0
+Uncategorized,Unknown,âlocalâ,4,3.0,1.0
+Uncategorized,Unknown,Leominster Provincetownâ,3,0.0,3.0
+location,Unknown,371bf15a-3000-499a-88e4-cc096b028ec7,1,0.0,1.0
+political_organization,Unknown,913428,3,1.0,2.0
+location,Unknown,d7f220de-bba2-4965-9c15-3dd38ef5c3c7,3,3.0,3.0
+Uncategorized,Unknown,fisheriesâ,3,2.0,3.0
+person,Country_271835,Mark Weiss,11,9.0,2.0
+organization,Unknown,53073557,4,0.0,4.0
+person,Country_271835,Jason Davis,2,1.0,1.0
+organization,Unknown,34,25,19.0,9.0
+person,Country_271835,Erin Bowen,2,2.0,0.0
+person,Country_19028,Albert Thomas,3,0.0,3.0
+organization,Unknown,31408,2,1.0,1.0
+organization,Unknown,28064,1,1.0,0.0
+person,Country_271835,Kyle Stanton,2,0.0,2.0
+location,Unknown,ae16dd9b-0271-4699-91bc-0ce6b69357c6,10,5.0,5.0
+person,Country_271835,Mrs. Crystal Reyes,1,1.0,0.0
+location,Unknown,e31b2b9c-3197-4c2c-ac40-3c6711a4682b,3,1.0,2.0
+location,Unknown,5a52675e-1243-4244-ad55-85a06c4408de,11,0.0,11.0
+person,Oceanus,Stephanie Hinton,2,0.0,2.0
+location,Unknown,8153f5cb-e1f7-49bb-91bb-24b3a296a40a,4,4.0,0.0
+organization,Unknown,70873,2,0.0,2.0
+company,Country_338740,Estrella de Mar Ltd. Liability Co,6,4.0,2.0
+vessel,Unknown,Ship2Report,6,6.0,0.0
+organization,Unknown,90562,8,1.0,7.0
+location,Unknown,b28d568f-09b4-41bd-b04d-4cf255f1adc6,11,6.0,5.0
+organization,Unknown,410,2,2.0,0.0
+organization,Unknown,47562016,11,0.0,11.0
+organization,Unknown,87940,6,6.0,0.0
+organization,Unknown,5639000,8,2.0,6.0
+organization,Unknown,5372,5,4.0,1.0
+organization,Unknown,951093,5,3.0,2.0
+organization,Unknown,86590543,6,2.0,5.0
+person,Country_271835,Jonathan Smith,5,4.0,1.0
+location,Unknown,217fe70e-cc2d-4899-9127-e0a7da182699,2,2.0,0.0
+company,Country_271835,Playa de la Luna Ltd. Corporation,7,7.0,0.0
+organization,Unknown,304,4,1.0,3.0
+organization,Unknown,672,16,5.0,11.0
+location,Unknown,02cd44a1-7945-40d9-b38f-56f70976582c,2,1.0,1.0
+organization,Unknown,7950,5,3.0,2.0
+organization,Unknown,44,3,3.0,0.0
+organization,Unknown,41,6,2.0,4.0
+organization,Unknown,2125,4,4.0,0.0
+location,Unknown,1076f239-831c-4c53-9134-484c8f2d5c73,4,0.0,4.0
+person,Country_271835,Amy Wilson,3,3.0,0.0
+location,Unknown,9e2e5adf-b6aa-4e7f-9af1-a899ceccfba6,10,0.0,10.0
+organization,Unknown,59,19,14.0,5.0
+organization,Unknown,46510923,8,0.0,8.0
+vessel,Unknown,pilot,3,2.0,1.0
+organization,Unknown,9699687,3,3.0,0.0
+company,Vesperlandia,Mar del Oeste Pic,225,170.0,187.0
+organization,Unknown,31,4,2.0,2.0
+organization,Unknown,4526320,3,2.0,1.0
+organization,Unknown,98748,3,0.0,3.0
+organization,Unknown,50,2,1.0,1.0
+organization,Unknown,5495,8,5.0,3.0
+political_organization,Unknown,454,6,2.0,5.0
+organization,Unknown,83818120,5,1.0,4.0
+person,Country_271835,Mr. Gregory Brown,8,5.0,3.0
+organization,Unknown,8327,13,6.0,9.0
+organization,Unknown,222848436,3,0.0,3.0
+vessel,Unknown,Amphibious Warships,2,2.0,0.0
+person,Country_271835,Brian Weber,2,1.0,1.0
+movement,Unknown,weeks,20,7.0,14.0
+organization,Unknown,40213337,24,9.0,16.0
+vessel,Unknown,cutters,6,6.0,0.0
+vessel,Unknown,Coast,19,0.0,19.0
+organization,Unknown,7505050,27,6.0,24.0
+event,Unknown,Today,7,3.0,4.0
+event,Unknown,June year,1,0.0,1.0
+organization,Unknown,8787,17,3.0,15.0
+political_organization,Unknown,218,5,4.0,1.0
+political_organization,Unknown,88149,5,2.0,3.0
+organization,Unknown,175,11,8.0,4.0
+person,Country_271835,Michael Nicholson,3,0.0,3.0
+person,Country_271835,Andrea Peters,2,1.0,1.0
+organization,Unknown,7691,35,15.0,27.0
+organization,Unknown,98332,12,5.0,8.0
+organization,Unknown,78565892,3,3.0,0.0
+location,Unknown,df365f60-c399-42f5-ad38-736145edef5e,2,0.0,2.0
+organization,Unknown,4146760,1,1.0,0.0
+organization,Unknown,812740593,4,1.0,3.0
+person,Country_271835,Joshua Baker,3,3.0,0.0
+organization,Unknown,4764109,2,1.0,1.0
+organization,Unknown,761,1,1.0,0.0
+location,Unknown,a7d22b55-872d-4fc0-b1ea-935f63ce0d2a,1,0.0,1.0
+vessel,Unknown,water,13,10.0,5.0
+Uncategorized,Unknown,âdevil vesselsâ,1,1.0,0.0
+person,Country_245265,Erik Johnson,1,0.0,1.0
+person,Country_271835,Alexandria Wilson,1,1.0,0.0
+organization,Unknown,9786,19,2.0,17.0
+person,Country_271835,Stephanie Garner,3,3.0,0.0
+Uncategorized,Unknown,œÆï,14,0.0,14.0
+Uncategorized,Unknown,œe1Pï,14,1.0,13.0
+Uncategorized,Unknown,œe1Pï¿œPï,13,2.0,11.0
+Uncategorized,Unknown,œPï,13,2.0,11.0
+Uncategorized,Unknown,œíï,14,4.0,10.0
+Uncategorized,Unknown,œXuï,14,5.0,9.0
+Uncategorized,Unknown,œÞ£ï,14,6.0,8.0
+Uncategorized,Unknown,œ8p,14,7.0,7.0
+Uncategorized,Unknown,œk,14,8.0,6.0
+Uncategorized,Unknown,œPjï,14,9.0,5.0
+Uncategorized,Unknown,œÞï,14,10.0,4.0
+Uncategorized,Unknown,œB,14,11.0,3.0
+Uncategorized,Unknown,œlÞuï,14,12.0,2.0
+Uncategorized,Unknown,iJPkï,14,13.0,1.0
+Uncategorized,Unknown,œ5ï,14,14.0,0.0
+Uncategorized,Unknown,œï,35,4.0,35.0
+Uncategorized,Unknown,œDdï,35,1.0,35.0
+Uncategorized,Unknown,Æï,35,2.0,34.0
+Uncategorized,Unknown,œgï,35,6.0,33.0
+Uncategorized,Unknown,pï¿œï,35,4.0,33.0
+Uncategorized,Unknown,œï¿œï,35,5.0,31.0
+Uncategorized,Unknown,Kï,35,6.0,30.0
+Uncategorized,Unknown,œiï,35,7.0,28.0
+Uncategorized,Unknown,qï¿œî,35,8.0,27.0
+Uncategorized,Unknown,œGuï,35,9.0,26.0
+Uncategorized,Unknown,œPm6,35,10.0,25.0
+Uncategorized,Unknown,œz,35,11.0,24.0
+Uncategorized,Unknown,œNï,35,12.0,23.0
+Uncategorized,Unknown,œÎï,35,13.0,22.0
+Uncategorized,Unknown,œbjNnnï,35,14.0,21.0
+Uncategorized,Unknown,œLï,35,15.0,20.0
+Uncategorized,Unknown,œß,35,16.0,19.0
+Uncategorized,Unknown,œ5ï,35,17.0,18.0
+Uncategorized,Unknown,Éd,35,18.0,17.0
+Uncategorized,Unknown,Lï,35,19.0,16.0
+Uncategorized,Unknown,œjOÑ,35,20.0,15.0
+Uncategorized,Unknown,œY,35,21.0,14.0
+Uncategorized,Unknown,œnOï,35,22.0,13.0
+Uncategorized,Unknown,Nï,35,23.0,12.0
+Uncategorized,Unknown,œzï,35,24.0,11.0
+Uncategorized,Unknown,œX,35,25.0,10.0
+Uncategorized,Unknown,œÒŒipï,35,26.0,9.0
+Uncategorized,Unknown,œMSssï,35,27.0,8.0
+Uncategorized,Unknown,œx,35,28.0,7.0
+Uncategorized,Unknown,œVï,35,29.0,6.0
+Uncategorized,Unknown,œUkï,35,30.0,5.0
+Uncategorized,Unknown,œmï¿œdï,35,31.0,4.0
+Uncategorized,Unknown,œmç¢kï,35,32.0,3.0
+Uncategorized,Unknown,œmç¢kï¿œF1ï,34,33.0,1.0
+Uncategorized,Unknown,œF1ï,34,33.0,1.0
+Uncategorized,Unknown,œF1ï¿œF,35,35.0,0.0
+person,Country_271835,Miguel Fisher,4,1.0,3.0
+event,Unknown,Last,9,5.0,4.0
+person,Country_271835,Jeremy Norris,19,20.0,5.0
+person,Marebak,Dana Goodwin,24,19.0,12.0
+organization,Unknown,897,2,2.0,0.0
+location,Unknown,5961c4ed-5c5b-40e4-b0ab-1e0217cb12c0,1,0.0,1.0
+location,Unknown,d3243667-8978-454b-917e-530ab514fcb0,1,1.0,0.0
+organization,Unknown,2243528,6,1.0,5.0
+location,Unknown,693c9865-5633-40a1-bcb6-3f0dd68a41c4,2,2.0,0.0
+organization,Unknown,544344,9,5.0,4.0
+organization,Unknown,2056,1,0.0,1.0
+organization,Unknown,95219,3,3.0,0.0
+organization,Unknown,579919,2,0.0,2.0
+vessel,Unknown,Ocean Tuna,2,0.0,2.0
+organization,Unknown,262157542,19,12.0,10.0
+organization,Unknown,46194,3,3.0,0.0
+organization,Unknown,826273,6,1.0,5.0
+organization,Unknown,951,3,0.0,3.0
+organization,Unknown,911,4,4.0,0.0
+organization,Unknown,9204971,2,1.0,1.0
+organization,Unknown,2230601,1,1.0,1.0
+event,Unknown,10,3,0.0,3.0
+vessel,Unknown,Explorer,3,1.0,3.0
+person,Country_271835,Diana Brandt,4,0.0,4.0
+person,Country_271835,Brandi Bowen,3,1.0,2.0
+person,Country_271835,Taylor Chan,2,2.0,0.0
+location,Unknown,1a069318-6dc0-45d0-9948-7b846f61c201,2,0.0,2.0
+location,Unknown,79513661-4dbe-4797-a73a-e53177f7a4b3,2,1.0,1.0
+person,Country_271835,Michele Henry,9,4.0,7.0
+organization,Unknown,36295,2,0.0,2.0
+location,Unknown,a7a35f33-3e72-44f2-a51b-922e44da23bc,3,0.0,3.0
+Uncategorized,Unknown,âartisanalâ,29,22.0,7.0
+Uncategorized,Unknown,âsubsistenceâ,28,26.0,2.0
+person,Country_271835,Jeremiah Delacruz,3,1.0,2.0
+event,Unknown,âsquids,7,4.0,3.0
+event,Unknown,âclams,7,5.0,2.0
+event,Unknown,Octopus,3,0.0,3.0
+organization,Unknown,60253,3,0.0,3.0
+organization,Unknown,109746,2,2.0,0.0
+organization,Unknown,13015105,3,3.0,2.0
+person,Country_552976,Ms. Jenna Gonzalez MD,1,1.0,0.0
+location,Unknown,37e46ce7-3cfa-4805-a254-5549adf19805,5,1.0,4.0
+person,Country_552976,Scott Mays,2,2.0,0.0
+location,Unknown,b4caf8cd-dbc7-4c99-9f2b-de407274c08b,4,2.0,2.0
+location,Unknown,38b72863-eaf3-4270-a213-d9ddaee2c6cb,4,3.0,1.0
+location,Unknown,410af01b-a5fb-4d6c-946d-a48fea30332b,4,4.0,0.0
+event,Unknown,âSocioeconomic,3,0.0,3.0
+organization,Unknown,553309,21,0.0,21.0
+Uncategorized,Unknown,EBSCOhostâsearched âoctopus,27,1.0,26.0
+Uncategorized,Unknown,AND fisheryâ,29,3.0,27.0
+organization,Unknown,515270,21,4.0,18.0
+location,Unknown,09e2222b-c13c-4a94-b1d9-b79238be0788,29,5.0,25.0
+Uncategorized,Unknown,artisanalâ,29,6.0,24.0
+political_organization,Unknown,704,29,7.0,27.0
+person,Country_271835,Elizabeth Savage,19,9.0,10.0
+Uncategorized,Unknown,âoctopusâ,28,9.0,19.0
+Uncategorized,Unknown,âcephalopodâ,28,11.0,17.0
+Uncategorized,Unknown,cyaneaâ,28,13.0,16.0
+Uncategorized,Unknown,mayaâ,28,14.0,14.0
+person,Country_271835,Taylor Park,29,15.0,14.0
+Uncategorized,Unknown,âpolvoâ,27,17.0,10.0
+Uncategorized,Unknown,âlivelihoodâ,27,22.0,5.0
+person,Country_271835,Angela Wheeler,29,23.0,6.0
+person,Country_271835,Lisa Branch,29,24.0,5.0
+Uncategorized,Unknown,folkâ,27,23.0,4.0
+Uncategorized,Unknown,âwomenâ,27,26.0,1.0
+Uncategorized,Unknown,âfisherâ,28,28.0,0.0
+Uncategorized,Unknown,managementâ,27,6.0,21.0
+Uncategorized,Unknown,âo,26,10.0,17.0
+person,Country_271835,Adam Blankenship,26,13.0,13.0
+Uncategorized,Unknown,âpoulpeâ,25,15.0,10.0
+person,Country_271835,Mr. Thomas Johnson DDS,25,16.0,9.0
+Uncategorized,Unknown,scaleâ,26,4.0,23.0
+company,Country_271835,Costa del Mar Oyj Hijiki,1,1.0,0.0
+person,Quandoria,Miss Jessica Baker DVM,1,0.0,1.0
+Uncategorized,Unknown,Alonso-FernÃ,3,3.0,0.0
+location,Unknown,4b6a1701-93c3-403c-bd2f-9684106e8bba,1,0.0,1.0
+location,Unknown,c1aeee2d-0030-4d85-b45c-ac3fd9887b98,3,2.0,1.0
+company,Osterivaria,Bu yu wang Plc Carriers,3,1.0,2.0
+person,Country_271835,Jeffrey Yates,4,0.0,6.0
+location,Unknown,42aea61e-a98f-4528-9f30-51624ecf3957,4,0.0,4.0
+organization,Unknown,1334578,4,0.0,4.0
+organization,Unknown,7670,14,6.0,8.0
+organization,Unknown,43,2,2.0,0.0
+movement,Unknown,conjunction,1,0.0,1.0
+event,Unknown,OE23,1,1.0,0.0
+organization,Unknown,3601920,4,1.0,3.0
+organization,Unknown,435978092,4,4.0,0.0
+person,Uzimoria,Andres Cook,5,2.0,3.0
+location,Unknown,22a2062d-03d8-48c3-9e91-9e5930b8d29f,13,6.0,10.0
+person,Country_271835,Tyler Guzman,5,5.0,0.0
+location,Unknown,ab195b55-453e-4436-ab0c-9f5660b4ec8c,11,5.0,7.0
+person,Country_874023,Joseph Gonzales,12,9.0,3.0
+person,Oceanus,Cindy Ritter,11,8.0,3.0
+organization,Unknown,5441,13,12.0,2.0
+organization,Unknown,199442,29,21.0,8.0
+political_organization,Unknown,903,22,6.0,17.0
+person,Country_874023,Erica Mitchell,2,0.0,2.0
+organization,Unknown,829,9,9.0,5.0
+organization,Unknown,995899,6,3.0,4.0
+organization,Unknown,47249,9,8.0,2.0
+organization,Unknown,23399545,6,6.0,1.0
+political_organization,Unknown,621,8,4.0,12.0
+Uncategorized,Unknown,europeansting,2,3.0,0.0
+company,Country_271835,Jammu & Kashmir Ltd Family,3,4.0,0.0
+political_organization,Unknown,7023,23,12.0,15.0
+organization,Unknown,13863,8,0.0,8.0
+person,Country_271835,James Smith MD,2,0.0,2.0
+person,Country_271835,Brian Palmer,9,2.0,7.0
+organization,Unknown,35683821,2,2.0,0.0
+person,Country_895471,Morgan Bell,22,13.0,20.0
+organization,Unknown,1465792,1,0.0,1.0
+organization,Unknown,366,9,4.0,5.0
+organization,Unknown,19386200,6,0.0,6.0
+organization,Unknown,85946,3,2.0,1.0
+organization,Unknown,172114,8,6.0,4.0
+organization,Unknown,657,1,1.0,0.0
+organization,Unknown,87339689,2,2.0,1.0
+organization,Unknown,522017227,3,4.0,0.0
+political_organization,Unknown,29,4,4.0,1.0
+political_organization,Unknown,327481624,4,0.0,4.0
+location,Unknown,cf651b3c-4e21-458c-91c4-3cae2eb36bcb,3,0.0,3.0
+location,Unknown,17c99d9d-7049-4ebb-8a2a-f3d39cc42870,8,0.0,8.0
+organization,Unknown,760402,5,0.0,5.0
+person,Country_271835,Sarah Clark,2,1.0,1.0
+vessel,Unknown,Water,2,0.0,2.0
+organization,Unknown,737137552,2,2.0,0.0
+location,Unknown,77bfcfcd-af2c-4b58-8a99-871a6c6109f2,2,0.0,2.0
+location,Unknown,25875c2e-ff9a-4669-bad7-2c84bafb7515,3,2.0,1.0
+person,Country_271835,Matthew Martin,2,2.0,0.0
+person,Country_271835,Tyler Brown,4,4.0,0.0
+organization,Unknown,11960055,2,2.0,0.0
+location,Unknown,ce0d446c-d08d-49a8-8aa2-e625ead63d0c,3,1.0,2.0
+organization,Unknown,25423,3,0.0,3.0
+company,Country_271835,Delhi ers AS Holdings,17,0.0,17.0
+company,Country_271835,Cape of Good Hope  Oyj,5,0.0,6.0
+location,Unknown,abcb0d9c-80da-4491-99f3-e093984f5373,2,0.0,2.0
+person,Oceanus,Erin Simmons,17,4.0,13.0
+Uncategorized,Unknown,LOMÃ,2,0.0,2.0
+location,Unknown,6ae0d6bb-b101-4905-8b41-86b10a580c82,3,0.0,3.0
+person,Oceanus,Kristina Frazier,1,1.0,0.0
+person,Oceanus,Bryan Johnston,6,4.0,4.0
+organization,Unknown,874124852,1,2.0,0.0
+location,Unknown,05ef2661-6f3a-4f37-83e7-2ec8352afaef,3,0.0,3.0
+location,Unknown,2ef60e7b-4914-4dbd-a063-5b23143fe5db,3,1.0,2.0
+political_organization,Unknown,2633692,5,2.0,3.0
+location,Unknown,fc4e853f-6e18-4631-bf95-f70d6a30579f,18,0.0,20.0
+location,Unknown,6c7a8222-efc7-41a6-809a-043b091ae04a,6,2.0,4.0
+person,Country_271835,Dale Warner,2,1.0,1.0
+organization,Unknown,451,2,2.0,0.0
+location,Unknown,705283b0-cdb7-4f0a-8481-b3fea243a8e5,3,0.0,4.0
+location,Unknown,30295c76-f2c6-4284-89fd-8f8fd082889b,2,1.0,1.0
+Uncategorized,Unknown,Statesâ,6,5.0,1.0
+vessel,Unknown,Gulf,9,6.0,3.0
+vessel,Unknown,Boat,3,0.0,3.0
+person,Country_271835,Teresa Rivera,4,4.0,0.0
+organization,Unknown,767368152,4,2.0,2.0
+location,Unknown,6d887b98-7c48-4a82-98bb-2f50fe4b29d5,2,2.0,0.0
+vessel,Unknown,salmon,8,6.0,2.0
+person,Country_271835,George Ramirez,4,3.0,1.0
+location,Unknown,4e872202-1d65-4183-80c9-e8c12c8f736e,2,0.0,2.0
+organization,Unknown,4382,4,3.0,1.0
+organization,Unknown,7320771,3,0.0,3.0
+organization,Unknown,94760735,2,1.0,1.0
+political_organization,Unknown,969,4,0.0,4.0
+location,Unknown,86dc0f8c-7305-4c1e-b655-cf16eefd6fce,1,1.0,0.0
+location,Unknown,8164acdd-514f-4e18-867c-4bc63cebf15b,2,1.0,1.0
+company,Country_271835,Playa del Mar Caviar,2,1.0,1.0
+location,Unknown,a7f76d84-4ccf-424a-9bf9-fc20b862b7a8,8,1.0,7.0
+organization,Unknown,142,3,1.0,2.0
+organization,Unknown,3183,3,3.0,0.0
+company,Country_766259,Estrella de la Costa Inc Transit,3,0.0,3.0
+organization,Unknown,802113,12,3.0,9.0
+organization,Unknown,372016989,8,5.0,3.0
+person,Country_271835,Alan Pacheco,4,4.0,0.0
+location,Unknown,50335cc3-71d6-4803-baca-5faaecfc33cb,2,1.0,1.0
+person,Country_271835,Virginia Carter,2,1.0,1.0
+person,Country_271835,April James,3,3.0,0.0
+Uncategorized,Unknown,Aleut Community St,3,1.0,2.0
+Uncategorized,Unknown,KanuuxÌ,3,2.0,1.0
+location,Unknown,e8036bce-0679-41d2-aa7b-d444163ae65a,4,1.0,3.0
+Uncategorized,Unknown,âSewardâs Follyâ,1,1.0,0.0
+person,Country_271835,Wendy Duarte,4,4.0,0.0
+location,Unknown,aa1f466d-d060-40fa-ab0e-3f8bb2ca940f,4,0.0,4.0
+person,Country_271835,Alexis Murphy,2,2.0,0.0
+Uncategorized,Unknown,AlaÄum KanuuxÌ,3,2.0,1.0
+person,Country_34878,Angela Powers,38,23.0,18.0
+person,Country_271835,Eric Gentry,1,1.0,0.0
+person,Country_271835,Donna Shepherd,1,1.0,0.0
+company,Country_271835,Zambezi Rapids NV Brothers,2,0.0,2.0
+organization,Unknown,25652724,8,3.0,5.0
+organization,Unknown,430,2,2.0,0.0
+location,Unknown,f402c1d2-8262-4bae-aa92-c8675a7006fc,5,0.0,5.0
+organization,Unknown,49729,14,6.0,11.0
+organization,Unknown,9209373,2,0.0,2.0
+location,Unknown,dff423b9-cf9a-4b0a-849f-ecb513924287,2,1.0,1.0
+organization,Unknown,993137821,2,2.0,0.0
+organization,Unknown,2421,3,1.0,2.0
+organization,Unknown,7413,2,2.0,0.0
+political_organization,Unknown,43185,14,9.0,5.0
+organization,Unknown,937182447,2,2.0,0.0
+Uncategorized,Unknown,âAlaÄum KanuuxÌ,2,2.0,0.0
+organization,Unknown,861,2,1.0,1.0
+person,Country_271835,Gary Scott,3,2.0,1.0
+organization,Unknown,883290144,5,2.0,3.0
+organization,Unknown,859375359,2,2.0,0.0
+location,Unknown,47967ccc-0e26-458d-b1e5-80e8668db714,2,0.0,2.0
+organization,Unknown,7056336,1,1.0,0.0
+organization,Unknown,36322,1,1.0,0.0
+organization,Unknown,52,4,2.0,3.0
+location,Unknown,c9b9c344-98ec-40b8-af05-8528e5d82534,7,2.0,5.0
+organization,Unknown,42603647,6,0.0,6.0
+organization,Unknown,8544797,2,1.0,1.0
+organization,Unknown,5070599,5,1.0,4.0
+organization,Unknown,8966,4,2.0,2.0
+organization,Unknown,39,20,20.0,1.0
+vessel,Unknown,Plastic,7,1.0,6.0
+organization,Unknown,927244,2,2.0,0.0
+location,Unknown,e53552bc-174b-4799-b96b-c23cfa0731cb,7,4.0,3.0
+organization,Unknown,9166,2,2.0,0.0
+vessel,Unknown,19,23,11.0,16.0
+organization,Unknown,48,15,8.0,7.0
+person,Oceanus,Thomas Curry,5,1.0,4.0
+location,Unknown,87ea830d-be41-4317-8b1b-142f23da70d7,5,1.0,4.0
+organization,Unknown,662118,4,4.0,0.0
+organization,Unknown,45,4,0.0,4.0
+location,Unknown,c14a3dc1-59d0-4b92-b9f3-331e51912787,1,0.0,1.0
+Uncategorized,Unknown,17 Sept,2,2.0,0.0
+person,Oceanus,Christopher Peterson,3,0.0,3.0
+organization,Unknown,505943,8,5.0,4.0
+person,Country_271835,Isaiah Hammond,2,1.0,1.0
+person,Country_271835,Erica Bailey,2,2.0,0.0
+organization,Unknown,90183,2,0.0,2.0
+organization,Unknown,79538,12,5.0,7.0
+person,Country_271835,Kevin Norton,2,2.0,0.0
+person,Country_271835,Gregory Moore,1,1.0,0.0
+organization,Unknown,43685541,28,13.0,17.0
+organization,Unknown,7871,1,0.0,1.0
+organization,Unknown,7247721,1,1.0,0.0
+organization,Unknown,22,2,1.0,2.0
+location,Unknown,cefaf8b3-3aa2-4c59-b4aa-7974c8e1fe32,14,9.0,7.0
+Uncategorized,Unknown,âgreenâ,1,1.0,0.0
+movement,Unknown,normal,1,0.0,1.0
+location,Unknown,ede1806c-b3d1-47f5-ba49-d948d6ec385a,2,1.0,1.0
+organization,Unknown,36,1,1.0,0.0
+location,Unknown,52e9a600-9d6f-4683-95be-c7c60c57ffe1,1,1.0,0.0
+person,Polarisdom,Christina Olsen,1,0.0,1.0
+Uncategorized,Unknown,DiÃ,2,0.0,2.0
+Uncategorized,Unknown,logo,5,5.0,0.0
+person,Country_271835,Amy Wise,1,1.0,0.0
+organization,Unknown,8609,3,1.0,2.0
+political_organization,Unknown,40952,2,1.0,1.0
+organization,Unknown,27641046,2,0.0,2.0
+location,Unknown,e167b40a-96f4-40e0-873b-78950e4434f4,4,0.0,4.0
+organization,Unknown,324989705,3,2.0,1.0
+organization,Unknown,5415,2,1.0,1.0
+organization,Unknown,9473,2,2.0,0.0
+location,Unknown,52093e45-b873-4300-9612-8dfc291b1339,9,4.0,5.0
+location,Unknown,46aadaa6-fb30-4474-a060-3adb689f4189,1,1.0,0.0
+location,Unknown,8c53a730-3aa1-463f-aef6-999a3cfbfb70,1,1.0,0.0
+organization,Unknown,528,1,1.0,0.0
+person,Country_895471,Abigail Foster,26,9.0,19.0
+company,Marebak,Rybachit Limited Liability Company,10,4.0,6.0
+person,Country_271835,Hunter Wheeler,2,0.0,2.0
+person,Country_271835,Christopher Miller,8,5.0,3.0
+location,Unknown,ae88562c-5c39-4c15-b128-b4f67f5e5812,2,2.0,0.0
+Uncategorized,Unknown,ipoa-iuu,4,4.0,0.0
+Uncategorized,Unknown,Think Tank Index Reportâ,2,0.0,2.0
+Uncategorized,Unknown,upenn,2,2.0,0.0
+Uncategorized,Unknown,edu,2,2.0,0.0
+location,Unknown,2ceda972-c633-4a88-bbe8-a4fe48cb5555,5,0.0,5.0
+Uncategorized,Unknown,Torremolinos,7,6.0,1.0
+Uncategorized,Unknown,International-Convention,7,7.0,1.0
+Uncategorized,Unknown,imo,5,3.0,2.0
+organization,Unknown,890,2,0.0,2.0
+Uncategorized,Unknown,âU,11,1.0,10.0
+company,Country_271835,Senegal Coast Oyj Motorboat,4,0.0,4.0
+organization,Unknown,762833,4,1.0,3.0
+vessel,Unknown,Spy,1,0.0,1.0
+person,Country_271835,Howard Pierce,2,2.0,0.0
+political_organization,Unknown,228,5,0.0,5.0
+political_organization,Unknown,63,7,2.0,5.0
+organization,Unknown,84,6,4.0,2.0
+political_organization,Unknown,22150,4,4.0,0.0
+person,Country_271835,Jill Boyd,1,1.0,0.0
+person,Country_459036,Kristin Davidson,4,4.0,0.0
+person,Country_271835,Robert Carpenter,2,2.0,0.0
+person,Country_459036,Mario Richardson,22,12.0,14.0
+event,Unknown,âregions,5,5.0,0.0
+organization,Unknown,7529,2,0.0,2.0
+organization,Unknown,90254947,4,1.0,3.0
+organization,Unknown,591787,4,1.0,3.0
+person,Country_415128,Joseph Johnson,3,0.0,3.0
+person,Country_895471,Peter Oliver,14,5.0,10.0
+Uncategorized,Unknown,âsinkâ,3,3.0,0.0
+organization,Unknown,555217629,45,8.0,37.0
+person,Country_437825,Jeremy Jackson,3,2.0,1.0
+person,Country_198078,Kelly Brown,15,5.0,10.0
+person,Country_271835,Susan Porter,4,1.0,3.0
+person,Country_271835,Meghan Wolfe,1,1.0,0.0
+person,Country_931736,Zachary Petersen,2,1.0,1.0
+person,Marebak,Stephen Evans,3,0.0,3.0
+person,Country_271835,Charles Tran,6,6.0,0.0
+location,Unknown,23550059-88d4-4a69-b74e-3c7de8bf56de,1,0.0,1.0
+person,Country_984533,Patricia Byrd,1,1.0,0.0
+person,Riodelsol,Ronald Mahoney,5,1.0,4.0
+company,Country_271835,Playa de Coral GmbH Consultants,4,2.0,2.0
+person,Country_271835,Kirk Jackson,5,5.0,0.0
+Uncategorized,Unknown,âdegradedâ,3,1.0,2.0
+person,Country_271835,Jeffrey Curry,3,3.0,0.0
+person,Country_271835,Steven Huynh,2,1.0,1.0
+person,Oceanterra,Evelyn Huang,8,6.0,2.0
+event,Unknown,âpoint,3,3.0,0.0
+person,Country_271835,Bonnie Perez,2,2.0,0.0
+person,Country_483478,Courtney Evans,3,0.0,3.0
+Uncategorized,Unknown,Mexicoâs YucatÃ,2,1.0,1.0
+person,Country_271835,Jerry Welch,27,24.0,5.0
+location,Unknown,1196cfc8-175c-465b-aee9-fbf74c81aa49,2,0.0,2.0
+organization,Unknown,87,2,1.0,2.0
+event,Unknown,NiÃ±o,2,2.0,1.0
+person,Country_271835,Judy Johns,2,1.0,1.0
+person,Country_271835,Richard Greer,5,4.0,1.0
+person,Country_271835,David Hayden,1,0.0,1.0
+person,Country_271835,Matthew Delgado,2,2.0,0.0
+location,Unknown,21e68e53-183c-45a0-9805-68c099d4d9c0,1,1.0,0.0
+Uncategorized,Unknown,âpioneersâ,2,1.0,1.0
+event,Unknown,embaÃºba,5,1.0,4.0
+Uncategorized,Unknown,âzombie,3,3.0,0.0
+person,Country_981995,Kenneth Jones,2,1.0,1.0
+event,Unknown,âSwiss,1,0.0,1.0
+person,Country_271835,Elizabeth Dean,1,1.0,0.0
+person,Country_271835,Daniel Mason,8,5.0,4.0
+person,Country_271835,Miss Angel Thomas,5,3.0,2.0
+person,Country_271835,Amanda Mitchell,5,4.0,1.0
+person,Country_271835,Scott Brown,9,5.0,6.0
+movement,Unknown,days,29,22.0,18.0
+organization,Unknown,38111,2,2.0,0.0
+person,Country_271835,Thomas Rivas,2,1.0,1.0
+person,Country_271835,Holly Taylor,11,9.0,2.0
+organization,Unknown,66030248,5,0.0,5.0
+organization,Unknown,20571414,3,1.0,2.0
+organization,Unknown,31894357,4,1.0,3.0
+organization,Unknown,1225,8,6.0,4.0
+organization,Unknown,363355,5,4.0,1.0
+organization,Unknown,387674,6,6.0,0.0
+person,Marebak,Alan Wells,40,26.0,17.0
+political_organization,Unknown,981038,2,1.0,1.0
+event,Unknown,âThese,13,13.0,1.0
+person,Country_271835,Stephen Lowe,2,1.0,1.0
+person,Country_271835,Nicholas Hernandez,2,2.0,0.0
+person,Country_271835,Stephanie Robinson,3,3.0,0.0
+location,Unknown,e678510b-947d-455a-8eb0-44d1009682ec,24,11.0,21.0
+Uncategorized,Unknown,The Pew Charitable Trustsâ,1,0.0,1.0
+person,Country_271835,Jerry Montgomery,1,1.0,0.0
+location,Unknown,ad8fe467-3759-4f53-bf6a-896a237d187f,31,11.0,26.0
+vessel,Unknown,Leng 999 Gal,2,2.0,0.0
+organization,Unknown,1402,3,0.0,3.0
+location,Unknown,a0deebdf-db0c-4aa8-91b6-0536e017c20f,2,2.0,0.0
+organization,Unknown,25125567,2,0.0,2.0
+person,Country_271835,Parker Jones,3,1.0,2.0
+event,Unknown,âCollecting,2,2.0,0.0
+organization,Unknown,33681303,9,4.0,5.0
+person,Country_461742,Michael Brock,11,5.0,8.0
+organization,Unknown,2573803,1,1.0,0.0
+organization,Unknown,56126935,1,0.0,1.0
+Uncategorized,Unknown,âcollaborativeâ,3,3.0,0.0
+person,Syrithania,Xavier Sanchez,17,10.0,9.0
+person,Country_271835,Raymond King,2,2.0,0.0
+person,Country_542476,Thomas Morales,28,18.0,11.0
+organization,Unknown,138782226,25,11.0,15.0
+person,Country_271835,Christopher Daniel,2,0.0,2.0
+person,Country_887466,Linda Sherman,18,9.0,13.0
+person,Country_271835,Mary Lucas,3,2.0,1.0
+person,Country_271835,Morgan Black,40,33.0,8.0
+person,Oceanus,Kristine Vaughn,5,0.0,5.0
+organization,Unknown,1301719,1,1.0,0.0
+person,Marebak,Melissa Gonzales,12,5.0,7.0
+organization,Unknown,496391,2,0.0,2.0
+organization,Unknown,7539428,1,1.0,0.0
+location,Unknown,8afc9cb6-edf5-4a7d-9a02-054444a5604e,2,0.0,2.0
+person,Country_271835,Crystal Smith,2,1.0,1.0
+person,Oceanus,Richard Perkins,42,19.0,28.0
+person,Oceanus,Amanda Gibson,6,6.0,0.0
+person,Country_271835,Christine Jones,3,0.0,3.0
+person,Country_271835,Carlos White,19,9.0,10.0
+organization,Unknown,28379,3,1.0,2.0
+person,Country_271835,Christine Robinson,1,1.0,0.0
+organization,Unknown,958085,12,8.0,9.0
+company,Marebak,Diao er Ltd. Corporation Transport,5,2.0,3.0
+company,Marebak,Tshikwea Corp Marine sanctuary,12,4.0,9.0
+location,Unknown,5ede75fe-f670-4a59-b693-da34e7f6eb47,7,3.0,4.0
+person,Country_271835,Robert Adams,9,0.0,9.0
+person,Country_271835,Brandon Jackson,1,1.0,0.0
+person,Osterivaria,Sierra Smith,15,4.0,13.0
+organization,Unknown,519994690,3,1.0,3.0
+organization,Unknown,102642,5,5.0,0.0
+organization,Unknown,7908385,4,1.0,3.0
+organization,Unknown,691192,2,2.0,0.0
+organization,Unknown,243964,2,0.0,2.0
+company,Country_271835,Turkish Sword Ltd Export,3,2.0,1.0
+person,Country_271835,Jasmine Camacho,4,3.0,3.0
+person,Country_271835,Lindsey Palmer,4,3.0,2.0
+event,Unknown,âespecially,3,3.0,1.0
+person,Country_271835,Melissa Spence,2,2.0,0.0
+location,Unknown,e13aca6a-88b5-4be7-a293-4a57854d7b1d,4,0.0,4.0
+person,Country_789037,Jessica Brown,4,2.0,3.0
+person,Country_271835,Daniel Snyder,11,10.0,3.0
+organization,Unknown,441,1,0.0,1.0
+person,Country_271835,Bethany Wright,3,0.0,3.0
+person,Country_271835,Willie Hill,3,3.0,0.0
+person,Country_271835,Jennifer Meyers,2,0.0,2.0
+person,Country_271835,Allison Leonard,3,1.0,2.0
+Uncategorized,Unknown,ââ,23,22.0,1.0
+person,Country_271835,Amanda Andrews,12,8.0,4.0
+person,Ivarisia,Bruce Brooks,2,0.0,2.0
+organization,Unknown,111795162,3,3.0,0.0
+organization,Unknown,482048,1,1.0,0.0
+organization,Unknown,70,3,2.0,2.0
+event,Unknown,âHe,31,30.0,1.0
+location,Unknown,7cc6bfba-4893-444b-a641-a7d0b48fa427,3,3.0,0.0
+organization,Unknown,56,10,4.0,6.0
+organization,Unknown,621770,2,2.0,0.0
+organization,Unknown,3016,11,0.0,12.0
+organization,Unknown,98703,6,5.0,2.0
+person,Country_271835,Misty Thomas,4,4.0,0.0
+organization,Unknown,314,1,1.0,0.0
+organization,Unknown,567,7,3.0,5.0
+organization,Unknown,990,11,5.0,8.0
+organization,Unknown,341853,7,0.0,8.0
+organization,Unknown,13592,3,2.0,1.0
+person,Country_449947,Dawn Sanchez,5,2.0,3.0
+organization,Unknown,979893388,177,124.0,83.0
+person,Country_271835,Tammy Ryan,1,1.0,0.0
+person,Country_204272,Timothy Lopez,2,0.0,2.0
+company,Country_271835,Marine Mermaids CJSC Marine biology,2,1.0,1.0
+person,Country_204272,David Larsen,1,0.0,1.0
+political_organization,Unknown,706129,2,0.0,2.0
+organization,Unknown,14,4,0.0,4.0
+organization,Unknown,4698,6,4.0,2.0
+organization,Unknown,89734,4,1.0,3.0
+person,Country_271835,Terry Murphy,5,4.0,1.0
+organization,Unknown,491,6,1.0,5.0
+organization,Unknown,3528,2,1.0,1.0
+organization,Unknown,43247945,2,2.0,0.0
+location,Unknown,e1d7b4ac-ed31-42a4-9375-4afb0f78f276,3,1.0,2.0
+person,Country_271835,Mary Horton,5,2.0,3.0
+vessel,Unknown,cutter James,2,2.0,0.0
+person,Country_800653,Mr. Mark Kline,2,0.0,2.0
+location,Unknown,1da2bc5a-e590-41c9-9982-2ade48dfc426,2,1.0,1.0
+organization,Unknown,842229565,1,0.0,1.0
+person,Country_271835,Dylan Roberts,2,0.0,2.0
+vessel,Unknown,Hang,2,1.0,1.0
+organization,Unknown,41695239,2,1.0,1.0
+organization,Unknown,489,2,2.0,0.0
+location,Unknown,67a59fab-710a-4992-b6d0-d581fd9dceba,12,6.0,6.0
+location,Unknown,da75877e-ec57-42cc-82b9-de68c8d333e7,10,3.0,7.0
+vessel,Unknown,boat,2,1.0,1.0
+person,Syrithania,Michelle Hancock,3,3.0,0.0
+person,Country_271835,Kathy Rodriguez,3,0.0,3.0
+Uncategorized,Unknown,GalÃ,2,2.0,0.0
+political_organization,Unknown,950296,7,2.0,5.0
+vessel,Unknown,Oceans,3,0.0,3.0
+person,Country_271835,David Weber,1,1.0,0.0
+location,Unknown,7c54563c-577c-462f-8e30-389b510c776a,1,0.0,1.0
+event,Unknown,Morning,2,0.0,2.0
+person,Country_271835,Jennifer Simmons,2,1.0,1.0
+organization,Unknown,4759,2,1.0,1.0
+vessel,Unknown,626,13,14.0,14.0
+location,Unknown,72899187-0989-47fa-9db0-cd1d4c3fc4e3,2,0.0,2.0
+organization,Unknown,833355,2,2.0,0.0
+political_organization,Unknown,27078926,3,2.0,1.0
+organization,Unknown,2983,4,2.0,2.0
+organization,Unknown,613281364,2,2.0,0.0
+person,Country_271835,Dylan Moss,2,0.0,2.0
+organization,Unknown,92,4,2.0,2.0
+political_organization,Unknown,8597,2,2.0,0.0
+organization,Unknown,801809,2,2.0,0.0
+person,Country_271835,Angela Spencer,2,2.0,0.0
+organization,Unknown,97,8,4.0,5.0
+political_organization,Unknown,6889326,1,1.0,0.0
+location,Unknown,ec1b111d-b9eb-4eef-ab00-ff7124cca480,3,0.0,3.0
+organization,Unknown,32416483,2,1.0,1.0
+location,Unknown,f2aee915-d483-4823-a030-9aac5e44c1fe,30,12.0,19.0
+vessel,Unknown,oceanâs,6,5.0,1.0
+organization,Unknown,7328,4,0.0,4.0
+company,Country_271835,OceanicOrigin Foods Co and Son's,2,2.0,0.0
+organization,Unknown,71317,5,5.0,0.0
+organization,Unknown,852015,1,1.0,0.0
+organization,Unknown,65,1,1.0,0.0
+organization,Unknown,58745,1,1.0,0.0
+organization,Unknown,71755,5,5.0,0.0
+organization,Unknown,1972868,2,1.0,1.0
+organization,Unknown,61057213,2,0.0,2.0
+organization,Unknown,653,4,4.0,0.0
+location,Unknown,473c1320-e50b-4f90-a068-76f82e210f26,2,0.0,2.0
+company,Country_271835,Ola de la Costa S.A. de C.V.,2,1.0,1.0
+organization,Unknown,18,7,8.0,8.0
+organization,Unknown,24641639,2,2.0,0.0
+organization,Unknown,678,3,0.0,3.0
+organization,Unknown,6393,4,3.0,1.0
+person,Country_271835,Margaret Shields,1,1.0,0.0
+organization,Unknown,346281879,2,0.0,2.0
+organization,Unknown,341,9,8.0,1.0
+organization,Unknown,1094345,22,9.0,14.0
+vessel,Unknown,629,7,4.0,3.0
+person,Country_271835,Brian Wolfe,2,1.0,1.0
+organization,Unknown,119411,15,10.0,6.0
+organization,Unknown,8950,3,3.0,0.0
+location,Unknown,8041aa28-8c50-4083-a528-469c0c6251d9,14,0.0,15.0
+vessel,Unknown,621,8,4.0,12.0
+person,Country_271835,Frank Guzman,2,2.0,0.0
+location,Unknown,34f0cbbf-83c3-4e09-ad7a-b94a778f7c12,1,0.0,1.0
+person,Country_271835,Michael Porter,7,5.0,2.0
+person,Country_271835,Madison Edwards,1,0.0,1.0
+person,Marebak,Calvin Salas,34,28.0,8.0
+Uncategorized,Unknown,âpresumedâ,4,2.0,2.0
+Uncategorized,Unknown,âconfirmedâ,5,4.0,2.0
+organization,Unknown,685607,3,2.0,1.0
+organization,Unknown,265494227,3,3.0,1.0
+location,Unknown,2a282617-d174-409c-b0b1-490fdc369335,7,0.0,7.0
+company,Country_271835,xu y Ltd. Corporation,5,0.0,5.0
+event,Unknown,periods years,5,5.0,1.0
+organization,Unknown,89035,8,2.0,6.0
+person,Wysterion,Tristan Johnson,6,7.0,0.0
+person,Country_271835,Andrew Gamble,4,4.0,0.0
+organization,Unknown,21724,3,0.0,3.0
+event,Unknown,âhigh,5,1.0,4.0
+Uncategorized,Unknown,âwidespreadâ,3,2.0,1.0
+person,Country_907876,David Mcfarland,7,5.0,3.0
+Uncategorized,Unknown,âprotectedâ,2,2.0,0.0
+organization,Unknown,30700925,1,1.0,0.0
+person,Country_271835,George Morton,2,2.0,0.0
+person,Country_271835,Janice Bell,2,1.0,1.0
+movement,Unknown,Saturday,2,2.0,0.0
+location,Unknown,a39483f8-121a-4c18-9b20-9e0d2cba52e9,4,0.0,4.0
+organization,Unknown,58623386,15,7.0,9.0
+organization,Unknown,492238508,3,2.0,1.0
+person,Country_709784,Anita Tate,8,0.0,8.0
+organization,Unknown,4447143,2,2.0,0.0
+person,Country_271835,Lisa Foster,1,1.0,0.0
+organization,Unknown,34252,6,5.0,2.0
+organization,Unknown,8494294,1,1.0,0.0
+Uncategorized,Unknown,Catchâ,1,1.0,0.0
+organization,Unknown,17,2,1.0,1.0
+organization,Unknown,150674265,2,2.0,0.0
+person,Oceanus,Audrey Romero,5,0.0,5.0
+person,Oceanus,Melinda Wade,2,2.0,0.0
+location,Unknown,36b70b18-465a-442f-bfbe-cedb85d48acc,1,1.0,0.0
+organization,Unknown,13,3,0.0,3.0
+organization,Unknown,3887,6,6.0,0.0
+vessel,Unknown,reefers,2,0.0,2.0
+Uncategorized,Unknown,âencounteredâ,4,4.0,0.0
+person,Country_271835,Veronica Payne,4,3.0,1.0
+person,Country_271835,Ronnie Burns,4,4.0,0.0
+person,Country_271835,Lisa Lambert,10,10.0,0.0
+organization,Unknown,1360,13,1.0,12.0
+person,Country_271835,Kimberly Lara,2,1.0,1.0
+location,Unknown,2ad4f7ea-6f93-4a11-ace7-d7a4234bb991,9,5.0,4.0
+location,Unknown,b24194ae-69ad-4e6c-be29-787c215cde65,1,1.0,0.0
+person,Country_271835,Sara Jenkins,6,5.0,1.0
+location,Unknown,19a4297e-2d2b-47c0-9dce-816148a16f4e,5,4.0,1.0
+vessel,Unknown,Maru,4,0.0,4.0
+person,Country_271835,Danielle Camacho,15,11.0,4.0
+organization,Unknown,60693571,1,0.0,1.0
+organization,Unknown,54073418,1,1.0,0.0
+person,Country_271835,Mr. Justin Bailey MD,2,2.0,0.0
+organization,Unknown,76568,8,5.0,5.0
+location,Unknown,c682ec16-cd10-4a6c-94ce-4a5eb590b42e,3,1.0,3.0
+person,Country_271835,Paula Allen,3,1.0,2.0
+Uncategorized,Unknown,13 yearsâ,4,2.0,2.0
+movement,Unknown,three,4,2.0,3.0
+person,Country_271835,Christy Fields,2,2.0,0.0
+person,Country_271835,Michele Hernandez,2,1.0,1.0
+person,Country_271835,Mary Castillo,3,2.0,1.0
+person,Country_271835,Jennifer Brown,1,1.0,0.0
+person,Country_271835,John Barnes DDS,13,9.0,4.0
+organization,Unknown,830155,2,1.0,1.0
+person,Country_271835,Anna Turner,2,2.0,0.0
+person,Country_271835,Stephanie Quinn,2,0.0,2.0
+organization,Unknown,9590898,5,0.0,5.0
+person,Arreciviento,Joshua Garrett,4,2.0,2.0
+organization,Unknown,95230042,2,2.0,0.0
+organization,Unknown,21240092,5,3.0,2.0
+organization,Unknown,7234,2,0.0,2.0
+organization,Unknown,6335187,15,1.0,15.0
+organization,Unknown,695031,2,2.0,0.0
+organization,Unknown,2508,4,2.0,2.0
+organization,Unknown,6391,3,2.0,1.0
+person,Country_271835,Mary Jenkins,2,0.0,2.0
+political_organization,Unknown,75835980,2,2.0,0.0
+organization,Unknown,23774,1,1.0,1.0
+person,Luminsia,Nicole Smith,12,0.0,12.0
+organization,Unknown,9992346,2,0.0,2.0
+organization,Unknown,227,2,1.0,1.0
+vessel,Unknown,ocean,7,4.0,3.0
+person,Country_271835,Jennifer Reilly,1,1.0,0.0
+political_organization,Unknown,79,2,0.0,2.0
+organization,Unknown,39893,2,2.0,0.0
+location,Unknown,47bd4f34-d0af-41f0-88c5-eb9d4fde440c,2,2.0,0.0
+organization,Unknown,3782,14,0.0,14.0
+organization,Unknown,7441,4,2.0,2.0
+Uncategorized,Unknown,Fisheries Animal Industriesâ,3,2.0,1.0
+person,Country_271835,Donald Thompson,2,1.0,1.0
+person,Country_271835,Cynthia Byrd,1,0.0,1.0
+person,Country_271835,Christopher Hernandez,2,0.0,2.0
+organization,Unknown,58666504,2,0.0,2.0
+person,Country_271835,Jennifer Frederick,3,3.0,0.0
+organization,Unknown,70347729,1,0.0,1.0
+organization,Unknown,116070050,2,1.0,1.0
+location,Unknown,b47086b0-e225-436a-83b1-2cf5cda4dbd5,4,4.0,0.0
+organization,Unknown,613465161,2,0.0,2.0
+vessel,Unknown,bottom,7,3.0,5.0
+person,Country_271835,Michael Patton,2,2.0,0.0
+person,Country_271835,Kristin Jones,2,2.0,0.0
+organization,Unknown,884648,7,6.0,2.0
+organization,Unknown,90,19,26.0,20.0
+organization,Unknown,353149780,2,0.0,2.0
+organization,Unknown,2913,12,6.0,9.0
+organization,Unknown,693436,5,2.0,3.0
+location,Unknown,88a1fe65-33d9-487a-a3ac-d4208f41b754,3,3.0,0.0
+person,Country_271835,Jenna Barton,3,3.0,0.0
+location,Unknown,67f3755e-7f86-40a1-ae17-998d50a3e772,1,0.0,1.0
+organization,Unknown,631919,1,1.0,0.0
+person,Country_271835,Stephen Gutierrez,1,1.0,0.0
+person,Country_271835,Jessica Owens,3,0.0,3.0
+person,Country_271835,John Hutchinson,2,2.0,0.0
+person,Country_271835,Daniel Wood,3,3.0,0.0
+event,Unknown,â¬7,2,2.0,0.0
+vessel,Unknown,reefer,1,0.0,1.0
+vessel,Unknown,Fu Yuan Yu Leng 999,1,1.0,0.0
+location,Unknown,88e9e7e8-3edf-4fd4-959d-8ec4f53e59d6,1,1.0,0.0
+organization,Unknown,8732,2,0.0,2.0
+organization,Unknown,44396,2,1.0,1.0
+location,Unknown,f7a4114d-d1ca-44df-a7e0-c72e440671ba,9,9.0,0.0
+organization,Unknown,6038,2,0.0,2.0
+vessel,Unknown,Chinook,2,2.0,0.0
+organization,Unknown,6274,1,0.0,1.0
+location,Unknown,f9f6fc72-83db-4c44-a818-dde6c33985f9,6,6.0,0.0
+organization,Unknown,6758207,7,6.0,1.0
+Uncategorized,Unknown,abc12,2,2.0,0.0
+political_organization,Unknown,40,13,2.0,12.0
+organization,Unknown,615043,2,0.0,2.0
+person,Country_271835,Robert Lewis,2,1.0,1.0
+person,Country_271835,Margaret Nichols,2,2.0,0.0
+organization,Unknown,64124835,4,4.0,0.0
+organization,Unknown,767,13,4.0,11.0
+person,Country_271835,Chris Grant,2,0.0,3.0
+person,Country_271835,Angela Orr,5,5.0,0.0
+organization,Unknown,67909,2,0.0,2.0
+location,Unknown,e09b64a2-397a-4bec-96a1-7d61479fe37a,2,2.0,0.0
+organization,Unknown,1012,2,0.0,2.0
+person,Country_271835,Katelyn Gibson,3,0.0,3.0
+person,Country_271835,Kayla Reynolds,1,1.0,0.0
+organization,Unknown,724,1,0.0,1.0
+organization,Unknown,824,2,0.0,2.0
+person,Country_271835,William Williams,2,1.0,1.0
+person,Country_271835,Vicki Owen,4,3.0,1.0
+person,Country_271835,Alyssa Mccoy,2,2.0,0.0
+location,Unknown,292bf7d9-d86c-411d-9a85-da0cb4535e22,6,1.0,5.0
+location,Unknown,c82d3e99-b297-484e-a28a-76cba8d515cc,4,4.0,0.0
+person,Country_271835,Scott Wright,3,3.0,2.0
+organization,Unknown,854,3,3.0,0.0
+political_organization,Unknown,2653581,1,0.0,1.0
+person,Country_271835,John Conley,15,11.0,4.0
+organization,Unknown,977,1,1.0,1.0
+person,Country_271835,James Hernandez,2,2.0,0.0
+location,Unknown,1f899410-3447-48e7-bcb3-cbff10619e86,1,0.0,1.0
+organization,Unknown,39048624,3,0.0,3.0
+vessel,Unknown,river,3,3.0,0.0
+person,Country_271835,Rhonda Johnson,4,1.0,3.0
+political_organization,Unknown,54,1,1.0,0.0
+organization,Unknown,1853970,2,2.0,0.0
+organization,Unknown,87648111,4,3.0,1.0
+person,Country_271835,Barbara Mccarty,4,4.0,0.0
+person,Country_271835,Christopher Simon,5,5.0,0.0
+person,Country_271835,Lauren Jackson DDS,2,1.0,1.0
+event,Unknown,ï¬shes,2,2.0,0.0
+event,Unknown,ï¬sh,2,1.0,1.0
+person,Country_990614,Darren Wilson,4,0.0,4.0
+person,Country_271835,Andrew Miller,2,1.0,1.0
+person,Country_990614,Erica Cisneros,4,1.0,3.0
+political_organization,Unknown,440994840,6,1.0,6.0
+person,Country_271835,Heather Hill,1,1.0,1.0
+person,Country_271835,Krystal Lee,1,1.0,0.0
+organization,Unknown,42258,1,0.0,1.0
+organization,Unknown,506986590,2,0.0,2.0
+organization,Unknown,7321,2,1.0,1.0
+organization,Unknown,647724,1,1.0,0.0
+organization,Unknown,272735814,1,0.0,1.0
+person,Country_271835,Wesley Woods,2,2.0,0.0
+company,Country_283574,Dry Creek Marine sanctuary,2,0.0,2.0
+organization,Unknown,1214936,3,3.0,0.0
+organization,Unknown,2751,5,5.0,0.0
+person,Country_271835,Marvin White,3,3.0,0.0
+person,Country_271835,Philip Black,2,0.0,2.0
+person,Country_271835,Laurie Clark,1,1.0,0.0
+organization,Unknown,7548555,5,0.0,5.0
+vessel,Unknown,ARA Contraalmirante Cordero,2,2.0,0.0
+person,Country_198078,Keith Webb,13,8.0,5.0
+organization,Unknown,54217974,17,3.0,15.0
+organization,Unknown,38,20,26.0,16.0
+person,Country_271835,Elijah Gordon,6,5.0,2.0
+organization,Unknown,71352,2,2.0,0.0
+organization,Unknown,60806,9,6.0,3.0
+location,Unknown,259e9338-b33e-4dc7-843a-96a720d22d9b,3,3.0,1.0
+organization,Unknown,461553,2,1.0,1.0
+organization,Unknown,538991,2,1.0,1.0
+organization,Unknown,71,6,5.0,1.0
+person,Oceanus,Rebecca Fox,1,0.0,1.0
+event,Unknown,expect year,3,3.0,0.0
+company,Country_271835,Charles OJSC Marine conservation,4,0.0,4.0
+vessel,Unknown,shrimper,1,1.0,0.0
+company,Ariuzima,Caracola Azul Limited Liability Company,2,0.0,2.0
+person,Country_271835,Brandy Williams,8,8.0,0.0
+location,Unknown,d6968538-6f18-4a1c-a4e2-59de3c0e25c2,2,0.0,2.0
+vessel,Unknown,coastguard,2,2.0,0.0
+company,Country_271835,Viento y Mar BV,3,2.0,1.0
+person,Country_271835,Robert Vega,10,10.0,0.0
+person,Country_271835,James Sampson,2,0.0,2.0
+person,Country_271835,Debra Hebert,1,1.0,0.0
+organization,Unknown,135024,2,0.0,2.0
+organization,Unknown,38844,4,2.0,2.0
+person,Country_271835,John Frederick,3,3.0,0.0
+person,Country_271835,Allison Rodgers,2,0.0,2.0
+organization,Unknown,759,3,3.0,0.0
+location,Unknown,0ae94787-4593-4139-848d-9174ea13ac23,2,2.0,0.0
+company,Country_271835,OceanFront Foods Co Beach,3,0.0,3.0
+political_organization,Unknown,19186817,3,1.0,2.0
+political_organization,Unknown,2748013,2,2.0,0.0
+organization,Unknown,23636990,5,4.0,1.0
+organization,Unknown,996,5,5.0,0.0
+organization,Unknown,81661977,2,0.0,2.0
+movement,Unknown,metric,2,1.0,1.0
+organization,Unknown,24189,2,0.0,2.0
+organization,Unknown,216,4,1.0,3.0
+person,Oceanus,Frederick Hunter,2,1.0,1.0
+organization,Unknown,9977227,5,3.0,2.0
+organization,Unknown,64365043,2,0.0,2.0
+location,Unknown,06c161ac-e601-493f-b8df-839382e16a74,1,0.0,1.0
+organization,Unknown,458785,1,1.0,0.0
+location,Unknown,e5e2e269-ccc5-4e16-88a8-e909c1fa32db,3,0.0,3.0
+organization,Unknown,42,14,9.0,6.0
+organization,Unknown,4258240,3,0.0,3.0
+person,Country_271835,Julie Parks,2,0.0,2.0
+organization,Unknown,891,8,0.0,8.0
+location,Unknown,a96730cc-485e-46be-aba4-339442bacd8d,5,1.0,4.0
+vessel,Unknown,USCGC,7,7.0,0.0
+person,Country_271835,Kristi Weeks,4,4.0,0.0
+vessel,Unknown,DDG,3,3.0,0.0
+vessel,Unknown,USS,7,2.0,5.0
+vessel,Unknown,USS Hurricane,1,0.0,1.0
+vessel,Unknown,PC,19,11.0,8.0
+person,Country_271835,Brandi White,3,2.0,1.0
+person,Country_271835,Tara Hanson,3,0.0,3.0
+person,Country_271835,Wesley Vasquez,2,2.0,0.0
+organization,Unknown,16,7,6.0,8.0
+person,Country_271835,Rebecca Adams,2,3.0,0.0
+organization,Unknown,29481,4,1.0,4.0
+person,Country_271835,Briana Johnson,2,2.0,1.0
+organization,Unknown,6126134,2,0.0,2.0
+organization,Unknown,595038316,2,1.0,1.0
+organization,Unknown,673431,4,3.0,1.0
+organization,Unknown,73704,5,1.0,5.0
+organization,Unknown,6780,25,20.0,7.0
+person,Country_271835,Mr. Joseph Johnson,4,4.0,0.0
+organization,Unknown,7480,3,0.0,3.0
+person,Country_271835,Marie Lee,12,12.0,0.0
+organization,Unknown,4769248,2,0.0,2.0
+organization,Unknown,3015,2,1.0,1.0
+organization,Unknown,2679,5,2.0,3.0
+location,Unknown,97836b65-db6a-43bf-9467-cf57d84645ff,5,0.0,5.0
+person,Country_271835,Douglas Gillespie,2,2.0,0.0
+Uncategorized,Unknown,âdisasterâ,2,2.0,0.0
+person,Country_271835,Jonathan Garner,3,3.0,0.0
+person,Country_271835,Amanda Contreras,3,3.0,0.0
+vessel,Unknown,Long Xing 629,2,0.0,2.0
+person,Country_271835,Bryan Hill,4,1.0,3.0
+location,Unknown,58db776e-40f1-4e68-b13d-dcc42416ce58,3,3.0,0.0
+person,Marebak,Anthony Le,3,0.0,3.0
+person,Country_271835,Jo Francis,2,1.0,1.0
+person,Country_271835,Stephanie Thompson,2,2.0,0.0
+person,Country_271835,Michael Baker,2,2.0,0.0
+organization,Unknown,868,2,0.0,2.0
+organization,Unknown,99985383,2,1.0,1.0
+organization,Unknown,298,2,2.0,0.0
+person,Country_271835,Michael Wagner,3,0.0,3.0
+person,Country_271835,Susan Hodges,2,2.0,0.0
+person,Country_663412,Michael Chen,9,7.0,2.0
+person,Country_271835,Jennifer Thompson,2,0.0,2.0
+person,Country_271835,Sabrina Zamora,2,2.0,0.0
+person,Country_271835,Hannah Chandler,2,0.0,2.0
+vessel,Unknown,Deckhands,2,0.0,2.0
+person,Country_271835,Bruce Bates,2,1.0,1.0
+person,Country_271835,Kimberly Lopez,3,2.0,1.0
+person,Country_271835,Teresa Jackson,5,4.0,1.0
+Uncategorized,Unknown,âWe fins,3,3.0,0.0
+location,Unknown,ecf18ac9-a773-43a0-98c8-cdd264565b2f,2,0.0,2.0
+organization,Unknown,46,5,1.0,4.0
+location,Unknown,65fea097-e838-4be6-9889-83f5361fe777,2,2.0,0.0
+person,Country_907876,Ann Nelson,7,4.0,3.0
+person,Country_948318,Robert Nguyen,7,2.0,5.0
+location,Unknown,dec69ea4-1c0c-4b31-b6fe-7d0c7e4b8fd9,2,2.0,0.0
+person,Country_271835,Dr. Michelle Dominguez,4,1.0,3.0
+person,Country_271835,Charles Hart,2,1.0,1.0
+vessel,Unknown,Tian,1,2.0,2.0
+person,Oceanus,Patricia Bowen,15,11.0,7.0
+person,Country_271835,Paul Holloway,1,1.0,0.0
+person,Country_271835,Maria Russell,3,3.0,0.0
+person,Country_271835,Justin Rodriguez,4,2.0,2.0
+person,Country_271835,Carl Lopez,3,2.0,1.0
+company,Country_271835,Mar del Norte Ferry,2,1.0,1.0
+organization,Unknown,122245,12,5.0,7.0
+organization,Unknown,4946,2,2.0,1.0
+person,Country_271835,Gabriela Graham,2,1.0,1.0
+person,Country_271835,Joseph Newman,2,0.0,2.0
+person,Country_242593,Danielle Valdez,5,3.0,2.0
+person,Country_271835,Susan Williamson,5,2.0,3.0
+person,Country_271835,Lauren Reynolds,6,5.0,2.0
+political_organization,Unknown,91,5,0.0,5.0
+political_organization,Unknown,20,6,0.0,6.0
+organization,Unknown,74211169,1,1.0,0.0
+company,Islavaria,Romero Oyster NV Carriers,3,1.0,2.0
+person,Country_271835,James Hall,2,2.0,0.0
+organization,Unknown,3553,1,0.0,1.0
+organization,Unknown,72875,2,0.0,2.0
+vessel,Unknown,Coast Guard Cutter Edgar Culbertson,3,3.0,0.0
+movement,Unknown,38,20,26.0,16.0
+person,Country_443882,Heidi Kline,2,0.0,2.0
+organization,Unknown,863749817,3,3.0,0.0
+organization,Unknown,475,6,5.0,1.0
+organization,Unknown,567217,3,1.0,2.0
+vessel,Unknown,Oliver,5,2.0,3.0
+person,Country_271835,Amanda Becker,10,9.0,1.0
+organization,Unknown,160,90,16.0,83.0
+person,Country_271835,Nicholas Dennis,2,2.0,0.0
+organization,Unknown,938816,3,1.0,2.0
+Uncategorized,Unknown,ðªðª,3,2.0,1.0
+organization,Unknown,5469,3,3.0,0.0
+organization,Unknown,4679,1,0.0,1.0
+company,Country_271835,Cape Verde Islands Oyj,1,1.0,0.0
+person,Country_271835,Andre Phillips,3,0.0,3.0
+vessel,Unknown,USCGâs,3,1.0,2.0
+vessel,Unknown,CutterOliverHenry,2,2.0,0.0
+person,Country_271835,Scott Solis,2,2.0,0.0
+person,Country_271835,Jonathan Spence,1,1.0,0.0
+organization,Unknown,11,2,0.0,2.0
+person,Country_271835,Tanner Smith,3,0.0,3.0
+person,Country_271835,Emily Bailey,3,1.0,2.0
+organization,Unknown,30041,19,12.0,7.0
+organization,Unknown,468511,4,2.0,2.0
+organization,Unknown,86,3,3.0,0.0
+person,Country_271835,Ann Flowers,1,1.0,0.0
+organization,Unknown,60774,3,1.0,3.0
+organization,Unknown,47,3,2.0,1.0
+person,Country_271835,Michael Bullock,2,1.0,1.0
+person,Country_271835,Michelle Singh,7,5.0,2.0
+vessel,Unknown,SSN,7,6.0,1.0
+person,Country_271835,Tyler Palmer,8,8.0,0.0
+vessel,Unknown,HMAS,5,0.0,5.0
+location,Unknown,dec44f58-94b0-4070-bfb3-1e13ef308ec3,9,2.0,7.0
+person,Country_271835,Chad Nichols,3,3.0,0.0
+organization,Unknown,2114,2,0.0,2.0
+organization,Unknown,34020206,2,0.0,2.0
+company,Country_271835,Fin Flair Pic Delivery,2,2.0,0.0
+person,Country_271835,Scott Wallace,2,1.0,1.0
+person,Uzifrica,Tony Patterson,9,2.0,7.0
+Uncategorized,Unknown,Sampath,2,0.0,2.0
+organization,Unknown,683962,2,2.0,0.0
+person,Country_271835,Anna Johnson,2,0.0,2.0
+location,Unknown,95c715ba-891e-4472-8e2a-4e746dcc266a,8,8.0,0.0
+person,Marebak,Anna Smith,5,5.0,1.0
+organization,Unknown,760219951,2,0.0,2.0
+political_organization,Unknown,36744944,9,3.0,6.0
+organization,Unknown,734121719,3,3.0,0.0
+person,Country_271835,Kathleen Gates,2,2.0,0.0
+location,Unknown,6b58646e-1d3a-4b72-b8a0-9f57c296d73d,2,0.0,2.0
+organization,Unknown,9357541,3,0.0,3.0
+person,Country_271835,William Atkinson,2,2.0,0.0
+person,Country_271835,Lisa Payne,4,2.0,2.0
+organization,Unknown,87278,3,3.0,0.0
+person,Country_271835,Christine Chaney,4,0.0,4.0
+organization,Unknown,8226730,3,0.0,3.0
+location,Unknown,5b199218-6513-430b-8e56-8aa1d83456a3,3,1.0,2.0
+person,Country_271835,Mr. Jose King,6,6.0,0.0
+person,Country_271835,Thomas Adams,2,1.0,1.0
+organization,Unknown,75,3,0.0,3.0
+person,Country_271835,Kimberly Olson,3,3.0,0.0
+organization,Unknown,911243414,2,0.0,2.0
+organization,Unknown,9280,1,1.0,0.0
+location,Unknown,cc6cf3e0-5794-4497-a31d-79b4db1b55a9,2,0.0,2.0
+person,Brindivaria,Ryan Garrett,12,2.0,10.0
+organization,Unknown,408119,14,3.0,11.0
+person,Country_271835,Gary Butler,11,5.0,7.0
+person,Country_271835,Gary Smith,11,5.0,7.0
+person,Country_271835,Denise Diaz,12,8.0,4.0
+location,Unknown,6ead18ca-3084-4f8e-9c1e-a5e470fc5935,12,9.0,3.0
+organization,Unknown,48259,13,11.0,2.0
+location,Unknown,b636c0f8-2ddf-42ad-9f9c-73bd48682561,2,2.0,0.0
+Uncategorized,Unknown,United Statesâ,3,1.0,2.0
+organization,Unknown,55301,2,0.0,2.0
+person,Country_271835,Elaine Duncan,4,2.0,2.0
+Uncategorized,Unknown,Game Thiefâ,2,2.0,0.0
+organization,Unknown,604905,4,0.0,4.0
+organization,Unknown,784221,6,2.0,4.0
+location,Unknown,ae19b5a7-4f70-4366-98ad-819e3009aeca,8,4.0,4.0
+location,Unknown,d4947401-8ec7-48b9-a66f-45d983d59e0a,35,2.0,35.0
+person,Country_271835,Dennis Little,3,3.0,0.0
+Uncategorized,Unknown,âtransshipmentâ,3,2.0,1.0
+person,Marebak,Brooke Garza,4,2.0,2.0
+vessel,Unknown,Feng,4,4.0,0.0
+organization,Unknown,82462633,6,0.0,6.0
+person,Country_271835,Carrie Elliott,6,4.0,2.0
+organization,Unknown,5235138,2,2.0,0.0
+person,Country_338923,Breanna Ward,1,0.0,1.0
+person,Country_271835,Donna Webb,3,1.0,2.0
+event,Unknown,summer,3,1.0,2.0
+person,Country_271835,Tracy Smith,2,2.0,0.0
+person,Country_729731,Kimberly Petersen,3,1.0,3.0
+person,Country_271835,Robert Schaefer,1,1.0,0.0
+person,Country_271835,Samuel Stokes,3,1.0,2.0
+person,Country_271835,Timothy Hernandez,2,2.0,0.0
+organization,Unknown,5680682,14,10.0,5.0
+political_organization,Unknown,47234884,2,1.0,1.0
+person,Oceanus,Marcus English,1,1.0,0.0
+person,Country_271835,Meghan Kim,1,1.0,0.0
+person,Country_271835,David Nunez MD,4,3.0,1.0
+event,Unknown,30,3,1.0,3.0
+person,Country_271835,Thomas Diaz,3,2.0,1.0
+person,Country_271835,Hannah Taylor,3,2.0,1.0
+person,Country_271835,Joanna Brown,7,5.0,2.0
+organization,Unknown,307,1,0.0,1.0
+person,Country_271835,Monique Rios,2,1.0,1.0
+event,Unknown,yearsâthat,1,1.0,0.0
+political_organization,Unknown,950574,3,1.0,2.0
+Uncategorized,Unknown,Pacific Island States United Statesâ,4,3.0,1.0
+Uncategorized,Unknown,territory American Samoa,4,4.0,0.0
+location,Unknown,62d4bdbc-8978-4cbf-b9ea-82aaa9188c91,4,2.0,2.0
+organization,Unknown,900,3,3.0,0.0
+company,Country_271835,Coastal Crusaders Kga Worldwide,4,4.0,0.0
+person,Country_271835,Luis Douglas,2,0.0,2.0
+company,Country_271835,Seashell Sanctum SRL Transport,2,1.0,1.0
+person,Country_271835,Fernando Steele,3,0.0,3.0
+person,Country_271835,David Tucker,1,1.0,0.0
+company,Helvoris,Tiao piao AG Delivery,8,5.0,3.0
+location,Unknown,e39609a3-b437-41c2-b114-e21dc69a9bb1,4,0.0,4.0
+Uncategorized,Unknown,âeared sealsâ,3,1.0,2.0
+person,Helvoris,Robert Mcintosh,3,1.0,2.0
+person,Helvoris,Amber Sharp,4,3.0,1.0
+person,Country_271835,James Anderson,4,4.0,0.0
+organization,Unknown,497,2,2.0,0.0
+organization,Unknown,7892,4,2.0,2.0
+organization,Unknown,8513,1,1.0,0.0
+organization,Unknown,1415,1,1.0,0.0
+organization,Unknown,3433,2,1.0,2.0
+person,Country_271835,Kara Sullivan,2,2.0,0.0
+person,Kethanor,Teresa Gardner,2,0.0,2.0
+person,Country_271835,Trevor Brown,2,1.0,1.0
+person,Country_271835,Kimberly Roberts,2,2.0,0.0
+person,Country_271835,Ricky Holland,4,0.0,4.0
+person,Country_271835,Lydia Day,3,2.0,1.0
+event,Unknown,âit,7,5.0,2.0
+person,Country_271835,Nichole Kline,4,4.0,0.0
+person,Country_271835,Ryan Rich,3,3.0,0.0
+organization,Unknown,650749,5,0.0,5.0
+person,Country_271835,Shawna Welch,2,0.0,2.0
+person,Country_271835,Zachary Jordan,5,3.0,2.0
+Uncategorized,Unknown,holesâ,2,2.0,0.0
+organization,Unknown,89526932,2,0.0,2.0
+event,Unknown,âfirst,8,7.0,1.0
+organization,Unknown,26978247,3,3.0,0.0
+Uncategorized,Unknown,nigeria,1,1.0,0.0
+vessel,Unknown,boatâs,5,5.0,0.0
+organization,Unknown,53792,4,2.0,2.0
+location,Unknown,c66f5cd5-3891-43ce-a3f8-0147b3d643b1,2,0.0,2.0
+location,Unknown,032522db-8105-4c26-8142-ae9d5806f7c5,3,4.0,0.0
+person,Syrithania,Mrs. Melinda Richardson,2,1.0,1.0
+person,Country_271835,Frederick Harris,2,0.0,2.0
+organization,Unknown,30141220,3,2.0,1.0
+organization,Unknown,90192265,3,3.0,0.0
+person,Country_271835,Natalie Gill,1,1.0,0.0
+location,Unknown,23f52980-e4f4-43da-ac02-9c1eef637751,5,2.0,3.0
+organization,Unknown,245658,1,0.0,1.0
+organization,Unknown,552027385,3,1.0,2.0
+person,Country_271835,Brian Stevens,2,0.0,2.0
+Uncategorized,Unknown,âconservativeâ,1,1.0,0.0
+location,Unknown,e4e5b1ca-e210-4d3f-8cea-fa5c2309340f,2,0.0,2.0
+location,Unknown,ce06b4c4-dd19-485d-ad52-f7cd953db1c2,2,1.0,1.0
+location,Unknown,d2589980-b0c7-4c36-8ddf-8afe554853ea,2,2.0,0.0
+person,Country_271835,Robin Fernandez,2,2.0,0.0
+event,Unknown,week,19,8.0,11.0
+person,Country_271835,Diana Kelley,3,3.0,0.0
+person,Country_271835,Angela Wright,1,1.0,0.0
+person,Country_271835,Miranda Small,2,2.0,0.0
+person,Country_271835,Stacey Ortega,7,7.0,0.0
+vessel,Unknown,FV,6,0.0,6.0
+person,Country_980042,Gary Crawford PhD,5,1.0,4.0
+vessel,Unknown,FV Snake,7,2.0,5.0
+vessel,Unknown,FV Viking,6,3.0,3.0
+vessel,Unknown,FV Thunder,7,4.0,3.0
+Uncategorized,Unknown,Aquacultureâ,8,8.0,0.0
+person,Country_271835,Paul Parker,2,1.0,1.0
+organization,Unknown,4877,3,3.0,0.0
+Uncategorized,Unknown,âdiscriminationâ,1,0.0,1.0
+person,Country_271835,Jessica Gibson,1,1.0,0.0
+location,Unknown,da7677f8-d1f0-4e35-afe9-4240613e866b,3,0.0,3.0
+organization,Unknown,48115,3,3.0,0.0
+person,Mawazam,Rhonda Sullivan,1,0.0,1.0
+person,Country_216139,Adam Gutierrez,1,0.0,1.0
+person,Country_271835,Gregory Carter,2,1.0,1.0
+person,Country_271835,Martin Bryant,13,15.0,0.0
+organization,Unknown,555,2,0.0,2.0
+organization,Unknown,903311212,234,170.0,220.0
+organization,Unknown,683113035,3,0.0,3.0
+Uncategorized,Unknown,th,3,0.0,3.0
+person,Country_271835,Bruce Spears,4,4.0,0.0
+Uncategorized,Unknown,ItaquaÃ,8,2.0,8.0
+location,Unknown,1710a32e-7a58-4d7f-9c5e-bf897b7419a3,13,3.0,12.0
+person,Country_271835,Sherry Richmond,4,4.0,0.0
+person,Country_271835,Daniel Shaffer,2,2.0,0.0
+person,Country_271835,Sierra Vincent,3,3.0,0.0
+person,Country_271835,Margaret Ward,3,1.0,2.0
+person,Country_913963,Wendy Crane,15,3.0,12.0
+person,Oceanus,Richard Bowers,2,0.0,2.0
+person,Country_271835,Joshua Hammond,2,2.0,0.0
+person,Country_230197,Samuel Cross,4,3.0,1.0
+event,Unknown,âAs,9,4.0,6.0
+organization,Unknown,47698,1,0.0,1.0
+Uncategorized,Unknown,DECEUNINCK,2,2.0,0.0
+person,Country_271835,Kristi Ryan,2,1.0,1.0
+organization,Unknown,199,5,4.0,1.0
+organization,Unknown,23990411,16,3.0,15.0
+organization,Unknown,10880329,4,0.0,4.0
+person,Oceanus,Rhonda Price,1,1.0,0.0
+location,Unknown,45ff391d-0f6a-4ee4-abe6-8b06d07dbfd6,1,1.0,0.0
+location,Unknown,e941d006-6590-4143-9d0d-12926b0b6f5c,2,0.0,2.0
+person,Country_271835,Tyler Blanchard,2,2.0,0.0
+person,Country_271835,Shawn Cook,2,0.0,2.0
+location,Unknown,ce2247ab-4922-420f-8d42-504c4ddda305,2,1.0,1.0
+person,Country_271835,Susan Montoya,2,2.0,0.0
+person,Country_271835,William James,8,7.0,1.0
+location,Unknown,e0cdfc51-7473-481d-8900-03f66d6e359e,1,1.0,0.0
+person,Country_271835,Ricardo Gomez,1,1.0,1.0
+organization,Unknown,75471,25,6.0,23.0
+movement,Unknown,14 months,2,1.0,1.0
+organization,Unknown,82408558,2,1.0,1.0
+location,Unknown,f6cca381-c55e-44cc-b685-6c4139459b96,3,3.0,0.0
+location,Unknown,f94bcae5-b023-48f6-a0d5-ff2f01cc00ed,3,2.0,1.0
+event,Unknown,âcatch,1,0.0,1.0
+event,Unknown,âtotal,2,2.0,0.0
+company,Country_675160,Manipur Market AG Consultants,5,0.0,5.0
+Uncategorized,Unknown,âMoby-Dickâ,1,1.0,0.0
+location,Unknown,04eab3c4-ed99-467b-8844-b5279a6b955e,2,0.0,2.0
+organization,Unknown,5312744,2,0.0,2.0
+person,Country_271835,Amanda Santana,2,1.0,1.0
+person,Country_271835,Dana Macias,2,2.0,0.0
+person,Country_271835,Helen Chase,2,2.0,0.0
+person,Country_271835,Candace Burnett,2,1.0,1.0
+organization,Unknown,34153143,4,2.0,2.0
+Uncategorized,Unknown,âTheoretically,6,3.0,3.0
+person,Uzilandor,Jonathan Torres,9,6.0,3.0
+person,Country_271835,Gary Dunn,9,9.0,0.0
+organization,Unknown,721436,3,1.0,2.0
+person,Country_271835,Brittany Frey,3,3.0,0.0
+person,Country_271835,Brett Williams,6,3.0,4.0
+Uncategorized,Unknown,Seafreeze Ltd,3,0.0,3.0
+organization,Unknown,36033030,3,1.0,2.0
+person,Country_271835,Todd Lane,4,3.0,1.0
+person,Country_271835,Alicia Lee,9,1.0,9.0
+organization,Unknown,8112222,2,2.0,0.0
+organization,Unknown,19471,16,9.0,7.0
+person,Country_271835,Linda Holden,5,2.0,4.0
+person,Country_271835,Donna Romero,3,3.0,0.0
+person,Country_271835,Amanda Garcia,3,3.0,0.0
+company,Oceanus,Shona Barracuda AB Worldwide,1,0.0,1.0
+organization,Unknown,415053,4,0.0,4.0
+Uncategorized,Unknown,âBHFâ,4,3.0,2.0
+person,Country_271835,Olivia Bradshaw,3,0.0,3.0
+organization,Unknown,461541,3,1.0,2.0
+Uncategorized,Unknown,âProPublicaâ,3,3.0,0.0
+Uncategorized,Unknown,âyesterdayâ,2,0.0,2.0
+event,Unknown,âlast week,2,1.0,1.0
+Uncategorized,Unknown,âPortlandâ,3,3.0,0.0
+vessel,Unknown,watercraft,4,4.0,0.0
+person,Country_271835,Bradley Murphy,2,0.0,2.0
+person,Country_271835,Madison Franklin,6,3.0,4.0
+vessel,Unknown,Rapido beam,5,4.0,1.0
+person,Country_271835,Mary Montoya,6,6.0,0.0
+vessel,Unknown,Rapido beam trawler,3,2.0,1.0
+movement,Unknown,ordinary,8,4.0,5.0
+person,Country_271835,Kari Zavala,13,5.0,8.0
+location,Unknown,91a2a8e6-f56f-4663-8be9-0bbfd5440489,7,5.0,2.0
+location,Unknown,40cfcd88-fceb-49bd-a71a-053aacddad42,7,6.0,1.0
+location,Unknown,cb537677-9d82-4d58-8066-899bdc51c4f1,7,7.0,0.0
+Uncategorized,Unknown,4âÃâ15â,2,0.0,2.0
+Uncategorized,Unknown,â60,2,1.0,1.0
+vessel,Unknown,diesel,4,2.0,2.0
+vessel,Unknown,bottom otter trawler,1,0.0,2.0
+organization,Unknown,2820033,12,1.0,11.0
+organization,Unknown,1559,4,4.0,0.0
+organization,Unknown,495035052,5,1.0,5.0
+organization,Unknown,25,5,2.0,4.0
+organization,Unknown,96,10,12.0,16.0
+organization,Unknown,60910422,5,5.0,1.0
+organization,Unknown,285351,2,2.0,0.0
+organization,Unknown,75399,5,6.0,0.0
+location,Unknown,da91eeb8-11f7-4634-95e7-f9413e9957aa,2,1.0,1.0
+organization,Unknown,720,2,1.0,1.0
+location,Unknown,fdcbe098-dbe6-4e52-8bd7-96cf3ae30101,2,2.0,0.0
+organization,Unknown,779,1,0.0,1.0
+organization,Unknown,2673,2,1.0,1.0
+organization,Unknown,6185842,1,1.0,0.0
+organization,Unknown,762165,4,2.0,2.0
+organization,Unknown,428,1,0.0,1.0
+organization,Unknown,4962642,21,9.0,16.0
+Uncategorized,Unknown,93,8,16.0,2.0
+person,Country_271835,Olivia Bailey,5,5.0,1.0
+Uncategorized,Unknown,96,10,12.0,16.0
+location,Unknown,ffc679cd-57ac-4846-b023-8be73ca754fa,6,1.0,6.0
+Uncategorized,Unknown,FlodstrÃ,1,0.0,1.0
+organization,Unknown,700,12,1.0,12.0
+organization,Unknown,941899076,18,9.0,12.0
+organization,Unknown,520,10,9.0,2.0
+organization,Unknown,85,12,13.0,0.0
+organization,Unknown,9636,6,0.0,6.0
+organization,Unknown,449,2,0.0,2.0
+Uncategorized,Unknown,âcardingâ,2,2.0,0.0
+person,Country_271835,Tyler Flores,4,4.0,0.0
+vessel,Unknown,Michelle,3,0.0,3.0
+organization,Unknown,2466,4,4.0,0.0
+political_organization,Unknown,72212757,5,0.0,5.0
+organization,Unknown,449820,4,4.0,0.0
+organization,Unknown,6406914,4,2.0,3.0
+person,Country_271835,Madeline Collins,2,2.0,0.0
+organization,Unknown,76609426,3,3.0,0.0
+person,Country_271835,Mrs. Jessica Meyer,2,2.0,0.0
+event,Unknown,âMoreover,1,1.0,0.0
+person,Country_271835,Darren Torres,1,0.0,1.0
+person,Country_271835,Brittany Brewer,2,2.0,0.0
+political_organization,Unknown,8651344,2,2.0,0.0
+person,Country_271835,Daniel Roberts,2,1.0,1.0
+location,Unknown,85b8a8cf-7f07-4bab-8b44-1d79940aab8d,2,0.0,2.0
+organization,Unknown,933754160,2,2.0,0.0
+person,Country_271835,Tyler Turner,2,2.0,0.0
+Uncategorized,Unknown,allAfrica,1,1.0,0.0
+location,Unknown,933c4581-7ecc-4377-995c-7a200fee617b,1,1.0,0.0
+Uncategorized,Unknown,Â£9,1,1.0,0.0
+person,Country_462996,Melinda Bentley,2,2.0,0.0
+organization,Unknown,41713,1,0.0,1.0
+organization,Unknown,900338,1,0.0,1.0
+organization,Unknown,665912557,2,1.0,1.0
+organization,Unknown,1341798,1,0.0,1.0
+organization,Unknown,23299,1,1.0,0.0
+person,Country_271835,Danielle Perry,3,3.0,0.0
+person,Country_271835,Paula King,2,2.0,0.0
+person,Country_271835,Laurie Mclaughlin,2,2.0,0.0
+person,Country_271835,Melinda Williams,1,1.0,0.0
+organization,Unknown,614,3,0.0,3.0
+organization,Unknown,802775,3,1.0,2.0
+organization,Unknown,5688339,2,2.0,0.0
+event,Unknown,morningâs,3,4.0,0.0
+person,Country_271835,Anna Thomas MD,2,2.0,0.0
+person,Oceanus,Michele Black,19,1.0,20.0
+organization,Unknown,3857345,2,0.0,2.0
+person,Country_271835,Ms. Brittany Murray,2,2.0,0.0
+person,Oceanus,Matthew White,2,2.0,0.0
+Uncategorized,Unknown,Â£800,5,5.0,1.0
+person,Country_699698,Tonya Key,1,1.0,0.0
+person,Country_271835,Sara Waller,1,2.0,0.0
+organization,Unknown,99233,3,2.0,1.0
+person,Country_271835,Daniel Middleton,7,4.0,3.0
+location,Unknown,813be272-d3de-43c9-90be-ab14231fcf17,3,1.0,2.0
+event,Unknown,âSay,3,3.0,0.0
+person,Country_271835,Stacey Ortiz,9,9.0,0.0
+person,Oceanus,Scott Simpson,3,2.0,1.0
+person,Country_271835,Loretta Harrington,4,4.0,0.0
+organization,Unknown,203,3,0.0,3.0
+organization,Unknown,99661834,4,4.0,0.0
+organization,Unknown,9838,2,0.0,2.0
+organization,Unknown,848165,2,2.0,0.0
+organization,Unknown,612,3,2.0,1.0
+organization,Unknown,379284134,3,3.0,0.0
+organization,Unknown,55394387,7,3.0,4.0
+vessel,Unknown,Boston,5,0.0,5.0
+person,Oceanus,Matthew Pennington,20,1.0,19.0
+vessel,Unknown,vesselâs,1,1.0,0.0
+vessel,Unknown,waterâs,2,2.0,0.0
+location,Unknown,950ce1a6-a178-4e3e-9316-91ab7ca88664,1,1.0,0.0
+person,Country_271835,Hannah Brown,7,6.0,1.0
+person,Country_271835,Bobby Walker,2,0.0,2.0
+political_organization,Unknown,221942,2,0.0,2.0
+location,Unknown,0d1c7ce3-7243-47c0-9280-a3262b52dc0f,2,1.0,1.0
+location,Unknown,634ac4e7-12af-494f-95f5-cd853363525f,2,0.0,2.0
+organization,Unknown,945632766,1,1.0,0.0
+vessel,Unknown,HMS Montrose,7,4.0,3.0
+organization,Unknown,80737369,7,1.0,6.0
+vessel,Unknown,Montrose,2,2.0,0.0
+organization,Unknown,112156579,2,0.0,2.0
+organization,Unknown,64338295,5,5.0,1.0
+organization,Unknown,81,18,13.0,7.0
+organization,Unknown,73921,2,2.0,0.0
+company,Country_271835,Khundu Ltd. Liability Co,3,3.0,0.0
+organization,Unknown,327277616,2,0.0,2.0
+organization,Unknown,637608,9,9.0,0.0
+person,Country_271835,Benjamin Barton,2,0.0,2.0
+organization,Unknown,5337,4,3.0,1.0
+organization,Unknown,6980,11,3.0,9.0
+location,Unknown,f85f009e-0fa0-403a-845e-64198883bf34,2,0.0,2.0
+location,Unknown,4562fe84-0188-47fd-8e27-67380da0079c,3,3.0,0.0
+person,Country_271835,Stephanie Brown,2,0.0,2.0
+organization,Unknown,33118036,2,1.0,1.0
+organization,Unknown,88813246,2,2.0,0.0
+organization,Unknown,5383294,3,3.0,0.0
+organization,Unknown,9238420,2,0.0,2.0
+political_organization,Unknown,70109,2,0.0,2.0
+vessel,Unknown,underwater,2,0.0,3.0
+Uncategorized,Unknown,waterâ,2,2.0,0.0
+person,Country_271835,Mrs. Katrina Williams,2,2.0,0.0
+organization,Unknown,73166320,3,3.0,0.0
+location,Unknown,dbb07e32-a8f4-47d0-ae61-c2e9774e9284,11,9.0,3.0
+organization,Unknown,13249468,2,0.0,2.0
+vessel,Unknown,Aine,3,3.0,0.0
+person,Country_271835,Anthony Gomez,3,3.0,0.0
+person,Country_271835,Debbie Kelley,3,0.0,4.0
+organization,Unknown,77,12,14.0,12.0
+person,Country_271835,Eric Hanson,2,3.0,0.0
+person,Oceanus,Joshua Haynes,1,0.0,1.0
+organization,Unknown,682313,4,0.0,4.0
+political_organization,Unknown,300,1,0.0,1.0
+person,Country_271835,Krystal Foster,2,0.0,2.0
+person,Country_271835,Roger Smith,3,3.0,0.0
+political_organization,Unknown,37992687,2,0.0,2.0
+Uncategorized,Unknown,nationalfisherman,2,2.0,0.0
+Uncategorized,Unknown,intrafish,1,1.0,0.0
+organization,Unknown,303934,4,0.0,4.0
+Uncategorized,Unknown,choicesmagazine,2,2.0,0.0
+organization,Unknown,58877070,5,2.0,3.0
+Uncategorized,Unknown,usa,5,4.0,2.0
+Uncategorized,Unknown,oceana,5,4.0,1.0
+person,Country_271835,Blake Smith,3,0.0,3.0
+organization,Unknown,42990314,2,1.0,1.0
+organization,Unknown,1338687,2,0.0,2.0
+organization,Unknown,507684,3,2.0,1.0
+Uncategorized,Unknown,ams.usda,3,3.0,0.0
+organization,Unknown,1765605,1,0.0,1.0
+Uncategorized,Unknown,âinitiallyâ,3,3.0,0.0
+Uncategorized,Unknown,SIMPComplianceGuide,3,3.0,0.0
+vessel,Unknown,Cutters,2,2.0,0.0
+Uncategorized,Unknown,âpoachedâ,1,0.0,1.0
+person,Country_271835,Stacy Castillo,2,2.0,0.0
+organization,Unknown,34757443,5,1.0,4.0
+person,Country_271835,Matthew Mack,3,0.0,3.0
+person,Country_271835,David Wilson,2,2.0,0.0
+location,Unknown,f205ff1a-8798-48b7-b535-ad87b9756220,8,7.0,1.0
+location,Unknown,1a2ebb93-1c85-4f40-abb1-cff639788678,2,1.0,1.0
+Uncategorized,Unknown,âAccept Allâ,3,2.0,1.0
+Uncategorized,Unknown,krxd,2,2.0,0.0
+person,Country_271835,Zachary Blackburn,2,1.0,1.0
+vessel,Unknown,operated vehicle,2,2.0,0.0
+person,Country_271835,James Berry,2,2.0,0.0
+person,Country_271835,Robert Goodman,1,0.0,1.0
+vessel,Unknown,Snow Crab,1,1.0,0.0
+person,Country_271835,Mary Durham,3,0.0,3.0
+person,Country_271835,Anna Kelly,1,0.0,1.0
+person,Country_271835,Clifford Sherman,1,1.0,0.0
+person,Country_271835,Carol Wade,2,2.0,0.0
+organization,Unknown,1576352,8,8.0,0.0
+political_organization,Unknown,59600,2,0.0,2.0
+movement,Unknown,Greenwich,1,1.0,0.0
+vessel,Unknown,HMS Medway,2,2.0,0.0
+location,Unknown,1dfb2440-85dc-4f0c-914f-e18498e6cd1b,4,3.0,2.0
+person,Country_271835,Makayla Anderson,5,3.0,3.0
+location,Unknown,92a375a3-0c31-494e-9a56-eeabe3750d90,2,2.0,0.0
+person,Country_271835,Kevin Moreno,2,2.0,0.0
+organization,Unknown,34285153,2,0.0,2.0
+vessel,Unknown,Talleyâs,7,5.0,2.0
+person,Country_271835,Brittany Ryan,2,2.0,0.0
+person,Islavaria,Dana Knapp,6,6.0,0.0
+person,Country_271835,Jeanette Kim,1,1.0,0.0
+organization,Unknown,95743666,1,0.0,1.0
+organization,Unknown,86117,3,3.0,0.0
+organization,Unknown,94361818,6,6.0,1.0
+organization,Unknown,40974,4,1.0,3.0
+company,Country_322527,Diao yu bi sai Tidal BV Export,2,0.0,2.0
+person,Oceanus,Patricia Flores,1,2.0,0.0
+organization,Unknown,74505,2,0.0,2.0
+person,Country_271835,Joshua Roberts,2,1.0,1.0
+person,Country_271835,Denise Moore,2,2.0,0.0
+Uncategorized,Unknown,âseamountâ,2,2.0,0.0
+person,Country_271835,Lisa Castaneda,2,2.0,0.0
+person,Country_271835,Christina Abbott,2,0.0,2.0
+organization,Unknown,4657860,2,1.0,1.0
+political_organization,Unknown,519443204,2,0.0,2.0
+organization,Unknown,3394552,2,1.0,1.0
+organization,Unknown,618,1,1.0,0.0
+person,Country_256617,Brittany Kane,2,0.0,2.0
+Uncategorized,Unknown,Marsâ,2,1.0,1.0
+location,Unknown,bd16ff21-2da0-4ad7-8aec-d04a28b61277,3,3.0,0.0
+event,Unknown,past yearâs,2,2.0,1.0
+vessel,Unknown,whales,3,0.0,3.0
+person,Country_271835,Michelle Campbell,1,1.0,0.0
+organization,Unknown,39995740,3,1.0,2.0
+person,Country_271835,Lauren Garner,2,2.0,0.0
+person,Rio Solovia,Zachary Mclean,1,0.0,1.0
+person,Rio Solovia,Anthony Mendez,1,1.0,0.0
+organization,Unknown,806,2,0.0,2.0
+event,Unknown,Hubble,1,0.0,1.0
+event,Unknown,event,1,1.0,0.0
+Uncategorized,Unknown,Launch Loversâ,2,1.0,1.0
+location,Unknown,cd2685a2-fce5-49ee-8ca7-b9faa081d190,4,1.0,4.0
+Uncategorized,Unknown,LC,3,2.0,1.0
+vessel,Unknown,Spaceflight,2,0.0,3.0
+organization,Unknown,93,8,16.0,2.0
+location,Unknown,e95a9547-3611-4e86-adbe-9aa55dbff21f,2,3.0,0.0
+organization,Unknown,6107715,2,1.0,1.0
+organization,Unknown,2610,1,1.0,0.0
+vessel,Unknown,HawkEye,2,0.0,2.0
+person,Country_271835,Jordan Mcbride,2,1.0,1.0
+organization,Unknown,7575,2,2.0,0.0
+location,Unknown,d5cbeea1-73ac-4d86-adeb-b609629b12bf,2,1.0,1.0
+location,Unknown,416dab02-bf67-48af-a99b-c691339dc5e0,3,0.0,3.0
+location,Unknown,25a765f4-b6d0-4588-9a7a-0798de847cfd,3,1.0,2.0
+location,Unknown,0a715a76-de97-4cc3-80a3-4dcbfa740079,2,2.0,0.0
+company,Country_271835,Madhya Pradesh Market Pic Transportation,2,0.0,2.0
+vessel,Unknown,Manned,2,1.0,1.0
+vessel,Unknown,Aerial,2,2.0,0.0
+organization,Unknown,34731154,2,2.0,1.0
+organization,Unknown,970786,4,1.0,3.0
+person,Uzilandor,Christian Ashley,7,2.0,5.0
+organization,Unknown,8967466,3,0.0,3.0
+person,Orvietea,Benjamin Snyder,3,2.0,2.0
+location,Unknown,b3de0895-285e-4ea8-99bb-ffdc763f7038,3,2.0,2.0
+location,Unknown,a8330af0-375f-4fcb-9171-9628b26b1808,3,3.0,0.0
+organization,Unknown,3308429,2,2.0,0.0
+person,Country_271835,Adam Cook,1,1.0,0.0
+person,Country_712875,Wendy Miller,1,0.0,1.0
+vessel,Unknown,Abrams MIA2,5,0.0,5.0
+location,Unknown,abb62f7c-234a-46d7-b3bb-8f7b4771618c,6,1.0,5.0
+event,Unknown,Tank,5,2.0,3.0
+person,Uzilandor,Kelly James,6,4.0,2.0
+vessel,Unknown,MBTs,6,6.0,0.0
+organization,Unknown,418382,8,2.0,6.0
+organization,Unknown,16927047,11,8.0,3.0
+organization,Unknown,6471708,12,11.0,1.0
+organization,Unknown,520673,11,11.0,0.0
+organization,Unknown,1252007,7,0.0,7.0
+location,Unknown,6c348030-e9d4-4ddc-8ec8-30ac227c6a14,12,4.0,8.0
+organization,Unknown,565431,11,7.0,4.0
+person,Quandarix,Lisa Rocha,12,1.0,11.0
+person,Country_996415,Danielle Sosa,6,0.0,6.0
+person,Country_271835,James Carr,3,2.0,1.0
+person,Country_271835,Daniel Burton,4,3.0,1.0
+person,Country_271835,Jerry Miller,3,1.0,2.0
+organization,Unknown,15758645,3,0.0,3.0
+person,Country_271835,Dakota Flores,7,1.0,6.0
+organization,Unknown,204,7,3.0,4.0
+Uncategorized,Unknown,US Special Operations SOF,3,1.0,2.0
+organization,Unknown,7490484,5,4.0,2.0
+person,Country_271835,Kari Padilla,3,3.0,1.0
+person,Country_198078,Angela Navarro,6,1.0,5.0
+event,Unknown,âaccelerate,6,4.0,2.0
+political_organization,Unknown,327979,8,4.0,4.0
+political_organization,Unknown,414,10,8.0,2.0
+political_organization,Unknown,28422,11,10.0,1.0
+political_organization,Unknown,428949,6,0.0,6.0
+political_organization,Unknown,838200939,4,4.0,3.0
+Uncategorized,Unknown,âbossesâ,4,3.0,1.0
+person,Country_271835,Levi Jones,5,4.0,1.0
+person,Country_271835,Adriana Rhodes,4,4.0,0.0
+person,Uzilandor,Kevin Moore,5,1.0,4.0
+person,Country_271835,Debra Davis,2,2.0,0.0
+person,Country_271835,Jennifer Washington,3,0.0,3.0
+person,Country_271835,Peter Bush,2,1.0,1.0
+organization,Unknown,61,2,1.0,1.0
+organization,Unknown,908,2,1.0,1.0
+organization,Unknown,2278,4,4.0,0.0
+organization,Unknown,3731,3,3.0,0.0
+person,Uzilandor,Sabrina Merritt,4,1.0,3.0
+person,Country_57382,Justin Fowler,1,1.0,0.0
+organization,Unknown,120,3,3.0,0.0
+organization,Unknown,2422788,2,1.0,1.0
+Uncategorized,Unknown,MCDP,3,3.0,0.0
+location,Unknown,c97073d1-61a4-4a06-a189-8b4642a699e1,3,2.0,1.0
+political_organization,Unknown,66,3,1.0,2.0
+location,Unknown,65872b93-db53-4445-a72e-8f84b3d7edfc,2,0.0,2.0
+event,Unknown,todayâs,4,1.0,3.0
+organization,Unknown,268393514,3,1.0,2.0
+organization,Unknown,55242,3,2.0,1.0
+organization,Unknown,637,3,3.0,0.0
+person,Country_271835,Maria Horton,2,1.0,1.0
+person,Country_271835,Maurice Figueroa,3,3.0,0.0
+vessel,Unknown,Ships,6,2.0,4.0
+organization,Unknown,9697,2,2.0,0.0
+organization,Unknown,620019,3,0.0,3.0
+organization,Unknown,45361487,2,1.0,1.0
+organization,Unknown,408603,1,1.0,0.0
+vessel,Unknown,Vehicle Land,4,1.0,3.0
+person,Country_271835,Heather King,2,0.0,2.0
+person,Country_271835,Billy Robinson,2,1.0,1.0
+person,Country_271835,Austin Miller,2,2.0,0.0
+organization,Unknown,369,9,2.0,7.0
+organization,Unknown,6204,5,4.0,1.0
+location,Unknown,96c31987-d50d-4680-9397-2a9d0e3946e1,2,0.0,2.0
+vessel,Unknown,sailboat Freeport,3,3.0,0.0
+location,Unknown,c0ea9f29-9987-490f-bc96-d2a5718c1636,1,0.0,1.0
+organization,Unknown,949,1,1.0,0.0
+vessel,Unknown,Perch,1,1.0,0.0
+organization,Unknown,576618,5,3.0,2.0
+political_organization,Unknown,82357,2,0.0,2.0
+person,Country_271835,Ariel Thornton,2,0.0,2.0
+vessel,Unknown,driftnets,2,2.0,0.0
+organization,Unknown,500633954,2,1.0,1.0
+organization,Unknown,62343,3,3.0,0.0
+organization,Unknown,688224,2,2.0,0.0
+person,Country_271835,George Vance,3,1.0,2.0
+person,Country_271835,Jason Fleming,2,0.0,2.0
+Uncategorized,Unknown,âdimersalâ,2,1.0,1.0
+location,Unknown,c600d751-cc48-4e8e-800e-63ec87a4239f,2,2.0,0.0
+person,Country_271835,Cynthia Huff,2,0.0,2.0
+person,Country_271835,Angela Lee,2,1.0,1.0
+location,Unknown,78ec7fd4-82e0-4725-815d-50be0ccee955,2,2.0,0.0
+vessel,Unknown,CraftâLaw,5,2.0,3.0
+vessel,Unknown,Ocean Patrol,2,1.0,1.0
+vessel,Unknown,ARA Bouchard,2,2.0,0.0
+person,Puerto del Mar,Richard Douglas,3,1.0,2.0
+person,Country_271835,Patricia Reyes,1,0.0,1.0
+person,Country_271835,Kristin Dawson,2,1.0,1.0
+Uncategorized,Unknown,âAwachaâ,2,2.0,0.0
+person,Country_271835,Brandon Hughes,1,1.0,0.0
+Uncategorized,Unknown,âSaikoâ,2,1.0,1.0
+person,Country_271835,Bethany Lopez,2,2.0,0.0
+vessel,Unknown,electric,6,3.0,4.0
+vessel,Unknown,wheeler,2,1.0,1.0
+organization,Unknown,570683,2,2.0,0.0
+organization,Unknown,4532329,2,0.0,2.0
+organization,Unknown,98631,2,2.0,0.0
+organization,Unknown,2658,3,2.0,1.0
+organization,Unknown,5698,2,0.0,2.0
+organization,Unknown,3342,2,1.0,1.0
+organization,Unknown,354,2,2.0,0.0
+organization,Unknown,945,2,1.0,1.0
+event,Unknown,Months,2,2.0,0.0
+company,Country_271835,Tamil Nadu Ltd. Liability Co Express,4,2.0,3.0
+Uncategorized,Unknown,âElquiâ,3,3.0,0.0
+location,Unknown,738338ba-deef-4364-bedf-707a8cbf9a55,2,1.0,1.0
+person,Country_358951,Monica Ramirez,4,2.0,2.0
+organization,Unknown,280094,3,0.0,3.0
+organization,Unknown,40676,2,0.0,2.0
+person,Country_146155,Tracie Price,3,2.0,2.0
+company,Country_146155,David Limited Liability Company,3,3.0,0.0
+organization,Unknown,1998,2,1.0,2.0
+organization,Unknown,669,2,0.0,2.0
+person,Country_271835,Elizabeth Anderson,4,4.0,0.0
+organization,Unknown,903574229,3,3.0,0.0
+person,Country_271835,Kenneth Cain,3,2.0,1.0
+person,Country_271835,Carla Perkins,2,1.0,1.0
+person,Country_271835,Lindsey Conway,1,1.0,0.0
+organization,Unknown,95064,6,5.0,1.0
+person,Country_271835,Ryan Perez,5,3.0,2.0
+location,Unknown,dd3f2822-2964-4d18-92c2-7a6db4b4a9e5,4,4.0,0.0
+organization,Unknown,6567453,4,4.0,0.0
+organization,Unknown,47261702,3,3.0,0.0
+organization,Unknown,730397695,3,0.0,3.0
+organization,Unknown,4086,2,2.0,0.0
+vessel,Unknown,Wartsila,1,1.0,0.0
+location,Unknown,373a8a11-c7a0-4e9b-8397-9d824974259a,2,0.0,2.0
+location,Unknown,a0ea93dc-6767-4682-b424-21b5a24ea24b,2,2.0,0.0
+vessel,Unknown,bulker,2,1.0,1.0
+company,Country_271835,Kariba Dam  Corporation Nautical,9,6.0,3.0
+company,Country_271835,Benton Ltd. Liability Co,39,30.0,20.0
+movement,Unknown,ninety,12,11.0,5.0
+event,Unknown,90,19,26.0,20.0
+organization,Unknown,822596165,9,2.0,9.0
+organization,Unknown,5421,15,7.0,12.0
+company,Country_271835,Pez Dorado BV Logistics,9,5.0,7.0
+location,Unknown,019d89a8-36be-4402-bf3c-d13cb982cf3f,6,3.0,6.0
+location,Unknown,6f59e8d7-8f5d-4a7d-a3a4-50ddcb7ad9ad,7,1.0,7.0
+person,Country_271835,Traci Shields,5,1.0,4.0
+person,Country_271835,Daniel Henderson,6,0.0,6.0
+person,Country_271835,Joseph Smith,4,2.0,2.0
+person,Country_271835,Dr. Gregory Rice,4,2.0,2.0
+person,Country_271835,Breanna Welch DDS,2,1.0,1.0
+person,Country_271835,Jared Martinez,2,1.0,1.0
+person,Country_271835,Darin Torres,2,0.0,2.0
+person,Country_271835,Tracy Rogers,2,0.0,2.0
+person,Country_271835,Kevin Morris,2,1.0,1.0
+company,Country_342065,The Salty Pearl River S.p.A. Export,16,9.0,8.0
+location,Unknown,3051e013-9e40-44cc-98e5-740e3238daaa,8,3.0,5.0
+organization,Unknown,9237588,3,3.0,2.0
+location,Unknown,cdc89aad-5d8c-48bf-b155-81d2a932782b,5,0.0,5.0
+person,Country_271835,William Murray,4,2.0,3.0
+location,Unknown,af9758b0-e4f9-4e08-8dd9-09abc903e4b5,3,1.0,2.0
+organization,Unknown,4183208,2,2.0,0.0
+company,Country_271835,Punjab Market Marine sanctuary ship,3,2.0,1.0
+person,Country_271835,Robert Edwards,7,7.0,0.0
+organization,Unknown,322202416,2,0.0,2.0
+location,Unknown,5025f249-0b3c-4741-a7aa-090d93395acf,1,1.0,0.0
+organization,Unknown,969368807,3,1.0,2.0
+organization,Unknown,80276549,3,3.0,0.0
+organization,Unknown,89,2,0.0,2.0
+organization,Unknown,35282,2,1.0,1.0
+organization,Unknown,813,5,3.0,2.0
+organization,Unknown,62,1,0.0,1.0
+organization,Unknown,44326992,1,1.0,0.0
+location,Unknown,1416a29d-3719-45d6-95a8-782c4e281908,2,2.0,0.0
+event,Unknown,Hunt,2,0.0,2.0
+location,Unknown,0efa50f3-533d-4775-94fa-54cd1c480587,4,0.0,4.0
+location,Unknown,fd6c1e03-d6f4-421e-a493-cdc56ae000b5,4,1.0,3.0
+organization,Unknown,869422192,3,2.0,1.0
+organization,Unknown,542341,14,0.0,14.0
+organization,Unknown,93252,8,7.0,2.0
+organization,Unknown,4627,3,2.0,1.0
+organization,Unknown,1719,2,0.0,2.0
+person,Country_271835,Jennifer Parsons,5,4.0,1.0
+organization,Unknown,8876768,4,0.0,4.0
+organization,Unknown,444,4,4.0,0.0
+person,Country_271835,Denise Vance,4,0.0,4.0
+person,Oceanterra,Zachary Perez,6,0.0,6.0
+person,Country_271835,Craig Santiago,2,1.0,1.0
+organization,Unknown,6460,2,2.0,0.0
+organization,Unknown,64778548,1,0.0,1.0
+organization,Unknown,493641959,2,1.0,1.0
+organization,Unknown,8980454,4,3.0,1.0
+person,Country_271835,Jessica Costa,3,3.0,0.0
+person,Marebak,Erica Hamilton,30,17.0,19.0
+person,Country_144251,Sandra Martinez,12,9.0,8.0
+person,Country_271835,Austin Welch,8,6.0,3.0
+organization,Unknown,6659,4,1.0,3.0
+organization,Unknown,464454263,16,13.0,5.0
+Uncategorized,Unknown,Shipping Corp,6,6.0,0.0
+organization,Unknown,534,6,0.0,6.0
+organization,Unknown,4942,10,5.0,7.0
+organization,Unknown,884332,7,0.0,7.0
+organization,Unknown,982519647,8,3.0,6.0
+organization,Unknown,1354,10,6.0,8.0
+organization,Unknown,923825740,7,4.0,4.0
+organization,Unknown,5865,4,4.0,0.0
+company,Country_271835,Malawi Rift  Holdings Navigation,3,0.0,3.0
+company,Country_271835,Baha de Coral OJSC Marine,4,1.0,3.0
+Uncategorized,Unknown,Navigation Corp,4,2.0,2.0
+Uncategorized,Unknown,Triton Navigation Corp,6,6.0,1.0
+Uncategorized,Unknown,Pontus Navigation Corp,5,5.0,1.0
+person,Helixia,John Jensen,2,0.0,2.0
+person,Country_271835,Michael Frederick,3,3.0,0.0
+organization,Unknown,401289940,3,0.0,3.0
+organization,Unknown,54726,2,0.0,2.0
+organization,Unknown,52193,9,8.0,7.0
+person,Country_144251,Laura Joseph,7,3.0,6.0
+organization,Unknown,697844686,2,1.0,1.0
+organization,Unknown,1555,2,0.0,2.0
+organization,Unknown,3669166,2,1.0,1.0
+organization,Unknown,483398,2,2.0,0.0
+location,Unknown,111274e2-c155-4640-9a8e-f506f3fbca06,3,0.0,3.0
+political_organization,Unknown,7657424,8,2.0,6.0
+organization,Unknown,2234557,3,0.0,3.0
+organization,Unknown,7125,3,0.0,3.0
+person,Oceanus,Jorge Davidson,2,2.0,0.0
+person,Kethanor,Ruben Fowler,11,5.0,6.0
+person,Country_271835,John Riley,1,1.0,0.0
+political_organization,Unknown,256659459,2,2.0,0.0
+organization,Unknown,2357762,4,2.0,2.0
+person,Country_271835,Andrew Graves,2,0.0,2.0
+person,Country_271835,Mathew Taylor,8,3.0,6.0
+location,Unknown,aac2c35c-d06d-45df-a1f8-a0c4001f3897,2,2.0,0.0
+Uncategorized,Unknown,âHSIâ,3,1.0,2.0
+Uncategorized,Unknown,âNYPDâ,4,3.0,1.0
+person,Country_271835,Daniel Obrien,5,5.0,0.0
+person,Country_271835,Jeffrey Hall,3,2.0,1.0
+Uncategorized,Unknown,âbe,2,0.0,2.0
+location,Unknown,8bdf21e8-914b-4fe2-9280-0a69b9b0175d,6,6.0,0.0
+vessel,Unknown,18 wheelers,1,2.0,0.0
+person,Country_271835,Michael Vazquez,2,2.0,0.0
+person,Country_167470,Sara Fleming,8,4.0,6.0
+organization,Unknown,1625166,6,2.0,4.0
+location,Unknown,a325b223-5017-42a8-8eb1-ed7e1a3bbd5b,2,1.0,1.0
+political_organization,Unknown,49101570,2,1.0,1.0
+person,Country_271835,Robert Garcia,2,2.0,0.0
+location,Unknown,6b19fec0-f5d4-4d31-b461-fef270debb3e,3,2.0,1.0
+person,Country_271835,Brett Lopez,3,3.0,0.0
+organization,Unknown,42978392,1,0.0,1.0
+location,Unknown,62d39460-2980-4835-91ea-47073f724d3b,2,2.0,0.0
+location,Unknown,74390fc5-8dc6-4511-a0a8-bc360409b805,1,0.0,1.0
+person,Country_271835,Heather Porter,5,5.0,0.0
+person,Country_271835,Kevin Liu,2,0.0,2.0
+person,Country_271835,Katrina Nguyen,3,3.0,0.0
+location,Unknown,0fab17df-2c08-46b6-8ce9-b13b3a60ff3d,2,2.0,0.0
+person,Country_271835,James Horton,4,4.0,2.0
+person,Country_271835,Brian Hansen,3,3.0,0.0
+company,Country_271835,Rajasthan GmbH & Co. KG,16,4.0,13.0
+organization,Unknown,858,20,13.0,8.0
+person,Oceanus,Rebecca Caldwell,7,0.0,7.0
+person,Country_271835,Alyssa Gonzalez,5,5.0,1.0
+person,Country_271835,Michelle Jackson,2,2.0,0.0
+location,Unknown,27d0dfe7-186c-4016-8f47-40c71e30f48a,1,1.0,0.0
+organization,Unknown,871,5,2.0,3.0
+person,Country_271835,James Scott,5,3.0,2.0
+person,Country_271835,Krista Harris,5,4.0,1.0
+event,Unknown,âeverything,5,5.0,0.0
+organization,Unknown,76030,1,0.0,1.0
+person,Country_271835,William Gray,6,3.0,3.0
+event,Unknown,containers,5,1.0,4.0
+organization,Unknown,9098,3,2.0,1.0
+person,Country_271835,Michael Reed,2,2.0,0.0
+political_organization,Unknown,17592,5,2.0,4.0
+location,Unknown,5d1f2e9c-f74a-41e9-974f-9b4e57edc9d7,3,1.0,3.0
+person,Country_271835,Katherine Chavez,2,2.0,0.0
+company,Country_323509,Nutica del Sol AG,4,3.0,1.0
+person,Country_271835,Stephen Marks,2,3.0,0.0
+location,Unknown,8b8c532f-0ca0-44cc-898c-1d776f2f457a,4,0.0,4.0
+person,Country_271835,James Stewart,2,2.0,1.0
+organization,Unknown,1968776,2,2.0,1.0
+political_organization,Unknown,288971672,3,3.0,0.0
+person,Country_271835,Anthony Larson,2,0.0,2.0
+organization,Unknown,845,4,4.0,0.0
+organization,Unknown,382825160,3,2.0,1.0
+person,Country_271835,Laura Hughes,2,2.0,0.0
+person,Country_271835,Amanda Dean,2,2.0,0.0
+person,Country_12955,Debra Hall,3,0.0,3.0
+person,Country_271835,Kelsey Tucker,4,4.0,0.0
+political_organization,Unknown,460859346,16,5.0,12.0
+organization,Unknown,2793,2,2.0,0.0
+person,Country_271835,Martin Bell,1,1.0,0.0
+person,Country_271835,Michelle Long,1,0.0,1.0
+Uncategorized,Unknown,âlaughableâ,2,0.0,2.0
+organization,Unknown,8325,3,0.0,3.0
+organization,Unknown,437212,2,2.0,0.0
+organization,Unknown,299,8,7.0,1.0
+person,Country_271835,Jennifer Barber,3,1.0,2.0
+person,Country_271835,Ryan Hudson,3,1.0,2.0
+person,Country_697428,James Calhoun,19,2.0,17.0
+person,Country_789455,Harold Strickland,24,2.0,23.0
+person,Country_789455,John Hall,23,7.0,17.0
+person,Country_925382,Christine Maxwell,13,3.0,10.0
+person,Country_789455,Ashley Lewis,13,4.0,9.0
+person,Country_789455,Sandra Bullock,27,9.0,21.0
+location,Unknown,82f2f404-439a-4b2e-b423-726a7f933abf,14,6.0,8.0
+organization,Unknown,298930,13,8.0,5.0
+person,Country_789455,Mark Garcia,27,15.0,13.0
+location,Unknown,f59ca3ce-7fea-4a6b-893b-486565a8ab18,14,11.0,3.0
+Uncategorized,Unknown,âtoppyâ,16,15.0,1.0
+Uncategorized,Unknown,âstagâ,16,16.0,0.0
+person,Country_990614,Samuel Dunn,31,10.0,24.0
+person,Country_271835,John Avila,3,3.0,0.0
+organization,Unknown,2362,1,0.0,1.0
+person,Oceanus,William Palmer,3,2.0,1.0
+location,Unknown,7311cf88-bac1-4ac9-a0d2-c55c02497944,3,0.0,3.0
+organization,Unknown,9979944,10,1.0,11.0
+organization,Unknown,4396031,3,2.0,1.0
+company,Country_271835,Simien Mountains  Company Delivery,4,1.0,3.0
+organization,Unknown,519852438,4,0.0,4.0
+Uncategorized,Unknown,âlegitimateâ,4,1.0,3.0
+person,Country_271835,William Kim,3,2.0,1.0
+person,Country_271835,Jeffrey Strong,3,0.0,3.0
+person,Country_271835,Susan Williams,2,1.0,1.0
+person,Country_271835,Margaret Miller,5,3.0,2.0
+person,Country_271835,Angela Chang,16,12.0,4.0
+person,Country_271835,Daniel Chang,6,3.0,4.0
+person,Country_271835,Victoria Gonzalez,12,2.0,10.0
+person,Country_271835,Jennifer Johnson,13,3.0,10.0
+person,Country_271835,Jeffrey Mills,12,4.0,8.0
+person,Country_271835,Jason Brown,12,5.0,7.0
+person,Country_271835,Jeff Sullivan,10,7.0,3.0
+political_organization,Unknown,6828,9,6.0,3.0
+person,Country_271835,Mr. Eric Logan,15,11.0,4.0
+person,Country_271835,William Phillips,13,12.0,1.0
+person,Country_271835,Heather Holmes,13,13.0,0.0
+person,Country_271835,Elizabeth Jones,4,3.0,1.0
+person,Country_271835,Christian Quinn,3,3.0,0.0
+event,Unknown,âHis,5,3.0,2.0
+organization,Unknown,432526990,4,4.0,0.0
+person,Country_271835,Kathryn Gomez,4,0.0,4.0
+person,Country_271835,Stephanie Wiley,13,5.0,10.0
+person,Nalakond,Lisa Ward,12,0.0,14.0
+person,Nalakond,William Fernandez,16,2.0,16.0
+person,Country_271835,Ryan Lewis,8,9.0,0.0
+person,Country_271835,Christina Chavez,8,8.0,1.0
+person,Country_271835,Jessica Figueroa DDS,10,12.0,0.0
+person,Country_271835,Rebecca Taylor,2,1.0,1.0
+organization,Unknown,463,5,1.0,4.0
+organization,Unknown,762,4,4.0,0.0
+event,Unknown,âbelieve,3,3.0,0.0
+person,Country_271835,Dr. Daniel Massey,3,2.0,1.0
+event,Unknown,âWhatâs,3,3.0,0.0
+person,Country_271835,Brooke Hamilton,4,4.0,0.0
+person,Country_271835,Mrs. Katherine Clark,4,0.0,4.0
+person,Country_271835,Kathleen Benitez,3,2.0,1.0
+Uncategorized,Unknown,Easterlingsâ,3,2.0,2.0
+person,Country_271835,Seth Peters,3,3.0,0.0
+person,Country_271835,Kevin Butler,2,1.0,1.0
+location,Unknown,8851578d-3dd7-4430-8f73-b95305eb1f03,2,1.0,1.0
+organization,Unknown,82379,8,4.0,4.0
+person,Rio Isla,Daniel Pruitt,7,1.0,7.0
+location,Unknown,bc583d11-794a-4a83-abc8-3daa208e1262,3,0.0,4.0
+person,Country_271835,Andrew Torres,2,2.0,0.0
+political_organization,Unknown,8634589,4,0.0,4.0
+organization,Unknown,7260903,1,1.0,0.0
+location,Unknown,a2ac0390-407f-4a94-bc19-6d58d36ea69a,4,2.0,2.0
+company,Country_271835,su y CJSC Canal,15,10.0,5.0
+location,Unknown,9b5a90cf-e801-46a8-bd50-879ab3862c67,2,0.0,2.0
+organization,Unknown,6548672,2,1.0,1.0
+person,Country_271835,Cheryl Conway,2,2.0,0.0
+organization,Unknown,3896,20,4.0,16.0
+location,Unknown,76b8e150-91b4-494d-8ef6-6af706b397eb,2,0.0,2.0
+person,Country_271835,Lauren Smith,3,3.0,0.0
+person,Country_271835,Darrell Lopez,3,3.0,0.0
+person,Oceanus,James Valencia,1,0.0,1.0
+organization,Unknown,798,1,0.0,1.0
+location,Unknown,cc3c9a3e-9226-43e0-9c2e-2cabec77b0fc,1,1.0,1.0
+person,Country_247330,Barry Harris,2,0.0,2.0
+person,Country_271835,Philip Murphy,2,2.0,0.0
+person,Country_271835,April Perry,5,3.0,2.0
+organization,Unknown,245484,6,6.0,0.0
+organization,Unknown,61679,4,0.0,4.0
+organization,Unknown,1983793,3,1.0,2.0
+location,Unknown,73db3de8-b968-40da-875c-7e57c678aa36,4,3.0,1.0
+organization,Unknown,800578,2,0.0,2.0
+organization,Unknown,254340176,2,2.0,0.0
+Uncategorized,Unknown,Attorneysâ,1,0.0,1.0
+organization,Unknown,4332001,1,0.0,1.0
+political_organization,Unknown,9345,14,1.0,13.0
+person,Country_271835,Eric Rogers,1,1.0,0.0
+organization,Unknown,402,1,0.0,1.0
+person,Polarisdom,Jon White,9,5.0,4.0
+person,Country_614826,Emily Kennedy,3,3.0,0.0
+location,Unknown,b1a0ee2a-0e6d-48c2-b639-032e4648fa5c,18,11.0,7.0
+person,Oceanus,Sean Wilson,1,0.0,1.0
+person,Country_271835,Kevin Burnett,4,4.0,1.0
+organization,Unknown,218148,1,0.0,1.0
+person,Country_271835,Rebecca Walker,2,2.0,0.0
+location,Unknown,decfc924-5bdc-4fba-8bbd-bb57d8d478d9,2,0.0,2.0
+person,Polarisdom,Amanda Scott,2,1.0,1.0
+Uncategorized,Unknown,22 Raptor,5,5.0,0.0
+company,Polarisdom,Estrella del Mar Inc Merchants,1,0.0,1.0
+person,Country_271835,Gerald Washington,4,3.0,1.0
+person,Country_271835,Jessica Kelly,3,3.0,0.0
+organization,Unknown,60017,4,4.0,0.0
+person,Country_271835,Annette Barrett,4,1.0,3.0
+event,Unknown,âknow,4,2.0,2.0
+location,Unknown,0c0ae060-2543-4d7e-bed0-e7fab24ba6a5,5,5.0,0.0
+person,Country_271835,Olivia Garner,2,0.0,2.0
+person,Country_271835,Scott Johnson,2,0.0,2.0
+person,Country_271835,Melissa Bates,1,1.0,0.0
+person,Country_271835,Carlos Rose,2,0.0,2.0
+location,Unknown,a03df7da-c2cf-476d-a6ea-95c422969df2,4,1.0,3.0
+person,Country_271835,Amber Green,2,0.0,2.0
+person,Country_271835,Rodney Compton,2,2.0,0.0
+organization,Unknown,381051499,2,2.0,0.0
+organization,Unknown,110727,4,1.0,3.0
+company,Country_271835,su y Worldwide Shark,1,1.0,0.0
+organization,Unknown,4205,2,0.0,2.0
+person,Country_271835,Mary Clements,5,4.0,1.0
+political_organization,Unknown,789040,2,0.0,2.0
+organization,Unknown,16306,5,2.0,3.0
+person,Country_271835,Sylvia Johnson,1,1.0,0.0
+person,Country_271835,Charles Fitzgerald,5,5.0,1.0
+location,Unknown,6eda4eb1-cdb8-4d61-8c72-fae33deb91a7,8,2.0,7.0
+Uncategorized,Unknown,Covid,3,1.0,2.0
+location,Unknown,5fddadd0-71e7-4bdf-a471-daddd5f376b8,4,0.0,4.0
+location,Unknown,7ed038cd-64da-492f-a338-5c4636b91a2b,3,1.0,2.0
+organization,Unknown,80774,2,2.0,0.0
+location,Unknown,4b0f0611-34ce-4733-81af-391943e272c0,4,0.0,4.0
+person,Country_271835,Seth Kelley,16,8.0,9.0
+Uncategorized,Unknown,âFrontlineâ,3,3.0,0.0
+political_organization,Unknown,71084,1,0.0,1.0
+person,Country_271835,Wanda Collins,1,1.0,0.0
+person,Country_271835,Miguel Harrison,2,2.0,0.0
+Uncategorized,Unknown,ââ¯The,2,2.0,0.0
+location,Unknown,24e1e725-9a8e-489c-bbdd-0ce140fd6e3b,3,0.0,3.0
+person,Country_271835,Zachary Sellers,4,4.0,0.0
+location,Unknown,357987c8-3ecb-4e38-9f10-857007f2cd3b,3,1.0,2.0
+organization,Unknown,8350379,1,1.0,0.0
+person,Country_940095,Keith Compton,2,2.0,0.0
+location,Unknown,04943c53-b4ac-4048-8d86-bced4138d7c6,1,0.0,1.0
+organization,Unknown,59022,2,2.0,0.0
+organization,Unknown,1039,10,10.0,1.0
+person,Country_271835,Tyler Anderson,6,6.0,0.0
+organization,Unknown,32,2,0.0,2.0
+political_organization,Unknown,6242224,15,11.0,7.0
+organization,Unknown,88295922,2,0.0,2.0
+organization,Unknown,7830,2,1.0,1.0
+location,Unknown,e42f2b19-60d8-4df2-bb01-d2b42d134a26,3,3.0,0.0
+person,Country_271835,Paul Johnson,3,1.0,3.0
+location,Unknown,6d0e9c69-47a0-497e-b26e-28755c949385,2,0.0,2.0
+organization,Unknown,54055,3,0.0,3.0
+person,Oceanus,Brett Blair,5,0.0,5.0
+location,Unknown,b840c9bf-2a5b-416c-91d9-1ecdd96425ab,4,4.0,0.0
+location,Unknown,4eddaaa4-6306-467e-a7f4-27a58559e535,3,3.0,0.0
+location,Unknown,ea6a6547-c93b-4f17-b037-200fa894289c,2,1.0,1.0
+location,Unknown,57c81b3c-882b-4824-91a0-7114be0fa5c7,2,0.0,2.0
+Uncategorized,Unknown,Survivorsâ,2,1.0,1.0
+Uncategorized,Unknown,Task Force,2,2.0,0.0
+organization,Unknown,8541598,14,6.0,8.0
+political_organization,Unknown,828063,8,1.0,7.0
+organization,Unknown,5362,5,0.0,5.0
+person,Country_271835,Dr. Christina Jensen DDS,1,1.0,0.0
+location,Unknown,d025bbec-393d-4f51-94b3-01b77280ef31,4,4.0,0.0
+organization,Unknown,5276019,5,5.0,0.0
+location,Unknown,5e6b70db-a04a-4440-8991-3a92b5c4ac4d,4,4.0,0.0
+company,Country_271835,Tshikele Ltd. Liability Co,3,2.0,1.0
+location,Unknown,df76b4cf-1019-4768-93cd-27122ef3bacc,2,2.0,0.0
+organization,Unknown,111856,2,0.0,2.0
+location,Unknown,88b35c10-45ae-4ded-ae4a-6cad038cfd91,3,0.0,3.0
+organization,Unknown,553828215,3,1.0,2.0
+organization,Unknown,663,2,2.0,0.0
+person,Country_271835,Lindsey Barr,2,2.0,0.0
+Uncategorized,Unknown,Filkinsâ,1,1.0,0.0
+location,Unknown,90be60b1-61d8-4115-b133-e4c8e09383eb,6,0.0,6.0
+organization,Unknown,81211950,5,1.0,4.0
+organization,Unknown,52134252,3,3.0,0.0
+organization,Unknown,679399,4,4.0,0.0
+organization,Unknown,3436524,5,5.0,0.0
+organization,Unknown,67716449,2,2.0,0.0
+location,Unknown,e2844e89-d2d8-428d-8284-a0f2d9450a14,5,0.0,5.0
+organization,Unknown,4406,2,0.0,2.0
+location,Unknown,ed114149-9468-41b4-adda-343883e79e04,2,0.0,2.0
+organization,Unknown,7682,3,1.0,2.0
+location,Unknown,d6dbac2d-ba76-4503-be09-e0444b936bd0,2,2.0,0.0
+organization,Unknown,43223,4,1.0,3.0
+organization,Unknown,765078,2,0.0,2.0
+organization,Unknown,172279392,2,1.0,1.0
+person,Country_271835,Diane Hughes,4,4.0,0.0
+location,Unknown,7f3d323d-54e3-49f8-9c28-7aa5cb4c7248,2,1.0,1.0
+person,Country_271835,Jason Hughes,4,1.0,3.0
+organization,Unknown,858773,4,3.0,1.0
+person,Country_271835,Amanda Rogers,4,4.0,0.0
+organization,Unknown,4852,3,0.0,3.0
+vessel,Unknown,electric cars,2,2.0,0.0
+event,Unknown,past years,2,2.0,0.0
+organization,Unknown,33,1,1.0,0.0
+location,Unknown,14f1538d-29ed-43f4-ac8f-7a6ce01b9c00,1,0.0,1.0
+location,Unknown,2e579f6f-eca3-498d-a523-b1da1e85a5cf,1,1.0,0.0
+location,Unknown,06c85abe-f160-4a9f-bfb2-d58099a6be80,6,3.0,3.0
+Uncategorized,Unknown,Goliathâ,2,2.0,0.0
+person,Arreciviento,Joseph Hawkins,3,1.0,2.0
+location,Unknown,b8649055-5b40-43e1-ba33-93182cf978d4,2,2.0,0.0
+person,Country_945731,Linda Jones,2,0.0,2.0
+Uncategorized,Unknown,estÃ,2,1.0,1.0
+Uncategorized,Unknown,maÃ±ana asÃ,2,2.0,0.0
+person,Country_271835,Caleb Webster,2,2.0,0.0
+organization,Unknown,739622,4,0.0,4.0
+organization,Unknown,7675191,6,1.0,5.0
+organization,Unknown,4356,17,8.0,9.0
+event,Unknown,weeks 55,7,7.0,0.0
+person,Country_760479,Meghan Johnson,10,0.0,10.0
+person,Country_753331,Cody Baird,1,0.0,1.0
+person,Puerto del Mar,Mark Norton,2,0.0,2.0
+person,Country_54147,Michael Johnson,2,2.0,0.0
+organization,Unknown,233,2,1.0,1.0
+company,Country_492608,Dutch Herring Inc Transportation,2,2.0,0.0
+organization,Unknown,8453714,3,3.0,0.0
+movement,Unknown,60-day,3,0.0,3.0
+organization,Unknown,29167335,3,3.0,0.0
+political_organization,Unknown,73,3,1.0,2.0
+location,Unknown,b5856109-c5a0-43a6-8c70-ebfe73cc24f1,3,3.0,0.0
+location,Unknown,092836e4-7218-4d3d-85da-9df420356be7,2,0.0,2.0
+location,Unknown,3590dd7e-a6cd-416d-9b42-68f692ad83ee,2,2.0,0.0
+person,Riodelsol,Luis Jones,13,9.0,6.0
+political_organization,Unknown,17232,12,11.0,2.0
+organization,Unknown,6070651,13,2.0,11.0
+location,Unknown,c01c6a10-60c9-4f11-9409-aa04c3963826,47,30.0,36.0
+political_organization,Unknown,156,19,6.0,15.0
+location,Unknown,1eb512b7-c4ce-4b7e-9965-2236bf1afc9e,13,6.0,8.0
+person,Oceanterra,Timothy Benjamin,4,0.0,4.0
+political_organization,Unknown,51,11,11.0,2.0
+person,Oceanterra,Anna Ortiz,4,3.0,1.0
+location,Unknown,f810c631-9f7d-4219-ade0-b44c4c9abf62,5,4.0,2.0
+person,Country_214033,William Rivera,1,1.0,1.0
+Uncategorized,Unknown,Liibaan General Trading Co,1,1.0,1.0
+person,Country_233547,Christopher Garrett,1,1.0,0.0
+location,Unknown,206e3508-bbef-4473-906a-88e3f17c57ae,10,1.0,10.0
+location,Unknown,db83c37f-86e4-4694-a81c-ede2a01aef71,9,2.0,8.0
+political_organization,Unknown,626,13,14.0,14.0
+person,Country_271835,Matthew Fletcher,8,9.0,0.0
+person,Country_271835,Daniel Mcclain,10,11.0,1.0
+political_organization,Unknown,962534403,9,9.0,1.0
+person,Country_271835,Michele Taylor,9,10.0,0.0
+person,Zambalantis,Michael Andrews,8,5.0,4.0
+person,Country_271835,Lisa Gomez,4,4.0,0.0
+political_organization,Unknown,431,5,5.0,0.0
+person,Zambalantis,Brenda Andrews,4,2.0,2.0
+location,Unknown,ee077c79-cc7b-4ac7-8c0b-d48f50538f61,1,1.0,0.0
+person,Oceanterra,Mark Hernandez PhD,13,8.0,12.0
+Uncategorized,Unknown,RPG,4,2.0,4.0
+person,Country_271835,Sarah Garcia,7,2.0,6.0
+person,Country_271835,Jessica James,7,3.0,5.0
+location,Unknown,26794528-86a5-4b5e-802f-50c3f226c66b,6,4.0,2.0
+organization,Unknown,5700,3,1.0,3.0
+organization,Unknown,93380783,4,3.0,2.0
+organization,Unknown,3129,11,11.0,1.0
+person,Country_271835,Jesse Thompson,1,1.0,0.0
+location,Unknown,1bf22b98-519c-4131-8bb4-53ecdd193100,2,1.0,1.0
+organization,Unknown,8503254,7,4.0,3.0
+location,Unknown,c18d0197-c30e-421f-bae3-2f8fa1e9159a,7,2.0,5.0
+person,Country_271835,Evelyn Pacheco,2,0.0,2.0
+person,Country_271835,Brianna Gregory,2,2.0,0.0
+organization,Unknown,914,2,0.0,2.0
+person,Country_271835,Brooke Collins,2,0.0,2.0
+Uncategorized,Unknown,Refugee Benefitsâ,6,1.0,5.0
+person,Country_271835,Lori Weeks,5,5.0,0.0
+organization,Unknown,518323906,5,1.0,4.0
+person,Country_271835,Karen Burns,2,2.0,0.0
+person,Country_271835,Randall Newman,2,0.0,2.0
+location,Unknown,f656719b-783e-452b-801f-f60895068b23,29,2.0,27.0
+person,Country_271835,Scott Edwards,2,2.0,0.0
+Uncategorized,Unknown,âPerlaâ,1,0.0,1.0
+Uncategorized,Unknown,âEmanuelââif,1,1.0,0.0
+person,Country_271835,Gina Armstrong DDS,4,0.0,4.0
+Uncategorized,Unknown,âRestrainâ,3,2.0,1.0
+person,Country_271835,Walter Graham,3,3.0,0.0
+person,Country_907876,Ryan Jones,3,1.0,3.0
+person,Country_271835,Gabrielle Wade,1,1.0,0.0
+person,Country_11605,Patrick Cannon,7,5.0,2.0
+person,Country_907876,Jeanne Mills,2,0.0,2.0
+Uncategorized,Unknown,âExploitationâ,3,2.0,1.0
+person,Country_271835,Austin Simpson,18,6.0,12.0
+person,Country_271835,Sarah Hays,5,2.0,3.0
+person,Country_271835,Richard Fleming,2,0.0,2.0
+person,Country_271835,Melissa Gomez,2,1.0,1.0
+person,Country_271835,Daniel Frank,3,3.0,0.0
+location,Unknown,5890393d-3bb2-4f08-a460-4aa025e28de0,4,4.0,0.0
+location,Unknown,b1d6e468-f3c5-45f3-90a2-e76b2f329b2d,20,0.0,20.0
+Uncategorized,Unknown,Feb,13,5.0,10.0
+organization,Unknown,164,3,2.0,1.0
+Uncategorized,Unknown,âdirect,2,2.0,0.0
+Uncategorized,Unknown,âdirectlyâ,3,2.0,1.0
+event,Unknown,âcriminally,3,2.0,1.0
+person,Country_271835,Terry Mcknight,3,3.0,0.0
+person,Country_271835,David Nielsen,2,2.0,0.0
+person,Country_271835,John Obrien,2,2.0,0.0
+person,Country_271835,Michael Hansen,2,2.0,0.0
+person,Country_271835,Grace Perez,8,4.0,4.0
+person,Country_271835,Travis Rivera,8,5.0,3.0
+person,Country_271835,Larry Morrow,2,0.0,2.0
+person,Country_271835,Tammy Martin,4,3.0,1.0
+organization,Unknown,773,3,0.0,3.0
+Uncategorized,Unknown,wgbh,3,3.0,0.0
+political_organization,Unknown,436460757,16,2.0,14.0
+organization,Unknown,93865,4,4.0,0.0
+Uncategorized,Unknown,brianbushard,1,1.0,0.0
+Uncategorized,Unknown,siladityaray,1,0.0,1.0
+political_organization,Unknown,82517,1,0.0,1.0
+person,Country_271835,Robert Shaffer,5,5.0,0.0
+person,Country_663412,Jim Sims,1,0.0,1.0
+person,Country_663412,Laura Patterson,3,0.0,3.0
+Uncategorized,Unknown,âPerlaâ,2,2.0,0.0
+person,Country_271835,Gary Palmer,2,2.0,0.0
+organization,Unknown,7674777,3,0.0,3.0
+person,Country_271835,Jeremy Woodard,5,4.0,1.0
+organization,Unknown,8302,1,0.0,1.0
+organization,Unknown,45620,1,0.0,1.0
+company,Country_663412,Jammu & Kashmir ship,1,0.0,1.0
+political_organization,Unknown,6352,1,0.0,1.0
+person,Country_271835,Paul Wiley,4,4.0,0.0
+person,Country_271835,Miranda Long,5,5.0,0.0
+person,Country_271835,Michelle Kelley,6,4.0,2.0
+person,Country_271835,Marvin Everett,5,5.0,0.0
+person,Country_271835,Matthew Sutton,2,2.0,0.0
+political_organization,Unknown,912077,5,1.0,5.0
+person,Country_271835,Brandon Thomas,3,3.0,0.0
+Uncategorized,Unknown,Mexicoââ,3,3.0,0.0
+person,Country_271835,Joseph Williams,3,3.0,0.0
+political_organization,Unknown,176,2,0.0,2.0
+person,Country_271835,Scott Anderson,4,4.0,0.0
+person,Country_226679,Danielle Jensen,5,0.0,5.0
+person,Country_271835,Brian Brown,2,2.0,0.0
+Uncategorized,Unknown,âenticedâ,5,5.0,0.0
+organization,Unknown,8814,15,11.0,4.0
+organization,Unknown,139,4,0.0,4.0
+organization,Unknown,25851337,11,10.0,1.0
+organization,Unknown,36506,7,7.0,0.0
+political_organization,Unknown,150486480,7,0.0,7.0
+organization,Unknown,90831,3,3.0,0.0
+organization,Unknown,66820,6,3.0,3.0
+person,Country_271835,Kristen Martin,5,3.0,2.0
+location,Unknown,da71710a-9b0e-41d8-a9f6-a0b93f1ab772,2,1.0,1.0
+Uncategorized,Unknown,Ð°Ñ,3,0.0,3.0
+Uncategorized,Unknown,ÐœÐ° Ð±ÐŸÑÑ,3,1.0,2.0
+Uncategorized,Unknown,Ð£ÐºÑÐ°ÑÐœÐž,3,2.0,1.0
+person,Country_271835,Janet Floyd,3,3.0,0.0
+person,Country_271835,Richard Anderson,2,0.0,2.0
+Uncategorized,Unknown,âCompromiseâ,2,2.0,0.0
+Uncategorized,Unknown,âPartnersâ,1,1.0,0.0
+political_organization,Unknown,413760,1,1.0,0.0
+political_organization,Unknown,94047,2,0.0,2.0
+organization,Unknown,49525439,2,2.0,0.0
+person,Country_271835,Angela Hernandez,10,3.0,7.0
+person,Country_271835,Randy Logan,8,5.0,3.0
+person,Country_271835,Elizabeth Martin,8,6.0,2.0
+Uncategorized,Unknown,âtheoriginaldragoncoveâ,11,10.0,1.0
+person,Country_271835,Aaron Bennett,7,5.0,2.0
+person,Country_271835,Kathleen Rowe,3,3.0,0.0
+person,Country_821432,Patrick Torres,14,3.0,11.0
+person,Country_821432,Scott Jones,2,1.0,1.0
+location,Unknown,5fd0447e-d890-4f62-a411-5fc17c47b969,4,1.0,3.0
+person,Country_821432,Scott Villa,4,3.0,1.0
+person,Country_271835,Connor Ray,4,4.0,0.0
+organization,Unknown,23837996,6,5.0,1.0
+organization,Unknown,82207154,5,0.0,5.0
+person,Country_271835,Brandon Calderon,3,3.0,0.0
+organization,Unknown,740111283,7,3.0,4.0
+organization,Unknown,3657479,2,0.0,2.0
+organization,Unknown,2810009,7,1.0,6.0
+organization,Unknown,129461,8,5.0,3.0
+company,Country_271835,Congo Rapids  Marine sanctuary GmbH & Co. KG Marine sanctuary,4,2.0,2.0
+Uncategorized,Unknown,âoriginaldragoncoveâ,3,2.0,1.0
+Uncategorized,Unknown,The Defendantsâ,2,0.0,2.0
+location,Unknown,86ac9e66-f9e8-4f2b-ad17-39a52c23288c,2,2.0,0.0
+organization,Unknown,7443,2,0.0,2.0
+location,Unknown,5609469a-5721-4c94-92ed-ce7770055960,2,1.0,1.0
+organization,Unknown,775841,3,3.0,0.0
+person,Country_246944,Tiffany Stephens,4,0.0,4.0
+person,Country_271835,Veronica Lowe,3,0.0,3.0
+Uncategorized,Unknown,âNinoâ,3,3.0,0.0
+organization,Unknown,803490608,3,1.0,2.0
+location,Unknown,f4e17264-3b3c-48a6-86ba-d65622dc2f13,3,1.0,2.0
+person,Country_271835,Brent Young,2,2.0,0.0
+organization,Unknown,9550,4,4.0,0.0
+person,Country_271835,Sierra Henderson,4,3.0,1.0
+person,Country_271835,Roger Jordan,2,2.0,0.0
+person,Country_271835,Matthew Everett,2,2.0,0.0
+person,Country_271835,Richard Adams,2,2.0,0.0
+person,Country_271835,Angel Burnett,4,3.0,1.0
+person,Country_271835,Jose Smith,4,4.0,0.0
+person,Country_271835,Emily Norton,2,2.0,0.0
+location,Unknown,6ffd3349-37f4-48c5-bc9a-1b80e722e939,1,0.0,1.0
+political_organization,Unknown,2745,1,0.0,1.0
+location,Unknown,a7479eba-319a-434f-be06-3b1c0cc928ae,1,1.0,0.0
+vessel,Unknown,trucking,2,1.0,1.0
+location,Unknown,f383ad5f-7949-495e-8427-556b64decaca,2,2.0,0.0
+person,Country_271835,Michelle Aguilar,1,1.0,0.0
+company,Country_271835,Danish Lobster Limited Liability Company Brothers,2,2.0,0.0
+person,Country_271835,John Hernandez,2,2.0,0.0
+Uncategorized,Unknown,Texasâ,4,3.0,2.0
+Uncategorized,Unknown,Remarkable,1,1.0,0.0
+organization,Unknown,46901627,30,17.0,16.0
+organization,Unknown,46319064,25,17.0,9.0
+Uncategorized,Unknown,PÃ,13,0.0,13.0
+organization,Unknown,82651,3,0.0,3.0
+location,Unknown,2ec12718-97bf-45a6-aff5-2d1b9b11d29a,1,0.0,1.0
+Uncategorized,Unknown,âcommissionâ,2,2.0,0.0
+person,Country_271835,Samantha Jackson,2,2.0,0.0
+person,Country_271835,Chelsey Woodard,3,0.0,3.0
+person,Oceanus,Nichole West,7,4.0,3.0
+person,Country_271835,Michael Alvarez,6,0.0,6.0
+person,Country_271835,Brian Marsh,3,3.0,0.0
+person,Country_746165,Timothy Hampton,1,0.0,1.0
+organization,Unknown,5007554,16,15.0,1.0
+organization,Unknown,72630,4,0.0,4.0
+organization,Unknown,9411155,2,2.0,0.0
+person,Country_271835,Richard Smith,2,1.0,1.0
+person,Country_271835,Jennifer Rivera,3,3.0,0.0
+organization,Unknown,2912063,3,0.0,3.0
+person,Country_271835,Elizabeth Shah,2,2.0,0.0
+person,Country_271835,Gregory Williams,2,2.0,0.0
+person,Country_271835,William Daniel,2,2.0,0.0
+person,Country_271835,Terry Conley,3,3.0,0.0
+person,Country_271835,Jeremy Jarvis,2,1.0,1.0
+person,Country_271835,Ashley Johnson,3,1.0,2.0
+company,Country_271835,Greek Sea Bream and Son's,5,0.0,5.0
+organization,Unknown,558,7,6.0,1.0
+person,Country_271835,Shane Hahn,4,2.0,2.0
+Uncategorized,Unknown,âundeniableâ,4,3.0,1.0
+event,Unknown,ârequested,4,4.0,0.0
+person,Country_271835,Jeffrey Reed,1,1.0,0.0
+organization,Unknown,55674,14,8.0,9.0
+Uncategorized,Unknown,âinconsistenciesâ,7,6.0,1.0
+person,Country_271835,Timothy Austin,4,1.0,3.0
+organization,Unknown,17353795,2,0.0,2.0
+organization,Unknown,540613204,4,4.0,0.0
+person,Country_271835,Matthew Flores,4,1.0,3.0
+Uncategorized,Unknown,âadjustingâ,4,3.0,1.0
+person,Country_271835,Tammy Garcia,3,3.0,0.0
+person,Country_950691,Jamie Robinson,16,6.0,10.0
+organization,Unknown,352,2,0.0,2.0
+person,Country_271835,James Knight,1,1.0,0.0
+organization,Unknown,662290,6,4.0,2.0
+movement,Unknown,In month,1,0.0,1.0
+company,Country_271835,Lachlan Enterprises Coral Reef,6,1.0,5.0
+Uncategorized,Unknown,âDesbloqueio pÃ,5,4.0,1.0
+person,Country_271835,Brian Dennis,5,5.0,0.0
+person,Country_271835,Frederick Kent,3,3.0,0.0
+person,Country_271835,Candice Brown,2,2.0,0.0
+Uncategorized,Unknown,âKikoâ,2,2.0,0.0
+organization,Unknown,309535101,3,3.0,0.0
+person,Country_271835,Nicholas Nguyen,2,0.0,2.0
+person,Country_271835,Vincent Cummings,1,0.0,1.0
+person,Country_271835,Tiffany Leonard,3,3.0,0.0
+Uncategorized,Unknown,tio MPFâs Special Action Group Combat Organized Crime,3,1.0,2.0
+organization,Unknown,51354617,3,1.0,2.0
+organization,Unknown,109071721,1,0.0,1.0
+organization,Unknown,869882172,2,2.0,0.0
+political_organization,Unknown,296837,2,0.0,2.0
+person,Country_271835,Laura Williams,1,0.0,1.0
+person,Country_271835,Sean George,8,2.0,6.0
+Uncategorized,Unknown,ExportaÃ,4,1.0,3.0
+event,Unknown,ParÃ¡âs,2,2.0,0.0
+person,Arreciviento,Douglas Gordon,4,1.0,3.0
+person,Country_271835,James Thomas,2,0.0,2.0
+person,Country_271835,Kristi Miller,3,3.0,0.0
+Uncategorized,Unknown,âillegalâ,1,0.0,1.0
+company,Country_271835,Gambia River  GmbH & Co. KG and,5,1.0,4.0
+organization,Unknown,400,1,0.0,1.0
+organization,Unknown,2430986,2,0.0,2.0
+organization,Unknown,996592,3,3.0,0.0
+organization,Unknown,92533,1,0.0,1.0
+company,Country_982684,Olas del Sur Inc,14,3.0,12.0
+organization,Unknown,5508215,15,6.0,9.0
+organization,Unknown,327572963,3,3.0,0.0
+organization,Unknown,438,4,3.0,1.0
+Uncategorized,Unknown,Hardwoodsâ,2,2.0,0.0
+person,Country_746165,John Brown,9,6.0,5.0
+company,Country_271835,SeaSelect Foods Corp Dry dock,2,1.0,1.0
+person,Country_271835,Michael Flores,1,1.0,0.0
+person,Country_746165,Thomas Ramsey,1,0.0,1.0
+Uncategorized,Unknown,Meridaââ,1,1.0,0.0
+Uncategorized,Unknown,meridaâ,8,8.0,0.0
+organization,Unknown,8251198,5,5.0,0.0
+organization,Unknown,7914,3,3.0,0.0
+person,Country_271835,Deborah Bell,4,4.0,0.0
+person,Country_271835,Jonathan Coleman,4,2.0,2.0
+person,Country_271835,Luis Rogers,5,3.0,2.0
+Uncategorized,Unknown,âBanderaâ,6,6.0,0.0
+Uncategorized,Unknown,âPadre,6,6.0,0.0
+organization,Unknown,8269,4,1.0,3.0
+person,Arreciviento,Vanessa Chandler,5,3.0,2.0
+organization,Unknown,64545,3,0.0,3.0
+organization,Unknown,151159036,3,2.0,1.0
+organization,Unknown,3383,3,0.0,3.0
+Uncategorized,Unknown,Menardsâ,2,2.0,0.0
+person,Country_271835,Jason Garcia,2,0.0,2.0
+person,Country_670336,Melissa Gonzalez,2,0.0,2.0
+company,Country_246944,Pregolya Delivery Cruise ship,1,0.0,1.0
+Uncategorized,Unknown,Â£103,2,2.0,0.0
+Uncategorized,Unknown,Â£10,2,2.0,0.0
+location,Unknown,f64e747e-13de-4628-b939-92a8ff4eb03f,3,3.0,0.0
+person,Country_271835,Rachel Arnold,2,2.0,0.0
+Uncategorized,Unknown,âtigerâ,2,0.0,2.0
+person,Country_271835,Sharon Williams,2,1.0,1.0
+person,Country_271835,Donald Thomas,3,3.0,0.0
+person,Country_271835,Rebecca Anderson,2,0.0,2.0
+organization,Unknown,3328058,2,2.0,0.0
+person,Country_244549,Julie Callahan,1,1.0,0.0
+person,Country_271835,Nathan Murray,2,1.0,1.0
+person,Country_271835,Thomas Johnson,2,1.0,1.0
+organization,Unknown,176729,2,0.0,2.0
+organization,Unknown,958644,2,1.0,1.0
+person,Country_271835,Jonathan Moody,3,3.0,0.0
+person,Puerto del Mar,Kaitlyn Walsh,1,0.0,1.0
+person,Country_271835,Alison Nash,1,1.0,0.0
+person,Country_271835,Miranda Smith,3,1.0,2.0
+Uncategorized,Unknown,âminingâ,3,2.0,1.0
+person,Country_271835,Jennifer Wilson MD,1,1.0,0.0
+organization,Unknown,6338,3,2.0,1.0
+location,Unknown,0d6a2f35-fccd-4cbf-865e-3ed08abb6a95,4,2.0,4.0
+location,Unknown,c40a73e5-c1dd-4b85-ac1c-2e6a51546aa7,3,2.0,1.0
+organization,Unknown,3641,3,3.0,0.0
+organization,Unknown,200,2,0.0,2.0
+person,Country_271835,Nicholas Torres,2,1.0,1.0
+organization,Unknown,75360,2,2.0,0.0
+location,Unknown,7a58f899-3e43-4b94-a64b-d5ab31a6055b,3,3.0,0.0
+political_organization,Unknown,76104890,4,0.0,4.0
+location,Unknown,68ac10aa-80a3-4b3c-99e5-f5708715ab2c,4,4.0,0.0
+person,Country_271835,Christopher Benitez,2,1.0,1.0
+event,Unknown,âThis,3,1.0,2.0
+event,Unknown,âSo,4,4.0,0.0
+Uncategorized,Unknown,Pitâ,2,1.0,1.0
+person,Country_271835,John Martin,3,2.0,1.0
+person,Country_470077,Christopher Fields,1,1.0,1.0
+person,Country_271835,David Romero,2,0.0,2.0
+location,Unknown,a691bc0a-cfdc-4b2a-a38e-efcd2799ecd1,3,0.0,3.0
+organization,Unknown,28138,3,2.0,1.0
+Uncategorized,Unknown,âsnitch,3,3.0,0.0
+organization,Unknown,3868221,2,2.0,0.0
+organization,Unknown,79521144,19,11.0,9.0
+person,Country_271835,Eugene Martin,1,1.0,1.0
+person,Country_271835,Emma Jones,4,4.0,0.0
+Uncategorized,Unknown,âbrokerâ,3,1.0,2.0
+person,Country_271835,Cassandra Stanley,4,2.0,2.0
+organization,Unknown,198,4,0.0,4.0
+organization,Unknown,9768,3,3.0,0.0
+person,Country_271835,Tyler Jones,2,1.0,1.0
+vessel,Unknown,motor,2,2.0,0.0
+organization,Unknown,11353,4,1.0,3.0
+organization,Unknown,353257,4,1.0,3.0
+organization,Unknown,31368,7,5.0,2.0
+person,Country_271835,Colton Olson,2,1.0,1.0
+person,Country_271835,Tamara Tyler,4,0.0,4.0
+person,Country_271835,Henry Lambert,6,6.0,0.0
+person,Country_271835,Elizabeth Armstrong,3,0.0,3.0
+person,Country_271835,Melissa Brock,3,1.0,2.0
+organization,Unknown,51470600,1,0.0,1.0
+organization,Unknown,719,7,0.0,7.0
+company,Country_271835,Sudd Swamp  Wave AS Freight ,5,3.0,3.0
+organization,Unknown,74026296,3,0.0,3.0
+political_organization,Unknown,374585759,9,9.0,1.0
+organization,Unknown,59662085,7,7.0,1.0
+political_organization,Unknown,7423,4,2.0,2.0
+organization,Unknown,68273,10,4.0,6.0
+organization,Unknown,649,3,0.0,3.0
+person,Country_271835,Donna Green,3,0.0,3.0
+person,Country_271835,Dean Reyes,1,1.0,0.0
+organization,Unknown,96049794,3,0.0,3.0
+vessel,Unknown,truck,4,0.0,4.0
+location,Unknown,d6d0741c-39d9-4b94-8b39-b5d2ad1669b9,5,0.0,5.0
+political_organization,Unknown,291669,3,1.0,2.0
+person,Country_271835,Thomas Watkins,2,0.0,2.0
+company,Country_271835,Ancla del Mar Kga,2,2.0,0.0
+person,Country_271835,Joshua Park,2,0.0,2.0
+person,Country_271835,Sergio Ross,4,3.0,1.0
+Uncategorized,Unknown,Plattsâ,4,3.0,1.0
+person,Country_271835,Patricia Hunter,5,3.0,2.0
+vessel,Unknown,Deepwater Horizon,5,5.0,1.0
+organization,Unknown,455617,2,0.0,2.0
+person,Country_271835,Dale Chandler,2,0.0,2.0
+person,Country_271835,Marvin Evans,2,1.0,1.0
+person,Country_271835,Jack Bell,2,2.0,0.0
+organization,Unknown,83241316,3,3.0,0.0
+organization,Unknown,940161722,12,11.0,1.0
+organization,Unknown,148766,3,1.0,2.0
+organization,Unknown,567857349,3,3.0,0.0
+political_organization,Unknown,836,2,0.0,2.0
+organization,Unknown,507470,4,3.0,3.0
+organization,Unknown,98,7,14.0,2.0
+political_organization,Unknown,12358151,7,0.0,8.0
+organization,Unknown,8127,4,2.0,2.0
+organization,Unknown,18668050,4,3.0,1.0
+organization,Unknown,39033859,4,4.0,0.0
+organization,Unknown,62532,3,0.0,3.0
+organization,Unknown,649009867,2,1.0,1.0
+organization,Unknown,43454,2,2.0,1.0
+person,Country_19028,Carmen Mendez,2,0.0,2.0
+location,Unknown,a51f21a5-b410-4000-ada4-086bd2e65cb6,2,2.0,0.0
+organization,Unknown,359755772,3,1.0,2.0
+political_organization,Unknown,7577,4,3.0,1.0
+location,Unknown,dffd75ca-7510-403d-a6a0-f904b0c7b41d,2,0.0,2.0
+location,Unknown,61208e37-a326-4cf5-a571-f8bdd6f2dbf7,2,2.0,0.0
+movement,Unknown,30 days,2,2.0,0.0
+location,Unknown,9ce492a2-de6e-4231-a018-318fc929908b,2,0.0,2.0
+location,Unknown,ffb63251-ebdc-4346-b3a4-ef1515310806,3,0.0,3.0
+location,Unknown,675d95eb-69b7-4f8a-bd4e-af2cf4def162,3,1.0,2.0
+political_organization,Unknown,54056,2,2.0,0.0
+Uncategorized,Unknown,âDuare Rationâ,1,0.0,1.0
+person,Country_271835,Robert Rodriguez,2,2.0,0.0
+person,Country_271835,Leslie Williams,2,2.0,0.0
+location,Unknown,da243ebe-ea98-4510-a6a8-add6679f9d1a,2,2.0,0.0
+vessel,Unknown,Bulk Carrier,2,2.0,0.0
+location,Unknown,b400d237-4d56-4de8-917a-8e7654ccf315,1,0.0,1.0
+organization,Unknown,18404231,4,3.0,1.0
+location,Unknown,2eeca6e0-f5a7-4b9d-8b3e-ada56d140e36,2,0.0,2.0
+person,Country_271835,Jose Parker,2,0.0,2.0
+organization,Unknown,4711730,2,2.0,0.0
+location,Unknown,cd7cb49f-0021-4fe9-a3a9-cc8b3fce0c57,2,0.0,2.0
+organization,Unknown,959344,5,6.0,0.0
+company,Country_271835,James Limited Liability Company Logistics,2,1.0,1.0
+organization,Unknown,951187691,2,2.0,0.0
+person,Country_271835,Andrew Harrison,2,2.0,0.0
+organization,Unknown,18403617,1,1.0,0.0
+organization,Unknown,365,2,2.0,0.0
+organization,Unknown,404,4,0.0,4.0
+location,Unknown,569767ed-015f-4cb9-a316-2db45fbf6cf3,2,0.0,2.0
+location,Unknown,9a3fecdc-0696-4b53-979c-8ac021f24910,2,1.0,1.0
+location,Unknown,899ccad6-2380-4e2c-aa57-d7f487964993,2,2.0,0.0
+person,Country_271835,Eddie Alexander,3,0.0,3.0
+person,Country_271835,David Schwartz,2,2.0,0.0
+organization,Unknown,33560,5,5.0,0.0
+person,Country_271835,David Santiago,1,1.0,0.0
+event,Unknown,Fridayâs,4,3.0,1.0
+person,Country_271835,Hannah Little,4,4.0,0.0
+political_organization,Unknown,92616021,2,0.0,2.0
+person,Country_271835,Scott Dougherty,4,4.0,0.0
+person,Country_271835,Juan Mckinney,3,1.0,2.0
+location,Unknown,0223707c-6754-4419-acb2-510377eadd60,2,1.0,1.0
+location,Unknown,d37a5a00-fca1-4753-890c-6975c311dc3f,3,0.0,3.0
+person,Country_271835,Michelle Herring,1,1.0,0.0
+location,Unknown,011ad1ae-ae1b-4c74-9f58-c020e6a3e836,12,11.0,2.0
+person,Country_271835,Bryan King,2,1.0,1.0
+location,Unknown,6083f325-5f17-4d41-9c22-f188f55ea9f3,3,3.0,0.0
+location,Unknown,c2478e4c-2a8c-4d34-a5d5-fd46c66b5e67,3,1.0,2.0
+person,Country_271835,Daniel Vasquez,2,1.0,1.0
+person,Country_271835,Kevin Daniel,2,0.0,2.0
+person,Country_271835,Lucas Williamson,2,0.0,2.0
+person,Country_271835,Daniel Butler,3,3.0,0.0
+political_organization,Unknown,2330,2,0.0,2.0
+organization,Unknown,386,3,2.0,1.0
+location,Unknown,d09a6a69-eed5-4057-9f96-dcf4c9cf4d88,3,3.0,0.0
+person,Ivarisia,Lisa Lewis,2,0.0,2.0
+location,Unknown,3882e922-25e9-446d-8e04-97e8875fceb2,1,0.0,1.0
+location,Unknown,ba790a77-b0f3-4c1f-8d42-3d2bddbc1893,1,1.0,0.0
+political_organization,Unknown,878521,2,0.0,2.0
+person,Country_271835,Robert Chang,1,0.0,1.0
+person,Country_271835,Manuel Hess,1,1.0,1.0
+person,Country_271835,Brandon Stone,4,1.0,3.0
+person,Country_271835,Seth Benjamin,1,1.0,0.0
+person,Rio Isla,Tom Bauer,4,0.0,4.0
+person,Country_271835,Leslie Wood,3,0.0,3.0
+person,Country_271835,Donna Davis,3,3.0,0.0
+organization,Unknown,7810241,1,1.0,0.0
+organization,Unknown,34487,2,1.0,1.0
+organization,Unknown,83951569,3,3.0,0.0
+organization,Unknown,4524860,2,0.0,2.0
+movement,Unknown,three-hour,2,2.0,0.0
+political_organization,Unknown,59409,2,0.0,2.0
+person,Country_271835,Amanda Jenkins,4,5.0,0.0
+vessel,Unknown,23,39,20.0,60.0
+vessel,Unknown,Motor Vessel,6,7.0,0.0
+organization,Unknown,24996,2,0.0,2.0
+organization,Unknown,90411963,3,3.0,0.0
+location,Unknown,114d2882-b620-4098-bb56-d865bbb85339,2,2.0,0.0
+person,Country_271835,Christopher Moore,2,1.0,1.0
+person,Country_271835,Sarah Williams,11,2.0,9.0
+vessel,Unknown,Kenworth 18-wheeler,3,1.0,2.0
+Uncategorized,Unknown,âsatisfactoryâ,3,3.0,0.0
+organization,Unknown,25777,9,9.0,0.0
+organization,Unknown,825,3,3.0,0.0
+organization,Unknown,63548588,13,5.0,8.0
+organization,Unknown,69007292,2,1.0,1.0
+company,Country_271835,David Seabed Inc Consulting,2,2.0,0.0
+organization,Unknown,28890617,2,2.0,0.0
+organization,Unknown,492220197,3,3.0,0.0
+location,Unknown,662bfccd-798d-4e60-b308-2cb2918e3dd2,5,3.0,2.0
+organization,Unknown,14636,1,1.0,0.0
+person,Marebak,Maria Jackson,1,0.0,1.0
+person,Country_271835,Deborah Carson,4,4.0,0.0
+location,Unknown,d0842009-cbf1-4df2-adfa-121a82160a05,2,0.0,2.0
+political_organization,Unknown,3105981,2,2.0,0.0
+location,Unknown,449856a6-3b60-46ca-b825-f9499558fa3a,3,0.0,4.0
+location,Unknown,16778128-07fa-46dd-b229-b0c2e2233602,5,4.0,1.0
+person,Country_271835,Elizabeth Mccarty,1,1.0,0.0
+person,Country_271835,Gregory Bowers,2,2.0,0.0
+person,Country_271835,Nicole Marshall,2,2.0,0.0
+organization,Unknown,207618139,2,2.0,0.0
+person,Country_271835,Gina Knox,4,0.0,4.0
+organization,Unknown,3874,3,2.0,1.0
+person,Country_271835,Tonya Frazier,3,2.0,1.0
+political_organization,Unknown,80,2,2.0,0.0
+person,Country_271835,Charles Duke,4,0.0,4.0
+person,Country_271835,Dennis Payne,14,14.0,0.0
+person,Country_271835,Ashley Boyer,18,18.0,0.0
+person,Country_271835,Darin Taylor,15,15.0,0.0
+person,Country_271835,Larry Cisneros,20,20.0,0.0
+person,Country_271835,Teresa Hansen,7,0.0,7.0
+person,Country_271835,Ethan Walsh,5,1.0,4.0
+person,Country_271835,Michael Evans,7,7.0,0.0
+person,Country_271835,Alexandra Jackson,4,0.0,4.0
+person,Country_271835,Lauren Sanchez,4,0.0,4.0
+person,Country_271835,Crystal Hunter,6,2.0,4.0
+person,Country_271835,Christopher Berry,4,4.0,0.0
+person,Country_271835,James Patterson,7,6.0,1.0
+person,Country_271835,Jon Johnson,7,5.0,2.0
+person,Country_271835,Andrea White,3,3.0,0.0
+person,Country_271835,Emily Smith,4,0.0,4.0
+person,Country_271835,Megan Gonzales,2,0.0,2.0
+person,Country_271835,Kenneth Warren,4,0.0,4.0
+person,Country_271835,Edward Winters,9,0.0,9.0
+person,Country_271835,Emily Stevens,9,0.0,9.0
+person,Country_271835,Gabrielle Wright,8,0.0,8.0
+person,Country_271835,Erika Carter,2,0.0,2.0
+person,Country_271835,James Johnson,4,0.0,4.0
+person,Country_271835,Brandi Johnson,7,0.0,7.0
+event,Unknown,Storm,1,0.0,1.0
+organization,Unknown,91810266,1,1.0,0.0
+vessel,Unknown,HMS,2,1.0,1.0
+person,Country_271835,John Campbell,2,2.0,0.0
+person,Country_271835,Diane Forbes,2,0.0,2.0
+person,Country_271835,Dawn Robinson,2,1.0,1.0
+organization,Unknown,19285,14,4.0,11.0
+person,Country_271835,Kimberly Williams,2,2.0,0.0
+person,Country_271835,John Murray,2,2.0,0.0
+person,Country_271835,Nathaniel Shah,2,2.0,0.0
+person,Country_271835,Stephen Peterson,1,1.0,0.0
+person,Country_271835,Eric Roman,2,0.0,2.0
+company,Country_271835,Playa del Cielo  Marine,1,1.0,0.0
+organization,Unknown,99,1,1.0,0.0
+location,Unknown,1f8c20da-5f20-4116-907a-a653089bb8a0,2,0.0,2.0
+organization,Unknown,8832615,2,1.0,1.0
+organization,Unknown,5199,2,0.0,2.0
+Uncategorized,Unknown,âoverwhelmedâ,3,3.0,0.0
+location,Unknown,14525ad3-213a-406d-8e3e-64213f0be171,2,2.0,0.0
+person,Country_271835,Rachel Campbell,4,3.0,1.0
+person,Country_271835,Gregory Marsh,4,2.0,2.0
+person,Country_271835,Sarah Allen,5,3.0,3.0
+person,Country_271835,Brittney Rice,3,2.0,1.0
+person,Country_271835,Ashley Long,3,3.0,0.0
+person,Country_271835,Jessica Hernandez,2,2.0,0.0
+organization,Unknown,419,2,1.0,2.0
+location,Unknown,577a9358-a718-4d90-a90e-88f88c58160d,6,4.0,6.0
+location,Unknown,17de5508-cf65-4e04-9bdd-acba951afe7a,3,0.0,3.0
+location,Unknown,ca87f68d-1df8-4746-a8af-8d810f49e783,1,1.0,0.0
+organization,Unknown,33210,2,0.0,2.0
+location,Unknown,88d63621-4f58-4c7e-a02d-589cefb3a6be,2,0.0,2.0
+person,Country_271835,Diane Young,2,1.0,1.0
+person,Country_271835,Traci Elliott,3,3.0,0.0
+company,Oceanus,hi xng BV Carriers,2,1.0,1.0
+person,Country_271835,Lucas Adams,1,0.0,1.0
+person,Country_271835,Rebecca Jordan,1,1.0,0.0
+person,Oceanus,Scott Day,6,4.0,2.0
+person,Country_271835,Colin Hunter,3,3.0,0.0
+location,Unknown,b9faf7c4-f237-4112-91bd-71fa0cf8571a,3,2.0,1.0
+organization,Unknown,135338,7,7.0,0.0
+event,Unknown,âStuff,3,2.0,1.0
+person,Country_271835,William Lopez,3,3.0,0.0
+person,Country_271835,Warren Schwartz,3,1.0,2.0
+organization,Unknown,72092,4,0.0,4.0
+location,Unknown,b605391a-2c84-4d59-98f0-d12fd185ec64,2,2.0,0.0
+person,Country_271835,Amy Mcclure,2,2.0,0.0
+person,Country_271835,Jessica Mullins,2,2.0,0.0
+person,Country_271835,Randall Martinez,2,2.0,0.0
+vessel,Unknown,Vessels,3,1.0,2.0
+organization,Unknown,511915273,9,1.0,9.0
+organization,Unknown,435,5,5.0,0.0
+location,Unknown,b03a6fc7-507a-4328-9814-57561acb4fc6,8,5.0,4.0
+organization,Unknown,71608,5,5.0,0.0
+person,Country_271835,Martin Jones,2,0.0,2.0
+location,Unknown,d4b66d04-ad3c-425a-a123-00e589b86a52,2,2.0,0.0
+organization,Unknown,95850,2,0.0,2.0
+person,Country_532332,Danny Walker,2,1.0,1.0
+person,Country_532332,Paul Hoover,3,3.0,0.0
+political_organization,Unknown,45310570,2,0.0,2.0
+person,Country_271835,Aaron Cruz,2,1.0,1.0
+political_organization,Unknown,598,2,0.0,2.0
+location,Unknown,928896ee-0c39-4b2c-aee6-910dc225513e,2,1.0,1.0
+organization,Unknown,442,2,2.0,0.0
+location,Unknown,18139144-efbe-4540-8e65-fde29def1993,3,1.0,2.0
+organization,Unknown,826749274,2,2.0,0.0
+person,Country_271835,Michael Wright,4,4.0,0.0
+organization,Unknown,753,1,0.0,1.0
+person,Country_271835,Chad Ruiz,2,0.0,2.0
+organization,Unknown,687878,2,0.0,2.0
+organization,Unknown,368951,2,0.0,2.0
+location,Unknown,c0ce6d15-622b-42a3-b892-f5efe5b4d00c,2,0.0,2.0
+location,Unknown,a086a63d-19c7-4241-845a-f82c628d09a2,2,0.0,2.0
+person,Country_271835,Brett Lee,3,3.0,0.0
+person,Country_271835,Noah Mitchell,5,4.0,2.0
+location,Unknown,037acfda-0d33-4ce8-8907-fe7da3e27dff,2,1.0,1.0
+person,Country_271835,Ronnie Gates,1,1.0,0.0
+Uncategorized,Unknown,âexemplaryâ,1,1.0,0.0
+location,Unknown,b120bc86-764c-4e2b-9f36-1587f91a20e3,2,2.0,0.0
+location,Unknown,4843b052-8f18-4298-9464-d780feb5ddad,3,3.0,0.0
+vessel,Unknown,scooter,2,2.0,0.0
+location,Unknown,7cc6a1fe-59b5-491c-8985-bf6d77836092,2,0.0,2.0
+political_organization,Unknown,8084530,2,1.0,1.0
+location,Unknown,ce8495cf-fe04-40b3-aaa2-d0bc29131f92,2,2.0,0.0
+organization,Unknown,6071877,2,0.0,2.0
+location,Unknown,93ac5fec-5f52-4431-a3ff-91430a8062f6,2,1.0,1.0
+organization,Unknown,422,4,3.0,1.0
+organization,Unknown,753589537,3,0.0,3.0
+company,Country_984172,Spanish Co & Son's,2,1.0,1.0
+person,Country_271835,Matthew Anderson,2,2.0,0.0
+location,Unknown,332bb88e-0a63-41e3-8a27-87795fd552e9,2,0.0,2.0
+event,Unknown,course years,1,1.0,0.0
+location,Unknown,2ade0908-d1c9-45de-9dbb-3dfec75d9317,3,3.0,0.0
+company,Country_271835,Portuguese Sardines GmbH & Co. KG Line,4,0.0,4.0
+company,Country_271835,Lake Nyasa Ltd. Corporation,2,2.0,0.0
+person,Country_271835,Joshua Huang,2,0.0,2.0
+organization,Unknown,3740,2,1.0,1.0
+organization,Unknown,440,1,0.0,1.0
+organization,Unknown,601882545,2,0.0,2.0
+organization,Unknown,88651,1,1.0,0.0
+person,Country_271835,William Taylor,1,0.0,1.0
+location,Unknown,4294544a-9643-4cfd-97a0-ac656cb17e60,1,0.0,1.0
+person,Country_271835,Hannah Ray,2,2.0,0.0
+location,Unknown,c495290e-2de7-487d-a139-f273c4974539,2,1.0,1.0
+organization,Unknown,353361057,1,1.0,0.0
+Uncategorized,Unknown,Amstel Inc,4,0.0,4.0
+Uncategorized,Unknown,âHelpâ,4,4.0,0.0
+organization,Unknown,35829746,2,2.0,0.0
+person,Country_271835,Charlotte Lopez,2,0.0,2.0
+person,Country_271835,Mark Scott,2,2.0,0.0
+organization,Unknown,86034444,1,0.0,1.0
+person,Country_271835,Nicholas King,2,2.0,0.0
+person,Country_271835,James Andrews,2,2.0,0.0
+person,Country_271835,Joshua Wright,3,1.0,2.0
+person,Country_271835,Mary Harrington,4,3.0,1.0
+Uncategorized,Unknown,âsleepy,4,4.0,0.0
+political_organization,Unknown,67745773,2,0.0,2.0
+organization,Unknown,214883455,2,0.0,2.0
+person,Country_271835,Brett Moss,2,1.0,1.0
+location,Unknown,e69d4cb2-8bec-4496-8518-7426c6b9da65,1,1.0,0.0
+company,Country_271835,Kagera River  GmbH & Co. KG Delivery,4,2.0,2.0
+Uncategorized,Unknown,16,7,6.0,8.0
+person,Country_271835,Holly Donaldson,2,3.0,0.0
+location,Unknown,c8026923-944a-4155-b2ec-e160135e0c47,2,0.0,2.0
+location,Unknown,58cf758d-a6f2-48ba-ac0c-89581ae6b4a5,1,0.0,1.0
+organization,Unknown,313441257,2,1.0,1.0
+organization,Unknown,222079892,5,4.0,1.0
+organization,Unknown,2919,3,2.0,1.0
+person,Country_271835,Dana Montes,3,2.0,1.0
+organization,Unknown,1518,3,0.0,3.0
+organization,Unknown,9820523,4,2.0,2.0
+person,Country_271835,Bryce Chavez,2,2.0,0.0
+location,Unknown,90c3cb48-8060-4a55-804c-710044d19487,3,0.0,3.0
+person,Country_271835,Brittany Rivers,2,2.0,0.0
+location,Unknown,2ed68d75-994e-43dd-b326-a2adfa540562,2,2.0,0.0
+person,Country_271835,Michelle Evans,2,0.0,2.0
+location,Unknown,05d471b4-0e8c-4879-80b2-ef600220e09d,2,1.0,2.0
+person,Country_271835,James Garcia,2,1.0,1.0
+person,Country_271835,Kendra Owens,1,1.0,0.0
+organization,Unknown,15,2,2.0,0.0
+organization,Unknown,805275,6,4.0,3.0
+location,Unknown,fcef975b-e382-4c81-8160-41bf9e5bf937,4,2.0,2.0
+Uncategorized,Unknown,âPublic Loaders,2,2.0,0.0
+organization,Unknown,715490,2,1.0,1.0
+organization,Unknown,14952,3,0.0,3.0
+Uncategorized,Unknown,âEQUIPMENTâ,4,4.0,0.0
+organization,Unknown,353642,4,1.0,3.0
+person,Country_193919,Ronald Gray,3,2.0,1.0
+person,Country_928409,Debbie Ayala,2,1.0,1.0
+person,Country_271835,Terri Rodriguez,1,0.0,2.0
+organization,Unknown,6457,3,2.0,2.0
+organization,Unknown,6513816,3,2.0,2.0
+organization,Unknown,43797101,3,4.0,0.0
+organization,Unknown,535955126,5,6.0,0.0
+organization,Unknown,8211361,7,8.0,0.0
+company,Country_271835,Scania Seafaring SRL Express,2,1.0,1.0
+company,Country_271835,Estrella del Sol LLC,2,1.0,1.0
+political_organization,Unknown,73470062,2,1.0,1.0
+person,Country_271835,Kenneth Fox,3,3.0,0.0
+organization,Unknown,777,1,1.0,0.0
+Uncategorized,Unknown,âshabuâ,5,4.0,1.0
+person,Country_271835,Rebecca Coleman,2,2.0,0.0
+organization,Unknown,868626239,2,0.0,2.0
+organization,Unknown,573756802,3,2.0,1.0
+person,Country_271835,Margaret Hodges,5,0.0,9.0
+organization,Unknown,7680453,2,2.0,0.0
+location,Unknown,64c45541-e00b-423c-bc7d-238aa3a4d3ad,1,1.0,0.0
+movement,Unknown,thirty days,1,1.0,0.0
+location,Unknown,c2d2e029-6f38-4148-9079-15615103cea6,3,1.0,2.0
+organization,Unknown,186,2,2.0,0.0
+person,Country_271835,Kristin Johnston,2,2.0,0.0
+Uncategorized,Unknown,âcrisisâ,2,2.0,0.0
+organization,Unknown,812137,2,1.0,1.0
+location,Unknown,961bafd7-8d2b-405a-9c79-0f5345498cab,2,2.0,0.0
+organization,Unknown,5334,1,0.0,1.0
+political_organization,Unknown,35679,2,1.0,1.0
+person,Country_271835,Jason Neal,1,1.0,0.0
+person,Country_271835,Diana Dawson,7,0.0,7.0
+person,Marebak,Courtney Johnson,12,8.0,5.0
+organization,Unknown,613556,1,0.0,1.0
+organization,Unknown,353,3,3.0,1.0
+Uncategorized,Unknown,Aicrowe Biotech Co,1,0.0,1.0
+location,Unknown,0f952ad7-6ecb-472e-8a30-895501a0e8c8,5,4.0,1.0
+organization,Unknown,9507963,3,2.0,1.0
+organization,Unknown,979294,1,0.0,1.0
+organization,Unknown,25222883,5,0.0,5.0
+Uncategorized,Unknown,Gaosheng Biotechnology Co,5,2.0,3.0
+location,Unknown,d2948905-9121-400b-905f-e449bf8ca35e,6,6.0,0.0
+vessel,Unknown,AirPods,1,1.0,1.0
+organization,Unknown,5246016,2,2.0,0.0
+organization,Unknown,64863263,4,3.0,1.0
+company,Country_271835,Danish Lobster Ltd. Liability Co,5,0.0,5.0
+Uncategorized,Unknown,076,2,0.0,2.0
+Uncategorized,Unknown,vansâ,2,2.0,0.0
+organization,Unknown,36868,1,0.0,1.0
+organization,Unknown,3127062,2,1.0,1.0
+organization,Unknown,3369,2,1.0,1.0
+organization,Unknown,30880,2,0.0,2.0
+Uncategorized,Unknown,âDisastrousâ,2,2.0,0.0
+company,Country_271835,Lake Manyara  SRL Brothers,1,1.0,0.0
+location,Unknown,8ce9074f-2904-41ea-896a-5d932e06f54c,1,1.0,0.0
+location,Unknown,3d009ee1-0d95-4516-802f-8a5110bde01e,4,3.0,2.0
+organization,Unknown,64667049,2,2.0,0.0
+organization,Unknown,1303,9,3.0,6.0
+location,Unknown,dbeb3e02-dc0c-4455-a16b-2d0b9cb2c65a,4,0.0,4.0
+location,Unknown,601e76fd-8517-4269-b976-2743987a49f3,3,1.0,2.0
+organization,Unknown,67261634,4,3.0,1.0
+organization,Unknown,344,4,4.0,0.0
+location,Unknown,ba0514a3-9c57-4b04-a7c5-89fc0463fdda,2,1.0,1.0
+organization,Unknown,60197861,3,3.0,1.0
+organization,Unknown,8978,2,1.0,1.0
+person,Country_271835,Sharon Townsend,2,2.0,0.0
+person,Country_271835,Travis Sparks,2,0.0,2.0
+person,Country_271835,Deborah Porter DDS,2,1.0,1.0
+location,Unknown,d4291c4b-873e-4830-b44a-85227fde3ee2,2,0.0,2.0
+person,Country_271835,Amanda Clayton,2,1.0,1.0
+Uncategorized,Unknown,âshark finâ,2,2.0,0.0
+organization,Unknown,70720996,2,0.0,2.0
+organization,Unknown,95291001,4,4.0,0.0
+organization,Unknown,42627990,2,0.0,2.0
+company,Country_271835,Mar de Estrellas Oyj Carriers,3,1.0,2.0
+location,Unknown,6d345854-f864-4194-85d2-047e66332dca,3,1.0,2.0
+person,Oceanus,Christopher Cunningham,59,38.0,44.0
+person,Country_271835,Erica Parks,2,2.0,0.0
+location,Unknown,df26d11f-ed87-4a19-b9e8-18e9783c00f5,1,1.0,0.0
+movement,Unknown,2028,16,7.0,10.0
+location,Unknown,bc507d7c-29c9-4b0d-909e-52dd450a25d3,2,2.0,0.0
+event,Unknown,entire 2036,4,4.0,1.0
+person,Country_271835,Brenda Cox,2,2.0,0.0
+person,Country_271835,Suzanne Reed,6,6.0,0.0
+person,Country_271835,Cody Lewis,2,2.0,0.0
+organization,Unknown,1263250,2,2.0,0.0
+person,Country_271835,Chris Booth,3,4.0,0.0
+movement,Unknown,July 2036,2,2.0,0.0
+person,Country_271835,Lisa Henderson,1,1.0,0.0
+person,Country_271835,Karen Delgado,4,0.0,4.0
+Uncategorized,Unknown,13d79d632036,3,3.0,0.0
+Uncategorized,Unknown,2037/09,2,2.0,0.0
+person,Country_615819,Melissa Norman,4,2.0,3.0
+person,Country_271835,Jennifer Andrade,1,1.0,0.0
+person,Country_271835,Lori Cummings,3,3.0,0.0
+event,Unknown,2032s,2,0.0,2.0
+person,Country_271835,Damon Nelson,3,3.0,0.0
+person,Country_271835,Laura Jimenez,2,1.0,1.0
+political_organization,Unknown,687028,11,8.0,3.0
+person,Country_271835,Susan Mendoza,5,5.0,0.0
+person,Country_271835,Alexis Smith,1,1.0,0.0
+person,Country_271835,Laura Smith,2,2.0,0.0
+person,Country_271835,Samantha Manning,2,2.0,0.0
+location,Unknown,6ed1a821-e669-41f4-8a02-df4c818ff22e,2,2.0,0.0
+Uncategorized,Unknown,2038650116,3,3.0,0.0
+location,Unknown,f1e84016-0f09-4907-a777-a6bb02b5f419,2,2.0,0.0
+location,Unknown,e916e286-85e5-4a43-b2ef-89ad5260ebdc,5,6.0,0.0
+Uncategorized,Unknown,sectors sectors 2033,2,2.0,0.0
+Uncategorized,Unknown,yearbook2034,4,4.0,0.0
+Uncategorized,Unknown,20370602035941,5,5.0,0.0
+Uncategorized,Unknown,yearbook2036,5,5.0,0.0
+location,Unknown,b8567859-bf54-49fd-8332-5775e19c65af,106,43.0,80.0
+Uncategorized,Unknown,2036-06,1,1.0,0.0
+person,Country_271835,Hannah Walter,2,2.0,0.0
+Uncategorized,Unknown,2035/03,2,2.0,0.0
+location,Unknown,b8f8208c-0388-484e-a700-b4c265170827,7,6.0,1.0
+location,Unknown,1aa47ffc-05a8-4edd-a8e0-94c10b650bd8,4,4.0,0.0
+person,Country_271835,Kelly Mccarthy,6,2.0,4.0
+person,Country_271835,Frederick Taylor,2,1.0,1.0
+location,Unknown,ec4af8c8-1ff1-4aaa-9431-7697d930b3f4,2,2.0,0.0
+person,Country_271835,Ray Howard,2,2.0,0.0
+event,Unknown,2036âs,1,1.0,0.0
+Uncategorized,Unknown,faf.20363,3,3.0,0.0
+person,Country_271835,Joshua Landry,1,1.0,0.0
+person,Country_271835,Joy Anderson,4,3.0,1.0
+location,Unknown,3eed159b-e98e-4f8a-98c2-c34341435411,1,0.0,1.0
+political_organization,Unknown,3190258,3,3.0,0.0
+person,Country_271835,David Frederick,3,3.0,0.0
+person,Country_271835,Curtis Grant,2,0.0,2.0
+location,Unknown,4f533d76-17d7-4b95-86b5-106503c99b0c,2,1.0,1.0
+Uncategorized,Unknown,2030â,3,3.0,0.0
+person,Country_271835,Lindsay Bennett,1,1.0,0.0
+location,Unknown,e631b105-4953-43e1-8d37-a3ab5dd3d860,2,2.0,0.0
+location,Unknown,f514483d-fb5f-4cb2-bb8d-b616b10336d8,4,4.0,0.0
+person,Country_271835,Laura Ballard,4,1.0,3.0
+location,Unknown,165e0fe7-6725-4f4c-abc1-3ef485a939b0,4,5.0,0.0
+location,Unknown,e3431d4d-79df-4da9-b8cb-a4d05a8aa474,2,1.0,1.0
+location,Unknown,39c767d3-a9b4-41f4-8a5d-e14b6c20a2d2,1,1.0,1.0
+person,Country_271835,Sarah Sandoval,2,1.0,1.0
+person,Country_271835,Raymond Howell,4,2.0,2.0
+person,Country_271835,Jason Huff,2,2.0,1.0
+organization,Unknown,FishEye International,23,0.0,24.0
+company,Country_286580,AquaFresh Foods CJSC -,6,5.0,1.0
+Uncategorized,Unknown,Ancla Azul Company Solutions,21,9.0,13.0
+Uncategorized,Unknown,âpair,3,3.0,0.0
+Uncategorized,Unknown,Guessl,4,4.0,1.0
+Uncategorized,Unknown,Federated,18,5.0,14.0
+Uncategorized,Unknown,FinestSea Ltd. Corporation Enterprises,5,4.0,1.0
+Uncategorized,Unknown,Icelandic Shrimp Corporation Transport,10,1.0,9.0
+Uncategorized,Unknown,Lake Mweru A/S Carriers,5,3.0,2.0
+Uncategorized,Unknown,Playa de la Felicidad Oyj Cargo,13,2.0,11.0
+Uncategorized,Unknown,l y S.A. de C.V. International,17,15.0,3.0
+Uncategorized,Unknown,SeaSpray Wave SRL Solutions,233,185.0,208.0
+Uncategorized,Unknown,Ocean Fisheries Llc,241,194.0,208.0
+Uncategorized,Unknown,Ancla del Mar Ltd. Corporation,3,3.0,0.0
+Uncategorized,Unknown,Tamil Nadu S.p.A.,19,16.0,6.0
+Uncategorized,Unknown,Fisherman'sFriend Charter Boat S.A. de C.V. Freight ,12,9.0,4.0
+Uncategorized,Unknown,FiTI,3,2.0,1.0
+Uncategorized,Unknown,Victoria,3,1.0,2.0
+Uncategorized,Unknown,Master,17,6.0,12.0
+Uncategorized,Unknown,Faurtil FÃ¡brica Urnas TietÃª,7,7.0,0.0
+Uncategorized,Unknown,Turkish Mussels Ltd. Liability Co Marine biology,16,6.0,11.0
+Uncategorized,Unknown,Mar del Paraso SRL Shipping,4,4.0,0.0
+Uncategorized,Unknown,New Bedford Light,2,2.0,0.0
+Uncategorized,Unknown,Sonia Fisheries Pvt,97,34.0,75.0
+Uncategorized,Unknown,Pesquera,11,11.0,0.0
+Uncategorized,Unknown,DOFâs,23,23.0,4.0
+Uncategorized,Unknown,Irish Sea Seaside GmbH & Co. KG Distribution,27,8.0,30.0
+Uncategorized,Unknown,Uttar Pradesh Sp,9,7.0,4.0
+Uncategorized,Unknown,Estrella de Coral Ltd. Corporation Logistics,70,20.0,65.0
+Uncategorized,Unknown,Gulf of Guinea  Corporation,3,3.0,0.0
+Uncategorized,Unknown,Seabreeze Foods Corporation Logistics,3,3.0,0.0
+Uncategorized,Unknown,âDo,4,4.0,0.0
+Uncategorized,Unknown,Dry Creek S.p.A. Overseas,8,7.0,2.0
+Uncategorized,Unknown,Meere Delpeuch,1,1.0,0.0
+Uncategorized,Unknown,Kerala Market Limited Liability Company,6,3.0,3.0
+Uncategorized,Unknown,Pasture Petfoods New Zealand Ltd,15,13.0,2.0
+Uncategorized,Unknown,Tanzania,11,2.0,9.0
+Uncategorized,Unknown,Reunion,3,3.0,0.0
+Uncategorized,Unknown,Ht Shipping,23,8.0,18.0
+Uncategorized,Unknown,Selena Building,6,5.0,1.0
+Uncategorized,Unknown,Playa de la Felicidad NV,6,4.0,2.0
+Uncategorized,Unknown,âIllegal,15,10.0,6.0
+Uncategorized,Unknown,IMPORT,3,2.0,1.0
+Uncategorized,Unknown,Fishing International,4,4.0,0.0
+Uncategorized,Unknown,âVirginia,1,1.0,0.0
+Uncategorized,Unknown,Electronic,4,2.0,2.0
+Uncategorized,Unknown,Fish Sea,4,3.0,1.0
+Uncategorized,Unknown,Sea Products,15,12.0,7.0
+Uncategorized,Unknown,W Appliance,7,5.0,2.0
+Uncategorized,Unknown,McLeanâs,5,5.0,1.0
+Uncategorized,Unknown,American,13,4.0,9.0
+Uncategorized,Unknown,Finest Ltd. Liability Co United,8,0.0,8.0
+Uncategorized,Unknown,Ex-Lax,4,4.0,0.0
+Uncategorized,Unknown,Fishisland,3,3.0,0.0
+Uncategorized,Unknown,Jammu & Kashmir Limited Liability Company Delivery,4,4.0,0.0
+Uncategorized,Unknown,heâs,3,2.0,1.0
+Uncategorized,Unknown,ânoncitizen,4,4.0,0.0
+Uncategorized,Unknown,âGenev,2,2.0,0.0
+Uncategorized,Unknown,Oceanfront Oasis Inc Carriers,4,4.0,0.0
+Uncategorized,Unknown,Qingdao Kaiyuan Seafoods,9,3.0,6.0
+Uncategorized,Unknown,West Bengal SRL Marine conservation,3,3.0,0.0
+Uncategorized,Unknown,Platts Oilgram,4,3.0,1.0
+Uncategorized,Unknown,Kerala Market Corp Consulting,15,16.0,1.0
+Uncategorized,Unknown,Mar de la Vida OJSC,15,5.0,12.0
+Uncategorized,Unknown,America,3,0.0,3.0
+Uncategorized,Unknown,Portuguese Octopus S.p.A. Cargo,5,4.0,1.0
+Uncategorized,Unknown,Surf and Sand Ltd. Liability Co,5,1.0,4.0
+Uncategorized,Unknown,West Bengal S.A. de C.V.,6,8.0,0.0
+Uncategorized,Unknown,Partnership satellite,1,1.0,0.0
+Uncategorized,Unknown,Seafood,13,5.0,10.0
+Uncategorized,Unknown,Caribbean,20,4.0,16.0
+Uncategorized,Unknown,XUAR,10,7.0,4.0
+Uncategorized,Unknown,Fisheries Inc,8,3.0,5.0
+Uncategorized,Unknown,Getis-Ord,2,0.0,2.0
+Uncategorized,Unknown,World Church Power God,4,3.0,1.0
+Uncategorized,Unknown,Rama Overseas,12,12.0,0.0
+Uncategorized,Unknown,Estrella de Mar Limited Liability Company Delivery,1,1.0,0.0
+Uncategorized,Unknown,Bergmanâs,2,1.0,1.0
+Uncategorized,Unknown,Conduct Joint,4,4.0,0.0
+Uncategorized,Unknown,Seabreeze Foods Ltd. Corporation United,15,6.0,9.0
+Uncategorized,Unknown,Kilimanjaro fishery Ltd. Liability Co Transport,4,2.0,2.0
+Uncategorized,Unknown,Isa,7,1.0,6.0
+Uncategorized,Unknown,Barco de Plata Ltd Logistics,3,3.0,0.0
+Uncategorized,Unknown,Lake Malawi LC Forwading,2,2.0,0.0
+Uncategorized,Unknown,Water World LLC Express,5,2.0,3.0
+Uncategorized,Unknown,âTrials,1,2.0,0.0
+Uncategorized,Unknown,BPâs,1,1.0,0.0
+Uncategorized,Unknown,FLIP MCGYVER Tradema,2,2.0,0.0
+Uncategorized,Unknown,Shellfish Chile SA,6,4.0,2.0
+Uncategorized,Unknown,IPOS0000DOP,6,6.0,0.0
+Uncategorized,Unknown,Temuâs,5,3.0,3.0
+Uncategorized,Unknown,Firearms Explosives,4,4.0,0.0
+Uncategorized,Unknown,IAVMs,4,3.0,1.0
+Uncategorized,Unknown,Cartel Emergent Weaponry Use,4,4.0,0.0
+Uncategorized,Unknown,Ejintex International,5,3.0,2.0
+Uncategorized,Unknown,Asia Seafood,3,3.0,0.0
+Uncategorized,Unknown,Andhra Pradesh  S.A. de C.V.,2,2.0,0.0
+Uncategorized,Unknown,AtlantoâScandian,1,1.0,0.0
+Uncategorized,Unknown,Trammellâs,4,4.0,0.0
+Uncategorized,Unknown,Moo,6,3.0,5.0
+Uncategorized,Unknown,Eva,14,5.0,11.0
+Uncategorized,Unknown,Salles Operation Handroanthus,1,1.0,0.0
+Uncategorized,Unknown,Blue Water Ventures Ltd. Liability Co,2,1.0,1.0
+Uncategorized,Unknown,Mar de Cristalino Co,3,1.0,2.0
+Uncategorized,Unknown,SaltwaterSavor Shipyard LC Merchants,1,1.0,0.0
+Uncategorized,Unknown,OceanKings Sailor Corp Logistics,7,4.0,3.0
+Uncategorized,Unknown,Debit Cards Autopay,3,3.0,0.0
+Uncategorized,Unknown,Mar de la Costa Ges.m.b.H.,2,2.0,0.0
+Uncategorized,Unknown,âsuffered,2,1.0,1.0
+Uncategorized,Unknown,Orient,3,3.0,0.0
+Uncategorized,Unknown,OceanicHarvest Dry dock N.V. Delivery,2,2.0,0.0
+Uncategorized,Unknown,itâs,3,3.0,0.0
+Uncategorized,Unknown,Rafaelâs,3,3.0,0.0
+Uncategorized,Unknown,Madhya Pradesh Market BV,14,9.0,7.0
+Uncategorized,Unknown,âCompliance,4,1.0,3.0
+Uncategorized,Unknown,Blue Bay,2,0.0,2.0
+Uncategorized,Unknown,Innovative,11,2.0,9.0
+Uncategorized,Unknown,Lake Malawi SE Freight ,18,5.0,13.0
+Uncategorized,Unknown,Caspian Sea  Sea Corporation Freight ,3,2.0,1.0
+Uncategorized,Unknown,Yu gan BV Investment,16,2.0,14.0
+Uncategorized,Unknown,Thai Union Seafood,7,7.0,1.0
+Uncategorized,Unknown,Okavango Delta Seaside Limited Liability Company Logistics,13,6.0,7.0
+Uncategorized,Unknown,sh rn y Corporation,21,16.0,12.0
+Uncategorized,Unknown,Ocean Trawlers,3,1.0,2.0
+Uncategorized,Unknown,Belgian Scallop Limited Liability Company Krill,3,1.0,2.0
+Uncategorized,Unknown,Sea Harvest,13,7.0,9.0
+Uncategorized,Unknown,SMILE,12,7.0,8.0
+Uncategorized,Unknown,Haryana s Co Transit,7,7.0,0.0
+Uncategorized,Unknown,â¢,4,3.0,1.0
+Uncategorized,Unknown,DOFâs Long Xing,4,3.0,1.0
+Uncategorized,Unknown,Insung,3,3.0,0.0
+Uncategorized,Unknown,Chuan gou Company Overseas,4,2.0,2.0
+Uncategorized,Unknown,Petroleum Vapor Intrusion,2,2.0,0.0
+Uncategorized,Unknown,Energotrade Plus,5,5.0,0.0
+Uncategorized,Unknown,Intrepid Navigators,9,9.0,2.0
+Uncategorized,Unknown,Blue Venturew,18,17.0,1.0
+Uncategorized,Unknown,The Salty Dog Tidepool Kga Transport,8,5.0,5.0
+Uncategorized,Unknown,Madhya Pradesh Market Ltd Solutions,1,1.0,0.0
+Uncategorized,Unknown,Scottish Trout Limited Liability Company Transit,2,2.0,0.0
+Uncategorized,Unknown,Gen International,2,1.0,1.0
+Uncategorized,Unknown,MeWe Vimeo,3,3.0,0.0
+Uncategorized,Unknown,Four,1,0.0,1.0
+Uncategorized,Unknown,II,2,0.0,2.0
+Uncategorized,Unknown,Bloomberg,1,0.0,1.0
+Uncategorized,Unknown,Ntaco,4,3.0,1.0
+Uncategorized,Unknown,SVBâs,2,0.0,2.0
+Uncategorized,Unknown,United Bankx,4,3.0,1.0
+Uncategorized,Unknown,Golden Titana,7,3.0,4.0
+Uncategorized,Unknown,Sea Breezes GmbH & Co. KG Lighthouse,3,2.0,2.0
+Uncategorized,Unknown,Mar de Plata Corp and Son's,2,0.0,2.0
+Uncategorized,Unknown,Rs,2,2.0,0.0
+Uncategorized,Unknown,Irish Sea SRL Brothers,2,2.0,0.0
+Uncategorized,Unknown,Barco de Plata Plc,2,1.0,1.0
+Uncategorized,Unknown,Thomas Corp Cargo ship,3,1.0,2.0
+Uncategorized,Unknown,Blue Lagoon Sailor Limited Liability Company Worldwide,4,2.0,2.0
+Uncategorized,Unknown,Amorim Flooring,4,3.0,1.0
+Uncategorized,Unknown,Edward Ferry SE Transportation,4,1.0,3.0
+Uncategorized,Unknown,Â£1,3,1.0,2.0
+Uncategorized,Unknown,Stock SA,2,0.0,2.0
+Uncategorized,Unknown,Forwading S.A. de C.V.,35,5.0,32.0
+Uncategorized,Unknown,OceanicOrigin Foods River AG Marine ecology,3,3.0,0.0
+Uncategorized,Unknown,Ware,9,7.0,2.0
+Uncategorized,Unknown,Arctic,4,2.0,4.0
+Uncategorized,Unknown,Niger River Delta Ges.m.b.H. Services,2,1.0,1.0
+Uncategorized,Unknown,ROBYN BECK,7,7.0,0.0
+Uncategorized,Unknown,Bay of Bengal's Incorporated,3,3.0,0.0
+Uncategorized,Unknown,Aqua Ambassadors Limited Liability Company,4,1.0,3.0
+Uncategorized,Unknown,Sea Luxe Oceanography Kga Transportation,5,3.0,2.0
+Uncategorized,Unknown,Mongabayâs,7,5.0,2.0
+Uncategorized,Unknown,Fresh Atlantic,1,1.0,0.0
+Uncategorized,Unknown,Sunâs,1,1.0,0.0
+Uncategorized,Unknown,Costa del Mar S.p.A.,4,4.0,0.0
+Uncategorized,Unknown,OJSC Ltd. Liability Co,2,2.0,0.0
+Uncategorized,Unknown,Mount Kenya Estuary Sp Holdings,6,0.0,6.0
+Uncategorized,Unknown,âPokÃ©mon,3,3.0,0.0
+Uncategorized,Unknown,Ryabikova,2,2.0,0.0
+Uncategorized,Unknown,âbracatinga,9,8.0,2.0
+Uncategorized,Unknown,I6aE01vDFm,3,3.0,0.0
+Uncategorized,Unknown,Puerta,2,2.0,0.0
+Uncategorized,Unknown,Next Day,2,1.0,1.0
+Uncategorized,Unknown,Seaside Sojourns A/S Shipping,2,1.0,1.0
+Uncategorized,Unknown,Food,3,0.0,3.0
+Uncategorized,Unknown,Guaranteed Income Program New Parents 2035,2,2.0,0.0
+Uncategorized,Unknown,Image ArtTower,2,2.0,0.0
+Uncategorized,Unknown,Nile Crocodile Deep-sea Oyj Brothers,1,1.0,0.0
+Uncategorized,Unknown,VyoummBnVY,1,1.0,0.0
+Uncategorized,Unknown,Blue Water Ventures Kga,2,1.0,1.0
+Uncategorized,Unknown,Bloomberg Law,1,1.0,0.0
+Uncategorized,Unknown,âCinder,2,1.0,1.0
+Uncategorized,Unknown,Kariba Dam  N.V. Brothers,4,3.0,1.0
+Uncategorized,Unknown,Mitsubishi,19,4.0,17.0
+Uncategorized,Unknown,Tuna Vietnam,2,1.0,1.0
+Uncategorized,Unknown,Estrella del Mar Plc,2,0.0,2.0
+Uncategorized,Unknown,Marine Foods,3,1.0,2.0
+Uncategorized,Unknown,Agua TransiciÃ³n EcolÃ³gica,2,2.0,0.0
+Uncategorized,Unknown,Arunachal Pradesh Sp Marine mist,4,1.0,3.0
+Uncategorized,Unknown,Chuan gou Corporation Transportation,4,1.0,3.0
+Uncategorized,Unknown,Nautical Navigators Kga United,3,1.0,3.0
+Uncategorized,Unknown,3 Ltd. Liability Co,2,1.0,1.0
+Uncategorized,Unknown,Lf Beauty,2,0.0,2.0
+Uncategorized,Unknown,Playa de Coral Oyj International,3,3.0,0.0
+Uncategorized,Unknown,Metro Marinen,2,2.0,0.0
+Uncategorized,Unknown,Surf and Sea International Tidepool,3,0.0,3.0
+Uncategorized,Unknown,The Salty Dog CJSC,6,3.0,3.0
+Uncategorized,Unknown,Paul S.A. de C.V.,2,0.0,2.0
+Uncategorized,Unknown,Comei&Co,3,2.0,1.0
+Uncategorized,Unknown,Rickard shrimp,2,0.0,2.0
+Uncategorized,Unknown,Hudsons Bay,4,2.0,2.0
+Uncategorized,Unknown,Group Co Marine life,3,3.0,0.0
+Uncategorized,Unknown,STL,1,0.0,1.0
+Uncategorized,Unknown,Odisha Sea Dry dock LLC Consultants,12,1.0,11.0
+Uncategorized,Unknown,USINC,4,4.0,0.0
+Uncategorized,Unknown,The Ashey,5,3.0,2.0
+Uncategorized,Unknown,Green,4,0.0,4.0
+Uncategorized,Unknown,Dark Web Vendor Illegal Narcotics,2,1.0,1.0
+Uncategorized,Unknown,Heroin Cocaine Exchange Bitcoin,3,3.0,0.0
+Uncategorized,Unknown,Farmers,2,0.0,2.0
+Uncategorized,Unknown,FiTIâs,1,1.0,0.0
+Uncategorized,Unknown,Jharkhand s GmbH & Co. KG,1,1.0,0.0
+Uncategorized,Unknown,Phillips,6,2.0,4.0
+Uncategorized,Unknown,6 Ray LLC Enterprises,3,1.0,3.0
+Uncategorized,Unknown,Prod,5,0.0,6.0
+Uncategorized,Unknown,Pinduoduoâs,4,4.0,0.0
+Uncategorized,Unknown,Auraâs,4,1.0,3.0
+Uncategorized,Unknown,McGovern BBB,2,2.0,1.0
+Uncategorized,Unknown,Rose,2,1.0,1.0
+Uncategorized,Unknown,drayage companies,2,2.0,0.0
+Uncategorized,Unknown,Savaneta Corporation Marine life,3,0.0,3.0
+Uncategorized,Unknown,Michael Limited Liability Company,2,0.0,2.0
+Uncategorized,Unknown,Irtysh - Inc Distribution,2,1.0,1.0
+Uncategorized,Unknown,East,2,1.0,1.0
+Uncategorized,Unknown,Fresh On Time Seafood,7,4.0,5.0
+Uncategorized,Unknown,MAT,7,3.0,4.0
+Uncategorized,Unknown,Faroe Islands Halibut A/S,2,1.0,1.0
+Uncategorized,Unknown,Teion Internationala,2,0.0,2.0
+Uncategorized,Unknown,Single Seafood,2,1.0,1.0
+Uncategorized,Unknown,âUS,3,0.0,3.0
+Uncategorized,Unknown,Welding,4,1.0,3.0
+Uncategorized,Unknown,Basketball,3,1.0,2.0
+Uncategorized,Unknown,Ocean Packers,1,0.0,1.0
+Uncategorized,Unknown,Improvised Anti,3,0.0,3.0
+Uncategorized,Unknown,Orange River  AS Logistics,1,1.0,0.0
+Uncategorized,Unknown,Ste,2,0.0,2.0
+Uncategorized,Unknown,French Ltd. Corporation Surfboard,2,1.0,1.0
+Uncategorized,Unknown,Andhra Pradesh  Investment Dry dock,2,0.0,2.0
+Uncategorized,Unknown,Uber Connect,4,1.0,5.0
+Uncategorized,Unknown,Pb Brasil Industries,1,1.0,0.0
+Uncategorized,Unknown,Deep Sea Atlantic NV,3,2.0,1.0
+Uncategorized,Unknown,Supreme GmbH & Co. KG Consulting,3,1.0,2.0
+Uncategorized,Unknown,gu y LC Shipping,2,0.0,2.0
+Uncategorized,Unknown,Ningbo China Base Landhau Foreign,3,2.0,1.0
+Uncategorized,Unknown,Estrella del Mar Pic,4,4.0,0.0
+Uncategorized,Unknown,Artemovâs Ava Petroleum,2,2.0,0.0
+Uncategorized,Unknown,Spanish Red Snapper GmbH Shipping,2,2.0,0.0
+Uncategorized,Unknown,Officer Pleads Guilty,3,3.0,0.0
+Uncategorized,Unknown,Bribes Exchange Smuggling Contraband,2,2.0,0.0
+Uncategorized,Unknown,Sp,13,0.0,13.0
+Uncategorized,Unknown,Memphis Women,2,0.0,2.0
+Uncategorized,Unknown,One Hongn,2,1.0,2.0
+Uncategorized,Unknown,Evergreen,4,0.0,4.0
+Uncategorized,Unknown,Himachal Pradesh Aquatic Plc Brothers,3,1.0,2.0
+Uncategorized,Unknown,Lake Tanganyika Sea AS Shipping,20,0.0,20.0
+Uncategorized,Unknown,Nagaland Sea Ltd. Liability Co &,11,6.0,8.0
+Uncategorized,Unknown,Estrella de la Costa  Consultants,4,4.0,0.0
+Uncategorized,Unknown,Kores De Venezuela C A,3,0.0,3.0
+Uncategorized,Unknown,CP World,3,1.0,2.0
+Uncategorized,Unknown,Tombow,6,0.0,6.0
+Uncategorized,Unknown,Gelita Gelatine,2,2.0,0.0
+Uncategorized,Unknown,Yale,1,0.0,1.0
+Uncategorized,Unknown,Faroe Islands Plc Investment,1,0.0,1.0
+Uncategorized,Unknown,East Ltd. Corporation Investment,3,0.0,3.0
+Uncategorized,Unknown,Logistics,2,1.0,1.0
+Uncategorized,Unknown,Dispenseroo,2,0.0,2.0
+Uncategorized,Unknown,80 Percent Arms,3,2.0,1.0
+Uncategorized,Unknown,CM Nationali,2,2.0,0.0
+Uncategorized,Unknown,Anthony Sailboat Co Shipping,2,1.0,1.0
+Uncategorized,Unknown,MV,2,0.0,2.0
+Uncategorized,Unknown,Costa de Coral Charter Boat Oyj Overseas,3,0.0,3.0
+Uncategorized,Unknown,Warner,2,1.0,1.0
+Uncategorized,Unknown,Alpha Brokersa,4,1.0,3.0
+Uncategorized,Unknown,Viktorâs,4,3.0,1.0
+Uncategorized,Unknown,Sea Seekers Merchants Cruise ship,5,1.0,4.0
+Uncategorized,Unknown,NFTs,2,0.0,2.0
+Uncategorized,Unknown,Cargo Systemsi,2,0.0,2.0
+Uncategorized,Unknown,Ocano del Este Corp Freight ,2,0.0,2.0
+Uncategorized,Unknown,Ronald,1,0.0,1.0
+Uncategorized,Unknown,C Express,2,2.0,0.0
+Uncategorized,Unknown,Znamensk Eel LLC United,11,3.0,8.0
+Uncategorized,Unknown,Sisdof/Sinaflor,5,1.0,4.0
+Uncategorized,Unknown,Spanish Shrimp Sp Brothers,12,0.0,12.0
+Uncategorized,Unknown,Tajima Industrues Ltd,2,1.0,1.0
+Uncategorized,Unknown,Zerzaâs,7,3.0,4.0
+Uncategorized,Unknown,IndÃºstria Madeireira Uliana,1,0.0,1.0
+Uncategorized,Unknown,Sms,1,0.0,1.0
+Uncategorized,Unknown,Semas 260 Rural,3,0.0,3.0
+Uncategorized,Unknown,Dolphin Dreams S.A. de C.V. Seafood,2,0.0,2.0
+Uncategorized,Unknown,All,1,1.0,1.0
+Uncategorized,Unknown,Cab Incorportated,2,2.0,0.0
+Uncategorized,Unknown,Sikkim S.A. de C.V.,2,0.0,2.0
+Uncategorized,Unknown,Yeezy,4,1.0,3.0
+Uncategorized,Unknown,Kagera River  Company Solutions,3,0.0,3.0
+Uncategorized,Unknown,Marmooska Shipyard Sagl United,3,0.0,3.0
+Uncategorized,Unknown,Leo,2,0.0,2.0
+Uncategorized,Unknown,W&O Supply,6,0.0,6.0
+Uncategorized,Unknown,Greek Sea Bream Limited Liability Company Transit,2,2.0,0.0
+Uncategorized,Unknown,David S.A. de C.V. Brothers,1,1.0,0.0
+Uncategorized,Unknown,Haryana s Ltd. Corporation Carriers,2,0.0,2.0
+Uncategorized,Unknown,Coral Reef Sagl Transport,2,0.0,2.0
+Uncategorized,Unknown,Felbab-Brown,3,0.0,3.0
+Uncategorized,Unknown,OzonActionâs,1,0.0,1.0
+Uncategorized,Unknown,âEntirely,2,2.0,0.0
+Uncategorized,Unknown,Ocano del Este SE,4,0.0,4.0
+Uncategorized,Unknown,Norwegian Shrimp N.V. -,3,1.0,2.0
+Uncategorized,Unknown,Malabar Sea Catch Sp,2,0.0,2.0
+>>>>>>> 908001e6586e69be29f60d1285ba33f136b85f17
