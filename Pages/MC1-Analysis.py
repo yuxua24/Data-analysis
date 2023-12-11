@@ -436,7 +436,7 @@ if page == "Graph":
         if current_node_id:
             # 读取节点信息
             node_info_df = pd.read_csv(
-                'Dataset/MC1/community2/community_node_suspect_sum.csv')
+                'Dataset/MC1/community_node_information.csv')
             # 检索节点信息
             node_info = node_info_df[node_info_df['Node']
                                      == current_node_id]  # 假设CSV有一个'Node'列
@@ -502,6 +502,8 @@ if page == "Graph":
             st.button('Remove', on_click=handle_remove)
 
 
+
+#----------------平行坐标-----------------
 elif page == "Parallel":
     # Streamlit application layout
     st.title("Community Visualization")

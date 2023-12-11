@@ -26,6 +26,6 @@ st.code(code1, language="python", line_numbers=False)
 ###### The uniform DataFrame looks like this:  
 """
 
-links = pd.read_csv('Dataset/Links.csv')
+links = pd.read_csv('Dataset/MC1/Links.csv')
 
 st.write(links)
