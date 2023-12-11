@@ -9,3 +9,17 @@ no_location_3_types：
 
 community_avg_weight：
 统计了第一次分社区之后的每个社区内部的边的平均权重，所有边之和除以边的数量
+
+company：
+统计每个公司、组织或者未分类的size（和person相连且边的类型是ownership或者membership）
+
+Nodes:
+（针对原始所有节点）
+Average_Weight：节点在整个网络中的平均权重
+size：统计每个公司、组织或者未分类的size（和person相连且边的类型是ownership或者membership）
+      如果公司or组织在links中没有和person相连且边的类型是ownership或者membership，则size为0
+          其余标记为-1
+Community：每个节点划分社区的id（第一次迭代）
+Community_avg_weight：节点所在社区的边的平均权重（这个社区所有边的权重之和/边的数量）
+no_location：如果公司or组织or未分类的节点在links没有和location节点直接相连的边，那么标记为1，否则为0
+Connected_political_organization：如果公司or组织or未分类的节点在links有和political_organization节点直接相连的边，标记为1，否则为0
