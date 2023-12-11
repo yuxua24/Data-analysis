@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import math
 
 
 st.set_page_config(page_title="FishEye", layout="wide",
@@ -79,40 +78,28 @@ with col1:
 
     for _, row in nodes.iterrows():
         # 社区平均权重
-        if row['ComAvgWt'] > max_com_threshold or rate < min_com_threshold:
+        if row['Community_avg_weight'] > max_com_threshold or rate < min_com_threshold:
             score[row['id']] += slider1
 
         # 出入度不平衡
-        rate = row['InDegree'] / \
-            row['OutDegree'] if row['OutDegree'] != 0 else 100
+        rate = row['In_Degree'] / \
+            row['Out_Degree'] if row['Out_Degree'] != 0 else 100
 
         if rate > max_rate_threshold or rate < min_rate_threshold:
             score[row['id']] += slider2
 
         # 不与location相连
-        flag = True
-        f_df = links[links['source'] == row['id']]
-        for _, row_l in f_df.iterrows():
-            if typeOfNode(row_l['target']) == 'location':
-                flag = False
-                break
-        if flag:
+        if row['no_location'] == 1:
             score[row['id']] += slider3
 
         # 节点的平均权重
-        if row['AverageWeight'] > max_node_threshold or rate < min_node_threshold:
+        if row['Average_Weight'] > max_node_threshold or rate < min_node_threshold:
             score[row['id']] += slider4
 
         # 幂律分布
 
         # 政府组织
-        flag1 = False
-        f_df1 = links[links['source'] == row['id']]
-        for _, row_g in f_df1.iterrows():
-            if typeOfNode(row_g['target']) == 'political_organization':
-                flag1 = True
-                break
-        if flag1:
+        if row['Connected_political_organization'] == 1:
             score[row['id']] -= slider6
 
 with col2:
