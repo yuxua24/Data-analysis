@@ -66,6 +66,8 @@ with col1:
     slider5 = st.slider("Weight of Power-law", 0.0, 1.0, step=0.01)
     _divider_()
     slider6 = st.slider("Related To Government", 0.0, 1.0, step=0.01)
+    _divider_()
+    slider7 = st.slider("If Size==0", 0.0, 1.0, step=0.01)
 
     score = dict()
     for i in range(len(nodes)):
@@ -101,6 +103,10 @@ with col1:
         # 政府组织
         if row['Connected_political_organization'] == 1:
             score[row['id']] -= slider6
+
+        # size==0
+        if row['size'] == 0 or row['size'] == -1:
+            score[row['id']] += slider7
 
 with col2:
     st.subheader("Suspicious Nodes")
