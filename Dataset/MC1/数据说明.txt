@@ -6,3 +6,6 @@ Connected_political_organization_3_types：
 
 no_location_3_types：
 没有和location有边直接相连的组织、公司和未分类的节点id，type
+
+community_avg_weight：
+统计了第一次分社区之后的每个社区内部的边的平均权重，所有边之和除以边的数量
