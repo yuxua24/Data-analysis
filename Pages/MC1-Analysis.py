@@ -122,6 +122,9 @@ if page == "Graph":
     image_path = 'Dataset/MC1/3.png'  # 这里替换为您图片的实际路径
     special_node_base64 = image_to_base64(image_path)
 
+    sus_node_image_path='Dataset/MC1/1.png'
+    sus_node_base64 = image_to_base64(sus_node_image_path)
+
     # 中间列
     with mid_column:
         # ---------------绘制有向图-------------
@@ -139,7 +142,9 @@ if page == "Graph":
                     "draggable": True,
                     "category": node_types.get(node, "Unknown"),
                     # Set shape to star for special nodes
-                    "symbol": 'image://' + special_node_base64 if node in special_node_ids else 'circle',
+                    "symbol": 'image://' + special_node_base64 if node in special_node_ids else (
+                        'image://' + sus_node_base64 if node in st.session_state['sus_nodes1'] else 'circle'
+                    ),
                 }
                 for node in neighbors_set
             ]
