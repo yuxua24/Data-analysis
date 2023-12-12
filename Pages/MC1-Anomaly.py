@@ -45,7 +45,7 @@ with col1:
                             min_value=1, max_value=100, value=1, step=1)
     st.markdown('---')
 
-    #社区权重
+    # 社区权重
     st.subheader("Community Weight")
     col01, col02 = st.columns([1, 1])
     with col01:
@@ -58,7 +58,7 @@ with col1:
                         step=0.01, key='slider1')
     _divider_()
 
-    #入度/出度
+    # 入度/出度
     st.subheader("in_degree / out_degree")
     col11, col12 = st.columns([1, 1])
     with col11:
@@ -71,26 +71,20 @@ with col1:
                         step=0.01, key='slider2')
     _divider_()
 
-    #组织、公司、未分类的没有边和location相连
+    # 组织、公司、未分类的没有边和location相连
     st.subheader("Related To Location")
-    slider3 = st.slider("the Weight of Related To Location", 0.0, 1.0, step=0.01)
+    slider3 = st.slider("the Weight of Related To Location",
+                        0.0, 1.0, step=0.01)
 
     _divider_()
 
-    #节点的平均权重
+    # 节点的平均权重
     st.subheader("Node Weights")
-    col41, col42 = st.columns([1, 1])
-    with col41:
-        min_node_threshold = st.number_input("Min NodeAvgWt Threshold",
-                                             min_value=0.0, max_value=1.0, value=0.0, step=0.001)
-    with col42:
-        max_node_threshold = st.number_input("Max NodeAvgWt Threshold",
-                                             min_value=0.0, max_value=1.0, value=0.0, step=0.001)
     slider4 = st.slider("Weight of Node", 0.0, 1.0,
                         step=0.01, key='slider4')
     _divider_()
 
-    #幂律分布
+    # 幂律分布
     st.subheader("power law distribution")
     slider5 = st.slider("Threshold of Power-law", 0.0, 2.261, step=0.01)
     slider5_2 = st.slider("Weight of Power-law", 0.0,
@@ -98,7 +92,8 @@ with col1:
     _divider_()
 
     st.subheader("Related To Government")
-    slider6 = st.slider("the Weight of Related To Government", 0.0, 1.0, step=0.001)
+    slider6 = st.slider(
+        "the Weight of Related To Government", 0.0, 1.0, step=0.001)
 
     _divider_()
     st.subheader("Company Size")
@@ -130,7 +125,10 @@ with col1:
             score[row['id']] += slider3
 
         # 节点的平均权重
-        if row['Average_Weight'] > max_node_threshold or rate < min_node_threshold:
+        mean = 0.8671035336916569
+        std_dev = 0.044366106699801185
+
+        if row['Average_Weight'] > mean+std_dev*3 or rate < mean-std_dev*3:
             score[row['id']] += slider4
 
         # 幂律分布
