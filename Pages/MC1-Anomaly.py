@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 
 
 st.set_page_config(page_title="FishEye", layout="wide",
@@ -45,12 +46,12 @@ with col1:
     st.markdown('---')
     col01, col02 = st.columns([1, 1])
     with col01:
-        min_com_threshold = st.number_input("Min ComAvgWt Threshold",
+        min_com_threshold = st.number_input("Min CommunityAvgWt Threshold",
                                             min_value=0.0, max_value=1.0, value=0.0, step=0.001)
     with col02:
-        max_com_threshold = st.number_input("Max ComAvgWt Threshold",
+        max_com_threshold = st.number_input("Max CommunityAvgWt Threshold",
                                             min_value=0.0, max_value=100.0, value=0.0, step=0.001)
-    slider1 = st.slider("Weight of Community", 0.0, 1.0,
+    slider1 = st.slider("The weight to add of the CommunityAvgWt not in the threshold", 0.0, 1.0,
                         step=0.01, key='slider1')
     _divider_()
     col11, col12 = st.columns([1, 1])
@@ -60,7 +61,7 @@ with col1:
     with col12:
         max_rate_threshold = st.number_input("Max Rate Threshold",
                                              min_value=0.0, max_value=100.0, value=0.0, step=0.001)
-    slider2 = st.slider("Weight of Sigmod", 0.0, 1.0,
+    slider2 = st.slider("The weight to add of the rate not in the threshold", 0.0, 1.0,
                         step=0.01, key='slider2')
     _divider_()
     slider3 = st.slider("Related To Location", 0.0, 1.0, step=0.01)
@@ -75,9 +76,11 @@ with col1:
     slider4 = st.slider("Weight of Node", 0.0, 1.0,
                         step=0.01, key='slider4')
     _divider_()
-    slider5 = st.slider("Weight of Power-law", 0.0, 1.0, step=0.01)
+    slider5 = st.slider("Threshold of Power-law", 0.0, 2.261, step=0.01)
+    slider5_2 = st.slider("Weight of Power-law", 0.0,
+                          1.0, step=0.01, key='5-2')
     _divider_()
-    slider6 = st.slider("Related To Government", 0.0, 1.0, step=0.01)
+    slider6 = st.slider("Related To Government", 0.0, 1.0, step=0.001)
     _divider_()
     slider7 = st.slider("If Size==0", 0.0, 1.0, step=0.01)
 
@@ -111,6 +114,10 @@ with col1:
             score[row['id']] += slider4
 
         # 幂律分布
+        def Y(X):
+            return -1.34 * X + 9.47
+        if abs(Y(np.log2(row['Tot_Degree'])) - np.log2(row['Count'])) > slider5:
+            score[row['id']] += slider5_2
 
         # 政府组织
         if row['Connected_political_organization'] == 1:
