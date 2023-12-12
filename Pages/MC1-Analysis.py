@@ -607,7 +607,7 @@ elif page == "Parallel":
             category = "Suspected" if is_suspected else "Normal"
             data_point = {
                 "value": list(row)[5:],  # Skip index and first 4 columns
-                "name": f"{category} - ID: {ids[i]}"  # Combine category and ID
+                "name": f"{ids[i]}"  # Combine category and ID
             }
             if is_suspected:
                 suspected_data.append(data_point)
@@ -641,7 +641,42 @@ elif page == "Parallel":
             title_opts=opts.TitleOpts(title="Community Parallel Coordinates"),
             legend_opts=opts.LegendOpts()  # Add legend options
         )
-        st_pyecharts(parallel)
+
+        # 设置点击事件的JavaScript函数
+        click_event_js = "function(params) {return params.data;}"
+
+        # 渲染有向图并设置点击事件
+        result2 = st_pyecharts(parallel,
+                                events={"click": click_event_js},
+                                width="100%",
+                                height=600)
+        
+        # 创建三列来放置按钮
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            # 筛选框
+            st.subheader("Suspect Set")
+            # 这里可以添加你需要的筛选框或其他控件
+            selected_sus_node = st.selectbox("Select the suspected node", list(
+                st.session_state['sus_nodes1']), index=0, key='suspect_select')
+        
+        with col2:
+            def handle_add_set():
+                clicked_node = result2
+                if clicked_node:
+                    clicked_node_id = clicked_node["name"]
+                    st.session_state['sus_nodes1'].add(clicked_node_id)
+
+            st.button('Add to Suspect Set', on_click=handle_add_set)
+
+        with col3:
+            def handle_remove():
+                st.session_state['sus_nodes1'].discard(selected_sus_node)
+
+            st.button('Remove', on_click=handle_remove)
+
+
 
     # Depending on the chart type, display the respective chart
     if chart_type == "Community Graph":
