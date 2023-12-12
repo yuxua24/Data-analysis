@@ -521,15 +521,15 @@ if page == "Graph":
                     st.markdown(
                         f'{custom_style}<p class="node-text">{col}: {node_info.iloc[0][col]}</p>', unsafe_allow_html=True)
             elif info_type == 'Statistics':
-                # 显示第10到21列
-                for col in node_info.columns[8:21]:
+                # 显示第10到23列
+                for col in node_info.columns[8:23]:
                     st.markdown(
                         f'{custom_style}<p class="node-text">{col}: {node_info.iloc[0][col]}</p>', unsafe_allow_html=True)
             elif info_type == 'Community Information':
                 st.markdown(
                     f'{custom_style}<p class="node-text">{node_info.columns[0]}: {node_info.iloc[0][0]}</p>', unsafe_allow_html=True)
                 st.markdown(
-                    f'{custom_style}<p class="node-text">{node_info.columns[21]}: {node_info.iloc[0][21]}</p>', unsafe_allow_html=True)
+                    f'{custom_style}<p class="node-text">{node_info.columns[23]}: {node_info.iloc[0][23]}</p>', unsafe_allow_html=True)
                 #st.text(f"{node_info.columns[0]}: {node_info.iloc[0][0]}")
                 #st.text(f"{node_info.columns[21]}: {node_info.iloc[0][21]}")
 
