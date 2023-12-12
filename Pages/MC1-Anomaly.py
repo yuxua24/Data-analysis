@@ -44,28 +44,41 @@ with col1:
     top_k = st.number_input("Top K Most Suspicious Nodes",
                             min_value=1, max_value=100, value=1, step=1)
     st.markdown('---')
+
+    #社区权重
+    st.subheader("Community Weight")
     col01, col02 = st.columns([1, 1])
     with col01:
-        min_com_threshold = st.number_input("Min CommunityAvgWt Threshold",
+        min_com_threshold = st.number_input("Minimum",
                                             min_value=0.0, max_value=1.0, value=0.0, step=0.001)
     with col02:
-        max_com_threshold = st.number_input("Max CommunityAvgWt Threshold",
+        max_com_threshold = st.number_input("Maximum",
                                             min_value=0.0, max_value=100.0, value=0.0, step=0.001)
-    slider1 = st.slider("The weight to add of the CommunityAvgWt not in the threshold", 0.0, 1.0,
+    slider1 = st.slider("weight", 0.0, 1.0,
                         step=0.01, key='slider1')
     _divider_()
+
+    #入度/出度
+    st.subheader("in_degree / out_degree")
     col11, col12 = st.columns([1, 1])
     with col11:
-        min_rate_threshold = st.number_input("Min Rate Threshold",
+        min_rate_threshold = st.number_input("Min Rate",
                                              min_value=0.0, max_value=1.0, value=0.0, step=0.001)
     with col12:
-        max_rate_threshold = st.number_input("Max Rate Threshold",
+        max_rate_threshold = st.number_input("Max Rate",
                                              min_value=0.0, max_value=100.0, value=0.0, step=0.001)
     slider2 = st.slider("The weight to add of the rate not in the threshold", 0.0, 1.0,
                         step=0.01, key='slider2')
     _divider_()
-    slider3 = st.slider("Related To Location", 0.0, 1.0, step=0.01)
+
+    #组织、公司、未分类的没有边和location相连
+    st.subheader("Related To Location")
+    slider3 = st.slider("the Weight of Related To Location", 0.0, 1.0, step=0.01)
+
     _divider_()
+
+    #节点的平均权重
+    st.subheader("Node Weights")
     col41, col42 = st.columns([1, 1])
     with col41:
         min_node_threshold = st.number_input("Min NodeAvgWt Threshold",
@@ -76,12 +89,19 @@ with col1:
     slider4 = st.slider("Weight of Node", 0.0, 1.0,
                         step=0.01, key='slider4')
     _divider_()
+
+    #幂律分布
+    st.subheader("power law distribution")
     slider5 = st.slider("Threshold of Power-law", 0.0, 2.261, step=0.01)
     slider5_2 = st.slider("Weight of Power-law", 0.0,
                           1.0, step=0.01, key='5-2')
     _divider_()
-    slider6 = st.slider("Related To Government", 0.0, 1.0, step=0.001)
+
+    st.subheader("Related To Government")
+    slider6 = st.slider("the Weight of Related To Government", 0.0, 1.0, step=0.001)
+
     _divider_()
+    st.subheader("Company Size")
     slider7 = st.slider("If Size==0", 0.0, 1.0, step=0.01)
 
     score = dict()
