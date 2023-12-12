@@ -47,13 +47,49 @@ if page == "Graph":
     if 'last_action' not in st.session_state:
         st.session_state['last_action'] = None
 
+    # 定义 CSS 样式, 修改"Quick Select Suspect"
+    my_font_style = """
+    <style>
+        .my-font {
+            font-family: Arial;
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+    """
+
+    # 自定义CSS样式,修改checkbox内容
+    custom_style = """
+    <style>
+        /* 在此处添加您的自定义样式 */
+        .node-text {
+           font-family: Arial;
+           color: red;
+           font-size: 16px;
+        }
+    </style>
+    """
+
+# 在页面上渲染自定义样式
+    st.markdown(my_font_style, unsafe_allow_html=True)
+    st.markdown(custom_style, unsafe_allow_html=True)
+
+
     selected_nodes = []
     with left_column:
-
-        st.subheader("Quick Select Suspect")
+        # 使用Markdown来添加样式
+        st.markdown('<span class="my-font">Quick Select Suspect</span>', unsafe_allow_html=True)
+        # st.subheader("Quick Select Suspect")
         for node_id in special_node_ids:
-            if st.checkbox(node_id, key=node_id):
-                selected_nodes.append(node_id)
+            col1, col2 = st.columns([0.1, 1])  # 划分两列，用于放置 checkbox 和文本
+
+            if col1.checkbox("", key=node_id):
+               selected_nodes.append(node_id)
+            with col2:
+               node_text = f"<span class='node-text'>{node_id}</span>"
+               st.markdown(node_text, unsafe_allow_html=True)
+            # if st.checkbox(node_id, key=node_id):
+                # selected_nodes.append(node_id)
 
         st.subheader("Search Node By ID")
         node_query = st.text_input("Node ID", key="node_search")
@@ -482,12 +518,17 @@ if page == "Graph":
                         f'<p class="my-font">"{col}: {node_info.iloc[0][col]}"</p>', unsafe_allow_html=True)
             elif info_type == 'Statistics':
                 # 显示第10到21列
-                for col in node_info.columns[8:23]:
-                    st.text(f"{col}: {node_info.iloc[0][col]}")
+                for col in node_info.columns[8:21]:
+                    st.markdown(
+                        f'<p class="my-font">"{col}: {node_info.iloc[0][col]}"</p>', unsafe_allow_html=True)
+                    # st.text(f"{col}: {node_info.iloc[0][col]}")
             elif info_type == 'Community Information':
-                # 显示第1列和第22列
-                st.text(f"{node_info.columns[0]}: {node_info.iloc[0][0]}")
-                st.text(f"{node_info.columns[23]}: {node_info.iloc[0][23]}")
+                st.markdown(
+                        f'<p class="my-font">"{node_info.columns[0]}: {node_info.iloc[0][0]}"</p>', unsafe_allow_html=True)
+                st.markdown(
+                        f'<p class="my-font">"{node_info.columns[21]}: {node_info.iloc[0][21]}"</p>', unsafe_allow_html=True)
+                #st.text(f"{node_info.columns[0]}: {node_info.iloc[0][0]}")
+                #st.text(f"{node_info.columns[21]}: {node_info.iloc[0][21]}")
 
         # 添加另一个分隔符
         st.markdown("---")
