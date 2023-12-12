@@ -51,9 +51,10 @@ if page == "Graph":
     my_font_style = """
     <style>
         .my-font {
-            font-family: Arial;
-            color: red;
-            font-size: 20px;
+            font-family: Sans-serif;
+            color: black;
+            font-size: 25px;
+            font-weight: bold; /* 将字体加粗 */
         }
     </style>
     """
@@ -63,12 +64,13 @@ if page == "Graph":
     <style>
         /* 在此处添加您的自定义样式 */
         .node-text {
-           font-family: Arial;
-           color: red;
+           font-family: Sans-serif ;
+           color: black;
            font-size: 16px;
         }
     </style>
     """
+
 
 # 在页面上渲染自定义样式
     st.markdown(my_font_style, unsafe_allow_html=True)
@@ -77,7 +79,7 @@ if page == "Graph":
 
     selected_nodes = []
     with left_column:
-        # 使用Markdown来添加样式
+        # 使用带有样式的标题
         st.markdown('<span class="my-font">Quick Select Suspect</span>', unsafe_allow_html=True)
         # st.subheader("Quick Select Suspect")
         for node_id in special_node_ids:
@@ -91,7 +93,8 @@ if page == "Graph":
             # if st.checkbox(node_id, key=node_id):
                 # selected_nodes.append(node_id)
 
-        st.subheader("Search Node By ID")
+        #st.subheader("Search Node By ID")
+        st.markdown('<span class="my-font">Search Node By ID</span>', unsafe_allow_html=True)
         node_query = st.text_input("Node ID", key="node_search")
         if node_query:
             selected_nodes.append(node_query)
@@ -100,12 +103,14 @@ if page == "Graph":
             'Weight threshold', min_value=0.0000, max_value=1.0, value=0.0000, step=0.0001)
 
         selected_link_types = set()
-        st.subheader("Link Type")
+        #st.subheader("Link Type")
+        st.markdown('<span class="my-font">Link Type</span>', unsafe_allow_html=True)
         for link_type in link_types:
             if st.checkbox(link_type, key=f"link_type_{link_type}", value=True):
                 selected_link_types.add(link_type)
 
-        st.subheader("Node Type")
+        #st.subheader("Node Type")
+        st.markdown('<span class="my-font">Node Type</span>', unsafe_allow_html=True)
         for category in node_categories:
             # 使用default=True使复选框默认被选中
             if st.checkbox(category, key=f"category_{category}", value=True):
@@ -494,7 +499,7 @@ if page == "Graph":
             st.markdown("---")
 
             # 定义 CSS 样式
-            my_font_style = """
+            detail_style = """
             <style>
             .my-font {
                 font-family: Arial;
@@ -505,28 +510,26 @@ if page == "Graph":
             """
 
             # 应用 CSS 样式
-            st.markdown(my_font_style, unsafe_allow_html=True)
+            st.markdown(detail_style, unsafe_allow_html=True)
 
             # 使用自定义样式显示文本
             # st.markdown('<p class="my-font">这是自定义字体样式的文本</p>', unsafe_allow_html=True)
 
             if info_type == 'ID':
                 # 显示第2到9列
-                for col in node_info.columns[1:8]:  # Python 列索引从0开始
-                    # st.text(f"{col}: {node_info.iloc[0][col]}")
+                for col in node_info.columns[1:8]:
                     st.markdown(
-                        f'<p class="my-font">"{col}: {node_info.iloc[0][col]}"</p>', unsafe_allow_html=True)
+                        f'{custom_style}<p class="node-text">{col}: {node_info.iloc[0][col]}</p>', unsafe_allow_html=True)
             elif info_type == 'Statistics':
                 # 显示第10到21列
                 for col in node_info.columns[8:21]:
                     st.markdown(
-                        f'<p class="my-font">"{col}: {node_info.iloc[0][col]}"</p>', unsafe_allow_html=True)
-                    # st.text(f"{col}: {node_info.iloc[0][col]}")
+                        f'{custom_style}<p class="node-text">{col}: {node_info.iloc[0][col]}</p>', unsafe_allow_html=True)
             elif info_type == 'Community Information':
                 st.markdown(
-                        f'<p class="my-font">"{node_info.columns[0]}: {node_info.iloc[0][0]}"</p>', unsafe_allow_html=True)
+                    f'{custom_style}<p class="node-text">{node_info.columns[0]}: {node_info.iloc[0][0]}</p>', unsafe_allow_html=True)
                 st.markdown(
-                        f'<p class="my-font">"{node_info.columns[21]}: {node_info.iloc[0][21]}"</p>', unsafe_allow_html=True)
+                    f'{custom_style}<p class="node-text">{node_info.columns[21]}: {node_info.iloc[0][21]}</p>', unsafe_allow_html=True)
                 #st.text(f"{node_info.columns[0]}: {node_info.iloc[0][0]}")
                 #st.text(f"{node_info.columns[21]}: {node_info.iloc[0][21]}")
 
