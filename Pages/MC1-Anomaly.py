@@ -135,7 +135,7 @@ with col1:
 
         # 幂律分布
         def Y(X):
-            return -1.34 * X + 9.47
+            return -1.38 * X + 10.74
         if abs(Y(np.log2(row['Tot_Degree'])) - np.log2(row['Count'])) > slider5:
             score[row['id']] += slider5_2
 
