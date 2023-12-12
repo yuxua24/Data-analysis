@@ -122,7 +122,7 @@ if page == "Graph":
     image_path = 'Dataset/MC1/3.png'  # 这里替换为您图片的实际路径
     special_node_base64 = image_to_base64(image_path)
 
-    sus_node_image_path='Dataset/MC1/1.png'
+    sus_node_image_path='Dataset/MC1/4.png'
     sus_node_base64 = image_to_base64(sus_node_image_path)
 
     # 中间列
@@ -482,12 +482,12 @@ if page == "Graph":
                         f'<p class="my-font">"{col}: {node_info.iloc[0][col]}"</p>', unsafe_allow_html=True)
             elif info_type == 'Statistics':
                 # 显示第10到21列
-                for col in node_info.columns[8:21]:
+                for col in node_info.columns[8:23]:
                     st.text(f"{col}: {node_info.iloc[0][col]}")
             elif info_type == 'Community Information':
                 # 显示第1列和第22列
                 st.text(f"{node_info.columns[0]}: {node_info.iloc[0][0]}")
-                st.text(f"{node_info.columns[21]}: {node_info.iloc[0][21]}")
+                st.text(f"{node_info.columns[23]}: {node_info.iloc[0][23]}")
 
         # 添加另一个分隔符
         st.markdown("---")
