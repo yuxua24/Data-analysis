@@ -637,26 +637,33 @@ elif page == "Parallel":
 
     # 绘制平行坐标
     def display_parallel(filtered_parallel, suspected_nodes, parallel_ave_data, community_number):
-        # Convert suspected_nodes to a set for faster lookup
+        # Convert suspected_nodes and added_sus_nodes to sets for faster lookup
         suspected_nodes_set = set(suspected_nodes)
+        added_sus_nodes_set = set(st.session_state['sus_nodes1'])
 
         # Prepare parallel data
         schema = [opts.ParallelAxisOpts(dim=i, name=col) for i, col in enumerate(
             filtered_parallel.columns[4:])]
         ids = filtered_parallel["id"].tolist()  # Extract ids for performance
         suspected_data = []
+        added_sus_data = []  # Data for added suspected nodes
         normal_data = []
 
         # Add data for each node with their IDs and category as part of the name
         for i, row in enumerate(filtered_parallel.itertuples()):
             is_suspected = ids[i] in suspected_nodes_set
+            is_added_sus = ids[i] in added_sus_nodes_set
             category = "Suspected" if is_suspected else "Normal"
+            if is_added_sus:
+                category = "AddedSus"  # Overwrite category if in added_sus_nodes
             data_point = {
                 "value": list(row)[5:],  # Skip index and first 4 columns
                 "name": f"{ids[i]}"  # Combine category and ID
             }
             if is_suspected:
                 suspected_data.append(data_point)
+            elif is_added_sus:
+                added_sus_data.append(data_point)  # Add to added_sus dataset
             else:
                 normal_data.append(data_point)
 
@@ -674,6 +681,9 @@ elif page == "Parallel":
             color='#ADD8E6'), tooltip_opts=tooltip_formatter)
         parallel.add("Suspected", suspected_data, linestyle_opts=opts.LineStyleOpts(
             color='red', width=3), tooltip_opts=tooltip_formatter)
+        # Add added_sus nodes data
+        parallel.add("AddedSus", added_sus_data, linestyle_opts=opts.LineStyleOpts(
+            color='orange', width=2), tooltip_opts=tooltip_formatter)
         # Add average data for the selected community
         avg_data = parallel_ave_data[parallel_ave_data["Community"]
                                      == community_number]
