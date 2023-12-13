@@ -110,7 +110,7 @@ with col1:
 
     for _, row in nodes.iterrows():
         # 社区平均权重
-        if row['Community_avg_weight'] > max_com_threshold or rate < min_com_threshold:
+        if row['Community_avg_weight'] > max_com_threshold or row['Community_avg_weight'] < min_com_threshold:
             score[row['id']] += slider1
 
         # 出入度不平衡
