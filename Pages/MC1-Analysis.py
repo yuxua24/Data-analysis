@@ -134,6 +134,8 @@ if page == "Graph":
 
     # 定义一个函数来计算节点大小，使用对数函数来增加非线性关系
     def calculate_node_size(neighbor_count, base_size):
+        if neighbor_count is None:
+            neighbor_count = 5
         if neighbor_count > 0:
             # 使用对数函数来计算节点大小，确保至少为 base_size
             return base_size + np.sqrt(neighbor_count) * 2.5
