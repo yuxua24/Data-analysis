@@ -18,7 +18,7 @@ st.markdown("""
             <style>
             /* Removes padding, margin and set full height to the main content area */
             .main .block-container { 
-                padding-top: 0rem; 
+                padding-top: 2rem; 
                 padding-right: 0rem;
                 padding-left: 1rem;
                 padding-bottom: 0rem;
@@ -30,8 +30,8 @@ st.markdown("""
 
 
 # 页面比例
-page_ratio = st.slider('Page Ratio', min_value=0.0000, max_value=1.0,
-                       value=0.35, step=0.0001, label_visibility='hidden')
+# page_ratio = st.slider('Page Ratio', min_value=0.0000, max_value=1.0,
+#                        value=0.35, step=0.0001, label_visibility='hidden')
 
 
 # 如果不存在 'all_chosen_nodes'，在 session state 中初始化它
@@ -165,7 +165,7 @@ def process_data(data, log_scale):
 
 
 main_container = st.container()
-options_col, chart_col = main_container.columns((page_ratio, 1-page_ratio))
+options_col, chart_col = main_container.columns((0.35, 1-0.35))
 
 graph_node = []
 graph_link = []
@@ -471,7 +471,7 @@ with upper_chart_container:
         # 渲染有向图并设置点击事件
         result = st_pyecharts(graph,
                               events={"click": click_event_js},
-                              height="400px",
+                              height="500px",
                               width="100%")
 
     # 检查点击事件的结果
