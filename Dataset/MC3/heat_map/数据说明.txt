@@ -1,5 +1,5 @@
 country-company_type-new.csv:
 去掉country-company_type.csv中全为0和每行数字之和<10的行
 
-size-revenue：
-在size-revenue_0的基础上将收入划分为区间
+Product_Service-revenue：
+统计公司的收入和对应的公司服务类别

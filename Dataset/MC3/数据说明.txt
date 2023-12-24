@@ -4,14 +4,5 @@ company_0_from_links.csv:
 company_1_from_links_nodes.csv:
 在company_0_from_links后添加在nodes不在links中的公司，BOCnt CCCnt，avg_revenue均设置为0
 
-company_2：
-对company_1_from_links_nodes计算出公司的size，联系人+受益人
-
-nodes_4：
-将nodes_3删掉两列
-
-nodes_5:
-在nodes_4中加入不在nodes_4但在links中出现的
-
-nodes：
-将在links中的受益人或者联系人但不在nodes_4中的添加在末尾，type取links中的type
+nodes_2_gpt.csv：
+节点
