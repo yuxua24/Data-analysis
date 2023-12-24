@@ -24,10 +24,10 @@ MC1-Analysis页面提供了MC1任务的可视化展示和交互式分析系统�
 - **怀疑集合管理**：将节点添加到怀疑集合中。
 - **社区可视化**：对社区内部进行详细的可视化展示。
 
-![Image Alt Text](images/MC1-Analysis.png)
+![MC1-Analysis](images/MC1-Analysis.png)
 
 
-[MC1-Analysis 演示视频](#演示视频链接)
+[MC1-Analysis 演示视频](video/MC1-Analysis.mp4)
 
 ### MC1 - 异常度评估系统 (MC1-Anomaly)
 
@@ -37,7 +37,9 @@ MC1-Anomaly页面提供了MC1的异常度评估系统。功能特点包括：
 - **权重和K值自定义**：用户可自定义每项标准的权重和K值。
 - **异常度排名**：系统返回可疑度最高的前K个节点。
 
-[MC1-Anomaly 演示视频](#演示视频链接)
+![MC1-Anomaly](images/MC1-Anomaly.png)
+
+[MC1-Anomaly 演示视频](video/MC1-Anomaly.mp4)
 
 ### MC3 - 分析页面 (MC3-Analysis)
 
@@ -48,6 +50,10 @@ MC3-Analysis页面专注于MC3任务的可视化展示和交互式分析。包�
 - **有向图展示**：展示数据间的关系和流向。
 - **互动功能**：点击热力图中的方块并添加到有向图中；点击有向图节点时，柱状图对应柱子标红。
 
+![MC3-Analysis](images/MC3-Analysis.png)
+
+[MC3-Analysis 演示视频](video/MC3-Analysis.mp4)
+
 ### MC3 - 相似性分析页面 (MC3-Similarity)
 
 MC3-Similarity页面是针对相似性分析的交互式界面，其特点包括：
@@ -55,6 +61,10 @@ MC3-Similarity页面是针对相似性分析的交互式界面，其特点包括
 - **权重调节**：调节相应权重。
 - **K值设定**：设置返回结果的数量（前K个节点）。
 - **相似性分析**：返回相似性最高的节点。
+
+![MC3-Similarity](images/MC3-Similarity.png)
+
+[MC3-Similarity 演示视频](video/MC3-Similarity.mp4)
 
 ## 如何贡献
 
