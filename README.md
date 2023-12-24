@@ -26,6 +26,8 @@ MC1-Analysis页面提供了MC1任务的可视化展示和交互式分析系统�
 
 ![MC1-Analysis](images/MC1-Analysis.png)
 
+![MC1-community-Analysis](images/community.png)
+
 
 [MC1-Analysis 演示视频](video/MC1-Analysis.mp4)
 
