@@ -24,6 +24,9 @@ MC1-Analysis页面提供了MC1任务的可视化展示和交互式分析系统�
 - **怀疑集合管理**：将节点添加到怀疑集合中。
 - **社区可视化**：对社区内部进行详细的可视化展示。
 
+![Image Alt Text](images/MC1-Analysis.png)
+
+
 [MC1-Analysis 演示视频](#演示视频链接)
 
 ### MC1 - 异常度评估系统 (MC1-Anomaly)
